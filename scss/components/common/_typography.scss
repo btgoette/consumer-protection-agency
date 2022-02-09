@@ -1,0 +1,48 @@
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Roboro Medium';
+    src: url('/fonts/Roboto/Roboto-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto Bold';
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto Bold Italic';
+    src: url('/fonts/Roboto/Roboto-Bold-Italic.otf');
+  }
+  @font-face {
+    font-family: 'Anton';
+    src: url('/fonts/Anton/Anton-Regular.otf');
+  }
+
+  .text-small {
+    font-size: $font-size-small;
+  }
+
+  body {
+    color: $body-font-color;
+    font-family: $body-font-family;
+    font-size: $body-font-size-mobile;
+    font-weight: $body-font-weight;
+  }
+
+  a {
+    color: $link-font-color;
+    font-weight: $link-font-weight;
+    text-decoration: none;
+  }
+
+  
+  a:hover {
+    color: $link-font-hover-color;
+  }
+
+@media only screen and (min-width: $large) {
+  body {
+      font-size: $body-font-size;
+  }
+}
