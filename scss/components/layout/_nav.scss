@@ -1,0 +1,25 @@
+@import 'navbar-toggle.scss';
+
+.nav {
+    .navbar {
+        width: 100%;
+        background: $nav-background-color !important;
+
+        .logo {
+            width: 100%;
+            max-width: 100px;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $nav-font-color;
+                    font-size: $nav-font-size;
+                    font-style: $nav-font-style;
+                    // font-weight: $nav-font-weight;
+                    text-transform: $nav-text-transform;
+                }
+            }
+        }
+    }
+}
