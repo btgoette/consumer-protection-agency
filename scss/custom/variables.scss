@@ -1,22 +1,26 @@
 // colors
 $black: #030303;
-$blue: #194898;
-$dark-blue: #273192;
-$dark-gray: #555;
-$gray: #333;
-$light-blue: #0045ad;
-$light-gray: #aaa;
-$red: #f60030;
+$blue: #1b1c4e;
+$dark-blue: #15153a;
+$dark-gray: #565758;
+$dark-red: #8f0f1f;
+$gray: #828386;
+$light-blue: #2b2d80;
+$light-gray: #bdbec0;
+$red: #d40b18;
 $white: #fff;
 
 // backgrounds
 $background-color: $white;
 $footer-background-color: $blue;
 $footer-copyright-background-color: $black;
-$nav-background-color: $blue;
+$nav-background-color: $white;
+$nav-topbar-background-color: $blue;
 $navbar-toggler-background-color: transparent;
+$offcanvas-background-color: $white;
+$offcanvas-header-background-color: $blue;
 
-// Borders
+// borders
 $navbar-toggler-border-color: transparent;
 
 // breakpoints
@@ -27,36 +31,33 @@ $large: 992px;
 $x-large: 1200px;
 $xx-large: 1400px;
 
+//buttons
+$button-border: none;
+$button-border-radius: 1.5rem;
+$button-font-size: 1rem;
+$button-padding: 0.8rem 1.8rem;
+$button-primary-background-color: $blue;
+$button-primary-background-hover-color: $dark-blue;
+$button-secondary-background-color: $gray;
+$button-secondary-background-hover-color: $dark-gray;
+
 // fonts
 $body-font-color: $black;
-$body-font-family: 'Roboto';
-$body-font-family-bold: 'Roboto Bold';
-$body-font-family-bold-italic: 'Roboto Bold Italic';
-$body-font-family-medium: 'Roboto Medium';
-$body-font-family-thin: 'Roboto Thin';
-$body-font-size: 1.25rem;
+$body-font-family: 'Poppins';
+$body-font-family-bold: 'Poppins Bold';
+$body-font-family-bold-italic: 'Poppins Bold Italic';
+$body-font-family-medium: 'Poppins Medium';
+$body-font-family-thin: 'Poppins Thin';
+$body-font-size: 1rem;
 $body-font-size-mobile: 1rem;
 $body-font-weight: 400;
 
 $font-size-small: .9rem;
 
-$header-font-family: 'Anton';
+$header-font-family: 'Inter';
 $header-font-weight: 400;
 $header-line-height: 1;
 $header-margin-bottom: 1.5rem;
-
-$link-font-color: $blue;
-$link-font-hover-color: $dark-blue;
-$link-font-weight: 500;
-
-$nav-font-color: $white;
-$nav-font-hover-color: $red;
-$nav-font-family: $body-font-family-bold-italic;
-$nav-font-size: 1rem;
-$nav-font-size-dropdown: 1rem;
-$nav-font-style: italic;
-$nav-font-weight: 900;
-$nav-text-transform: uppercase;
 
 $footer-font-color: $white;
 $footer-font-size: 15px;
@@ -71,3 +72,21 @@ $error-page-header-size: 10rem;
 $error-page-header-size-mobile: 5rem;
 
 $label-font-weight: 600;
+
+$link-font-color: $blue;
+$link-font-hover-color: $dark-blue;
+$link-font-weight: 500;
+
+$nav-font-color: $black;
+$nav-font-hover-color: $dark-blue;
+$nav-font-family: $body-font-family-bold-italic;
+$nav-font-size: 1rem;
+$nav-font-size-dropdown: 1rem;
+$nav-font-style: normal;
+$nav-font-weight: 400;
+$nav-text-transform: normal;
+$nav-topbar-color: $white;
+$nav-topbar-font-size: .85rem;
+
+$offcanvas-font-color: $blue;
+$offcanvas-header-font-color: $white;

@@ -1,0 +1,26 @@
+.offcanvas {
+    width: 100%;
+    max-width: 270px;
+
+    .offcanvas-header {
+        background-color: $offcanvas-header-background-color;
+        color: $offcanvas-header-font-color;
+
+        .btn-close {
+            color: $white !important;
+            display: none;
+        }
+    }
+
+    .offcanvas-body {
+        .nav-item {
+            .nav-link{
+                color: $nav-font-color;
+                font-size: $nav-font-size;
+                font-style: $nav-font-style;
+                font-weight: $nav-font-weight;
+                text-transform: $nav-text-transform;
+            }
+        }
+    }
+}

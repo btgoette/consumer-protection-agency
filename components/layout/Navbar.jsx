@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Link from 'next/link'
-import { Container, Button, Navbar, Nav, NavDropdown, Offcanvas } from 'react-bootstrap'
+import { Container, Row, Col, Button, Navbar, Nav, NavDropdown, Offcanvas } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'public/fonts/FontAwesome/fontawesome'
@@ -11,14 +11,36 @@ export default function CustomNav() {
 
     return (
 
-        <Nav className="sticky-top">
+        <Nav>
+            <Container fluid className="top-bar">
+                <Container className="d-flex">
+                    <a href="mailto:support@consumerprotection.agency" className="d-none d-md-flex align-items-center">1-800-555-5555
+                    </a>
+                    <span className="d-none d-md-flex">&nbsp;|&nbsp;</span>
+                    <a href="mailto:support@consumerprotection.agency" className="d-none d-md-flex align-items-center">
+                        support@consumerprotection.agency
+                    </a>
+                    <div className="login d-flex">
+                        <Nav.Item className="ms-3">
+                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
+                                Client Login
+                            </Link>
+                        </Nav.Item>
+                        <Nav.Item className="ms-3">
+                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
+                                Agent Login
+                            </Link>
+                        </Nav.Item>
+                    </div>
+                </Container>
+            </Container>
             <Navbar collapseOnSelect className="navbar-dark" bg="dark" expand="md">
                 <Container>
                     <Link href="/" passHref>
                         <Navbar.Brand>
                             <LazyLoadImage className="logo"
-                                src="/images/logos/srz-logo-text-only.png"
-                                alt="SRZ"
+                                src="/images/logos/cpa-logo-text-on-the-side.png"
+                                alt="Consumer Protection Agency"
                             />
                         </Navbar.Brand>
                     </Link>
@@ -34,84 +56,63 @@ export default function CustomNav() {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <Nav.Item>
-                                    <Link href="/" passHref>
+                                    <Link href="local-business-marketplace/" passHref>
                                         <Nav.Link >
-                                            Home
+                                            Local Business Marketplace
                                         </Nav.Link>
                                     </Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link href="blog/" passHref>
+                                    <Link href="accounting-and-tax-services/" passHref>
                                         <Nav.Link >
-                                            Blog
+                                            Accounting &amp; Tax Services
                                         </Nav.Link>
                                     </Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link href="testimonials/" passHref>
+                                    <Link href="financial-education/" passHref>
                                         <Nav.Link >
-                                            Testimonials
+                                            Financial Education
                                         </Nav.Link>
                                     </Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link href="registration/" passHref>
+                                    <Link href="credit-restoration/" passHref>
                                         <Nav.Link >
-                                            Registration
-                                        </Nav.Link>
-                                    </Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Link href="sponsors/" passHref>
-                                        <Nav.Link >
-                                            Sponsors
-                                        </Nav.Link>
-                                    </Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Link href="contact/" passHref>
-                                        <Nav.Link >
-                                            Contact
+                                            Credit Restoration
                                         </Nav.Link>
                                     </Link>
                                 </Nav.Item>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
-                    <Navbar.Collapse className="d-none d-lg-flex" id="basic-navbar-nav">
+                    <Navbar.Collapse className="d-none d-lg-flex align-items-center" id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Item>
-                                <Link href="blog/" passHref>
+                                <Link href="local-business-marketplace/" passHref>
                                     <Nav.Link >
-                                        Blog
+                                        Local Business Marketplace
                                     </Nav.Link>
                                 </Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Link href="testimonials/" passHref>
+                                <Link href="accounting-and-tax-services/" passHref>
                                     <Nav.Link >
-                                        Testimonials
+                                        Accounting &amp; Tax Services
                                     </Nav.Link>
                                 </Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Link href="registration/" passHref>
+                                <Link href="financial-education/" passHref>
                                     <Nav.Link >
-                                        Registration
+                                        Financial Education
                                     </Nav.Link>
                                 </Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Link href="sponsors/" passHref>
+                                <Link href="credit-restoration/" passHref>
                                     <Nav.Link >
-                                        Sponsors
-                                    </Nav.Link>
-                                </Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Link href="contact/" passHref>
-                                    <Nav.Link >
-                                        Contact
+                                        Credit Restoration
                                     </Nav.Link>
                                 </Link>
                             </Nav.Item>
