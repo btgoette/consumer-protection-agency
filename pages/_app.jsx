@@ -27,7 +27,7 @@ export default class MyApp extends App {
     AOS.init();
     addBackToTop({
       diameter: 56,
-      backgroundColor: '#f60030',
+      backgroundColor: '#1b1c4e',
       textColor: '#fff'
     });
     window.scrollTo(0, 0)

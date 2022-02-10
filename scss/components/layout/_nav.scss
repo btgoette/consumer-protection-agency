@@ -1,13 +1,32 @@
-@import 'navbar-toggle.scss';
+@import "navbar-toggle.scss";
+@import "offcanvas.scss";
 
 .nav {
+    .top-bar {
+        padding: 0.5rem 1rem;
+        background-color: $nav-topbar-background-color;
+        color: $nav-topbar-color;
+        display: flex;
+        font-size: $nav-topbar-font-size;
+
+        a {
+            color: $nav-topbar-color;
+        }
+
+        .login {
+            display: flex;
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+
     .navbar {
         width: 100%;
         background: $nav-background-color !important;
 
         .logo {
             width: 100%;
-            max-width: 100px;
+            max-width: 260px;
         }
 
         .navbar-nav {
@@ -16,9 +35,25 @@
                     color: $nav-font-color;
                     font-size: $nav-font-size;
                     font-style: $nav-font-style;
-                    // font-weight: $nav-font-weight;
+                    font-weight: $nav-font-weight;
                     text-transform: $nav-text-transform;
                 }
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        .top-bar {
+            .login {
+                margin-right: 0;
+                margin-left: auto;
+            }
+        }
+
+        .navbar {
+
+            .logo {
+                max-width: 450px;
             }
         }
     }

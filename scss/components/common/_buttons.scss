@@ -1,13 +1,24 @@
-button {
-    margin: 0 auto;
+.btn {
+    border: $button-border;
+    border-radius: $button-border-radius;
+    font-size: $button-font-size;
+    padding: $button-padding;
 }
 
 .btn-primary {
-    background-color: $red;
-    border: none;
+    background-color: $button-primary-background-color;
+
+    &:hover {
+        background-color: $button-primary-background-hover-color;
+        transition: 0.3s;
+    }
 }
 
 .btn-secondary {
-    background-color: $dark-blue;
-    border: none;
+    background-color: $button-secondary-background-color;
+
+    &:hover {
+        background-color: $button-secondary-background-hover-color;
+        transition: 0.3s;
+    }
 }

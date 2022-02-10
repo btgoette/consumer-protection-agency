@@ -1,33 +1,24 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-
-import Jumbotron from 'components/pages/home/Jumbotron';
+import Hero from 'components/layout/Hero'
 import Intro from 'components/pages/home/Intro';
-import Run from 'components/pages/home/Run';
-import Bike from 'components/pages/home/Bike';
-import Swim from 'components/pages/home/Swim';
-import CoachingServices from 'components/pages/home/CoachingServices';
-import TeamPhotos from 'components/pages/home/TeamPhotos';
+import CPAServicesMenu from 'components/common/CPAServicesMenu';
+import Video from 'components/common/Video'
 
 export default function Home() {
   return (
 
     <>
 
-      <Jumbotron />
-      
-      <Intro />
+      <div className="home">
 
-      <Run />
+        <Hero />
 
-      <Bike />
+        <Intro />
 
-      <Swim />
+        <CPAServicesMenu />
 
-      <CoachingServices />
+        <Video />
 
-      <TeamPhotos />
+      </div>
 
     </>
 

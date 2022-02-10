@@ -1,0 +1,31 @@
+.cpa-services-menu {
+    padding: 0 0;
+    margin: 0 0;
+
+    .cpa-services-menu-block {
+      font-size: 1.25rem;
+      padding: 7rem 3rem;
+      text-align: center;
+      color: $white;
+
+      a {
+        color: $white;
+      }
+    }
+
+    .lbmp {
+      background-color: $blue;
+    }
+
+    .ats {
+      background-color: $dark-gray;
+    }
+
+    .fe {
+      background-color: $light-gray;
+    }
+
+    .cr {
+      background-color: $dark-blue;
+    }
+  }
