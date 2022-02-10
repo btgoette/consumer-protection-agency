@@ -9,11 +9,11 @@ export default function SignUp() {
             <Container fluid>
                 <Container>
                     <Row>
-                        <Col>
-                            <div className="row d-flex justify-content-center align-items-center rows">
-                                <Col md={6}>
-                                    <h2 className="mb-0">Subscribe</h2>
-                                    <p className="text-center">to learn more about our services.</p>
+                        <Col className="block">
+                            <div className="row d-flex align-items-center rows">
+                                <Col md={{offset:2, span:4}}>
+                                    <h2 className="mb-0 text-start">Subscribe</h2>
+                                    <p>to learn more about our services.</p>
                                 </Col>
                                 <Col md={6}>
                                     <div className="d-none d-md-flex mx-5">
