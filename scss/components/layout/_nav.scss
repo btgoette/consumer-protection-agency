@@ -37,6 +37,10 @@
                     font-style: $nav-font-style;
                     font-weight: $nav-font-weight;
                     text-transform: $nav-text-transform;
+
+                    &:hover {
+                        color: $nav-font-hover-color;
+                    }
                 }
             }
         }

@@ -12,7 +12,7 @@ export default function AccoutingAndTaxServices() {
 
     <>
 
-      <div className="home">
+      <div className="accounting-and-tax-services">
 
         {/* <Jumbotron /> */}
 

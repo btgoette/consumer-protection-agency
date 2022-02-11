@@ -94,7 +94,7 @@ export default function Footer() {
                 <Container>
                     <Row>
                         <Col>
-                            &copy; {today.getFullYear()} Consumer Protection Agency
+                           Copyright &copy; {today.getFullYear()} Consumer Protection Agency
                         </Col>
                     </Row>
                 </Container>

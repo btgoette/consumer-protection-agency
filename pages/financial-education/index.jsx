@@ -12,7 +12,7 @@ export default function FinancialEducation() {
 
     <>
 
-      <div className="home">
+      <div className="financial-education">
 
         {/* <Jumbotron /> */}
 

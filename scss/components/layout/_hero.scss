@@ -1,4 +1,7 @@
 .hero {
-    background-color: $dark-gray;
+    background-color: $light-gray;
+    background-size: $background-cover;
+    background-position: $background-center;
+    background-blend-mode: $background-overlay;    
     padding: 8rem 0;
 }

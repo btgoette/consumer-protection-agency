@@ -15,7 +15,7 @@ export default function CreditRestoration() {
 
     <>
 
-      <div className="home">
+      <div className="credit-restoration">
 
         {/* <Jumbotron /> */}
 
