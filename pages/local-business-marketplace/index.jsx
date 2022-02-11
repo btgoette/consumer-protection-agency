@@ -17,7 +17,7 @@ export default function LocalBusinessMarketplace() {
 
     <>
 
-      <div className="home">
+      <div className="local-business-marketplace">
 
         {/* <Jumbotron /> */}
 
