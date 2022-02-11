@@ -1,7 +1,7 @@
 .financial-education {
     .hero {
         background-color: $light-gray;
-        background-image: url("/images/hero/hero-credit-500x700.jpg");
+        background-image: url("/images/hero/hero-financial-education-500x700.jpg");
         background-size: $background-cover;
         background-position: $background-center;
         background-blend-mode: $background-overlay;
@@ -10,7 +10,7 @@
 
     @media only screen and (min-width: $medium) {
         .hero {
-            background-image: url("/images/hero/hero-credit-1600x580.jpg");
+            background-image: url("/images/hero/hero-financial-education-1600x580.jpg");
         }
     }
 }
