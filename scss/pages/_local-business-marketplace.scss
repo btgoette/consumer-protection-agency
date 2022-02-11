@@ -1,0 +1,11 @@
+.local-business-marketplace {
+    .hero {
+        background-image: url("/images/hero/hero-local-business-marketplace-500x700.jpg");
+    }
+
+    @media only screen and (min-width: $medium) {
+        .hero {
+            background-image: url("/images/hero/hero-local-business-marketplace-1600x580.jpg");
+        }
+    }
+}
