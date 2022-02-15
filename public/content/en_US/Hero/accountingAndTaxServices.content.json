@@ -1,0 +1,12 @@
+{
+    "slug" : "hero-accounting-and-tax-services",
+    "buttons" : "",
+    "mobile" : {
+        "img" : "images/hero/hero-accounting-and-tax-services-500x700.jpg",
+        "alt" : "Accounting and Tax Services Hero Image Mobile"
+    },
+    "desktop" : {
+        "img" : "images/hero/hero-accounting-and-tax-services-1600x580.jpg",
+        "alt" : "Accounting and Tax Services Hero Image Desktop"
+    }
+}

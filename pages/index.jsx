@@ -1,20 +1,25 @@
-import Hero from 'components/layout/Hero'
-import Intro from 'components/pages/home/Intro';
-import CPAServicesMenu from 'components/common/CPAServicesMenu';
+import Head from 'components/common/Head'
+import Hero from 'components/common/Hero'
+import Intro from 'components/common/Intro'
+import Menu from 'components/common/Menu'
 import Video from 'components/common/Video'
+
+import page from 'public/content/en_US/Page/home.content'
 
 export default function Home() {
   return (
 
     <>
 
-      <div className="home">
+      <div className={page.slug}>
 
-        <Hero />
+        <Head {...page}/>
 
-        <Intro />
+        <Hero {...page.hero}/>
 
-        <CPAServicesMenu />
+        <Intro {...page.block.intro}/>
+
+        <Menu />
 
         <Video />
 

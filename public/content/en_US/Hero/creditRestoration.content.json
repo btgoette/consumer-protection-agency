@@ -1,0 +1,12 @@
+{
+    "slug" : "hero-credit-restoration",
+    "buttons" : "",
+    "mobile" : {
+        "img" : "images/hero/hero-credit-restoration-500x700.jpg",
+        "alt" : "Credit Restoration Hero Image Mobile"
+    },
+    "desktop" : {
+        "img" : "images/hero/hero-credit-restoration-1600x580.jpg",
+        "alt" : "Credit Restoration Hero Image Desktop"
+    }
+}

@@ -1,37 +1,31 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-
-import Hero from 'components/layout/Hero'
-import Intro from 'components/pages/local-business-marketplace/Intro';
-
-// import ConsumerVendorAccounts from 'components/pages/local-business-marketplace/ConsumerVendorAccounts';
-import BenefitsForConsumer from 'components/pages/local-business-marketplace/BenefitsForConsumer';
-import BenefitsForTheSmallBusiness from 'components/pages/local-business-marketplace/BenefitsForTheSmallBusiness';
-import ConsumerVendorAccounts from 'components/pages/local-business-marketplace/ConsumerVendorAccounts';
-import CPAServicesMenu from 'components/common/CPAServicesMenu';
+import Head from 'components/common/Head'
+import Hero from 'components/common/Hero'
+import Intro from 'components/common/Intro'
+import TwoColumnOrder1 from 'components/common/TwoColumnGridOrder1'
+import List from 'components/common/List'
+import Menu from 'components/common/Menu'
 import Video from 'components/common/Video'
+
+import page from 'public/content/en_US/Page/localBusinessMarketplace.content'
 
 export default function LocalBusinessMarketplace() {
   return (
 
     <>
 
-      <div className="local-business-marketplace">
+      <div className={page.slug}> 
 
-        {/* <Jumbotron /> */}
+        <Hero {...page.hero} />
 
-        <Hero />
+        <Intro {...page.block.intro} />
 
-        <Intro />
+        <Menu />
+        
+        <TwoColumnOrder1 {...page.block.consumerVendorAccounts} />
 
-        <ConsumerVendorAccounts />
+        <List {...page.block.benefitsForTheConsumer} />
 
-        <BenefitsForConsumer />
-
-        <BenefitsForTheSmallBusiness />
-
-        <CPAServicesMenu />
+        <List {...page.block.benefitsForTheSmallBusiness} />
 
         <Video />
 
