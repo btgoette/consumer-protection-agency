@@ -1,26 +1,23 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-
-import Hero from 'components/layout/Hero'
-import Intro from 'components/pages/financial-education/Intro';
-import CPAServicesMenu from 'components/common/CPAServicesMenu';
+import Head from 'components/common/Head'
+import Hero from 'components/common/Hero'
+import Intro from 'components/common/Intro'
+import Menu from 'components/common/Menu'
 import Video from 'components/common/Video'
+
+import page from 'public/content/en_US/Page/financialEducation.content'
 
 export default function FinancialEducation() {
   return (
 
     <>
 
-      <div className="financial-education">
+      <div className={page.slug}> 
 
-        {/* <Jumbotron /> */}
+        <Hero {...page.hero} />
 
-        <Hero />
+        <Intro {...page.block.intro} />
 
-        <Intro />
-
-        <CPAServicesMenu />
+        <Menu />
 
         <Video />
 

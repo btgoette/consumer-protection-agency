@@ -1,0 +1,114 @@
+{
+    "title": "Local Business Marketplace",
+    "description": "",
+    "slug": "local-business-marketplace",
+    "url": "https://consumerprotection.agency/local-business-marketplace",
+    "image": "",
+    "imageType": "",
+    "navigationLabel": "Local Business Marketplace",
+    "subtitle": "",
+    "hero": {
+        "slug": "hero-local-business-marketplace",
+        "title": "Local Business Marketplace",
+        "subtitle": "Something Important about this page",
+        "cta": {
+            "ctaLabel": "Optional CTA",
+            "url": "/"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-local-business-marketplace",
+            "title": "The B2C Partners Network",
+            "subtitle": [
+                {
+                    "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Call to Action",
+                "url": "/"
+            }
+        },
+        "consumerVendorAccounts": {
+            "slug": "consumer-vendor-accounts",
+            "title": "Consumer Vendor Accounts",
+            "subtitle": [
+                {
+                    "p": "A consumer account is a term used in the credit reporting ndustry to describe items listed on a consumer's credit report. Each account displayed on a consumers credit report includes information about the creditor, history, balance and debt."
+                },
+                {
+                    "p": "Typically, credit repair companies will remove inaccurate or incomplete information from a consumer credit report, resulting in a skeletal credit profile. A skeletal credit profile is when you have a high credit score but no depth to show maturity. This results in denied credit applications. The B2C Partners network on the other hand, takes a different approach by rehabilitating a consumers credit profile with depth and a good credit mix. To highlight this distinction, the B2C partners network explains the benefits below:"
+                }
+            ],
+            "img": {
+                "src": "",
+                "alt": ""
+            }
+        },
+        "benefitsForTheConsumer": {
+            "slug": "benefits-for-the-consumer",
+            "title": "Benefits for the Consumer",
+            "list": [
+                {
+                    "title": "Access More Credit",
+                    "subtitle": "The network gives consumers access to the marketplace with a wide variety of vendors willing to extend credit based on guidelines of the B2C Partners Network."
+                },
+                {
+                    "title": "Higher Approval Rates",
+                    "subtitle": "Base on the national average approval rate we shine above the rest and give borrowers a chance to prove their Creditworthiness."
+                },
+                {
+                    "title": "Have a good credit mix",
+                    "subtitle": "By being a member of the B2C partners network, members will benefit from different types of credit accounts such as lines of credit, installment loans, and revolving accounts. This is a different approach compared to Industry practices that leave users without any depth on their credit profile."
+                },
+                {
+                    "title": "Borrow money at better interest rates",
+                    "subtitle": "Scores above 740 typically qualify for the lowest mortgage rates available. Higher credit scores also can get lower interest rates on car loans. Lenders also look at things like debt-to-income ratios, but in general, the B2C partners network offers an opportunity for a good score which leads to lower interest rates."
+                },
+                {
+                    "title": "Get approval for higher loans",
+                    "subtitle": "Through the B2C Partners Network staying on track with consumer vendor accounts leads to excellent payment history and will boost your credit score. Along with having a mature mix of accounts leading to higher loan approval rates."
+                },
+                {
+                    "title": "Build a mature credit profile (800 Club)",
+                    "subtitle": "Prove your PAYMENT HISTORY by making onetime payments. Choose from a list of small businesses in different industries to grow your CREDIT MIX."
+                },
+                {
+                    "title": "Easy tracking & reminders",
+                    "subtitle": "Get assistance from our state-of-the-art mobile to stay updated on the go!"
+                }
+            ]
+        },
+        "benefitsForTheSmallBusiness": {
+            "slug": "benefits-for-the-small-business",
+            "title": "Benefits for the Small Business",
+            "list": [
+                {
+                    "title": "Expand & Scale",
+                    "subtitle": "Vendors can expand the radius of their business reach and transform from being a locally focused, to a national business without taking any additional steps other than being a partner of the B2C network."
+                },
+                {
+                    "title": "Passive Income",
+                    "subtitle": "Small businesses can now start generating consistent cashflow from members of the network. Whether a one-time purchase or a recurring order, the passive income gives the small business owner an injection or passive income."
+                },
+                {
+                    "title": "New client acquisition",
+                    "subtitle": "Members of the network will constantly introduce and refer new members on a daily basis. Partners watch their customer base grow on a weekly and monthly basis on auto-pilot."
+                },
+                {
+                    "title": "CRM and customer data back-office",
+                    "subtitle": "Businesses will gain access to prized consumer insights through a state-of-the-art CRM platform that will aggregate data base of the network. Tracking, billing and communication can all be done from your dashboard."
+                },
+                {
+                    "title": "Executive partner opportunity",
+                    "subtitle": "At the executive partner level, get a liaison (account manager) to assist taking your business to the next level. Build corporate credit, Dun & Bradstreet setup with vendor account reporting, Paydex score, Better Business Bureau and company online presence."
+                },
+                {
+                    "title": "Exposure & Branding",
+                    "subtitle": "Being a part of the network will generate brand exposure to consumers and other businesses in the network that have complimentary business services and/or products, resulting in better financial outcomes for members."
+                }
+            ]
+        }
+    }
+}

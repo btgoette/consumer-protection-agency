@@ -1,48 +1,77 @@
-  @font-face {
-    font-family: 'Poppins';
-    src: url('/fonts/Poppins/Poppins-Regular.ttf');
-  }
-  @font-face {
-    font-family: 'Poppins Medium';
-    src: url('/fonts/Poppins/Poppins-Medium.ttf');
-  }
-  @font-face {
-    font-family: 'Poppins Bold';
-    src: url('/fonts/Poppins/Poppins-Bold.ttf');
-  }
-  @font-face {
-    font-family: 'Poppins Bold Italic';
-    src: url('/fonts/Poppins/Poppins-Bold-Italic.ttf');
-  }
-  @font-face {
-    font-family: 'Inter';
-    src: url('/fonts/Inter/Inter-Regular.ttf');
-  }
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins Bold Italic";
+  src: url("/fonts/Poppins/Poppins-Bold-Italic.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.ttf");
+}
 
-  .text-small {
-    font-size: $font-size-small;
-  }
+.text-small {
+  font-size: $font-size-small;
+}
 
-  body {
-    color: $body-font-color;
-    font-family: $body-font-family;
-    font-size: $body-font-size-mobile;
-    font-weight: $body-font-weight;
-  }
+body {
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $body-font-size-mobile;
+  font-weight: $body-font-weight;
+}
 
-  a {
-    color: $link-font-color;
-    font-weight: $link-font-weight;
-    text-decoration: none;
-  }
+a {
+  color: $link-font-color;
+  font-weight: $link-font-weight;
+  text-decoration: none;
+}
 
-  
-  a:hover {
-    color: $link-font-hover-color;
-  }
+a:hover {
+  color: $link-font-hover-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  line-height: $header-line-height;
+}
+
+h1 {
+  font-size: $h1-font-size-mobile;
+  font-weight: $h1-font-weight;
+}
+
+h2 {
+  font-size: $h2-font-size-mobile;
+  margin-bottom: $h2-margin-bottom;
+}
 
 @media only screen and (min-width: $large) {
   body {
-      font-size: $body-font-size;
+    font-size: $body-font-size;
+  }
+
+  h1 {
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+  }
+
+  h2 {
+    font-size: $h2-font-size;
   }
 }

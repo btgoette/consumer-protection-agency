@@ -1,0 +1,130 @@
+{
+    "title": "Credit Restoration",
+    "description": "",
+    "slug": "credit-restoration",
+    "url": "https://consumerprotection.agency/credit-restoration",
+    "image": "",
+    "imageType": "",
+    "navigationLabel": "Credit Restoration",
+    "subtitle": "",
+    "hero": {
+        "slug": "hero-credit-restoration",
+        "title": "Credit Restoration",
+        "subtitle": "Something Important about this page",
+        "cta": {
+            "ctaLabel": "Optional CTA",
+            "url": "/"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-credit-restoration",
+            "title": "How Do You Define Credit?",
+            "subtitle": [
+                {
+                    "p": "According to Investopedia, credit is a contractual agreement in which a borrower receives something of value immediately and agrees to pay for it later, usually with interest. Focusing on financial reputation, most people don't realize the negative or positive affects that credit have on their livelihood until they need it. According to a S&P Global Financial literacy survey, 55% of US adults are financially literate while only 24% of millennials understand basic financial topics. Experts who teach financial literacy are few and far between, as the result of the school system lack of modernization. Therefore, the knowledge is not being passed on to the next generation of students. Because of this the USA ranks 14th amongst other nations in financial literacy but yet the #1 economy in the world."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Call to Action",
+                "url": "/"
+            }
+        },
+        "whatIsACreditScore": {
+            "slug": "what-is-a-credit-score",
+            "title": "What is a FICO/Credit Score",
+            "subtitle": [
+                {
+                    "p": "A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers’ FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit. FICO scores take into account data in five areas to determine creditworthiness: payment history, current level of indebtedness, types of credit used, length of credit history, and new credit accounts."
+                },
+                {
+                    "p": "It's a formula that ranges from 300 (the lowest) to 850 (highest). You are only responsible for 550 points in total."
+                }
+            ],
+            "img": {
+                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "alt": "How Credit Score is Calculated"
+            }
+        },
+        "whyIsThisImportant": {
+            "slug": "why-is-this-important",
+            "title": "Why is this Important?",
+            "subtitle": [
+                {
+                    "p": "Your credit score plays a vital role in your overall financial health. The so called, &ldquo;American Dream&rdquo; includes getting a house, car, job and children education. Over the years, businesses are making adjustments to their customer acquisition model to quality for a better quality of customers. In today&apos;s time, credit is now required to get cellphones, apartments, car rental, insurance and a normal part of a job application process. Good credit can lead to better interest rates for a home, car, and personal loan. A positive financial reputation can save you thousands of dollars and even free up cash flow. As mentioned before, getting a job requires credit history as it can be viewed as stability and even how responsible you are."
+                },
+                {
+                    "p": "When institutions, companies or lenders view your credit reports, there are certain guidelines or &ldquo;Laws&rdquo; that they must be followed. These laws are the FDCPA (Fair Debt Collections Act), FCRA (Fair Credit Reporting Act), UDAAP (Unfair Deceptive or Abusive Acts or Practices) and the TCA (Telephone Communications Act). These are known as Consumer Laws which was created to protect consumers. These laws are violated on a daily bases by large institutions. The uneducated consumer falls victim to their illegal and deceptive practices totaling billions of dollars in profits for the large corporation!"
+                },
+                {
+                    "p": "The Consumer Protection Agency steps in, upholds and enforces the law for the consumer."
+                }
+            ],
+            "img": {
+                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "alt": "How Credit Score is Calculated"
+            }
+        },
+        "benefitsForTheConsumer": {
+            "slug": "benefits-for-the-consumer",
+            "title": "Benefits for the Consumer",
+            "list": [
+                {
+                    "li": "Continuous Credit Education"
+                },
+                {
+                    "li": "Protection from deceptive practice"
+                },
+                {
+                    "li": "Credit report monitoring"
+                },
+                {
+                    "li": "ID theft protection"
+                },{
+                    "li": "Credit score increase"
+                },
+                {
+                    "li": "Credit audit report"
+                }
+            ],
+            "img": {
+                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "alt": "How Credit Score is Calculated"
+            }
+        },
+        "benefitsOfHavingGoodCredit": {
+            "slug": "benefits-of-having-good-credit",
+            "title": "Benefits of Having Good Credit",
+            "list": [
+                {
+                    "li": "Get Better Rates on Car Insurance"
+                },
+                {
+                    "li": "Save on Other Types of Insurance"
+                },
+                {
+                    "li": "Quality for Lower Credit Card Interest"
+                },
+                {
+                    "li": "Get Approved for Higher Credit Limits"
+                },
+                {
+                    "li": "Have More Housing Options"
+                },
+                {
+                    "li": "Get Utility Services More Easily"
+                },
+                {
+                    "li": "Get a Cell Phone Without Prepaying or Making a Security Deposit"
+                },
+                {
+                    "li": "Look Better to Potential Employers"
+                }
+            ],
+            "img": {
+                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "alt": "How Credit Score is Calculated"
+            }
+        }
+    }
+}

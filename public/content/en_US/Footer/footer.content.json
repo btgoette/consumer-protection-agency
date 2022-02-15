@@ -1,0 +1,48 @@
+{
+    "title": "Global",
+    "slug": "global",
+    "primaryLinks": [
+        {
+            "page": "Consumer Protection Agency",
+            "url": "/"
+        },
+        {
+            "page": "Local Business Marketplace",
+            "url": "local-business-marketplace"
+        },
+        {
+            "page": "Accounting and Tax Services",
+            "url": "accounting-and-tax-services"
+        },
+        {
+            "page": "Financial Education",
+            "url": "financial-education"
+        },
+        {
+            "page": "Credit Restoration",
+            "url": "credit-restoration"
+        }
+    ],
+    "secondaryLinks": [
+        {
+            "page": "Consumer Protection Agency",
+            "url": "/"
+        },
+        {
+            "page": "Local Business Marketplace",
+            "url": "local-business-marketplace"
+        },
+        {
+            "page": "Accounting and Tax Services",
+            "url": "accounting-and-tax-services"
+        },
+        {
+            "page": "Financial Education",
+            "url": "financial-education"
+        },
+        {
+            "page": "Credit Restoration",
+            "url": "credit-restoration"
+        }
+    ]
+}

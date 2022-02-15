@@ -1,0 +1,34 @@
+{
+    "title": "Consumer Protection Agency",
+    "description": "",
+    "slug": "home",
+    "url": "https://consumerprotection.agency",
+    "image": "",
+    "imageType": "",
+    "navigationLabel": "Home",
+    "subtitle": "",
+    "hero": {
+        "slug": "hero-home",
+        "title": "Consumer Protection Agency",
+        "subtitle": "Something Important about this page",
+        "cta": {
+            "ctaLabel": "Optional CTA",
+            "url": "/"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-home",
+            "title": "What is Consumer Protection Agency",
+            "subtitle": [
+                {
+                    "p": "We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Call to Action",
+                "url": "/"
+            }
+        }
+    }
+}
