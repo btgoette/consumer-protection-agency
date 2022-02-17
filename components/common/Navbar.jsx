@@ -18,19 +18,19 @@ export default function CustomNav() {
                     </a>
                     <div className="login d-flex">
                         <Nav.Item className="ms-3">
-                            <Link href="https://54.219.27.199:7000" passHref>
-                                Admin
-                            </Link>
-                        </Nav.Item>
-                        <Nav.Item className="ms-3">
-                            <Link href="https://54:219.27.199:7003" passHref>
+                            <a href="https://54.219.27.199:7003">
                                 Client Login
-                            </Link>
+                            </a>
                         </Nav.Item>
                         <Nav.Item className="ms-3">
-                            <Link href="https://54:219.27.199:7003" passHref>
+                            <a href="https://54.219.27.199:7003">
                                 Agent Login
-                            </Link>
+                            </a>
+                        </Nav.Item>
+                        <Nav.Item className="ms-3">
+                            <a href="https://54.219.27.199:7000">
+                                Admin
+                            </a>
                         </Nav.Item>
                     </div>
                 </Container>
