@@ -1,9 +1,9 @@
 .hero-accounting-and-tax-services {
-    background-color: $light-gray;
+    background:  $hero-background ;
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
-    padding: 8rem 0;
+    padding: $hero-padding;
     background-image: url("/images/hero/hero-accounting-and-tax-services-500x700.jpg");
 
     @media only screen and (min-width: $medium) {
@@ -12,11 +12,11 @@
 }
 
 .hero-credit-restoration {
-    background-color: $light-gray;
+    background:  $hero-background ;
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
-    padding: 8rem 0;
+    padding: $hero-padding;
     background-image: url("/images/hero/hero-credit-restoration-500x700.jpg");
 
     @media only screen and (min-width: $medium) {
@@ -25,11 +25,11 @@
 }
 
 .hero-financial-education {
-    background-color: $light-gray;
+    background:  $hero-background ;
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
-    padding: 8rem 0;
+    padding: $hero-padding;
     background-image: url("/images/hero/hero-financial-education-500x700.jpg");
 
     @media only screen and (min-width: $medium) {
@@ -38,11 +38,11 @@
 }
 
 .hero-home {
-    background-color: $light-gray;
+    background:  $hero-background ;
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
-    padding: 8rem 0;
+    padding: $hero-padding;
     background-image: url("/images/hero/hero-home-500x700.jpg");
 
     @media only screen and (min-width: $medium) {
@@ -50,15 +50,15 @@
     }
 }
 
-.hero-local-business-marketplace {
-    background-color: $light-gray;
+.hero-private-small-business-network {
+    background:  $hero-background ;
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
-    padding: 8rem 0;
-    background-image: url("/images/hero/hero-local-business-marketplace-500x700.jpg");
+    padding: $hero-padding;
+    background-image: url("/images/hero/hero-private-small-business-network-500x700.jpg");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-local-business-marketplace-1600x580.jpg");
+        background-image: url("/images/hero/hero-private-small-business-network-1600x580.jpg");
     }
 }

@@ -1,4 +1,9 @@
 .video {
-    background-color: $gray;
-    padding: 12rem 0;
+  background-color: $video-background-color;
+  border: 1px solid $black;
+  padding: $video-padding;
+
+  .video-react .video-react-big-play-button {
+    background-color: $red;
   }
+}

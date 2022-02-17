@@ -6,7 +6,7 @@ $dark-gray: #565758;
 $dark-red: #8f0f1f;
 $gray: #828386;
 $light-blue: #2b2d80;
-$light-gray: #bdbec0;
+$light-gray: #ebebef;
 $red: #d40b18;
 $white: #fff;
 
@@ -20,11 +20,14 @@ $background-overlay-hover: soft-light;
 $background-top-right: top right;
 $footer-background-color: $blue;
 $footer-copyright-background-color: $black;
+$hero-background: $light-gray;
+$image-background-color: $white;
 $nav-background-color: $white;
 $nav-topbar-background-color: $blue;
 $navbar-toggler-background-color: transparent;
 $offcanvas-background-color: $white;
 $offcanvas-header-background-color: $blue;
+$video-background-color: $black;
 
 // borders
 $navbar-toggler-border-color: transparent;
@@ -64,13 +67,13 @@ $header-font-family: 'Inter';
 $header-font-weight: 400;
 $header-line-height: 1;
 
-$h1-font-size: 3.8rem;
+$h1-font-size: 3rem;
 $h1-font-size-mobile: 2rem;
 $h1-font-weight: 900;
 
-$h2-font-size: 2.75rem;
+$h2-font-size: 2.2rem;
 $h2-font-size-mobile: 1.75rem;
-$h2-margin-bottom: 2rem;
+$h2-margin-bottom: 1.5rem;
 
 $footer-font-color: $white;
 $footer-font-size: 15px;
@@ -103,3 +106,9 @@ $nav-topbar-font-size: .85rem;
 
 $offcanvas-font-color: $blue;
 $offcanvas-header-font-color: $white;
+
+// padding and margins
+$block-padding: 2rem;
+$hero-padding: 6rem 0;
+$image-padding: 0;
+$video-padding: 0;

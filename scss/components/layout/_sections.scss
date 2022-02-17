@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+.row {
+    align-items:center;
+}
+
 .block {
-    padding: 6rem 2rem;
+    padding: $block-padding;
 }

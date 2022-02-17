@@ -1,0 +1,41 @@
+.menu {
+  padding: 0 0;
+  margin: 0 0;
+
+  .cpa-services-menu-block {
+    font-size: 1.25rem;
+    padding: 7rem 3rem;
+    text-align: center;
+    color: $white;
+
+    background-color: $dark-gray;
+    background-image: url("/images/services-menu/cpa-services-ats-background.jpg");
+    background-size: $background-cover;
+    background-position: $background-center;
+    background-blend-mode: $background-overlay;
+
+    a {
+      color: $white;
+    }
+
+    &:hover {
+      background-blend-mode: $background-overlay-hover;
+    }
+  }
+
+  .lbmp {
+    background-image: url("/images/services-menu/cpa-services-lbmp-background.jpg");
+  }
+
+  .ats {
+    background-image: url("/images/services-menu/cpa-services-ats-background.jpg");
+  }
+
+  .fe {
+    background-image: url("/images/services-menu/cpa-services-fe-background.jpg");
+  }
+
+  .cr {
+    background-image: url("/images/services-menu/cpa-services-cr-background.jpg");
+  }
+}

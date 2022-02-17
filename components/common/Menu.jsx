@@ -7,16 +7,16 @@ export default function CPAServicesMenu() {
     return (
         <>
 
-            <Container fluid className="cpa-services-menu">
+            <Container fluid className="menu">
                 <Row>
-                    <Col sm={6} lg={3} className="cpa-services-menu-block lbmp">
-                        <Link href="/local-business-marketplace">
+                    <Col xs={6} lg={3} className="cpa-services-menu-block lbmp">
+                        <Link href="/private-small-business-network">
                             <a>
-                                <p>Local Business Marketplace</p>
+                                <p>Private Small Business Network</p>
                             </a>
                         </Link>
                     </Col>
-                    <Col sm={6} lg={3} className="cpa-services-menu-block ats">
+                    <Col xs={6} lg={3} className="cpa-services-menu-block ats">
                         <Link href="/accounting-and-tax-services">
                             <a>
                                 <p>Accounting &amp; Tax Services </p>
@@ -24,14 +24,14 @@ export default function CPAServicesMenu() {
                             </a>
                         </Link>
                     </Col>
-                    <Col sm={6} lg={3} className="cpa-services-menu-block fe">
+                    <Col xs={6} lg={3} className="cpa-services-menu-block fe">
                         <Link href="/financial-education">
                             <a>
                                 <p>Financial Education</p>
                             </a>
                         </Link>
                     </Col>
-                    <Col sm={6} lg={3} className="cpa-services-menu-block cr">
+                    <Col xs={6} lg={3} className="cpa-services-menu-block cr">
                         <Link href="/credit-restoration">
                             <a>
                                 <p>Credit Restoration</p>

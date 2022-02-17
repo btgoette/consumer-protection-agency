@@ -9,16 +9,30 @@
     "subtitle": "",
     "hero": {
         "slug": "hero-credit-restoration",
+        "column": [
+            {
+                "offset": "0",
+                "span": "5",
+                "order": "0"
+            }
+        ],
         "title": "Credit Restoration",
         "subtitle": "Something Important about this page",
         "cta": {
-            "ctaLabel": "Optional CTA",
-            "url": "/"
+            "ctaLabel": "Learn More",
+            "url": "#intro-credit-restoration"
         }
     },
     "block": {
         "intro": {
             "slug": "intro-credit-restoration",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "How Do You Define Credit?",
             "subtitle": [
                 {
@@ -26,13 +40,26 @@
                 }
             ],
             "cta": {
-                "ctaLabel": "Call to Action",
-                "url": "/"
+                "ctaLabel": "What is a FICO Score?",
+                "url": "#what-is-a-credit-score"
             }
         },
         "whatIsACreditScore": {
+            "background": "bg-white",
             "slug": "what-is-a-credit-score",
-            "title": "What is a FICO/Credit Score",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "What is a FICO/Credit Score?",
             "subtitle": [
                 {
                     "p": "A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers’ FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit. FICO scores take into account data in five areas to determine creditworthiness: payment history, current level of indebtedness, types of credit used, length of credit history, and new credit accounts."
@@ -47,7 +74,20 @@
             }
         },
         "whyIsThisImportant": {
+            "background": "bg-white",
             "slug": "why-is-this-important",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
             "title": "Why is this Important?",
             "subtitle": [
                 {
@@ -61,12 +101,25 @@
                 }
             ],
             "img": {
-                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "src": "images/placeholder/600x400.png",
                 "alt": "How Credit Score is Calculated"
             }
         },
         "benefitsForTheConsumer": {
+            "background" :"bg-white",
             "slug": "benefits-for-the-consumer",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
             "title": "Benefits for the Consumer",
             "list": [
                 {
@@ -88,12 +141,25 @@
                 }
             ],
             "img": {
-                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "src": "images/placeholder/600x400.png",
                 "alt": "How Credit Score is Calculated"
             }
         },
         "benefitsOfHavingGoodCredit": {
+            "background": "bg-white",
             "slug": "benefits-of-having-good-credit",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
             "title": "Benefits of Having Good Credit",
             "list": [
                 {
@@ -122,7 +188,7 @@
                 }
             ],
             "img": {
-                "src": "images/page/credit-restoration/fico-score-factors.png",
+                "src": "images/placeholder/600x400.png",
                 "alt": "How Credit Score is Calculated"
             }
         }

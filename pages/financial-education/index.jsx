@@ -16,9 +16,7 @@ export default function FinancialEducation() {
         <Hero {...page.hero} />
 
         <Intro {...page.block.intro} />
-
-        <Menu />
-
+        
         <Video />
 
       </div>

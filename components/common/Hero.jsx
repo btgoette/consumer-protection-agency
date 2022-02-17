@@ -5,14 +5,14 @@ export default function Hero(hero) {
     return (
         <>
 
-            <Container fluid className={hero.slug}>
+            <Container fluid className={hero.slug }>
                 <Container>
                     <Row>
-                        <Col md={6} className="block text-center text-md-start">
+                        <Col md={{offset: hero.column[0].offset, span: hero.column[0].span, order: hero.column[0].order}} className="block text-center text-md-start">
                             <h1 className="text-center text-md-start">{hero.title}</h1>
                             <p className="text-center text-md-start">{hero.subtitle}</p>
                             <p>
-                                <Button>
+                                <Button href={hero.cta.url}>
                                     {hero.cta.ctaLabel}
                                 </Button>
                             </p>
