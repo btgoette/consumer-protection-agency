@@ -9,16 +9,30 @@
     "subtitle": "",
     "hero": {
         "slug": "hero-home",
+        "column": [
+            {
+                "offset": "0",
+                "span": "5",
+                "order": "0"
+            }
+        ],
         "title": "Consumer Protection Agency",
-        "subtitle": "Something Important about this page",
+        "subtitle": "Helping you improve your financial health.",
         "cta": {
-            "ctaLabel": "Optional CTA",
-            "url": "/"
+            "ctaLabel": "Learn More",
+            "url": "#intro-home"
         }
     },
     "block": {
         "intro": {
             "slug": "intro-home",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "What is Consumer Protection Agency",
             "subtitle": [
                 {
@@ -26,9 +40,15 @@
                 }
             ],
             "cta": {
-                "ctaLabel": "Call to Action",
-                "url": "/"
+                "ctaLabel": "Watch Our Video",
+                "url": "#video-home"
             }
+        },
+        "video": {
+            "slug": "video-home",
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.png",
+            "src": "/video/cpa-video.mp4"
         }
     }
 }

@@ -3,19 +3,18 @@ import Link from 'next/link'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col, Button, Navbar, Nav, NavDropdown, Offcanvas } from 'react-bootstrap'
 
-export default function CustomNav({ nav }) {
+export default function CustomNav() {
 
     return (
 
         <Nav>
-            {console.log(nav)}
             <Container fluid className="top-bar">
                 <Container className="d-flex">
-                    <a href="mailto:support@consumerprotection.agency" className="d-none d-md-flex align-items-center">1-800-555-5555
+                    <a href="tel:4693738788" className="d-none d-md-flex align-items-center">469-373-8788
                     </a>
                     <span className="d-none d-md-flex">&nbsp;|&nbsp;</span>
-                    <a href="mailto:support@consumerprotection.agency" className="d-none d-md-flex align-items-center">
-                        support@consumerprotection.agency
+                    <a href="tel:18883182344" className="d-none d-md-flex align-items-center">
+                        888-318-2344 (Toll Free)
                     </a>
                     <div className="login d-flex">
                         <Nav.Item className="ms-3">
@@ -26,6 +25,11 @@ export default function CustomNav({ nav }) {
                         <Nav.Item className="ms-3">
                             <Link href="https://clientarea.vpnsafevault.com/login" passHref>
                                 Agent Login
+                            </Link>
+                        </Nav.Item>
+                        <Nav.Item className="ms-3">
+                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
+                                Admin
                             </Link>
                         </Nav.Item>
                     </div>
@@ -53,9 +57,9 @@ export default function CustomNav({ nav }) {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <Nav.Item>
-                                    <Link href="/local-business-marketplace/" passHref>
+                                    <Link href="/private-small-business-network/" passHref>
                                         <Nav.Link >
-                                            Local Business Marketplace
+                                            Private Small Business Network
                                         </Nav.Link>
                                     </Link>
                                 </Nav.Item>
@@ -86,9 +90,9 @@ export default function CustomNav({ nav }) {
                     <Navbar.Collapse className="d-none d-lg-flex align-items-center" id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Item>
-                                <Link href="/local-business-marketplace/" passHref>
+                                <Link href="/private-small-business-network/" passHref>
                                     <Nav.Link >
-                                        Local Business Marketplace
+                                        Private Small Business Network
                                     </Nav.Link>
                                 </Link>
                             </Nav.Item>

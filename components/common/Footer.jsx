@@ -1,9 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link';
+import Link from 'next/link'
 
-import Newsletter from 'components/forms/Newsletter';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import Menu from 'components/common/Menu'
+import Newsletter from 'components/forms/Newsletter'
 
 export default function Footer() {
 
@@ -11,6 +13,8 @@ export default function Footer() {
 
     return (
         <footer>
+
+            <Menu />
 
             <Newsletter />
 
@@ -80,7 +84,7 @@ export default function Footer() {
                         <Col sm={6} lg={3}>
                             <h3>Links</h3>
                             <ul>
-                                <li><Link href="/local-business-marketplace">Local Business Marketplace</Link></li>
+                                <li><Link href="/private-small-business-network">Private Small Business Network</Link></li>
                                 <li><Link href="/accounting-and-tax-services">Accounting and Tax Services</Link></li>
                                 <li><Link href="/financial-education">Financial Education</Link></li>
                                 <li><Link href="/sponsors">Sponsors</Link></li>
@@ -94,7 +98,7 @@ export default function Footer() {
                 <Container>
                     <Row>
                         <Col>
-                           Copyright &copy; {today.getFullYear()} Consumer Protection Agency
+                            Copyright &copy; {today.getFullYear()} Consumer Protection Agency
                         </Col>
                     </Row>
                 </Container>

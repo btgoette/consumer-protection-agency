@@ -17,8 +17,6 @@ export default function AccountingAndTaxServices() {
 
         <Intro {...page.block.intro} />
 
-        <Menu />
-
         <Video />
 
       </div>

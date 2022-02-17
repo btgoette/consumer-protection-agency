@@ -1,12 +1,12 @@
 {
-    "slug" : "hero-local-business-marketplace",
+    "slug" : "hero-private-small-business-network",
     "buttons" : "",
     "mobile" : {
-        "img" : "images/hero/hero-local-business-marketplace-500x700.jpg",
-        "alt" : "Local Business Marketplace Hero Image Mobile"
+        "img" : "images/hero/hero-private-small-business-network-500x700.jpg",
+        "alt" : "Private Small Business Network Hero Image Mobile"
     },
     "desktop" : {
-        "img" : "images/hero/hero-local-business-marketplace-1600x580.jpg",
-        "alt" : "Local Business Marketplace Hero Image Desktop"
+        "img" : "images/hero/hero-private-small-business-network-1600x580.jpg",
+        "alt" : "Private Small Business Network Hero Image Desktop"
     }
 }
