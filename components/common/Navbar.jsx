@@ -18,18 +18,18 @@ export default function CustomNav() {
                     </a>
                     <div className="login d-flex">
                         <Nav.Item className="ms-3">
-                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
+                            <Link href="https://54.219.27.199:7000" passHref>
+                                Admin
+                            </Link>
+                        </Nav.Item>
+                        <Nav.Item className="ms-3">
+                            <Link href="https://54:219.27.199:7003" passHref>
                                 Client Login
                             </Link>
                         </Nav.Item>
                         <Nav.Item className="ms-3">
-                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
+                            <Link href="https://54:219.27.199:7003" passHref>
                                 Agent Login
-                            </Link>
-                        </Nav.Item>
-                        <Nav.Item className="ms-3">
-                            <Link href="https://clientarea.vpnsafevault.com/login" passHref>
-                                Admin
                             </Link>
                         </Nav.Item>
                     </div>
