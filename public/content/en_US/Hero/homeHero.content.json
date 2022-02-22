@@ -2,11 +2,11 @@
     "slug" : "hero-home",
     "buttons" : "",
     "mobile" : {
-        "img" : "images/hero/hero-home-500x700.jpg",
+        "img" : "images/hero/hero-home-500x700.webp",
         "alt" : "Home Hero Image Mobile"
     },
     "desktop" : {
-        "img" : "images/hero/hero-home-1600x580.jpg",
+        "img" : "images/hero/hero-home-1600x580.webp",
         "alt" : "Home Hero Image Desktop"
     }
 }

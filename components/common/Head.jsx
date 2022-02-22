@@ -19,10 +19,10 @@ export default function CustomHead(head) {
       <meta name="robots" content="INDEX, FOLLOW" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta charSet="utf-8" />
-      {/* <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone.png" />
-      <link rel="apple-touch-icon" sizes="152x152" href="images/icons/touch-icon-ipad.png" />
-      <link rel="apple-touch-icon" sizes="180x180" href="images/icons/touch-icon-iphone-retina.png" />
-      <link rel="apple-touch-icon" sizes="167x167" href="images/icons/touch-icon-ipad-retina.png" /> */}
+      {/* <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone.webp" />
+      <link rel="apple-touch-icon" sizes="152x152" href="images/icons/touch-icon-ipad.webp" />
+      <link rel="apple-touch-icon" sizes="180x180" href="images/icons/touch-icon-iphone-retina.webp" />
+      <link rel="apple-touch-icon" sizes="167x167" href="images/icons/touch-icon-ipad-retina.webp" /> */}
       {/* <GoogleAnalytics id="G-WT3YRZWJZV" /> */}
     </Head>
   )

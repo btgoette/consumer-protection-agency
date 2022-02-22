@@ -18,81 +18,44 @@ export default function Footer() {
 
             <Newsletter />
 
-            {/* <Container fluid className="footer">
+            <Container fluid className="footer">
                 <Container>
-                    <Row>
+                    <Row className="block">
 
-                        <Col sm={6} lg={3}>
-                            <Link href="/"><LazyLoadImage className="logo"
-                                src="/images/logos/srz-logo-text-only.png"
-                                alt="Consumer Protection Agency"
-                            /></Link><br />
+
+                        <Col lg={{ span: 4, order: 1 }}>
+                            <Link href="/" passHref>
+                                <LazyLoadImage className="logo"
+                                    src="/images/logos/cpa-logo-no-text.webp"
+                                    alt="Consumer Protection Agency"
+                                />
+                            </Link><br />
                         </Col>
-                        <Col sm={6} lg={3}>
-                            <h3>Socials</h3>
-                            <ul className="footer-social d-flex">
+
+                        <Col lg={{ span: 4, order: 0 }}>
+                            <ul>
                                 <li>
-                                    <a
-                                        href="" rel="noreferrer" aria-label="Facebook" target="_blank">
-                                        <FontAwesomeIcon icon={['fab', 'facebook']} />&nbsp;
+                                    <a href="tel:4693738788">469-373-8788
                                     </a>
                                 </li>
                                 <li>
-                                    <a
-                                        href="" rel="noreferrer" aria-label="Instagram" target="_blank">
-                                        <FontAwesomeIcon icon={['fab', 'instagram']} />&nbsp;
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="" rel="noreferrer" aria-label="Twitter" target="_blank">
-                                        <FontAwesomeIcon icon={['fab', 'twitter']} />&nbsp;
+                                    <a href="tel:18883182344">
+                                        888-318-2344 (Toll Free)
                                     </a>
                                 </li>
                             </ul>
                         </Col>
-                        <Col sm={6} lg={3}>
-                            <h3>Contact</h3>
-                            <ul className="footer-contact">
-                                <li>
-                                    <FontAwesomeIcon icon={['fab', 'wpforms']} />&nbsp;
-                                    <Link href="">
-                                        Contact Us
-                                    </Link>
-                                </li>
-                                <li>
-                                    <FontAwesomeIcon icon={['far', 'calendar-check']} />&nbsp;
-                                    <Link href="">
-                                        Hours: ....
-                                    </Link>
-                                </li>
-                                <li>
-                                    <FontAwesomeIcon icon={['fas', 'phone']} />&nbsp;
-                                    <Link href="">
-                                        1-800-555-5555
-                                    </Link>
-                                </li>
-                                <li>
-                                    <FontAwesomeIcon icon={['fas', 'envelope']} />&nbsp;
-                                    <Link href="">
-                                        support@consumerprotection.agency
-                                    </Link>
-                                </li>
-
-                            </ul>
-                        </Col>
-                        <Col sm={6} lg={3}>
-                            <h3>Links</h3>
+                        <Col lg={{ span: 4, order: 2 }}>
                             <ul>
                                 <li><Link href="/private-small-business-network">Private Small Business Network</Link></li>
                                 <li><Link href="/accounting-and-tax-services">Accounting and Tax Services</Link></li>
                                 <li><Link href="/financial-education">Financial Education</Link></li>
-                                <li><Link href="/sponsors">Sponsors</Link></li>
+                                <li><Link href="/credit-restoration">Credit Restoration</Link></li>
                             </ul>
                         </Col>
                     </Row>
                 </Container>
-            </Container> */}
+            </Container>
 
             <Container fluid className="copyright">
                 <Container>

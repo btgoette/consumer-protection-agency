@@ -9,10 +9,11 @@ export default function Video(video) {
     return (
         <>
 
+            <a className="anchor" id={video.slug}></a>
             <Container fluid className="video">
-                <Container id={video.slug} className={video.slug}>
+                <Container fluid className={video.slug}>
                     <Row>
-                        <Col>
+                        <Col lg={{ offset: 2, span: 8 }}>
                             <Player
                                 playsInline
                                 poster={video.poster}

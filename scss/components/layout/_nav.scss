@@ -2,6 +2,8 @@
 @import "offcanvas.scss";
 
 .nav {
+    border-bottom: $navbar-bottom-border;
+
     .top-bar {
         padding: 0.5rem 1rem;
         background-color: $nav-topbar-background-color;
@@ -26,7 +28,7 @@
 
         .logo {
             width: 100%;
-            max-width: 260px;
+            max-width: 250px;
         }
 
         .navbar-nav {
@@ -46,6 +48,14 @@
         }
     }
 
+    @media only screen and (min-width: $small) {
+        .navbar {
+            .logo {
+                max-width: 325px;
+            }
+        }
+    }
+
     @media only screen and (min-width: $large) {
         .top-bar {
             .login {
@@ -55,9 +65,8 @@
         }
 
         .navbar {
-
             .logo {
-                max-width: 450px;
+                max-width: 400px;
             }
         }
     }
