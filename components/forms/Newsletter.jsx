@@ -7,16 +7,16 @@ export default function Newsletter(newsletter) {
 
         <>
 
-            <Container fluid>
+            <Container fluid className="newsletter section">
                 <Container>
-                    <Row>
-                        <Col className="block">
-                            <div className="row d-flex align-items-center rows">
-                                <Col md={{ offset: 2, span: 4 }}>
-                                    <h2 className="mb-0 text-start">Subscribe</h2>
-                                    <p>to learn more about our services.</p>
+                    <Row className="block">
+                        <Col>
+                            <div className="row d-flex align-items-center text-center rows mb-5">
+                                <Col lg={{ offset: 2, span: 4 }}>
+                                    <h2 className="mb-0 text-lg-start">Subscribe</h2>
+                                    <p className="text-lg-start">to learn more about our services.</p>
                                 </Col>
-                                <Col md={6}>
+                                <Col lg={6}>
                                     <div className="d-none d-md-flex mx-5">
                                         <div className="input-group mb-3 mt-4">
                                             <input type="text" className="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2" />

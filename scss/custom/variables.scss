@@ -27,10 +27,12 @@ $nav-topbar-background-color: $blue;
 $navbar-toggler-background-color: transparent;
 $offcanvas-background-color: $white;
 $offcanvas-header-background-color: $blue;
-$video-background-color: $black;
+$video-background-color: $white;
 
 // borders
 $navbar-toggler-border-color: transparent;
+$navbar-bottom-border: 1px solid $light-gray;
+$video-border: 1px solid $light-gray;
 
 // breakpoints
 $x-small: 0px;
@@ -76,7 +78,7 @@ $h2-font-size-mobile: 1.75rem;
 $h2-margin-bottom: 1.5rem;
 
 $footer-font-color: $white;
-$footer-font-size: 15px;
+$footer-font-size: 1rem;
 $footer-font-weight: 500;
 $footer-header-font-family: $header-font-family;
 $footer-header-font-size: 1.2rem;
@@ -111,4 +113,4 @@ $offcanvas-header-font-color: $white;
 $block-padding: 2rem;
 $hero-padding: 6rem 0;
 $image-padding: 0;
-$video-padding: 0;
+$section-padding: 4rem 0 2rem;

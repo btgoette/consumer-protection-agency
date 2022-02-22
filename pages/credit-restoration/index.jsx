@@ -27,9 +27,7 @@ export default function CreditRestoration() {
         <TwoColumnGridList {...page.block.benefitsForTheConsumer} />
 
         <TwoColumnGridList {...page.block.benefitsOfHavingGoodCredit} />
-
-        <Video />
-
+        
       </div>
 
     </>

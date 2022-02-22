@@ -5,9 +5,11 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 export default function TwoColumnGridList(block) {
     return (
         <>
-            <Container fluid className={block.slug, block.background}>
-                <Container id={block.slug} className="block">
-                    <Row>
+
+            <a className="anchor" id={block.slug}></a>
+            <Container fluid className="section">
+                <Container className={block.slug}>
+                    <Row className="block">
                         <Col xs={12}>
                             <h2>{block.title}</h2>
                         </Col>

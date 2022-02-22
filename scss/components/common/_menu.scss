@@ -1,15 +1,21 @@
 .menu {
   padding: 0 0;
   margin: 0 0;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
   .cpa-services-menu-block {
+    padding: 0 1rem;
     font-size: 1.25rem;
-    padding: 7rem 3rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
     text-align: center;
     color: $white;
 
+    min-height: 275px;
+
     background-color: $dark-gray;
-    background-image: url("/images/services-menu/cpa-services-ats-background.jpg");
     background-size: $background-cover;
     background-position: $background-center;
     background-blend-mode: $background-overlay;
@@ -24,18 +30,22 @@
   }
 
   .lbmp {
-    background-image: url("/images/services-menu/cpa-services-lbmp-background.jpg");
+    background-image: url("/images/menu/cpa-services-lbmp-background.webp");
   }
 
   .ats {
-    background-image: url("/images/services-menu/cpa-services-ats-background.jpg");
+    background-image: url("/images/menu/cpa-services-ats-background.webp");
   }
 
   .fe {
-    background-image: url("/images/services-menu/cpa-services-fe-background.jpg");
+    background-image: url("/images/menu/cpa-services-fe-background.webp");
   }
 
   .cr {
-    background-image: url("/images/services-menu/cpa-services-cr-background.jpg");
+    background-image: url("/images/menu/cpa-services-cr-background.webp");
+  }
+
+  @media only screen and (min-width: $large) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
