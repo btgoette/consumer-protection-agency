@@ -7,13 +7,13 @@ export default function CustomNav() {
 
     return (
 
-        <Nav>
+        <Nav className="sticky-top">
             <Container fluid className="top-bar">
                 <Container className="d-flex">
-                    <a href="tel:4693738788" className="d-none d-md-flex align-items-center">469-373-8788
+                    <a href="tel:4693738788" className="d-none d-lg-flex align-items-center">469-373-8788
                     </a>
-                    <span className="d-none d-md-flex">&nbsp;|&nbsp;</span>
-                    <a href="tel:18883182344" className="d-none d-md-flex align-items-center">
+                    <span className="d-none d-lg-flex">&nbsp;|&nbsp;</span>
+                    <a href="tel:18883182344" className="d-none d-lg-flex align-items-center">
                         888-318-2344 (Toll Free)
                     </a>
                     <div className="login d-flex">
@@ -35,12 +35,12 @@ export default function CustomNav() {
                     </div>
                 </Container>
             </Container>
-            <Navbar collapseOnSelect className="navbar-dark" bg="dark" expand="md">
+            <Navbar collapseOnSelect sticky="top" className="navbar-dark" bg="dark" expand="lg">
                 <Container>
                     <Link href="/" passHref>
                         <Navbar.Brand>
                             <LazyLoadImage className="logo"
-                                src="/images/logos/cpa-logo-text-on-the-side.png"
+                                src="/images/logos/cpa-logo-text-on-the-side.webp"
                                 alt="Consumer Protection Agency"
                             />
                         </Navbar.Brand>

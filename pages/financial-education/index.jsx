@@ -17,8 +17,6 @@ export default function FinancialEducation() {
 
         <Intro {...page.block.intro} />
         
-        <Video />
-
       </div>
 
     </>

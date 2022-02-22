@@ -4,8 +4,9 @@ export default function Intro(intro) {
 
     return (
         <>
-            <Container fluid className="intro">
-                <Container id={intro.slug} className={intro.slug}>
+            <a className="anchor" id={intro.slug}></a>
+            <Container fluid className="section">
+                <Container className={intro.slug}>
                     <Row>
                         <Col lg={{ offset: intro.column[0].offset, span: intro.column[0].span, order: intro.column[0].order }} className="block">
                             <h2>

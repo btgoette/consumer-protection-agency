@@ -2,11 +2,11 @@
     "slug" : "hero-financial-education",
     "buttons" : "",
     "mobile" : {
-        "img" : "images/hero/hero-financial-education-500x700.jpg",
+        "img" : "images/hero/hero-financial-education-500x700.webp",
         "alt" : "Financial Education Hero Image Mobile"
     },
     "desktop" : {
-        "img" : "images/hero/hero-financial-education-1600x580.jpg",
+        "img" : "images/hero/hero-financial-education-1600x580.webp",
         "alt" : "Financial Education Hero Image Desktop"
     }
 }

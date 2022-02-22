@@ -9,9 +9,11 @@ export default function List(block) {
 
     return (
         <>
-            <Container fluid className={block.slug}>
-                <Container className="block">
-                    <Row>
+
+            <a className="anchor" id={block.slug}></a>
+            <Container fluid className="section">
+                <Container className={block.slug}>
+                    <Row className="block">
                         <Col md={12}>
                             <h2>{block.title}</h2>
                         </Col>

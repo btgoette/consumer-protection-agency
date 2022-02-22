@@ -47,7 +47,7 @@
         "video": {
             "slug": "video-home",
             "title": "Consumer Protection Agency Marketing Video",
-            "poster": "/video/cpa-video-poster.png",
+            "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }
     }

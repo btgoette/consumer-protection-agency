@@ -41,7 +41,7 @@
             ],
             "cta": {
                 "ctaLabel": "Call to Action",
-                "url": "/"
+                "url": "#consumer-vendor-accounts"
             }
         },
         "consumerVendorAccounts": {
@@ -69,7 +69,7 @@
                 }
             ],
             "img": {
-                "src": "images/placeholder/600x400.png",
+                "src": "images/placeholder/600x400.webp",
                 "alt": ""
             }
         },

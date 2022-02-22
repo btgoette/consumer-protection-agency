@@ -1,25 +1,25 @@
 [
     {
         "cpa-logo-no-text": {
-            "img": "/images/logos/cpa-logo-no-text.png",
+            "img": "/images/logos/cpa-logo-no-text.webp",
             "alt": "Consumer Protection Agency"
         }
     },
     {
         "cpa-logo-text-on-the-side": {
-            "img": "/images/logos/cpa-logo-text-on-the-side.png",
+            "img": "/images/logos/cpa-logo-text-on-the-side.webp",
             "alt": "Consumer Protection Agency"
         }
     },
     {
         "cpa-logo-text-only": {
-            "img": "/images/logos/cpa-logo-text-only.png",
+            "img": "/images/logos/cpa-logo-text-only.webp",
             "alt": "Consumer Protection Agency"
         }
     },
     {
         "cpa-logo": {
-            "img": "/images/logos/cpa-logo.png",
+            "img": "/images/logos/cpa-logo.webp",
             "alt": "Consumer Protection Agency"
         }
     }

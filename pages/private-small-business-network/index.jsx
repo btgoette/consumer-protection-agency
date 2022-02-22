@@ -24,8 +24,6 @@ export default function PrivateSmallBusinessNetwork() {
 
         <List {...page.block.benefitsForTheSmallBusiness} />
 
-        <Video />
-
       </div>
 
     </>
