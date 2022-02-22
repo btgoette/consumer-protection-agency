@@ -24,7 +24,7 @@ export default function Footer() {
 
 
                         <Col lg={{ span: 4, order: 1 }}>
-                            <Link href="/">
+                            <Link href="/" passHref>
                                 <LazyLoadImage className="logo"
                                     src="/images/logos/cpa-logo-no-text.webp"
                                     alt="Consumer Protection Agency"
