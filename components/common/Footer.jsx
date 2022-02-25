@@ -21,8 +21,6 @@ export default function Footer() {
             <Container fluid className="footer">
                 <Container>
                     <Row className="block">
-
-
                         <Col lg={{ span: 4, order: 1 }}>
                             <Link href="/" passHref>
                                 <LazyLoadImage className="logo"
@@ -32,7 +30,7 @@ export default function Footer() {
                             </Link><br />
                         </Col>
 
-                        <Col lg={{ span: 4, order: 0 }}>
+                        <Col lg={{ span: 4, order: 0 }} className="mt-lg-4">
                             <ul>
                                 <li>
                                     <a href="tel:4693738788">469-373-8788
@@ -45,7 +43,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </Col>
-                        <Col lg={{ span: 4, order: 2 }}>
+                        <Col lg={{ span: 4, order: 2 }} className="mt-lg-4">
                             <ul>
                                 <li><Link href="/private-small-business-network">Private Small Business Network</Link></li>
                                 <li><Link href="/accounting-and-tax-services">Accounting and Tax Services</Link></li>
