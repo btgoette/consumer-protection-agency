@@ -3,12 +3,12 @@
     "description": "",
     "slug": "credit-restoration",
     "url": "https://consumerprotection.agency/credit-restoration",
-    "image": "",
-    "imageType": "",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
     "navigationLabel": "Credit Restoration",
-    "subtitle": "",
     "hero": {
         "slug": "hero-credit-restoration",
+        "container":"container-fluid",
         "column": [
             {
                 "offset": "0",
@@ -26,10 +26,11 @@
     "block": {
         "intro": {
             "slug": "intro-credit-restoration",
+            "container": "container-fluid",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "3",
+                    "span": "6",
                     "order": "0"
                 }
             ],
@@ -45,8 +46,8 @@
             }
         },
         "whatIsACreditScore": {
-            "background": "bg-white",
             "slug": "what-is-a-credit-score",
+            "container":"container",
             "column": [
                 {
                     "offset": "0",
@@ -62,7 +63,7 @@
             "title": "What is a FICO/Credit Score?",
             "subtitle": [
                 {
-                    "p": "A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers’ FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit. FICO scores take into account data in five areas to determine creditworthiness: payment history, current level of indebtedness, types of credit used, length of credit history, and new credit accounts."
+                    "p": "A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers' FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit. FICO scores take into account data in five areas to determine creditworthiness: payment history, current level of indebtedness, types of credit used, length of credit history, and new credit accounts."
                 },
                 {
                     "p": "It's a formula that ranges from 300 (the lowest) to 850 (highest). You are only responsible for 550 points in total."
@@ -75,8 +76,8 @@
             }
         },
         "whyIsThisImportant": {
-            "background": "bg-white",
             "slug": "why-is-this-important",
+            "container":"container",
             "column": [
                 {
                     "offset": "0",
@@ -92,10 +93,10 @@
             "title": "Why is this Important?",
             "subtitle": [
                 {
-                    "p": "Your credit score plays a vital role in your overall financial health. The so called, &ldquo;American Dream&rdquo; includes getting a house, car, job and children education. Over the years, businesses are making adjustments to their customer acquisition model to quality for a better quality of customers. In today&apos;s time, credit is now required to get cellphones, apartments, car rental, insurance and a normal part of a job application process. Good credit can lead to better interest rates for a home, car, and personal loan. A positive financial reputation can save you thousands of dollars and even free up cash flow. As mentioned before, getting a job requires credit history as it can be viewed as stability and even how responsible you are."
+                    "p": "Your credit score plays a vital role in your overall financial health. The so called, \"American Dream\" includes getting a house, car, job and children education. Over the years, businesses are making adjustments to their customer acquisition model to quality for a better quality of customers. In today's time, credit is now required to get cellphones, apartments, car rental, insurance and a normal part of a job application process. Good credit can lead to better interest rates for a home, car, and personal loan. A positive financial reputation can save you thousands of dollars and even free up cash flow. As mentioned before, getting a job requires credit history as it can be viewed as stability and even how responsible you are."
                 },
                 {
-                    "p": "When institutions, companies or lenders view your credit reports, there are certain guidelines or &ldquo;Laws&rdquo; that they must be followed. These laws are the FDCPA (Fair Debt Collections Act), FCRA (Fair Credit Reporting Act), UDAAP (Unfair Deceptive or Abusive Acts or Practices) and the TCA (Telephone Communications Act). These are known as Consumer Laws which was created to protect consumers. These laws are violated on a daily bases by large institutions. The uneducated consumer falls victim to their illegal and deceptive practices totaling billions of dollars in profits for the large corporation!"
+                    "p": "When institutions, companies or lenders view your credit reports, there are certain guidelines or \"Laws\" that they must be followed. These laws are the FDCPA (Fair Debt Collections Act), FCRA (Fair Credit Reporting Act), UDAAP (Unfair Deceptive or Abusive Acts or Practices) and the TCA (Telephone Communications Act). These are known as Consumer Laws which was created to protect consumers. These laws are violated on a daily bases by large institutions. The uneducated consumer falls victim to their illegal and deceptive practices totaling billions of dollars in profits for the large corporation!"
                 },
                 {
                     "p": "The Consumer Protection Agency steps in, upholds and enforces the law for the consumer."
@@ -108,8 +109,8 @@
             }
         },
         "benefitsForTheConsumer": {
-            "background" :"bg-white",
             "slug": "benefits-for-the-consumer",
+            "container":"container",
             "column": [
                 {
                     "offset": "0",
@@ -117,8 +118,8 @@
                     "order": "1"
                 },
                 {
-                    "offset": "0",
-                    "span": "6",
+                    "offset": "1",
+                    "span": "4",
                     "order": "0"
                 }
             ],
@@ -143,14 +144,14 @@
                 }
             ],
             "img": {
-                "src": "images/placeholder/600x400.webp",
+                "src": "images/page/credit-restoration/paying-on-phone-with-credit-card.webp",
                 "alt": "How Credit Score is Calculated",
                 "caption": ""
             }
         },
         "benefitsOfHavingGoodCredit": {
-            "background": "bg-white",
             "slug": "benefits-of-having-good-credit",
+            "container":"container",
             "column": [
                 {
                     "offset": "0",
@@ -191,7 +192,7 @@
                 }
             ],
             "img": {
-                "src": "images/placeholder/600x400.webp",
+                "src": "images/page/credit-restoration/handshake.webp",
                 "alt": "How Credit Score is Calculated",
                 "caption": ""
             }

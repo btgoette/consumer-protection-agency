@@ -7,9 +7,8 @@ export default function TwoColumnGridImage(block) {
         <>
 
             <a className="anchor" id={block.slug}></a>
-            <Container fluid className="section">
-                <Container className={block.slug}>
-                    <Row className="block">
+            <section className={block.slug + " section " + block.container}>
+                    <Row className="block align-items-center">
                         <Col xs={12}>
                             <h2>{block.title}</h2>
                         </Col>
@@ -30,8 +29,7 @@ export default function TwoColumnGridImage(block) {
                             ))}
                         </Col>
                     </Row>
-                </Container>
-            </Container>
+            </section>
 
         </>
     )

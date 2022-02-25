@@ -4,7 +4,6 @@ export default function Hero(hero) {
 
     return (
         <>
-
             <Container fluid className={hero.slug }>
                 <Container>
                     <Row>
@@ -20,7 +19,6 @@ export default function Hero(hero) {
                     </Row>
                 </Container>
             </Container>
-
         </>
     )
 }

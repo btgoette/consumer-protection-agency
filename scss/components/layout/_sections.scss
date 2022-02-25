@@ -4,11 +4,15 @@ body {
 }
 
 .container-fluid {
-    max-width: 100vw;
+    width: 100vw;
+}
+
+.container {
+    max-width: 1400px;
 }
 
 .row {
-    align-items:top;
+    align-items: top;
 }
 
 .block {
@@ -16,12 +20,18 @@ body {
 }
 
 .section {
-    padding: $section-padding;
+    padding: $section-padding-mobile;
 }
 
 .anchor {
     display: block;
     position: relative;
-    top:-150px;
+    top: -106px;
     visibility: hidden;
+}
+
+@media only screen and (min-width: $medium) {
+    .section {
+        padding: $section-padding;
+    }
 }

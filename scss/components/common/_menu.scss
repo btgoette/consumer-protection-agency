@@ -18,19 +18,19 @@
     background-color: $dark-gray;
     background-size: $background-cover;
     background-position: $background-center;
-    background-blend-mode: $background-overlay;
+    background-blend-mode: $background-soft-light;
 
     a {
       color: $white;
     }
 
     &:hover {
-      background-blend-mode: $background-overlay-hover;
+      background-blend-mode: $background-multiply;
     }
   }
 
-  .lbmp {
-    background-image: url("/images/menu/cpa-services-lbmp-background.webp");
+  .psbn {
+    background-image: url("/images/menu/cpa-services-psbn-background.webp");
   }
 
   .ats {
