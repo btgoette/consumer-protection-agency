@@ -3,10 +3,9 @@
     "description": "",
     "slug": "accounting-and-tax-services",
     "url": "https://consumerprotection.agency/accounting-and-tax-services",
-    "image": "",
-    "imageType": "",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
     "navigationLabel": "Accounting & Tax Services",
-    "subtitle": "",
     "hero": {
         "slug": "hero-accounting-and-tax-services",
         "column": [
@@ -26,10 +25,11 @@
     "block": {
         "intro": {
             "slug": "intro-accounting-and-tax-services",
+            "container": "container-fluid",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "3",
+                    "span": "6",
                     "order": "0"
                 }
             ],

@@ -2,7 +2,7 @@
 $black: #030303;
 $blue: #1b1c4e;
 $dark-blue: #15153a;
-$dark-gray: #565758;
+$dark-gray: #404142;
 $dark-red: #8f0f1f;
 $gray: #828386;
 $light-blue: #2b2d80;
@@ -17,13 +17,18 @@ $background-center: center center;
 $background-x: center;
 $background-y: 80%;
 $background-cover: cover;
-$background-overlay: multiply;
-$background-overlay-hover: soft-light;
+$background-multiply: multiply;
+$background-overlay: overlay;
+$background-soft-light: soft-light;
+$background-hard-light: hard-light;
 $background-top-right: top right;
 $footer-background-color: $blue;
 $footer-copyright-background-color: $black;
 $hero-background: $light-gray;
+$hero-blend: $background-multiply;
 $image-background-color: $white;
+$intro-background-color: $dark-gray;
+$intro-blend: $background-multiply;
 $nav-background-color: $white;
 $nav-topbar-background-color: $blue;
 $navbar-toggler-background-color: transparent;
@@ -79,6 +84,8 @@ $h2-font-size: 2.2rem;
 $h2-font-size-mobile: 1.75rem;
 $h2-margin-bottom: 2rem;
 
+$intro-font-color: $white;
+
 $footer-font-color: $white;
 $footer-font-size: 1rem;
 $footer-font-weight: 500;
@@ -97,6 +104,8 @@ $link-font-color: $blue;
 $link-font-hover-color: $dark-blue;
 $link-font-weight: 500;
 
+$list-font-size: 1.25rem;
+
 $nav-font-color: $black;
 $nav-font-hover-color: $dark-blue;
 $nav-font-family: $body-font-family-bold-italic;
@@ -113,8 +122,12 @@ $offcanvas-header-font-color: $white;
 
 // padding and margins
 $block-padding: 2rem;
-$hero-padding: 6rem 0;
-$hero-padding-mobile: 4rem 0 10rem;
-$image-padding: 0;
+$hero-padding: 9rem 0;
+$hero-padding-mobile: 6rem 0 12rem;
+$image-padding: 1rem;
+$intro-padding-mobile: 3rem 1rem 2rem;
+$intro-padding: 6rem 2rem;
+$list-padding: 0 0 1rem;
+$p-padding: 1rem 0 0;
+$section-padding-mobile: 2rem 0 1rem;
 $section-padding: 4rem 0 2rem;
-$section-padding-large: 4rem 0 2rem;

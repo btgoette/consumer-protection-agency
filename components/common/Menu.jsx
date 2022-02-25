@@ -8,7 +8,7 @@ export default function CPAServicesMenu() {
         <>
 
             <Container fluid className="menu">
-                <div className="cpa-services-menu-block lbmp">
+                <div className="cpa-services-menu-block psbn">
                     <Link href="/private-small-business-network">
                         <a>
                             <p>Private Small Business Network</p>

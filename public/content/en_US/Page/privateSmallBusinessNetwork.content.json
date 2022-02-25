@@ -3,10 +3,9 @@
     "description": "",
     "slug": "private-small-business-network",
     "url": "https://consumerprotection.agency/private-small-business-network",
-    "image": "",
-    "imageType": "",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
     "navigationLabel": "Private Small Business Network",
-    "subtitle": "",
     "hero": {
         "slug": "hero-private-small-business-network",
         "column": [
@@ -26,10 +25,11 @@
     "block": {
         "intro": {
             "slug": "intro-private-small-business-network",
+            "container": "container-fluid",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "3",
+                    "span": "6",
                     "order": "0"
                 }
             ],
@@ -40,13 +40,14 @@
                 }
             ],
             "cta": {
-                "ctaLabel": "Call to Action",
+                "ctaLabel": "Consumer Vendor Accounts",
                 "url": "#consumer-vendor-accounts"
             }
         },
         "consumerVendorAccounts": {
             "background": "bg-white",
             "slug": "consumer-vendor-accounts",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -62,20 +63,21 @@
             "title": "Consumer Vendor Accounts",
             "subtitle": [
                 {
-                    "p": "A consumer account is a term used in the credit reporting ndustry to describe items listed on a consumer's credit report. Each account displayed on a consumers credit report includes information about the creditor, history, balance and debt."
+                    "p": "A consumer account is a term used in the credit reporting industry to describe items listed on a consumer's credit report. Each account displayed on a consumers credit report includes information about the creditor, history, balance and debt."
                 },
                 {
                     "p": "Typically, credit repair companies will remove inaccurate or incomplete information from a consumer credit report, resulting in a skeletal credit profile. A skeletal credit profile is when you have a high credit score but no depth to show maturity. This results in denied credit applications. The B2C Partners network on the other hand, takes a different approach by rehabilitating a consumers credit profile with depth and a good credit mix. To highlight this distinction, the B2C partners network explains the benefits below:"
                 }
             ],
             "img": {
-                "src": "images/placeholder/600x400.webp",
-                "alt": ""
+                "src": "images/page/private-small-business-network/local-business-point-of-sale.webp",
+                "alt": "Local business point of sale"
             }
         },
         "benefitsForTheConsumer": {
             "background": "bg-white",
             "slug": "benefits-for-the-consumer",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -122,6 +124,7 @@
         },
         "benefitsForTheSmallBusiness": {
             "slug": "benefits-for-the-small-business",
+            "container": "container",
             "title": "Benefits for the Small Business",
             "list": [
                 {

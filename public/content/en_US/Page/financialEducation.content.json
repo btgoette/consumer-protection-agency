@@ -3,10 +3,9 @@
     "description": "",
     "slug": "financial-education",
     "url": "https://consumerprotection.agency/financial-education",
-    "image": "",
-    "imageType": "",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
     "navigationLabel": "Financial Education",
-    "subtitle": "",
     "hero": {
         "slug": "hero-financial-education",
         "column": [
@@ -26,10 +25,11 @@
     "block": {
         "intro": {
             "slug": "intro-financial-education",
+            "container": "container-fluid",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "3",
+                    "span": "6",
                     "order": "0"
                 }
             ],
