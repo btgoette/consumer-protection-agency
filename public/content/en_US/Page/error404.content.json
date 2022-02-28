@@ -1,0 +1,9 @@
+{
+    "title": "Page Not Found",
+    "description": "This page does not exist. Check URL and try again",
+    "slug": "404",
+    "url": "https://consumerprotection.agency/404",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "404"
+}

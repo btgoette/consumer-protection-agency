@@ -1,9 +1,10 @@
 .video {
   background-color: $video-background-color;
 
-  .video-home {
+  &.video-home {
     padding: 0 0;
   }
+  
   .block {
     padding: 0 0;
   }

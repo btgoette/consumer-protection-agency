@@ -7,7 +7,7 @@ export default function Video(video) {
   return (
     <>
       <a className="anchor" id={video.slug}></a>
-      <section className={video.slug + "video " + video.container}>
+      <section className={video.container + " video " + video.slug}>
         <Row>
           <Col lg={{ offset: video.column[0].offset, span: video.column[0].span }}>
             <Player playsInline poster={video.poster} src={video.src}>

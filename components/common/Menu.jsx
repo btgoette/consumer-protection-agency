@@ -9,14 +9,14 @@ export default function CPAServicesMenu() {
 
             <Container fluid className="menu">
                 <div className="cpa-services-menu-block psbn">
-                    <Link href="/private-small-business-network">
+                    <Link href="/services/private-small-business-network">
                         <a>
                             <p>Private Small Business Network</p>
                         </a>
                     </Link>
                 </div>
                 <div className="cpa-services-menu-block ats">
-                    <Link href="/accounting-and-tax-services">
+                    <Link href="/services/accounting-and-tax-services">
                         <a>
                             <p>Accounting &amp; Tax Services </p>
 
@@ -24,14 +24,14 @@ export default function CPAServicesMenu() {
                     </Link>
                 </div>
                 <div className="cpa-services-menu-block fe">
-                    <Link href="/financial-education">
+                    <Link href="/services/financial-education">
                         <a>
                             <p>Financial Education</p>
                         </a>
                     </Link>
                 </div>
                 <div className="cpa-services-menu-block cr">
-                    <Link href="/credit-restoration">
+                    <Link href="/services/credit-restoration">
                         <a>
                             <p>Credit Restoration</p>
                         </a>

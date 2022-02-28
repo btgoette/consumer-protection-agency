@@ -2,7 +2,7 @@
     "title": "Private Small Business Network",
     "description": "",
     "slug": "private-small-business-network",
-    "url": "https://consumerprotection.agency/private-small-business-network",
+    "href": "https://consumerprotection.agency/private-small-business-network",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Private Small Business Network",
@@ -19,7 +19,7 @@
         "subtitle": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
-            "url": "#intro-private-small-business-network"
+            "href": "#intro-private-small-business-network"
         }
     },
     "block": {
@@ -41,7 +41,7 @@
             ],
             "cta": {
                 "ctaLabel": "Consumer Vendor Accounts",
-                "url": "#consumer-vendor-accounts"
+                "href": "#consumer-vendor-accounts"
             }
         },
         "consumerVendorAccounts": {
@@ -70,7 +70,7 @@
                 }
             ],
             "img": {
-                "src": "images/page/private-small-business-network/local-business-point-of-sale.webp",
+                "src": "/images/page/private-small-business-network/local-business-point-of-sale.webp",
                 "alt": "Local business point of sale"
             }
         },

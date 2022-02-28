@@ -26,6 +26,21 @@
         width: 100%;
         background: $nav-background-color !important;
 
+        .nav-grid {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+
+            .nav-desktop-contact {
+                display: none;
+            }
+
+            .nav-navbar {
+                display: flex;
+                justify-self: end;
+            }
+        }
+
         .logo {
             width: 100%;
             max-width: 250px;
@@ -65,9 +80,25 @@
         }
 
         .navbar {
+
             .logo {
                 max-width: 400px;
             }
+
+            .nav-grid {
+                .nav-desktop-contact {
+                    justify-self: end;
+                    display: flex;
+                    padding-right: 0.5rem;
+        
+                    .nav-contact-link {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
         }
+
+        
     }
 }
