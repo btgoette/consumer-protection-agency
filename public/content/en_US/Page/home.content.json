@@ -1,8 +1,8 @@
 {
     "title": "Consumer Protection Agency",
-    "description": "",
+    "description": "We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
     "slug": "home",
-    "url": "https://consumerprotection.agency",
+    "href": "https://consumerprotection.agency",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Home",
@@ -19,7 +19,7 @@
         "subtitle": "Helping people and businesses improve their financial health.",
         "cta": {
             "ctaLabel": "Learn More",
-            "url": "#intro-home"
+            "href": "#intro-home"
         }
     },
     "block": {
@@ -41,7 +41,7 @@
             ],
             "cta": {
                 "ctaLabel": "Watch Our Video",
-                "url": "#video-home"
+                "href": "#video-home"
             }
         },
         "video": {

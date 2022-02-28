@@ -11,7 +11,7 @@ export default function Hero(hero) {
                             <h1 className="text-center text-md-start">{hero.title}</h1>
                             <p className="text-center text-md-start">{hero.subtitle}</p>
                             <p>
-                                <Button href={hero.cta.url}>
+                                <Button href={hero.cta.href}>
                                     {hero.cta.ctaLabel}
                                 </Button>
                             </p>

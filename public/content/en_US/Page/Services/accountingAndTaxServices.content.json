@@ -1,13 +1,13 @@
 {
-    "title": "Financial Education",
+    "title": "Accounting & Tax Services",
     "description": "",
-    "slug": "financial-education",
-    "url": "https://consumerprotection.agency/financial-education",
+    "slug": "accounting-and-tax-services",
+    "href": "https://consumerprotection.agency/accounting-and-tax-services",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Financial Education",
+    "navigationLabel": "Accounting & Tax Services",
     "hero": {
-        "slug": "hero-financial-education",
+        "slug": "hero-accounting-and-tax-services",
         "column": [
             {
                 "offset": "0",
@@ -15,16 +15,16 @@
                 "order": "0"
             }
         ],
-        "title": "Financial Education",
-        "subtitle": "Something Important about this page",
+        "title": "Accounting & Tax Services",
+        "subtitle": "Something Important About This Page",
         "cta": {
             "ctaLabel": "Learn More",
-            "url": "#intro-financial-education"
+            "href": "#intro-accounting-and-tax-services"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-financial-education",
+            "slug": "intro-accounting-and-tax-services",
             "container": "container-fluid",
             "column": [
                 {
@@ -41,7 +41,7 @@
             ],
             "cta": {
                 "ctaLabel": "Call to Action",
-                "url": "/"
+                "href": "/"
             }
         }
     }

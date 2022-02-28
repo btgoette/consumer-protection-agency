@@ -19,7 +19,7 @@ export default function Intro(intro) {
               <p key={i}>{p}</p>
             ))}
             <p className="text-center">
-              <Button href={intro.cta.url}>{intro.cta.ctaLabel}</Button>
+              <Button href={intro.cta.href}>{intro.cta.ctaLabel}</Button>
             </p>
           </Col>
         </Row>

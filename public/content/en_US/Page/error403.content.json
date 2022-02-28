@@ -1,0 +1,9 @@
+{
+    "title": "Page Forbidden",
+    "description": "This page is forbidden. Check URL and try again",
+    "slug": "404",
+    "url": "https://consumerprotection.agency/403",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "403"
+}

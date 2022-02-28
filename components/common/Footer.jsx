@@ -45,10 +45,10 @@ export default function Footer() {
                         </Col>
                         <Col lg={{ span: 4, order: 2 }} className="mt-lg-4">
                             <ul>
-                                <li><Link href="/private-small-business-network">Private Small Business Network</Link></li>
-                                <li><Link href="/accounting-and-tax-services">Accounting and Tax Services</Link></li>
-                                <li><Link href="/financial-education">Financial Education</Link></li>
-                                <li><Link href="/credit-restoration">Credit Restoration</Link></li>
+                                <li><Link href="/services/private-small-business-network">Private Small Business Network</Link></li>
+                                <li><Link href="/services/accounting-and-tax-services">Accounting and Tax Services</Link></li>
+                                <li><Link href="/services/financial-education">Financial Education</Link></li>
+                                <li><Link href="/services/credit-restoration">Credit Restoration</Link></li>
                             </ul>
                         </Col>
                     </Row>
