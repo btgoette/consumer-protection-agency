@@ -21,7 +21,7 @@ export default function Newsletter(newsletter) {
                   <input
                     name="email"
                     type="email"
-                    id="subscribe-email"
+                    id="mr-field-element-309465076175"
                     placeholder="Email"
                   />
                 </fieldset>
@@ -30,7 +30,7 @@ export default function Newsletter(newsletter) {
                     type="submit"
                     name="submit-button"
                     value="Submit"
-                    id="subscribe-submit"
+                    id="mr-field-element-906286776126"
                   />
                 </fieldset>
 

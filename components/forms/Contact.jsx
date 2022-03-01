@@ -11,47 +11,47 @@ export default function ContactForm() {
       acceptCharset="UTF-8"
     >
       <fieldset>
-        <label htmlFor="firstname">First Name<span className="required">*</span></label>
+        <label htmlFor="mr-field-element-665400750684">First Name<span className="required">*</span></label>
         <input
           aria-label="First Name"
           type="text"
           name="firstname"
           pattern="[a-zA-Z][a-zA-Z ]+"
-          id="contact-first-name"
+          id="mr-field-element-665400750684"
           required
         />
       </fieldset>
 
       <fieldset>
-        <label htmlFor="email">Email<span className="required">*</span></label>
+        <label htmlFor="mr-field-element-488599729958">Email<span className="required">*</span></label>
         <input
           aria-label="Email"
           type="email"
           name="email"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-          id="contact-email"
+          id="mr-field-element-488599729958"
           required
         />
       </fieldset>
 
       <fieldset>
-        <label htmlFor="office_phone">Office Phone<span className="required">*</span></label>
+        <label htmlFor="mr-field-element-982783901333">Phone<span className="required">*</span></label>
         <input
           aria-label="Office Phone"
           type="tel"
           name="office_phone"
           pattern="[0-9]{10}"
-          id="contact-phone"
+          id="mr-field-element-982783901333"
           required
         />
       </fieldset>
 
       <fieldset>
-        <label htmlFor="f1794">Comment</label>
+        <label htmlFor="mr-field-element-167372072412">Comment</label>
         <textarea
           aria-label="Comment"
-          name="f1794"
-          id="contact-comment"
+          name="notes"
+          id="mr-field-element-167372072412"
         ></textarea>
       </fieldset>
 
@@ -60,7 +60,7 @@ export default function ContactForm() {
           type="submit"
           name="submit-button"
           value="Submit"
-          id="contact-submit"
+          id="mr-field-element-396621743854"
         />
       </fieldset>
 
@@ -82,16 +82,16 @@ export default function ContactForm() {
       <input name="_fbc" type="hidden" value="" />
       <input name="_fbp" type="hidden" value="" />
       <input name="uid" type="hidden" value="p2c240683f3" />
-      <input name="uniquep2c240683f3" type="hidden" value="0" />
+      <input name="uniquep2c240683f10" type="hidden" value="0" />
       <input
         name="mopsbbk"
         type="hidden"
-        value="9D2A6228D46D85C764405CC7:1B1D4E78CFD9596BEB81B77E"
+        value="C69056D916597CE1FE6CE0F3:217482655EABF8D3ABF50C82"
       />
       <input
         name="mopbelg"
         type="hidden"
-        value="0150428:70C2E1FB3BBDB90EC287A65A:B1BB45C5C1EE4DD90C541B40"
+        value="0150446:450CEA0C386284807C7321B2:B8C6510594F9818521BC5E38"
       />
     </form>
   );
