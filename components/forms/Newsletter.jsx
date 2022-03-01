@@ -12,10 +12,10 @@ export default function Newsletter(newsletter) {
             </Col>
             <Col lg={6}>
               <form
-                class="newsletter-form d-block d-lg-flex align-items-center"
+                className="newsletter-form d-block d-lg-flex align-items-center"
                 action="https://forms.ontraport.com/v2.4/form_processor.php?"
                 method="post"
-                accept-charset="UTF-8"
+                acceptCharset="UTF-8"
               >
                 <fieldset className="newsletter-email">
                   <input
