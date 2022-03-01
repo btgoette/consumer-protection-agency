@@ -1,42 +1,73 @@
-import { Container, Row, Col, Form, Button } from 'react-bootstrap'
-
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Newsletter(newsletter) {
+  return (
+    <>
+      <Container fluid className="newsletter section">
+        <Container>
+          <Row className="block">
+            <Col lg={{ offset: 2, span: 4 }}>
+              <h2 className="mb-0 text-lg-start">Subscribe</h2>
+              <p className="text-lg-start">to learn more about our services.</p>
+            </Col>
+            <Col lg={6}>
+              <form
+                class="newsletter-form d-block d-lg-flex align-items-center"
+                action="https://forms.ontraport.com/v2.4/form_processor.php?"
+                method="post"
+                accept-charset="UTF-8"
+              >
+                <fieldset className="newsletter-email">
+                  <input
+                    name="email"
+                    type="email"
+                    id="subscribe-email"
+                    placeholder="Email"
+                  />
+                </fieldset>
+                <fieldset className="newsletter-submit">
+                  <input
+                    type="submit"
+                    name="submit-button"
+                    value="Submit"
+                    id="subscribe-submit"
+                  />
+                </fieldset>
 
-    return (
-
-        <>
-
-            <Container fluid className="newsletter section">
-                <Container>
-                    <Row className="block">
-                        <Col>
-                            <div className="row d-flex align-items-center text-center rows mb-5">
-                                <Col lg={{ offset: 2, span: 4 }}>
-                                    <h2 className="mb-0 text-lg-start">Subscribe</h2>
-                                    <p className="text-lg-start">to learn more about our services.</p>
-                                </Col>
-                                <Col lg={6}>
-                                    <div className="d-none d-md-flex mx-5">
-                                        <div className="input-group mb-3 mt-4">
-                                            <input type="text" className="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                                            <button className="btn btn-secondary border-rad" type="button" id="button-addon2">Subscribe</button>
-                                        </div>
-                                    </div>
-                                    <div className="d-flex d-md-none mx-2">
-                                        <div className="mb-3 mx-auto mt-1">
-                                            <input type="text" className="form-control mx-auto w-100 mb-2" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                                            <button className="w-100 btn btn-secondary border-rad" type="button" id="button-addon2">Subscribe</button>
-                                        </div>
-                                    </div>
-                                </Col>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </Container >
-
-        </>
-
-    )
+                <input name="afft_" type="hidden" value="" />
+                <input name="aff_" type="hidden" value="" />
+                <input name="sess_" type="hidden" value="" />
+                <input name="ref_" type="hidden" value="" />
+                <input name="own_" type="hidden" value="" />
+                <input name="oprid" type="hidden" value="" />
+                <input name="contact_id" type="hidden" value="" />
+                <input name="utm_source" type="hidden" value="" />
+                <input name="utm_medium" type="hidden" value="" />
+                <input name="utm_term" type="hidden" value="" />
+                <input name="utm_content" type="hidden" value="" />
+                <input name="utm_campaign" type="hidden" value="" />
+                <input name="referral_page" type="hidden" value="" />
+                <input name="_op_gclid" type="hidden" value="" />
+                <input name="_op_gcid" type="hidden" value="" />
+                <input name="_fbc" type="hidden" value="" />
+                <input name="_fbp" type="hidden" value="" />
+                <input name="uid" type="hidden" value="p2c240683f9" />
+                <input name="uniquep2c240683f9" type="hidden" value="0" />
+                <input
+                  name="mopsbbk"
+                  type="hidden"
+                  value="A6C450349E3BCF5BF44C87DC:0D1B7860EEEB951D56945A18"
+                />
+                <input
+                  name="mopbelg"
+                  type="hidden"
+                  value="0150444:09EA9C469556483767F3FB84:EB74917CCEB161F908191589"
+                />
+              </form>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </>
+  );
 }

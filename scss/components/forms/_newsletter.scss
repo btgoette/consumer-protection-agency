@@ -1,0 +1,42 @@
+.newsletter {
+    max-width: 600px;
+    text-align: center;
+
+    .newsletter-form {
+        display: block;
+        padding: 0 0 4rem;
+        max-width: 300px;
+        margin: 0 auto;
+        
+
+        fieldset {
+            padding:1rem 0 0;
+        }
+
+        .newsletter-submit {
+            text-align: center;
+
+            input[type="submit"] {
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        max-width: unset;
+        .newsletter-form {
+            display: flex;
+            max-width: unset;
+            align-items: center;
+
+            .newsletter-submit {
+                input[type="submit"] {
+                    border-bottom-left-radius: 0;
+                    border-top-left-radius: 0;
+                    margin-left: -1rem;
+                    padding: 12px 2.5rem 13px 1.5rem;
+                }
+            }
+        }
+    }
+}
