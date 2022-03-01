@@ -8,10 +8,10 @@ export default function ContactForm() {
       id="contactForm"
       method="POST"
       action="https://forms.ontraport.com/v2.4/form_processor.php?"
-      accept-charset="UTF-8"
+      acceptCharset="UTF-8"
     >
       <fieldset>
-        <label for="firstname">First Name<span className="required">*</span></label>
+        <label htmlFor="firstname">First Name<span className="required">*</span></label>
         <input
           aria-label="First Name"
           type="text"
@@ -23,7 +23,7 @@ export default function ContactForm() {
       </fieldset>
 
       <fieldset>
-        <label for="email">Email<span className="required">*</span></label>
+        <label htmlFor="email">Email<span className="required">*</span></label>
         <input
           aria-label="Email"
           type="email"
@@ -35,7 +35,7 @@ export default function ContactForm() {
       </fieldset>
 
       <fieldset>
-        <label for="office_phone">Office Phone<span className="required">*</span></label>
+        <label htmlFor="office_phone">Office Phone<span className="required">*</span></label>
         <input
           aria-label="Office Phone"
           type="tel"
@@ -47,7 +47,7 @@ export default function ContactForm() {
       </fieldset>
 
       <fieldset>
-        <label for="f1794">Comment</label>
+        <label htmlFor="f1794">Comment</label>
         <textarea
           aria-label="Comment"
           name="f1794"
