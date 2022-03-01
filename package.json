@@ -1,10 +1,10 @@
 {
   "name": "consumer-protection-agency",
   "private": true,
-  "version": "0.0.10",
+  "version": "0.0.11",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -44,5 +44,26 @@
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btgoette/credit-protection-agency.git"
+  },
+  "keywords": [
+    "health",
+    "tax",
+    "accounting",
+    "finance",
+    "credit",
+    "business",
+    "network",
+    "services",
+    "debt"
+  ],
+  "author": "Bryan Goette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btgoette/credit-protection-agency/issues"
+  },
+  "homepage": "https://github.com/btgoette/credit-protection-agency#readme"
 }

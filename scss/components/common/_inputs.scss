@@ -1,0 +1,16 @@
+input:not([type="submit"]),
+textarea {
+    cursor: text;
+    padding: 11px .5rem;
+    width: 100%;
+    border: 1px solid $gray;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 1rem 0;
+}
+
+.required {
+    color: $red;
+}

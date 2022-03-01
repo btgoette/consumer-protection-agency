@@ -1,12 +1,15 @@
-.btn {
+.btn,
+input[type="submit"]  {
     border: $button-border;
     border-radius: $button-border-radius;
     font-size: $button-font-size;
     padding: $button-padding;
 }
 
-.btn-primary {
+.btn-primary,
+input[type="submit"] {
     background-color: $button-primary-background-color;
+    color: $white;
 
     &:hover {
         background-color: $button-primary-background-hover-color;
