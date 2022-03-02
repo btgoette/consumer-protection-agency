@@ -1,0 +1,29 @@
+{
+    "title": "Thank You",
+    "description": "Your form submission has been successful.",
+    "slug": "thank-you",
+    "href": "https://consumerprotection.agency/thank-you",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "Thank You",
+    "hero": {
+        "slug": "thank-you",
+        "column": [
+            {
+                "offset": "4",
+                "span": "4",
+                "order": "0"
+            }
+        ],
+        "title": "Thank you for your form submission.",
+        "subtitle": "We will contact you soon!",
+        "cta": {
+            "ctaLabel": "Back to Home",
+            "href": "/"
+        },
+        "image": {
+            "src": "/images/logos/cpa-logo.webp",
+            "alt": "Back to Home"
+        }
+    }
+}

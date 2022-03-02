@@ -9,6 +9,7 @@ import {
   Nav,
   NavDropdown,
   Offcanvas,
+  CloseButton
 } from "react-bootstrap";
 
 export default function CustomNav() {
@@ -57,7 +58,7 @@ export default function CustomNav() {
                 aria-labelledby="offcanvasNavbarLabel"
                 placement="end"
               >
-                <Offcanvas.Header closeButton>
+                <Offcanvas.Header>
                   <Offcanvas.Title id="offcanvasNavbarLabel">
                     Menu
                   </Offcanvas.Title>
@@ -81,6 +82,9 @@ export default function CustomNav() {
                       </NavDropdown.Item>
                       <NavDropdown.Item href="/services/credit-restoration">
                         Credit Restoration
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href="/services/extended-warranty-service">
+                        Extended Warranty Service
                       </NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item>
@@ -145,6 +149,9 @@ export default function CustomNav() {
                     <NavDropdown.Item href="/services/credit-restoration">
                       Credit Restoration
                     </NavDropdown.Item>
+                    <NavDropdown.Item href="/services/extended-warranty-service">
+                        Extended Warranty Service
+                      </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Item>
                     <Link href="/in-the-news/" passHref>
