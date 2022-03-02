@@ -1,6 +1,5 @@
 .newsletter {
     max-width: 600px;
-    text-align: center;
 
     .newsletter-form {
         display: block;
@@ -10,7 +9,7 @@
         
 
         fieldset {
-            padding:1rem 0 0;
+            padding:0.5rem 0;
         }
 
         .newsletter-submit {
@@ -22,19 +21,23 @@
         }
     }
 
-    @media only screen and (min-width: $large) {
+    @media only screen and (min-width: $x-large) {
         max-width: unset;
+        text-align: center;
         .newsletter-form {
             display: flex;
+            margin: 0 auto;
+            gap: 1rem;
             max-width: unset;
             align-items: center;
+            padding: 0 0;
 
             .newsletter-submit {
                 input[type="submit"] {
                     border-bottom-left-radius: 0;
                     border-top-left-radius: 0;
-                    margin-left: -1rem;
-                    padding: 12px 2.5rem 13px 1.5rem;
+                    margin-left: -2.5rem;
+                    padding: 12px 4rem 13px 1rem;
                 }
             }
         }
