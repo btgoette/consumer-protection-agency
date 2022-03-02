@@ -4,7 +4,7 @@ export default function Intro(intro) {
   return (
     <>
       <a className="anchor" id={intro.slug}></a>
-      <section className={intro.slug + " intro " + intro.container}>
+      <section className={intro.slug + " intro"}>
         <Row>
           <Col
             lg={{

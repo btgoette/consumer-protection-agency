@@ -4,7 +4,7 @@ export default function Hero(hero) {
 
     return (
         <>
-            <Container fluid className={hero.slug }>
+            <Container fluid className={hero.slug}>
                 <Container>
                     <Row>
                         <Col md={{offset: hero.column[0].offset, span: hero.column[0].span, order: hero.column[0].order}} className="block text-center text-md-start">

@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <>
       <section>
-        <Container>
+        <Container className="section">
           <Row className="block">
             <Col md={{ offset: 3, span: 6 }}>
               <h1 className="text-center">Contact Us</h1>

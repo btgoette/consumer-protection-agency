@@ -92,7 +92,7 @@ export default function TwoColumnGrid(block) {
     return (
       <>
         <a className="anchor" id={block.slug}></a>
-        <section className={block.slug + " section " + block.container}>
+        <section className={block.slug + " section"}>
           <Row className="block">
             <Col md={12}>
               <h2>{block.title}</h2>

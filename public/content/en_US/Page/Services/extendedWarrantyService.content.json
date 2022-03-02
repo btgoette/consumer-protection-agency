@@ -1,0 +1,48 @@
+{
+    "title": "Extended Warranty Service",
+    "description": "",
+    "slug": "extended-warranty-service",
+    "href": "https://consumerprotection.agency/extended-warranty-service",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "Extended Warranty Service",
+    "hero": {
+        "slug": "hero-extended-warranty-service",
+        "column": [
+            {
+                "offset": "0",
+                "span": "5",
+                "order": "0"
+            }
+        ],
+        "title": "Extended Warranty Service",
+        "subtitle": "Something Important About This Page",
+        "cta": {
+            "ctaLabel": "Learn More",
+            "href": "#intro-extended-warranty-service"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-extended-warranty-service",
+            "container": "container-fluid",
+            "column": [
+                {
+                    "offset": "3",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "The B2C Partners Network",
+            "subtitle": [
+                {
+                    "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Call to Action",
+                "href": "/"
+            }
+        }
+    }
+}

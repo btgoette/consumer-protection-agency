@@ -3,25 +3,36 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Newsletter(newsletter) {
   return (
     <>
-      <Container fluid className="newsletter section">
+      <Container fluid className="newsletter section pb-6 mb-xl-3">
         <Container>
-          <Row className="block">
-            <Col lg={{ offset: 2, span: 4 }}>
-              <h2 className="mb-0 text-lg-start">Subscribe</h2>
-              <p className="text-lg-start">to learn more about our services.</p>
+          <Row className="block align-items-center">
+            <Col xl={4}>
+              <h2 className="mb-0 text-xl-start">Join our mailing list</h2>
+              <p className="text-center text-xl-start">Stay up to date with news, tips, and more.</p>
             </Col>
-            <Col lg={6}>
-              <form
-                className="newsletter-form d-block d-lg-flex align-items-center"
+            <Col xl={8}>  
+            <form
+                className="newsletter-form"
                 action="https://forms.ontraport.com/v2.4/form_processor.php?"
                 method="post"
                 acceptCharset="UTF-8"
               >
+                <fieldset className="newsletter-first-name">
+                  <input
+                    aria-label="Name"
+                    type="text"
+                    name="firstname"
+                    pattern="[a-zA-Z][a-zA-Z ]+"
+                    placeholder="First Name"
+                    id="mr-field-element-239782565674"
+                    required
+                  />
+                </fieldset>
                 <fieldset className="newsletter-email">
                   <input
                     name="email"
                     type="email"
-                    id="subscribe-email"
+                    id="mr-field-element-309465076175"
                     placeholder="Email"
                   />
                 </fieldset>
@@ -30,7 +41,7 @@ export default function Newsletter(newsletter) {
                     type="submit"
                     name="submit-button"
                     value="Submit"
-                    id="subscribe-submit"
+                    id="mr-field-element-906286776126"
                   />
                 </fieldset>
 
@@ -56,12 +67,12 @@ export default function Newsletter(newsletter) {
                 <input
                   name="mopsbbk"
                   type="hidden"
-                  value="A6C450349E3BCF5BF44C87DC:0D1B7860EEEB951D56945A18"
+                  value="0BD29BF1F484A3F24C461B5D:FB973EF9754B958688607A03"
                 />
                 <input
                   name="mopbelg"
                   type="hidden"
-                  value="0150444:09EA9C469556483767F3FB84:EB74917CCEB161F908191589"
+                  value="0150455:14A437690DFB41CE167DFD19:AE7BC82C6769D912438CDA4A"
                 />
               </form>
             </Col>
