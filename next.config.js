@@ -13,6 +13,7 @@ module.exports = {
       "/services/financial-education": { page: "/services/financial-education" },
       "/services/credit-restoration": { page: "/services/credit-restoration" },
       "/testimonials": { page: "/testimonials" },
+      "/thank-you": { page: "/thank-you" },
       "/": { page: "/" },
       "/404": { page: "/404" },
       "/403": { page: "/403" }
