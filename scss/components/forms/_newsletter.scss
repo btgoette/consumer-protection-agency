@@ -1,5 +1,5 @@
 .newsletter {
-    max-width: 600px;
+    background-color: $newsletter-background-color;
 
     .newsletter-form {
         display: block;
@@ -22,7 +22,6 @@
     }
 
     @media only screen and (min-width: $x-large) {
-        max-width: unset;
         text-align: center;
         .newsletter-form {
             display: flex;

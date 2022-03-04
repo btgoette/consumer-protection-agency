@@ -30,8 +30,10 @@ $image-background-color: $white;
 $intro-background-color: $dark-gray;
 $intro-blend: $background-multiply;
 $nav-background-color: $white;
+$nav-dropdown-item-background-hover-color: $blue;
 $nav-topbar-background-color: $blue;
 $navbar-toggler-background-color: transparent;
+$newsletter-background-color: $white;
 $offcanvas-background-color: $white;
 $offcanvas-header-background-color: $blue;
 $video-background-color: $white;
@@ -84,7 +86,7 @@ $h1-font-weight: 900;
 
 $h2-font-size: 2.2rem;
 $h2-font-size-mobile: 1.75rem;
-$h2-margin-bottom: 2rem;
+$h2-margin-bottom: 1.75rem;
 
 $intro-font-color: $white;
 
@@ -119,6 +121,7 @@ $nav-font-weight: 400;
 $nav-text-transform: normal;
 $nav-topbar-color: $white;
 $nav-topbar-font-size: .85rem;
+$nav-dropdown-item-hover-color: $white;
 
 $offcanvas-font-color: $blue;
 $offcanvas-header-font-color: $white;
@@ -127,10 +130,15 @@ $offcanvas-header-font-color: $white;
 $block-padding: 2rem;
 $hero-padding: 9rem 0;
 $hero-padding-mobile: 6rem 0 12rem;
-$image-padding: 1rem;
+$image-padding: 2rem;
 $intro-padding-mobile: 3rem 1rem 2rem;
 $intro-padding: 6rem 2rem;
 $list-padding: 0 0 1rem;
-$p-padding: 1rem 0 0;
+$p-padding: 0 0 1rem;
 $section-padding-mobile: 2rem 0 1rem;
 $section-padding: 4rem 0 2rem;
+
+// sizes
+$container-width: 1400px;
+$image-width: 600px;
+$image-height: 800px;

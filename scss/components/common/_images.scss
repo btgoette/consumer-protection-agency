@@ -6,5 +6,7 @@ figure {
     padding: $image-padding;
     img {
         width:100%;
+        max-width: $image-width;
+        max-height: $image-height;
     }
 }

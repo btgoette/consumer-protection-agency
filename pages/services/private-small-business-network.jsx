@@ -2,6 +2,7 @@ import Head from "components/common/Head"
 import Hero from "components/common/Hero"
 import Intro from "components/common/Intro"
 import TwoColumnGrid from "components/common/TwoColumnGrid"
+import Video from 'components/common/Video'
 
 import page from "public/content/en_US/Page/Services/privateSmallBusinessNetwork.content";
 
@@ -20,6 +21,9 @@ export default function PrivateSmallBusinessNetwork() {
         <TwoColumnGrid {...page.block.benefitsForTheConsumer} />
 
         <TwoColumnGrid {...page.block.benefitsForTheSmallBusiness} />
+        
+        <Video {...page.block.video} />
+
       </div>
     </>
   );

@@ -8,7 +8,7 @@
     "navigationLabel": "Credit Restoration",
     "hero": {
         "slug": "hero-credit-restoration",
-        "container":"container-fluid",
+        "container": "container-fluid",
         "column": [
             {
                 "offset": "0",
@@ -47,7 +47,7 @@
         },
         "whatIsACreditScore": {
             "slug": "what-is-a-credit-score",
-            "container":"container",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -70,27 +70,27 @@
                 }
             ],
             "img": {
-                "src": "/images/page/credit-restoration/fico-score-factors.webp",
+                "src": "/images/page/services/credit-restoration/fico-score-factors.png",
                 "alt": "How Credit Score is Calculated",
                 "caption": ""
             }
         },
-        "whyIsThisImportant": {
-            "slug": "why-is-this-important",
-            "container":"container",
+        "howCanYourCreditScoreAffectYou": {
+            "slug": "how-can-your-credit-score-affect-you",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
+                    "span": "5",
                     "order": "0"
                 },
                 {
                     "offset": "0",
-                    "span": "6",
+                    "span": "7",
                     "order": "1"
                 }
             ],
-            "title": "Why is this Important?",
+            "title": "How Can Your Credit Score Affect You?",
             "subtitle": [
                 {
                     "p": "Your credit score plays a vital role in your overall financial health. The so called, \"American Dream\" includes getting a house, car, job and children education. Over the years, businesses are making adjustments to their customer acquisition model to quality for a better quality of customers. In today's time, credit is now required to get cellphones, apartments, car rental, insurance and a normal part of a job application process. Good credit can lead to better interest rates for a home, car, and personal loan. A positive financial reputation can save you thousands of dollars and even free up cash flow. As mentioned before, getting a job requires credit history as it can be viewed as stability and even how responsible you are."
@@ -103,99 +103,88 @@
                 }
             ],
             "img": {
-                "src": "/images/page/credit-restoration/credit-score-range.webp",
-                "alt": "Credit Score Range",
+                "src": "/images/page/services/credit-restoration/credit-score-range.png",
+                "alt": "Credit Score Range & Factors",
                 "caption": ""
             }
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "container":"container",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0",
+                    "title": "How Will Our Services Benefit You?",
+                    "list": [
+                        {
+                            "li": "Continuous Credit Education"
+                        },
+                        {
+                            "li": "Protection from deceptive practice"
+                        },
+                        {
+                            "li": "Credit report monitoring"
+                        },
+                        {
+                            "li": "ID theft protection"
+                        },
+                        {
+                            "li": "Credit score increase"
+                        },
+                        {
+                            "li": "Credit audit report"
+                        }
+                    ]
                 },
                 {
-                    "offset": "1",
-                    "span": "4",
-                    "order": "0"
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1",
+                    "title": "The Benefits of Having Good Credit",
+                    "list": [
+                        {
+                            "li": "Get Better Rates on Car Insurance"
+                        },
+                        {
+                            "li": "Save on Other Types of Insurance"
+                        },
+                        {
+                            "li": "Quality for Lower Credit Card Interest"
+                        },
+                        {
+                            "li": "Get Approved for Higher Credit Limits"
+                        },
+                        {
+                            "li": "Have More Housing Options"
+                        },
+                        {
+                            "li": "Get Utility Services More Easily"
+                        },
+                        {
+                            "li": "Get a Cell Phone Without Prepaying or Making a Security Deposit"
+                        },
+                        {
+                            "li": "Look Better to Potential Employers"
+                        }
+                    ]
                 }
-            ],
-            "title": "Benefits for the Consumer",
-            "list": [
-                {
-                    "li": "Continuous Credit Education"
-                },
-                {
-                    "li": "Protection from deceptive practice"
-                },
-                {
-                    "li": "Credit report monitoring"
-                },
-                {
-                    "li": "ID theft protection"
-                },{
-                    "li": "Credit score increase"
-                },
-                {
-                    "li": "Credit audit report"
-                }
-            ],
-            "img": {
-                "src": "/images/page/credit-restoration/paying-on-phone-with-credit-card.webp",
-                "alt": "How Credit Score is Calculated",
-                "caption": ""
-            }
+            ]
         },
-        "benefitsOfHavingGoodCredit": {
-            "slug": "benefits-of-having-good-credit",
-            "container":"container",
+        "video": {
+            "slug": "video-home",
+            "container": "container",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
+                    "span": "12",
                     "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
                 }
             ],
-            "title": "Benefits of Having Good Credit",
-            "list": [
-                {
-                    "li": "Get Better Rates on Car Insurance"
-                },
-                {
-                    "li": "Save on Other Types of Insurance"
-                },
-                {
-                    "li": "Quality for Lower Credit Card Interest"
-                },
-                {
-                    "li": "Get Approved for Higher Credit Limits"
-                },
-                {
-                    "li": "Have More Housing Options"
-                },
-                {
-                    "li": "Get Utility Services More Easily"
-                },
-                {
-                    "li": "Get a Cell Phone Without Prepaying or Making a Security Deposit"
-                },
-                {
-                    "li": "Look Better to Potential Employers"
-                }
-            ],
-            "img": {
-                "src": "/images/page/credit-restoration/handshake.webp",
-                "alt": "How Credit Score is Calculated",
-                "caption": ""
-            }
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
         }
     }
 }

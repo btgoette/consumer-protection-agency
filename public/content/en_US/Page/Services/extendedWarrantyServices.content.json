@@ -1,0 +1,65 @@
+{
+    "title": "Extended Warranty Services",
+    "description": "",
+    "slug": "extended-warranty-services",
+    "href": "https://consumerprotection.agency/extended-warranty-services",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "Extended Warranty Services",
+    "hero": {
+        "slug": "hero-extended-warranty-services",
+        "column": [
+            {
+                "offset": "0",
+                "span": "5",
+                "order": "0"
+            }
+        ],
+        "title": "Extended Warranty Services",
+        "subtitle": "Get the best in warranty protection with consumer protection warranty plan.",
+        "cta": {
+            "ctaLabel": "Learn More",
+            "href": "#intro-extended-warranty-services"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-extended-warranty-services",
+            "container": "container-fluid",
+            "column": [
+                {
+                    "offset": "3",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Warranty Plan",
+            "subtitle": [
+                {
+                    "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. We have done our homework and we understand your pain points. As a result, we are always on a path of discovering, addressing and preventing these pain points for our customers in the easiest way possible. Our claims process is easy, just give us a call and we will get back to you in no time.."
+                },
+                {
+                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim? Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Call to Action",
+                "href": "/"
+            }
+        },
+        "video": {
+            "slug": "video-home",            
+            "container": "container",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
+        }
+    }
+}
