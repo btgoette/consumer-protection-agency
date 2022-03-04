@@ -83,8 +83,8 @@ export default function CustomNav() {
                       <NavDropdown.Item href="/services/credit-restoration">
                         Credit Restoration
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="/services/extended-warranty-service">
-                        Extended Warranty Service
+                      <NavDropdown.Item href="/services/extended-warranty-services">
+                        Extended Warranty Services
                       </NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item>
@@ -149,8 +149,8 @@ export default function CustomNav() {
                     <NavDropdown.Item href="/services/credit-restoration">
                       Credit Restoration
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/extended-warranty-service">
-                        Extended Warranty Service
+                    <NavDropdown.Item href="/services/extended-warranty-services">
+                        Extended Warranty Services
                       </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Item>

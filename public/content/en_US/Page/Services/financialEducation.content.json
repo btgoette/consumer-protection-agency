@@ -33,7 +33,7 @@
                     "order": "0"
                 }
             ],
-            "title": "The B2C Partners Network",
+            "title": "Financial Education",
             "subtitle": [
                 {
                     "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
@@ -43,6 +43,20 @@
                 "ctaLabel": "Call to Action",
                 "href": "/"
             }
+        },
+        "video": {
+            "slug": "video-home",            
+            "container": "container",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
         }
     }
 }

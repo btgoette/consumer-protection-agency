@@ -21,7 +21,7 @@
             "ctaLabel": "Back to Home",
             "href": "/"
         },
-        "image": {
+        "img": {
             "src": "/images/logos/cpa-logo.webp",
             "alt": "Back to Home"
         }

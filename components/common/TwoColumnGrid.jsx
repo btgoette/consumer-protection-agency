@@ -2,16 +2,14 @@ import { Container, Row, Col, Figure } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function TwoColumnGrid(block) {
-    
-    // Columns with images 
+  // Columns with images
   if (block.img) {
-
     // Columns with image and list
     if (block.list) {
       return (
         <>
           <a className="anchor" id={block.slug}></a>
-          <section className={block.slug + " section " + block.container}>
+          <section className={block.slug + " section container"}>
             <Row className="block align-items-center">
               <Col xs={12}>
                 <h2>{block.title}</h2>
@@ -44,16 +42,16 @@ export default function TwoColumnGrid(block) {
           </section>
         </>
       );
-    } 
+    }
     // Columns with image and text
     else {
       return (
         <>
           <a className="anchor" id={block.slug}></a>
-          <section className={block.slug + " section " + block.container}>
+          <section className={block.slug + " section container"}>
             <Row className="block align-items-center">
               <Col xs={12}>
-                <h2>{block.title}</h2>
+                <h2 className="d-block d-md-none">{block.title}</h2>
               </Col>
               <Col
                 md={{
@@ -74,6 +72,7 @@ export default function TwoColumnGrid(block) {
                   order: block.column[1].order,
                 }}
               >
+                <h2 className="d-none d-md-block">{block.title}</h2>
                 {block.subtitle.map(({ p }, i) => (
                   <p key={i}>{p}</p>
                 ))}
@@ -83,7 +82,7 @@ export default function TwoColumnGrid(block) {
         </>
       );
     }
-  } 
+  }
   // Columns with 2 lists
   else if (block.list) {
     const listLength = block.list.length;
@@ -92,7 +91,7 @@ export default function TwoColumnGrid(block) {
     return (
       <>
         <a className="anchor" id={block.slug}></a>
-        <section className={block.slug + " section"}>
+        <section className={block.slug + " section container"}>
           <Row className="block">
             <Col md={12}>
               <h2>{block.title}</h2>
@@ -115,6 +114,34 @@ export default function TwoColumnGrid(block) {
                   </div>
                 ))}
             </Col>
+          </Row>
+        </section>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <a className="anchor" id={block.slug}></a>
+        <section className={block.slug + " section container"}>
+          <Row className="block">
+            {block.column.map(({ offset, span, order, title, list }, i) => (
+              <Col
+                className="block"
+                key={i}
+                md={{
+                  offset: offset,
+                  span: span,
+                  order: order,
+                }}
+              >
+                <h2 className="text-center">{title}</h2>
+                <ol>
+                  {list.map(({ li }, j) => (
+                    <li key={j}>{li}</li>
+                  ))}
+                </ol>
+              </Col>
+            ))}
           </Row>
         </section>
       </>

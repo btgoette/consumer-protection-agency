@@ -12,6 +12,7 @@ module.exports = {
       "/services/accounting-and-tax-services": { page: "/services/accounting-and-tax-services" },      
       "/services/financial-education": { page: "/services/financial-education" },
       "/services/credit-restoration": { page: "/services/credit-restoration" },
+      "/services/extended-warranty-services": { page: "/services/extended-warranty-services" },
       "/testimonials": { page: "/testimonials" },
       "/thank-you": { page: "/thank-you" },
       "/": { page: "/" },

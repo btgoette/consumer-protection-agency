@@ -59,6 +59,15 @@
                         color: $nav-font-hover-color;
                     }
                 }
+
+                .dropdown-menu {
+                    .dropdown-item {
+                        &:hover {
+                            background-color: $nav-dropdown-item-background-hover-color;
+                            color: $nav-dropdown-item-hover-color;
+                        }
+                    }
+                }
             }
         }
     }

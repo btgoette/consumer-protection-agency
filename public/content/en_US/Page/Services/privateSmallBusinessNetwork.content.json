@@ -70,8 +70,8 @@
                 }
             ],
             "img": {
-                "src": "/images/page/private-small-business-network/local-business-point-of-sale.webp",
-                "alt": "Local business point of sale"
+                "src": "/images/page/services/private-small-business-network/business-contract.jpg",
+                "alt": "Business Contract"
             }
         },
         "benefitsForTheConsumer": {
@@ -152,6 +152,20 @@
                     "subtitle": "Being a part of the network will generate brand exposure to consumers and other businesses in the network that have complimentary business services and/or products, resulting in better financial outcomes for members."
                 }
             ]
+        },
+        "video": {
+            "slug": "video-home",            
+            "container": "container",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
         }
     }
 }
