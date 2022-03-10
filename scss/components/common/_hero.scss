@@ -1,0 +1,27 @@
+.hero {
+    text-align: center;
+    h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: $medium) {
+   .hero {
+       text-align: left;
+       h1 {
+           text-align: left;
+       }
+   }
+
+   .hero-generic {
+       .block {
+           padding: 2rem 0 0;
+       }
+       .hero{
+           h1 {
+               text-align: center;
+               margin-bottom: 0;
+           }
+       }
+   }
+}

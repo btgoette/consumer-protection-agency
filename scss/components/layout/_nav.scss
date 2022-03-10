@@ -24,6 +24,7 @@
 
     .navbar {
         width: 100%;
+        padding: $nav-padding;
         background: $nav-background-color !important;
 
         .nav-grid {
@@ -57,6 +58,7 @@
 
                     &:hover {
                         color: $nav-font-hover-color;
+                        text-decoration: underline;
                     }
                 }
 

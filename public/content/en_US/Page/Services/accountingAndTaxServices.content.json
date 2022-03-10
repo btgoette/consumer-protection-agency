@@ -19,17 +19,17 @@
         "subtitle": "Something Important About This Page",
         "cta": {
             "ctaLabel": "Learn More",
-            "href": "#intro-accounting-and-tax-services"
+            "href": "#intro"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-accounting-and-tax-services",
+            "slug": "intro",
             "container": "container-fluid",
             "column": [
                 {
-                    "offset": "3",
-                    "span": "6",
+                    "offset": "2",
+                    "span": "8",
                     "order": "0"
                 }
             ],
@@ -99,7 +99,7 @@
             ]
         },
         "video": {
-            "slug": "video-home",
+            "slug": "video-home video",
             "container": "container",
             "column": [
                 {
@@ -108,7 +108,6 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

@@ -62,9 +62,11 @@ h2 {
   margin-bottom: $h2-margin-bottom;
 }
 
-p {
-  padding: $p-padding;
+
+.text-justify {
+  text-align: justify;
 }
+
 
 @media only screen and (min-width: $large) {
   body {
@@ -72,12 +74,8 @@ p {
   }
 
   h1 {
-    display: flex;
-    text-align: left;
     font-size: $h1-font-size;
     font-weight: $h1-font-weight;
-    min-height: 96px;
-    align-items: flex-end;
   }
 
   h2 {

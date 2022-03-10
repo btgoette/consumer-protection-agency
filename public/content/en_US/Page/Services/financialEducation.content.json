@@ -19,17 +19,17 @@
         "subtitle": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
-            "href": "#intro-financial-education"
+            "href": "#intro"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-financial-education",
+            "slug": "intro",
             "container": "container-fluid",
             "column": [
                 {
-                    "offset": "3",
-                    "span": "6",
+                    "offset": "2",
+                    "span": "8",
                     "order": "0"
                 }
             ],
@@ -46,7 +46,6 @@
         },
         "video": {
             "slug": "video-home",            
-            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -54,7 +53,6 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

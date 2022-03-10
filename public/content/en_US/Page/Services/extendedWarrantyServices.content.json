@@ -16,40 +16,154 @@
             }
         ],
         "title": "Extended Warranty Services",
-        "subtitle": "Get the best in warranty protection with consumer protection warranty plan.",
+        "subtitle": "Get the best in warranty protection with our Consumer Protection warranty plan.",
         "cta": {
             "ctaLabel": "Learn More",
-            "href": "#intro-extended-warranty-services"
+            "href": "#intro"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-extended-warranty-services",
-            "container": "container-fluid",
+            "slug": "intro",
             "column": [
                 {
-                    "offset": "3",
-                    "span": "6",
+                    "offset": "2",
+                    "span": "8",
                     "order": "0"
                 }
             ],
             "title": "Consumer Protection Warranty Plan",
             "subtitle": [
                 {
-                    "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. We have done our homework and we understand your pain points. As a result, we are always on a path of discovering, addressing and preventing these pain points for our customers in the easiest way possible. Our claims process is easy, just give us a call and we will get back to you in no time.."
-                },
-                {
-                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim? Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
+                    "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
                 }
             ],
             "cta": {
-                "ctaLabel": "Call to Action",
-                "href": "/"
+                "ctaLabel": "What Choose Us?",
+                "href": "#common-protection-plan-pain-points"
             }
         },
+        "commonProtectionPlanPainPoints": {
+            "slug": "common-protection-plan-pain-points",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Common Protection Plan Pain Points",
+            "subtitle": [
+                {
+                    "p": "We have done our homework and we understand your pain points. As a result, we are always on a path of discovering, addressing and preventing these pain points for our customers in the easiest way possible. Some of these include: Poor response times for repairs or reimbursements"
+                },
+                {
+                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
+                }
+            ],
+            "imgList": [
+                {
+                    "img": {
+                        "src": "/images/icons/money-bag-250x250.png",
+                        "alt": "Money Bag"
+                    },
+                    "h3": "Extra costs and hidden fees",
+                    "p": "You have successfully filed a claim and now you are being slapped with a hefty bill for shipping the product back for repairs yet no one mentioned this cost before. These extra costs can quickly get out of hand. What do you do?"
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/car-250x250.png",
+                        "alt": "Car"
+                    },
+                    "h3": "Difficulty in cancelling contract or preventing auto renewal",
+                    "p": "Some extended warranty programs make it extremely difficult to cancel a contract or at least prevent the auto renewal feature from charging the monthly bills."
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/hand-gears-250x250.png",
+                        "alt": "Credit Score Range & Factors"
+                    },
+                    "h3": "Multiple service plans for various items",
+                    "p": "Having to keep up with separate service plans for your car, home, phone, tablet, TV and appliances is overwhelming, and there is no doubt that these costs can stack up when it comes to settling your monthly bills."
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/signature-250x250.png",
+                        "alt": "Signature"
+                    },
+                    "h3": "Deceptive language in the contract",
+                    "p": "Some extended warranty contracts use deceptive language intentionally in order to woo clients into agreements that are unfair. This could end up with the clients paying through the nose in terms of deductibles when the covered item malfunctions."
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/time-signature-250x250.png",
+                        "alt": "Timed Signature"
+                    },
+                    "h3": "Stuck in long-term contracts",
+                    "p": "You have considered taking a protection plan for your clothes washer and dryer, but you are still unsure of committing yourself to a multi-year agreement. Is there a way to access a plan without the long-term commitment?"
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/sad-gift-250x250.png",
+                        "alt": "Rude Surprises"
+                    },
+                    "h3": "Rude Surprises",
+                    "p": "You purchase a used car with over 100,000 miles on the odometer. While it ooks like it is in mint condition, you cannot help wondering what you would do if something catastrophic such as an engine knock were to happen."
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/breaking-bank-250x250.png",
+                        "alt": "Breaking Bank"
+                    },
+                    "h3": "Bank-breaking costs",
+                    "p": "We would all love to keep the monthly bills as small as possible, but getting warranties for every appliance and device in your home would be quite expensive. Is there a way you can bundle everything together and just pay one, low monthly fees?"
+                },
+                {
+                    "img": {
+                        "src": "/images/icons/poor-score-250x250.png",
+                        "alt": "Credit Score Range & Factors"
+                    },
+                    "h3": "Poor customer support",
+                    "p": "When customers need help with problems or questions, they want a quick and definitive response. Unfortunately, many extended warranty brands fail at this and leave a lot to be desired."
+                }
+            ]
+        },
+        "whyChooseUs": {
+            "slug": "why-choose-us",
+            "title": "Why Choose Us?",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "list": [
+                {
+                    "li": "24/7, hassle-free customer service"
+                },
+                {
+                    "li": "24-hour customer support"
+                },
+                {
+                    "li": "Breakdowns are inevitable – we have serviced hundreds of thousands of items and handled over a million service requests"
+                },
+                {
+                    "li": "We do not require inspection or maintenance records in order to provide coverage"
+                },
+                {
+                    "li": "Over 10,000 service centers nationwide means we will get the right person to fix your issue"
+                },
+                {
+                    "li": "If repair is impossible for the covered item, then we will replace it or offer an alternative"
+                },
+                {
+                    "li": "Accessible online chat and claims features"
+                }
+            ]
+        },
         "video": {
-            "slug": "video-home",            
-            "container": "container",
+            "slug": "video-home video",
             "column": [
                 {
                     "offset": "0",
@@ -57,7 +171,6 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

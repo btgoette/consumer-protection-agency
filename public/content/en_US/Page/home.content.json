@@ -19,17 +19,16 @@
         "subtitle": "Helping people and businesses improve their financial health.",
         "cta": {
             "ctaLabel": "Learn More",
-            "href": "#intro-home"
+            "href": "#intro"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-home",
-            "container": "container-fluid",
+            "slug": "intro",
             "column": [
                 {
-                    "offset": "3",
-                    "span": "6",
+                    "offset": "2",
+                    "span": "8",
                     "order": "0"
                 }
             ],
@@ -41,12 +40,11 @@
             ],
             "cta": {
                 "ctaLabel": "Watch Our Video",
-                "href": "#video-home"
+                "href": "#video"
             }
         },
         "video": {
-            "slug": "video-home",            
-            "container": "container",
+            "slug": "video",            
             "column": [
                 {
                     "offset": "0",
@@ -54,7 +52,6 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

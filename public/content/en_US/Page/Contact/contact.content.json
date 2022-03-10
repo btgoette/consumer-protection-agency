@@ -1,0 +1,20 @@
+{
+    "title": "Contact Us",
+    "description": "",
+    "slug": "contact",
+    "href": "https://consumerprotection.agency/contact",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "contact",
+    "hero": {
+        "slug": "hero-generic",
+        "column": [
+            {
+                "offset": "0",
+                "span": "12",
+                "order": "0"
+            }
+        ],
+        "title": "Contact Us"
+    }
+}

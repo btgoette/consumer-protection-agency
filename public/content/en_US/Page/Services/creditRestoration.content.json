@@ -20,17 +20,17 @@
         "subtitle": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
-            "href": "#intro-credit-restoration"
+            "href": "#intro"
         }
     },
     "block": {
         "intro": {
-            "slug": "intro-credit-restoration",
+            "slug": "intro",
             "container": "container-fluid",
             "column": [
                 {
-                    "offset": "3",
-                    "span": "6",
+                    "offset": "2",
+                    "span": "8",
                     "order": "0"
                 }
             ],
@@ -47,7 +47,6 @@
         },
         "whatIsACreditScore": {
             "slug": "what-is-a-credit-score",
-            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -71,13 +70,11 @@
             ],
             "img": {
                 "src": "/images/page/services/credit-restoration/fico-score-factors.png",
-                "alt": "How Credit Score is Calculated",
-                "caption": ""
+                "alt": "How Credit Score is Calculated" 
             }
         },
         "howCanYourCreditScoreAffectYou": {
             "slug": "how-can-your-credit-score-affect-you",
-            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -104,13 +101,11 @@
             ],
             "img": {
                 "src": "/images/page/services/credit-restoration/credit-score-range.png",
-                "alt": "Credit Score Range & Factors",
-                "caption": ""
+                "alt": "Credit Score Range & Factors"                
             }
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "container": "container",
             "column": [
                 {
                     "offset": "0",
@@ -173,8 +168,7 @@
             ]
         },
         "video": {
-            "slug": "video-home",
-            "container": "container",
+            "slug": "video-home video",
             "column": [
                 {
                     "offset": "0",
@@ -182,7 +176,6 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

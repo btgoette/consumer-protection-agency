@@ -1,31 +1,23 @@
-import Head from 'components/common/Head'
-import Hero from 'components/common/Hero'
-import Intro from 'components/common/Intro'
-import ThreeColumnGrid from 'components/common/ThreeColumnGrid'
-import Video from 'components/common/Video'
+import Head from "components/common/Head";
+import Hero from "components/common/Hero";
+import Section from "components/common/Section";
 
-import page from 'public/content/en_US/Page/Services/accountingAndTaxServices.content'
+import page from "public/content/en_US/Page/Services/accountingAndTaxServices.content";
 
 export default function AccountingAndTaxServices() {
   return (
-
     <>
-
-      <div className={page.slug}> 
-
-        <Head {...page}/>
+      <div className={page.slug}>
+        <Head {...page} />
 
         <Hero {...page.hero} />
 
-        <Intro {...page.block.intro} />
+        <Section {...page.block.intro} />
 
-        <ThreeColumnGrid {...page.block.scalingYourBusiness} />
-        
-        <Video {...page.block.video} />
+        <Section {...page.block.scalingYourBusiness} />
 
+        <Section {...page.block.video} />
       </div>
-
     </>
-
   );
 }
