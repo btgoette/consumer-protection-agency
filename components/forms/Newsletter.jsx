@@ -8,7 +8,7 @@ export default function Newsletter(newsletter) {
           <Row className="block align-items-center">
             <Col xl={4}>
               <h2 className="mb-0 text-xl-start">Join our mailing list</h2>
-              <p className="text-center text-xl-start">Stay up to date with news, tips, and more.</p>
+              <p className="text-center text-xl-start mb-xl-0">Stay up to date with news, tips, and more.</p>
             </Col>
             <Col xl={8}>  
             <form

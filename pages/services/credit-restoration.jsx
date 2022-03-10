@@ -1,9 +1,6 @@
 import Head from 'components/common/Head'
 import Hero from 'components/common/Hero'
-import Intro from 'components/common/Intro'
-import OneColumnGrid from 'components/common/OneColumnGrid';
-import TwoColumnGrid from 'components/common/TwoColumnGrid';
-import Video from 'components/common/Video'
+import Section from 'components/common/Section'
 
 import page from 'public/content/en_US/Page/Services/creditRestoration.content'
 
@@ -18,15 +15,15 @@ export default function CreditRestoration() {
 
         <Hero {...page.hero} />
 
-        <Intro {...page.block.intro} />
+        <Section {...page.block.intro} />
         
-        <TwoColumnGrid {...page.block.whatIsACreditScore} />
+        <Section {...page.block.whatIsACreditScore} />
 
-        <TwoColumnGrid {...page.block.howCanYourCreditScoreAffectYou} />
+        <Section {...page.block.howCanYourCreditScoreAffectYou} />
 
-        <TwoColumnGrid {...page.block.benefitsForTheConsumer} />
+        <Section {...page.block.benefitsForTheConsumer} />
         
-        <Video {...page.block.video} />
+        <Section {...page.block.video} />
         
       </div>
 

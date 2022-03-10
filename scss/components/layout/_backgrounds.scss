@@ -43,3 +43,109 @@ body {
     color: $black;
 }
 
+.hero-accounting-and-tax-services {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-accounting-and-tax-services-500x700.webp");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-accounting-and-tax-services-1600x500.webp");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+
+.hero-credit-restoration {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-credit-restoration-500x700.webp");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-credit-restoration-1600x500.webp");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+
+.hero-extended-warranty-services {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-extended-warranty-services-500x700.jpg");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-extended-warranty-services-1600x500.jpg");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+
+.hero-financial-education {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-financial-education-500x700.webp");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-financial-education-1600x500.webp");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+
+.hero-home {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-home-500x700.webp");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-home-1600x500.webp");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+
+.hero-private-small-business-network {
+    background: $hero-background;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    padding: $hero-padding-mobile;
+    background-image: url("/images/hero/hero-private-small-business-network-500x700.webp");
+
+    @media only screen and (min-width: $medium) {
+        background-image: url("/images/hero/hero-private-small-business-network-1600x500.webp");
+        background-position: $background-center;
+        padding: $hero-padding;
+    }
+}
+.intro {
+    background-color: $intro-background-color;
+    background-image: url("/images/intro/usa-flag-2.webp");
+    background-size: $background-cover;
+    background-blend-mode: $intro-blend;
+    color: $intro-font-color;
+    padding: $intro-padding-mobile;
+    @media only screen and (min-width: $medium) {
+        padding: $intro-padding;
+    }
+}

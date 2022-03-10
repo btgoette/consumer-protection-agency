@@ -22,7 +22,7 @@ export default function CustomNav() {
         bg="dark"
         expand="lg"
       >
-        <Container>
+        <Container fluid>
           {/* Logo */}
           <Link href="/" passHref>
             <Navbar.Brand>

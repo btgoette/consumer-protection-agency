@@ -1,7 +1,6 @@
 import Head from 'components/common/Head'
 import Hero from 'components/common/Hero'
-import Intro from 'components/common/Intro'
-import Video from 'components/common/Video'
+import Section from 'components/common/Section'
 
 import page from 'public/content/en_US/Page/Services/extendedWarrantyServices.content'
 
@@ -16,9 +15,13 @@ export default function ExtendedWarrantyServices() {
 
         <Hero {...page.hero} />
 
-        <Intro {...page.block.intro} />
+        <Section {...page.block.intro} />
+        
+        <Section {...page.block.commonProtectionPlanPainPoints} />
 
-        <Video {...page.block.video} />
+        <Section {...page.block.whyChooseUs} />
+
+        <Section {...page.block.video} />
 
       </div>
 

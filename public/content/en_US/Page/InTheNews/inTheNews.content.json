@@ -1,0 +1,59 @@
+{
+    "title": "In The News",
+    "description": "",
+    "slug": "in-the-news",
+    "href": "https://consumerprotection.agency/in-the-news",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "In The News",
+    "hero": {
+        "slug": "hero-generic",
+        "column": [
+            {
+                "offset": "0",
+                "span": "12",
+                "order": "0"
+            }
+        ],
+        "title": "In The News"
+    },
+    "block": {
+        "intro": {
+            "slug": "intro-in-the-news intro",
+            "container": "container-fluid",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "In The News",
+            "subtitle": [
+                {
+                    "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
+                },
+                {
+                    "p": "Like many people, you may be asking, how do I keep more of what I earn? A good accounting system will allow you to effortlessly answer this question."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Why is this Important?",
+                "href": "#why-is-this-important"
+            }
+        },
+        "video": {
+            "slug": "video-home",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Agency Marketing Video",
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
+        }
+    }
+}
