@@ -53,11 +53,11 @@ export default function ContactForm() {
                   Phone<span className="required">*</span>
                 </label>
                 <input
-                  aria-label="Office Phone"
+                  aria-label="Phone"
                   type="tel"
-                  name="office_phone"
+                  name="sms_number"
                   pattern="[0-9]{10}"
-                  id="mr-field-element-982783901333"
+                  id="mr-field-element-282710628776"
                   required
                 />
               </fieldset>
@@ -102,12 +102,12 @@ export default function ContactForm() {
               <input
                 name="mopsbbk"
                 type="hidden"
-                value="B228909F3FAD7E542969ECFE:CE21A2A9FB866EC708341453"
+                value="C19E6DA91A39DE2827C87AB1:F0C8653FAA7A529A3868578F"
               />
               <input
                 name="mopbelg"
                 type="hidden"
-                value="0150681:A818DA93FFCE84187BC38703:741B5E85BA964B43BB047F23"
+                value="0150789:AD61264D9AE121283DA509B5:8578147E1A0B44EAC28D832B"
               />
             </form>
           </Col>
