@@ -17,7 +17,7 @@
             }
         ],
         "title": "Credit Restoration",
-        "subtitle": "Something Important about this page",
+        "text": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -35,7 +35,7 @@
                 }
             ],
             "title": "How Do You Define Credit?",
-            "subtitle": [
+            "text": [
                 {
                     "p": "According to Investopedia, credit is a contractual agreement in which a borrower receives something of value immediately and agrees to pay for it later, usually with interest. Focusing on financial reputation, most people don't realize the negative or positive affects that credit have on their livelihood until they need it. According to a S&P Global Financial literacy survey, 55% of US adults are financially literate while only 24% of millennials understand basic financial topics. Experts who teach financial literacy are few and far between, as the result of the school system lack of modernization. Therefore, the knowledge is not being passed on to the next generation of students. Because of this the USA ranks 14th amongst other nations in financial literacy but yet the #1 economy in the world."
                 }
@@ -60,7 +60,7 @@
                 }
             ],
             "title": "What is a FICO/Credit Score?",
-            "subtitle": [
+            "text": [
                 {
                     "p": "A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers' FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit. FICO scores take into account data in five areas to determine creditworthiness: payment history, current level of indebtedness, types of credit used, length of credit history, and new credit accounts."
                 },
@@ -88,7 +88,7 @@
                 }
             ],
             "title": "How Can Your Credit Score Affect You?",
-            "subtitle": [
+            "text": [
                 {
                     "p": "Your credit score plays a vital role in your overall financial health. The so called, \"American Dream\" includes getting a house, car, job and children education. Over the years, businesses are making adjustments to their customer acquisition model to quality for a better quality of customers. In today's time, credit is now required to get cellphones, apartments, car rental, insurance and a normal part of a job application process. Good credit can lead to better interest rates for a home, car, and personal loan. A positive financial reputation can save you thousands of dollars and even free up cash flow. As mentioned before, getting a job requires credit history as it can be viewed as stability and even how responsible you are."
                 },

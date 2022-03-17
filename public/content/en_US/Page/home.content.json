@@ -16,7 +16,7 @@
             }
         ],
         "title": "Consumer Protection Agency",
-        "subtitle": "Helping people and businesses improve their financial health.",
+        "text": "Helping people and businesses improve their financial health.",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -33,7 +33,7 @@
                 }
             ],
             "title": "What is Consumer Protection Agency?",
-            "subtitle": [
+            "text": [
                 {
                     "p": "We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law."
                 }
