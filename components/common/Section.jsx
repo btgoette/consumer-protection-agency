@@ -14,7 +14,7 @@ export default function Section(block) {
   const renderOneColumn = () => {
     if (oneColumn) {
       return (
-        <Row className="block align-items-center">
+        <>
           <Col
             xl={{
               offset: block.column[0].offset,
@@ -24,13 +24,17 @@ export default function Section(block) {
           >
             {renderTitle()}
             {renderImage()}
-            {renderSubtitle()}
+            {renderText()}
             {renderList()}
+            {renderSubtitleList()}
+            {renderSubtitleText()}
             {renderImgList()}
+            {renderImgListBlock()}
             {renderCTA()}
+            {renderDisclaimer()}
             {renderVideo()}
           </Col>
-        </Row>
+        </>
       );
     }
   };
@@ -45,7 +49,7 @@ export default function Section(block) {
   const renderTwoColumn = () => {
     if (TwoColumn) {
       return (
-        <Row className="block align-items-center">
+        <>
           <Col
             md={{
               offset: block.column[0].offset,
@@ -63,49 +67,17 @@ export default function Section(block) {
             }}
           >
             {renderTitle()}
-            {renderSubtitle()}
+            {renderText()}
             {renderList()}
+            {renderSubtitleList()}
+            {renderSubtitleText()}
             {renderImgList()}
+            {renderImgListBlock()}
+            {renderCTA()}
+            {renderDisclaimer()}
+            {renderVideo()}
           </Col>
-        </Row>
-      );
-    }
-  };
-
-  let MultiColumn;
-  if (block.column.length > 2) {
-    MultiColumn = true;
-  } else {
-    MultiColumn = false;
-  }
-
-  const renderMultiColumn = () => {
-    if (MultiColumn) {
-      return (
-        <Row className="block align-items-top">
-          {block.column.map(
-            ({ offset, span, order, title, subtitle, img }, k) => (
-              <Col
-                className="block"
-                key={k}
-                md={{
-                  offset: offset,
-                  span: span,
-                  order: order,
-                }}
-              >
-                <Figure className="p-1">
-                  <LazyLoadImage src={img.src} alt={img.alt} />
-                  <Figure.Caption>{img.caption}</Figure.Caption>
-                </Figure>
-                <h3 className="text-center">{title}</h3>
-                {subtitle.map(({ p }, j) => (
-                  <p key={j}>{p}</p>
-                ))}
-              </Col>
-            )
-          )}
-        </Row>
+        </>
       );
     }
   };
@@ -123,19 +95,69 @@ export default function Section(block) {
     }
   };
 
-  let hasSubtitle;
-  if (block.subtitle !== undefined) {
-    hasSubtitle = true;
+  let hasText;
+  if (block.text !== undefined) {
+    hasText = true;
   } else {
-    hasSubtitle = false;
+    hasText = false;
   }
 
-  const renderSubtitle = () => {
-    if (hasSubtitle) {
+  const renderText = () => {
+    if (hasText) {
       return (
         <>
-          {block.subtitle.map(({ p }, j) => (
-            <p key={j}>{p}</p>
+          {block.text.map(({ p }, k) => (
+            <p key={k}>{p}</p>
+          ))}
+        </>
+      );
+    }
+  };
+
+  let hasSubtitleText;
+  if (block.subtitleText !== undefined) {
+    hasSubtitleText = true;
+  } else {
+    hasSubtitleText = false;
+  }
+
+  const renderSubtitleText = (text) => {
+    if (hasSubtitleText) {
+      return (
+        <>
+          {block.subtitleText.map(({ title, text }, j) => (
+            <div key={j}>
+              <h3>{title}</h3>
+              {text.map(({ p }, k) => (
+                <p key={k}>{p}</p>
+              ))}
+            </div>
+          ))}
+        </>
+      );
+    }
+  };
+
+  let hasSubtitleList;
+  if (block.subtitleList !== undefined) {
+    hasSubtitleList = true;
+  } else {
+    hasSubtitleList = false;
+  }
+
+  const renderSubtitleList = (list) => {
+    if (hasSubtitleList) {
+      return (
+        <>
+          {block.subtitleList.map(({ title, list }, j) => (
+            <div key={j}>
+              <h3>{title}</h3>
+              <ul>
+                {list.map(({ li }, k) => (
+                  <li key={k}>{li}</li>
+                ))}
+              </ul>
+            </div>
           ))}
         </>
       );
@@ -171,19 +193,44 @@ export default function Section(block) {
   const renderImgList = () => {
     if (hasImgList) {
       return (
-        <div className="pt-4">
-          {block.imgList.map(({ img, h3, p }, j) => (
-            <div className="d-md-flex text-center text-md-start align-items-center" key={j}>
-              <Figure className="list-image">
+        <>
+          {block.imgList.map(({ img, title, p }, j) => (
+            <div className="d-block d-lg-flex align-items-center">
+              <Figure className="list-image text-center">
                 <LazyLoadImage src={img.src} alt={img.alt} />
               </Figure>
               <div>
-                <h3>{h3}</h3>
-                <p>{p}</p>
+                <p className="imgList-title">{title}</p>
+                <p className="text-justify">{p}</p>
               </div>
             </div>
           ))}
-        </div>
+        </>
+      );
+    }
+  };
+
+  let hasImgListBlock;
+  if (block.imgListBlock !== undefined) {
+    hasImgListBlock = true;
+  } else {
+    hasImgListBlock = false;
+  }
+
+  const renderImgListBlock = () => {
+    if (hasImgListBlock) {
+      return (
+        <Row className="pt-4">
+          {block.imgListBlock.map(({ img, title, p }, j) => (
+            <Col xl={3} lg={4} md={2} key={j}>
+              <Figure className="list-image text-center w-100">
+                <LazyLoadImage src={img.src} alt={img.alt} />
+              </Figure>
+              <p className="imgList-title">{title}</p>
+              <p className="text-justify">{p}</p>
+            </Col>
+          ))}
+        </Row>
       );
     }
   };
@@ -202,6 +249,19 @@ export default function Section(block) {
           <LazyLoadImage src={block.img.src} alt={block.img.alt} />
         </Figure>
       );
+    }
+  };
+
+  let hasDisclaimer;
+  if (block.disclaimer !== undefined) {
+    hasDisclaimer = true;
+  } else {
+    hasDisclaimer = false;
+  }
+
+  const renderDisclaimer = () => {
+    if (hasDisclaimer) {
+      return <p className="text-small">{block.disclaimer}</p>;
     }
   };
 
@@ -245,9 +305,10 @@ export default function Section(block) {
 
       <section className={block.slug}>
         <Container>
-          {renderOneColumn()}
-          {renderTwoColumn()}
-          {renderMultiColumn()}
+          <Row>
+            {renderOneColumn()}
+            {renderTwoColumn()}
+          </Row>
         </Container>
       </section>
     </>

@@ -46,7 +46,7 @@ export default function Hero(hero) {
 
   return (
     <>
-      <section className={hero.slug}>
+      <section className={hero.slug + " hero"}>
         <Container>
           <Row className="block">
             <Col
@@ -55,7 +55,6 @@ export default function Hero(hero) {
                 span: hero.column[0].span,
                 order: hero.column[0].order,
               }}
-              className="hero"
             >
               {renderTitle()}
               {renderSubtitle()}

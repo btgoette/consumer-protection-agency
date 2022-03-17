@@ -1,5 +1,5 @@
 import Head from 'components/common/Head'
-import Hero from 'components/common/Hero'
+import PageTitle from 'components/common/PageTitle'
 
 import page from 'public/content/en_US/Page/Blog/blog.content'
 
@@ -12,7 +12,7 @@ export default function Blog() {
 
         <Head {...page}/>
 
-        <Hero {...page.hero} />
+        <PageTitle {...page} />
 
       </div>
 

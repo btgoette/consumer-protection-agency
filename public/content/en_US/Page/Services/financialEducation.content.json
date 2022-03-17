@@ -16,7 +16,7 @@
             }
         ],
         "title": "Financial Education",
-        "subtitle": "Something Important about this page",
+        "text": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -34,7 +34,7 @@
                 }
             ],
             "title": "Financial Education",
-            "subtitle": [
+            "text": [
                 {
                     "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
                 }
