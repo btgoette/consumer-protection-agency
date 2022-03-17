@@ -16,7 +16,7 @@
             }
         ],
         "title": "Accounting & Tax Services",
-        "subtitle": "Something Important About This Page",
+        "text": "Something Important About This Page",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -34,7 +34,7 @@
                 }
             ],
             "title": "Executive Accounting & Tax",
-            "subtitle": [
+            "text": [
                 {
                     "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
                 },
@@ -60,7 +60,7 @@
                         "src": "/images/page/services/accounting-and-tax-services/scaling-your-business.jpg",
                         "alt": "Scaling your business"
                     },
-                    "subtitle": [
+                    "text": [
                         {
                             "p": "Your ability to grow and scale your business is limited by how much you know and understand the numbers. Keeping accurate records will help you answer questions like How much of a cash reserve do we really need? What should our profit margin be and how do we get there? Do we have too much staff or not enough? Which customers or product lines are generating the most profit?"
                         }
@@ -75,7 +75,7 @@
                         "src": "/images/page/services/accounting-and-tax-services/taxation.jpg",
                         "alt": "Scaling your business"
                     },
-                    "subtitle": [
+                    "text": [
                         {
                             "p": "There are two important elements that everyone should understand. First, taxes are your largest expense. Whether you are an employee, investor, business owner, etc. Taxes account for up to 40% of your earnings. Secondly, the IRS is not an organization that you have to fear. With proactive tax planning and access to a team to help you implement tax strategies, you can lower your tax bill by 20-40%. The IRS has 4 guidelines for tax deductions, and we help you meet all four: Business Expense, Ordinary Expense, Necessary Expense, Document the Expense."
                         }
@@ -90,7 +90,7 @@
                         "src": "/images/page/services/accounting-and-tax-services/access-to-funding.jpg",
                         "alt": "Scaling your business"
                     },
-                    "subtitle": [
+                    "text": [
                         {
                             "p": "Whether you need a loan to help grow your business or fund a personal project. One of the first items the lender will request is your financial data. Having a compliant tax history and accurate accounting system will make this part of the lending process a breeze."
                         }

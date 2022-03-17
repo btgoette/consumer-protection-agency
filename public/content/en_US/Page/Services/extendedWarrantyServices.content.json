@@ -16,7 +16,7 @@
             }
         ],
         "title": "Extended Warranty Services",
-        "subtitle": "Get the best in warranty protection with our Consumer Protection warranty plan.",
+        "text": "Get the best in warranty protection with our Consumer Protection warranty plan.",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -33,7 +33,7 @@
                 }
             ],
             "title": "Consumer Protection Warranty Plan",
-            "subtitle": [
+            "text": [
                 {
                     "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
                 }
@@ -47,27 +47,42 @@
             "slug": "common-protection-plan-pain-points",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
                     "order": "0"
                 }
             ],
             "title": "Common Protection Plan Pain Points",
-            "subtitle": [
+            "text": [
                 {
                     "p": "We have done our homework and we understand your pain points. As a result, we are always on a path of discovering, addressing and preventing these pain points for our customers in the easiest way possible. Some of these include: Poor response times for repairs or reimbursements"
                 },
                 {
                     "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
                 }
+            ]
+        },
+        "painPoints": {
+            "slug": "pain-points",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
             ],
-            "imgList": [
+            "imgListBlock": [
                 {
                     "img": {
                         "src": "/images/icons/money-bag-250x250.png",
                         "alt": "Money Bag"
                     },
-                    "h3": "Extra costs and hidden fees",
+                    "title": "Extra costs and hidden fees",
                     "p": "You have successfully filed a claim and now you are being slapped with a hefty bill for shipping the product back for repairs yet no one mentioned this cost before. These extra costs can quickly get out of hand. What do you do?"
                 },
                 {
@@ -75,7 +90,7 @@
                         "src": "/images/icons/car-250x250.png",
                         "alt": "Car"
                     },
-                    "h3": "Difficulty in cancelling contract or preventing auto renewal",
+                    "title": "Difficulty in cancelling contract or preventing auto renewal",
                     "p": "Some extended warranty programs make it extremely difficult to cancel a contract or at least prevent the auto renewal feature from charging the monthly bills."
                 },
                 {
@@ -83,7 +98,7 @@
                         "src": "/images/icons/hand-gears-250x250.png",
                         "alt": "Credit Score Range & Factors"
                     },
-                    "h3": "Multiple service plans for various items",
+                    "title": "Multiple service plans for various items",
                     "p": "Having to keep up with separate service plans for your car, home, phone, tablet, TV and appliances is overwhelming, and there is no doubt that these costs can stack up when it comes to settling your monthly bills."
                 },
                 {
@@ -91,7 +106,7 @@
                         "src": "/images/icons/signature-250x250.png",
                         "alt": "Signature"
                     },
-                    "h3": "Deceptive language in the contract",
+                    "title": "Deceptive language in the contract",
                     "p": "Some extended warranty contracts use deceptive language intentionally in order to woo clients into agreements that are unfair. This could end up with the clients paying through the nose in terms of deductibles when the covered item malfunctions."
                 },
                 {
@@ -99,7 +114,7 @@
                         "src": "/images/icons/time-signature-250x250.png",
                         "alt": "Timed Signature"
                     },
-                    "h3": "Stuck in long-term contracts",
+                    "title": "Stuck in long-term contracts",
                     "p": "You have considered taking a protection plan for your clothes washer and dryer, but you are still unsure of committing yourself to a multi-year agreement. Is there a way to access a plan without the long-term commitment?"
                 },
                 {
@@ -107,7 +122,7 @@
                         "src": "/images/icons/sad-gift-250x250.png",
                         "alt": "Rude Surprises"
                     },
-                    "h3": "Rude Surprises",
+                    "title": "Rude Surprises",
                     "p": "You purchase a used car with over 100,000 miles on the odometer. While it ooks like it is in mint condition, you cannot help wondering what you would do if something catastrophic such as an engine knock were to happen."
                 },
                 {
@@ -115,7 +130,7 @@
                         "src": "/images/icons/breaking-bank-250x250.png",
                         "alt": "Breaking Bank"
                     },
-                    "h3": "Bank-breaking costs",
+                    "title": "Bank-breaking costs",
                     "p": "We would all love to keep the monthly bills as small as possible, but getting warranties for every appliance and device in your home would be quite expensive. Is there a way you can bundle everything together and just pay one, low monthly fees?"
                 },
                 {
@@ -123,21 +138,26 @@
                         "src": "/images/icons/poor-score-250x250.png",
                         "alt": "Credit Score Range & Factors"
                     },
-                    "h3": "Poor customer support",
+                    "title": "Poor customer support",
                     "p": "When customers need help with problems or questions, they want a quick and definitive response. Unfortunately, many extended warranty brands fail at this and leave a lot to be desired."
                 }
             ]
         },
         "whyChooseUs": {
             "slug": "why-choose-us",
-            "title": "Why Choose Us?",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
                     "order": "0"
                 }
             ],
+            "title": "Why Choose Us?",
             "list": [
                 {
                     "li": "24/7, hassle-free customer service"
@@ -161,6 +181,654 @@
                     "li": "Accessible online chat and claims features"
                 }
             ]
+        },
+        "degreeOfCover": {
+            "slug": "degree-of-cover",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "The Degree of Cover",
+            "text": [
+                {
+                    "p": "Most extended warranties or service contracts don’t protect you in all situations or repairs. For example, some covers only apply to specific parts of the item being protected while some won’t apply if you do not follow the correct procedures for maintenance."
+                },
+                {
+                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
+                }
+            ]
+        },
+        "howWeSolveTheseIssues": {
+            "slug": "how-we-solve-these-issues",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "How We Solve All These Issues For You",
+            "list": [
+                {
+                    "li": "We offer the fastest, easiest, and most automated claims system in the industry"
+                },
+                {
+                    "li": "No long-term commitments – all plans are month-to-month, pay as you go"
+                },
+                {
+                    "li": "We offer multiple, pocket-friendly plans to suit every budget"
+                },
+                {
+                    "li": "No extra costs or hidden fees in all our plans"
+                },
+                {
+                    "li": "It is quick and easy to cancel your protection plan"
+                },
+                {
+                    "li": "We have protection plans for literally everything, so you never have to worry about dealing with multiple companies and paying multiple bills"
+                },
+                {
+                    "li": "Our contracts are well-defined with no ambiguous or misleading language"
+                },
+                {
+                    "li": "Our reps are available 24/7 to listen and help with any issues you may be experiencing"
+                },
+                {
+                    "li": "Our cover applies to the entire item being covered and not in parts. Therefore, you can rest easy. We also do not have any conditions for how to maintain your products"
+                }
+            ]
+        },
+        "howItWorks": {
+            "slug": "how-it-works",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "How It Works",
+            "text": [
+                {
+                    "p": "It is really as quick and easy as it seems! Give us a call, use our mobile app or visit our website to choose a service plan, file for a claim within minutes and get your same-day repair schedule (or get your refund processed) promptly."
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Easy Checkout",
+                    "text": [
+                        {
+                            "p": "Give us a call at customer service OR use the Quick and simple one-step checkout on our website to choose the most suitable service plan. Keep all your plans in one basket for convenience and to save on costs"
+                        }
+                    ]
+                },
+                {
+                    "title": "File Claim",
+                    "text": [
+                        {
+                            "p": "File a claim in a matter of minutes! Our claims system is the fastest, easiest and most automated in the industry."
+                        }
+                    ]
+                },
+                {
+                    "title": "Repair/Refund",
+                    "text": [
+                        {
+                            "p": "We schedule repairs on the same day and refunds are processed without any delays. Our repair or replace service is flexible and fast, with customer satisfaction always at the very top of our priorities."
+                        }
+                    ]
+                }
+            ]
+        },
+        "homeWarrantyPlan": {
+            "slug": "home-warranty-plan",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Home Warranty Plan",
+            "list": [
+                {
+                    "li": "Coverage for 17 household appliances regardless of age"
+                },
+                {
+                    "li": "Coverage for four major systems such as central air, heating, hot water heater, electrical and plumbing"
+                },
+                {
+                    "li": "Optional add-on protection for 19 additional appliances."
+                },
+                {
+                    "li": "Optional Accidental Damage coverage available for laptops, tablets and smartphones"
+                },
+                {
+                    "li": "Low $75 per claim deductible for your covered home appliances and systems"
+                },
+                {
+                    "li": "Pay-as-you-go protection plan with no long-term contract"
+                },
+                {
+                    "li": "Same day scheduling for repair services"
+                },
+                {
+                    "li": "24/7 hassle-free services"
+                },
+                {
+                    "li": "Swap out the appliances you want to be covered at any time"
+                },
+                {
+                    "li": "Coverage never expires as long as you continue making your monthly payment"
+                },
+                {
+                    "li": "Covers all mechanical and electrical failures"
+                },
+                {
+                    "li": "No contracts or long-term commitments"
+                }
+            ],
+            "subtitleList": [
+                {
+                    "title": "Covered Items",
+                    "list": [
+                        {
+                            "li": "Clothes washer"
+                        },
+                        {
+                            "li": "Clothes dryer"
+                        },
+                        {
+                            "li": "Attic fan"
+                        },
+                        {
+                            "li": "Bathroom exhaust fan"
+                        },
+                        {
+                            "li": "Ceiling fan"
+                        },
+                        {
+                            "li": "Dishwasher"
+                        },
+                        {
+                            "li": "Refrigerator (with ice maker)"
+                        },
+                        {
+                            "li": "Stand-alone freezer"
+                        },
+                        {
+                            "li": "Garage door opener"
+                        },
+                        {
+                            "li": "Doorbell"
+                        },
+                        {
+                            "li": "Kitchen fan/exhaust hood"
+                        },
+                        {
+                            "li": "Microwave (built-in countertop)"
+                        },
+                        {
+                            "li": "Oven"
+                        }
+                    ]
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Additional Information",
+                    "text": [
+                        {
+                            "p": "Washing machines and dryers are the most common appliances to fail. Refrigerators have a tendency to breakdown during the summer months. Ovens often need maintenance during the winter holiday season. Consumer Protection Electronics Warranty Plan. Coverage for everything that plugs in or has a battery!"
+                        }
+                    ]
+                }
+            ]
+        },
+        "electronics": {
+            "slug": "electronics",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Electronics",
+            "subtitleList": [
+                {
+                    "title": "What to Expect:",
+                    "list": [
+                        {
+                            "li": "Cover an unlimited number of electronics"
+                        },
+                        {
+                            "li": "Enjoy low-per claim deductibles of $$"
+                        },
+                        {
+                            "li": "Pay-as-you-go protection plan with no long-term contract"
+                        },
+                        {
+                            "li": "Unlimited claims and hassle free service"
+                        },
+                        {
+                            "li": "Local repairs so you don’t have to worry about wasting time shipping your electronics out"
+                        },
+                        {
+                            "li": "Plans are easily transferable to new items"
+                        }
+                    ]
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Features",
+                    "text": [
+                        {
+                            "p": "Protection for products brands. We offer protection for an unlimited number of eligible new and existing products/brands."
+                        }
+                    ]
+                },
+                {
+                    "title": "Find Us Wherever You Are",
+                    "text": [
+                        {
+                            "p": "We boast of a 98% Zip-Code coverage for In-Home service."
+                        }
+                    ]
+                },
+                {
+                    "title": "Hassle-Free Services",
+                    "text": [
+                        {
+                            "p": "File a claim. Shipping is included. We’ll repair it and send it back, typically within 24 hours."
+                        }
+                    ]
+                }
+            ]
+        },
+        "electronicsCoverage": {
+            "slug": "electronicsCoverage",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "subtitleList": [
+                {
+                    "title": "Covered Items",
+                    "list": [
+                        {
+                            "li": "Laptops"
+                        },
+                        {
+                            "li": "Smartphones"
+                        },
+                        {
+                            "li": "Tablets"
+                        },
+                        {
+                            "li": "Monitors"
+                        },
+                        {
+                            "li": "e Readers"
+                        },
+                        {
+                            "li": "Printers"
+                        },
+                        {
+                            "li": "Televisions"
+                        },
+                        {
+                            "li": "Game consoles"
+                        },
+                        {
+                            "li": "Desktops"
+                        },
+                        {
+                            "li": "Cameras"
+                        },
+                        {
+                            "li": "Home audio"
+                        },
+                        {
+                            "li": "Car audio"
+                        },
+                        {
+                            "li": "Video equipment"
+                        },
+                        {
+                            "li": "Home theaters"
+                        },
+                        {
+                            "li": "Accessories"
+                        },
+                        {
+                            "li": "Mp3 players"
+                        },
+                        {
+                            "li": "Alarm clocks"
+                        }
+                    ]
+                },
+                {
+                    "title": "Technology",
+                    "list": [
+                        {
+                            "li": "Smartphones"
+                        },
+                        {
+                            "li": "Microphone failure"
+                        },
+                        {
+                            "li": "Home button failure"
+                        },
+                        {
+                            "li": "Charging port failure"
+                        },
+                        {
+                            "li": "Liquid damage"
+                        },
+                        {
+                            "li": "Cracked screen"
+                        },
+                        {
+                            "li": "Touchscreen malfunction"
+                        },
+                        {
+                            "li": "Headphone jack failure"
+                        },
+                        {
+                            "li": "Battery failure"
+                        },
+                        {
+                            "li": "Speaker malfunction"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tablets",
+                    "list": [
+                        {
+                            "li": "Drops"
+                        },
+                        {
+                            "li": "Spills"
+                        },
+                        {
+                            "li": "All mechanical/electrical breakdowns due to normal use"
+                        },
+                        {
+                            "li": "Screen malfunction"
+                        },
+                        {
+                            "li": "Touchscreen failure"
+                        },
+                        {
+                            "li": "Charging port failure"
+                        },
+                        {
+                            "li": "Battery failure"
+                        },
+                        {
+                            "li": "Won't power on/off"
+                        }
+                    ]
+                },
+                {
+                    "title": "Laptops",
+                    "list": [
+                        {
+                            "li": "Drops"
+                        },
+                        {
+                            "li": "Spills"
+                        },
+                        {
+                            "li": "Screen failure"
+                        },
+                        {
+                            "li": "All mechanical/electrical breakdowns due to normal use"
+                        },
+                        {
+                            "li": "Hard-drive crash"
+                        },
+                        {
+                            "li": "WiFi malfunction"
+                        },
+                        {
+                            "li": "Loose charging port"
+                        },
+                        {
+                            "li": "RAM failure"
+                        }
+                    ]
+                },
+                {
+                    "title": "Features",
+                    "list": [
+                        {
+                            "li": "Cover a combination of any three devices of your choice – smartphones, tablets or laptops."
+                        },
+                        {
+                            "li": "Enjoy low per claim deductibles"
+                        },
+                        {
+                            "li": "No long-term contracts – just a simple monthly protection plan"
+                        },
+                        {
+                            "li": "Any working device is eligible for protection regardless of brand or age"
+                        },
+                        {
+                            "li": "Unlimited claims and 24/7, hassle-free services"
+                        },
+                        {
+                            "li": "Local, same-day repairs so you do not have to stay long without your devices"
+                        },
+                        {
+                            "li": "Covers accidental damage and damage caused by liquids"
+                        },
+                        {
+                            "li": "Cancel your plan anytime without any penalties or hidden fees."
+                        },
+                        {
+                            "li": "Plans are readily transferable to new or upgraded gadgets"
+                        }
+                    ]
+                }
+            ]
+        },
+        "autoWarranty": {
+            "slug": "auto-warranty",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Consumer Protection Auto Warranty Plan",
+            "text": [
+                {
+                    "p": "Protection plans for every make, model and budget"
+                }
+            ],
+            "subtitleList": [
+                {
+                    "title": "What you will get",
+                    "list": [
+                        {
+                            "li": "24/7 roadside assistance"
+                        },
+                        {
+                            "li": "We have unmatched response time and transparency in the industry."
+                        },
+                        {
+                            "li": "The journey never stops with Rideshare support"
+                        },
+                        {
+                            "li": "If your car breaks down anywhere, we will send you a rideshare to get you to your destination safely and on time as we fix your car."
+                        }
+                    ]
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Rental car benefits",
+                    "text": [
+                        {
+                            "p": "As your car is being worked on, you will be offered rental car reimbursement benefits to allow you to carry on with your business"
+                        }
+                    ]
+                },
+                {
+                    "title": "Flexible payment terms",
+                    "text": [
+                        {
+                            "p": "We have various Protection Plans suited for different budgets. We will find the perfect match for you."
+                        }
+                    ]
+                },
+                {
+                    "title": "Industry-leading coverage",
+                    "text": [
+                        {
+                            "p": "Our plans are the most comprehensive in the industry and are friendly to your pocket"
+                        }
+                    ]
+                },
+                {
+                    "title": "Money-back guarantee",
+                    "text": [
+                        {
+                            "p": "All our plans come with a 30-day money back guarantee."
+                        }
+                    ]
+                },
+                {
+                    "title": "Choose your own mechanic",
+                    "text": [
+                        {
+                            "p": "You have the freedom to choose any ASE certified dealer/mechanic and we will pay them directly."
+                        }
+                    ]
+                },
+                {
+                    "title": "Fast and easy claims",
+                    "text": [
+                        {
+                            "p": "We honor claims quickly and without any hassle. Our representatives will be in constant contact to give you updates on the status of your claims."
+                        }
+                    ]
+                },
+                {
+                    "title": "Loyalty benefits",
+                    "text": [
+                        {
+                            "p": "When you put your trust in us, we have no choice but to give you a token of appreciation. Enjoy more benefits the longer you stay with us!"
+                        }
+                    ]
+                }
+            ]
+        },
+        "autoWarrantyPlanFeatures": {
+            "slug": "auto-warranty-plan-features",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Auto Warranty Plan Features",
+            "subtitleText": [
+                {
+                    "title": "Unlimited number of claims",
+                    "text": [
+                        {
+                            "p": "With every one of our warranty plans you choose, you will get an unlimited number of claims."
+                        }
+                    ]
+                },
+                {
+                    "title": "Transferable/Cancelable plans",
+                    "text": [
+                        {
+                            "p": "Coverage may be canceled at any time during the term of the Contract. Coverage may also be transferred to the new owner of the vehicle in case you decide to sell, thereby increasing the value of the car and making it more enticing for the buyer."
+                        }
+                    ]
+                },
+                {
+                    "title": "Countrywide coverage",
+                    "text": [
+                        {
+                            "p": "We boast of over 10,000 service centers across the United States. Therefore, you can rest assured that help will be available whenever and wherever you need it.*"
+                        }
+                    ]
+                }
+            ],
+            "disclaimer": "*The claim waiting period is only 30 days and 1,000 miles!"
+        },
+        "pricingPlans": {
+            "slug": "pricing-plans",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Pricing Plans"
         },
         "video": {
             "slug": "video-home video",

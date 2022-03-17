@@ -16,7 +16,7 @@
             }
         ],
         "title": "Private Small Business Network",
-        "subtitle": "Something Important about this page",
+        "text": "Something Important about this page",
         "cta": {
             "ctaLabel": "Learn More",
             "href": "#intro"
@@ -33,7 +33,7 @@
                 }
             ],
             "title": "The B2C Partners Network",
-            "subtitle": [
+            "text": [
                 {
                     "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
                 }
@@ -58,7 +58,7 @@
                 }
             ],
             "title": "Consumer Vendor Accounts",
-            "subtitle": [
+            "text": [
                 {
                     "p": "A consumer account is a term used in the credit reporting industry to describe items listed on a consumer's credit report. Each account displayed on a consumers credit report includes information about the creditor, history, balance and debt."
                 },
@@ -75,67 +75,37 @@
             "slug": "benefits-for-the-consumer",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "0",
+                    "span": "6",
                     "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
                 }
             ],
             "title": "Benefits for the Consumer",
-            "imgList": [
+            "text": [
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Access More Credit",
                     "p": "The network gives consumers access to the marketplace with a wide variety of vendors willing to extend credit based on guidelines of the B2C Partners Network."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Higher Approval Rates",
                     "p": "Base on the national average approval rate we shine above the rest and give borrowers a chance to prove their Creditworthiness."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Have a good credit mix",
                     "p": "By being a member of the B2C partners network, members will benefit from different types of credit accounts such as lines of credit, installment loans, and revolving accounts. This is a different approach compared to Industry practices that leave users without any depth on their credit profile."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Borrow money at better interest rates",
                     "p": "Scores above 740 typically qualify for the lowest mortgage rates available. Higher credit scores also can get lower interest rates on car loans. Lenders also look at things like debt-to-income ratios, but in general, the B2C partners network offers an opportunity for a good score which leads to lower interest rates."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Get approval for higher loans",
                     "p": "Through the B2C Partners Network staying on track with consumer vendor accounts leads to excellent payment history and will boost your credit score. Along with having a mature mix of accounts leading to higher loan approval rates."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Build a mature credit profile (800 Club)",
                     "p": "Prove your PAYMENT HISTORY by making onetime payments. Choose from a list of small businesses in different industries to grow your CREDIT MIX."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Easy tracking & reminders",
                     "p": "Get assistance from our state-of-the-art mobile to stay updated on the go!"
                 }
             ]
@@ -144,59 +114,34 @@
             "slug": "benefits-for-the-small-business",
             "column": [
                 {
-                    "offset": "2",
-                    "span": "8",
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
                     "order": "0"
                 }
             ],
             "title": "Benefits for the Small Business",
-            "imgList": [
+            "text": [
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Expand & Scale",
                     "p": "Vendors can expand the radius of their business reach and transform from being a locally focused, to a national business without taking any additional steps other than being a partner of the B2C network."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Passive Income",
                     "p": "Small businesses can now start generating consistent cashflow from members of the network. Whether a one-time purchase or a recurring order, the passive income gives the small business owner an injection or passive income."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "New client acquisition",
                     "p": "Members of the network will constantly introduce and refer new members on a daily basis. Partners watch their customer base grow on a weekly and monthly basis on auto-pilot."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "CRM and customer data back-office",
                     "p": "Businesses will gain access to prized consumer insights through a state-of-the-art CRM platform that will aggregate data base of the network. Tracking, billing and communication can all be done from your dashboard."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Executive partner opportunity",
                     "p": "At the executive partner level, get a liaison (account manager) to assist taking your business to the next level. Build corporate credit, Dun & Bradstreet setup with vendor account reporting, Paydex score, Better Business Bureau and company online presence."
                 },
                 {
-                    "img": {
-                        "src": "/images/icons/checkmark-250x250.png",
-                        "alt": "checkmark"
-                    },
-                    "h3": "Exposure & Branding",
                     "p": "Being a part of the network will generate brand exposure to consumers and other businesses in the network that have complimentary business services and/or products, resulting in better financial outcomes for members."
                 }
             ]
