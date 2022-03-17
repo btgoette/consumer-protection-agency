@@ -195,7 +195,7 @@ export default function Section(block) {
       return (
         <>
           {block.imgList.map(({ img, title, p }, j) => (
-            <div className="d-block d-lg-flex align-items-center">
+            <div key={j} className="d-block d-lg-flex align-items-center">
               <Figure className="list-image text-center">
                 <LazyLoadImage src={img.src} alt={img.alt} />
               </Figure>
