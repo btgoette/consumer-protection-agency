@@ -44,57 +44,84 @@
             ],
             "cta": {
                 "ctaLabel": "Why is this Important?",
-                "href": "#why-is-this-important"
+                "href": "#scaling-your-business"
             }
         },
         "scalingYourBusiness": {
-            "slug": "why-is-this-important",
-            "title": "Why is This Important?",
+            "slug": "scaling-your-business section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
-                    "span": "4",
-                    "order": "0",
-                    "title": "Scaling Your Business",                    
-                    "img": {
-                        "src": "/images/page/services/accounting-and-tax-services/scaling-your-business.jpg",
-                        "alt": "Scaling your business"
-                    },
-                    "text": [
-                        {
-                            "p": "Your ability to grow and scale your business is limited by how much you know and understand the numbers. Keeping accurate records will help you answer questions like How much of a cash reserve do we really need? What should our profit margin be and how do we get there? Do we have too much staff or not enough? Which customers or product lines are generating the most profit?"
-                        }
-                    ]
+                    "span": "6",
+                    "order": "1"
                 },
                 {
                     "offset": "0",
-                    "span": "4",
-                    "order": "1",
-                    "title": "Taxation",                    
-                    "img": {
-                        "src": "/images/page/services/accounting-and-tax-services/taxation.jpg",
-                        "alt": "Scaling your business"
-                    },
-                    "text": [
-                        {
-                            "p": "There are two important elements that everyone should understand. First, taxes are your largest expense. Whether you are an employee, investor, business owner, etc. Taxes account for up to 40% of your earnings. Secondly, the IRS is not an organization that you have to fear. With proactive tax planning and access to a team to help you implement tax strategies, you can lower your tax bill by 20-40%. The IRS has 4 guidelines for tax deductions, and we help you meet all four: Business Expense, Ordinary Expense, Necessary Expense, Document the Expense."
-                        }
-                    ]
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Scaling Your Business",
+            "text": [
+                {
+                    "p": "Your ability to grow and scale your business is limited by how much you know and understand the numbers. Keeping accurate records will help you answer questions like How much of a cash reserve do we really need? What should our profit margin be and how do we get there? Do we have too much staff or not enough? Which customers or product lines are generating the most profit?"
+                }
+            ],
+            "img": {
+                "src": "/images/team/team-meeting-600x450.jpg",
+                "alt": "Scaling your business"
+            }
+        },
+        "taxation": {
+            "slug": "taxation",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
                 },
                 {
                     "offset": "0",
-                    "span": "4",
-                    "order": "2",
-                    "title": "Access to Funding",                    
-                    "img": {
-                        "src": "/images/page/services/accounting-and-tax-services/access-to-funding.jpg",
-                        "alt": "Scaling your business"
-                    },
-                    "text": [
-                        {
-                            "p": "Whether you need a loan to help grow your business or fund a personal project. One of the first items the lender will request is your financial data. Having a compliant tax history and accurate accounting system will make this part of the lending process a breeze."
-                        }
-                    ]
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Taxation",
+            "text": [
+                {
+                    "p": "There are two important elements that everyone should understand. First, taxes are your largest expense. Whether you are an employee, investor, business owner, etc. Taxes account for up to 40% of your earnings. Secondly, the IRS is not an organization that you have to fear. With proactive tax planning and access to a team to help you implement tax strategies, you can lower your tax bill by 20-40%. The IRS has 4 guidelines for tax deductions, and we help you meet all four: Business Expense, Ordinary Expense, Necessary Expense, Document the Expense."
+                }
+            ],
+            "img": {
+                "src": "/images/tax/income-tax-2-600x450.jpg",
+                "alt": "Income Tax"
+            }
+        },
+        "accessToFunding": {
+            "slug": "access-to-funding section-end",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Access to Funding",
+            "img": {
+                "src": "/images/business/contract-signing-600x450.jpg",
+                "alt": "Contract Signing"
+            },
+            "text": [
+                {
+                    "p": "Whether you need a loan to help grow your business or fund a personal project. One of the first items the lender will request is your financial data. Having a compliant tax history and accurate accounting system will make this part of the lending process a breeze."
                 }
             ]
         },
