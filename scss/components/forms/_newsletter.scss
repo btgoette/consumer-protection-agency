@@ -1,6 +1,6 @@
 .newsletter {
     background-color: $newsletter-background-color;
-    padding: $section-padding;
+    padding: $newsletter-padding-mobile;
 
     h2{
         text-align: center;
@@ -28,6 +28,7 @@
 
     @media only screen and (min-width: $x-large) {
         text-align: center;
+        padding: $newsletter-padding;
 
         .newsletter-form {
             display: flex;
