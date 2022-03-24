@@ -118,7 +118,7 @@ export default function Section(block) {
           <h2>{block.firstColumn.title}</h2>
           <ul>
             {block.firstColumn.list.map(({ li }, i) => (
-              <li>{li}</li>
+              <li key={i}>{li}</li>
             ))}
           </ul>
         </>
