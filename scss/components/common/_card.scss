@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 4px 4px 12px $transparent-black;
+    background-color: $white;
+    color: $black;
+    min-height: 500px;
+    margin-bottom: 1.5rem;
+    padding: 2rem 10px;
+
+    .card-img-top {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .card-body {
+        .card-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .card-text {
+            text-align: justify;
+        }
+    }
+}

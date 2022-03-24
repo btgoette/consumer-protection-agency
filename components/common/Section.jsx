@@ -1,4 +1,4 @@
-import { Container, Row, Col, Figure, Button } from "react-bootstrap";
+import { Container, Row, Col, Figure, Button, Card } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Player, BigPlayButton } from "video-react";
 import "node_modules/video-react/dist/video-react.css";
@@ -29,7 +29,7 @@ export default function Section(block) {
             {renderSubtitleList()}
             {renderSubtitleText()}
             {renderImgList()}
-            {renderImgListBlock()}
+            {renderCard()}
             {renderCTA()}
             {renderDisclaimer()}
             {renderVideo()}
@@ -58,6 +58,7 @@ export default function Section(block) {
             }}
           >
             {renderImage()}
+            {renderFirstColumn()}
           </Col>
           <Col
             md={{
@@ -72,11 +73,54 @@ export default function Section(block) {
             {renderSubtitleList()}
             {renderSubtitleText()}
             {renderImgList()}
-            {renderImgListBlock()}
+            {renderCard()}
             {renderCTA()}
             {renderDisclaimer()}
             {renderVideo()}
           </Col>
+        </>
+      );
+    }
+  };
+
+  let hasSectionTitle;
+  if (block.sectionTitle !== undefined) {
+    hasSectionTitle = true;
+  } else {
+    hasSectionTitle = false;
+  }
+
+  const renderSectionTitle = () => {
+    if (hasSectionTitle) {
+      return (
+        <Container fluid className="section-title">
+          <Row className="section-title-row">
+            <Col>
+              <h2>{block.sectionTitle}</h2>
+            </Col>
+          </Row>
+        </Container>
+      );
+    }
+  };
+
+  let hasFirstColumn;
+  if (block.firstColumn !== undefined) {
+    hasFirstColumn = true;
+  } else {
+    hasFirstColumn = false;
+  }
+
+  const renderFirstColumn = () => {
+    if (hasFirstColumn) {
+      return (
+        <>
+          <h2>{block.firstColumn.title}</h2>
+          <ul>
+            {block.firstColumn.list.map(({ li }, i) => (
+              <li>{li}</li>
+            ))}
+          </ul>
         </>
       );
     }
@@ -210,24 +254,32 @@ export default function Section(block) {
     }
   };
 
-  let hasImgListBlock;
-  if (block.imgListBlock !== undefined) {
-    hasImgListBlock = true;
+  let hasCard;
+  if (block.card !== undefined) {
+    hasCard = true;
   } else {
-    hasImgListBlock = false;
+    hasCard = false;
   }
 
-  const renderImgListBlock = () => {
-    if (hasImgListBlock) {
+  const renderCard = () => {
+    if (hasCard) {
       return (
-        <Row className="pt-4">
-          {block.imgListBlock.map(({ img, title, p }, j) => (
-            <Col xl={3} lg={4} md={2} key={j}>
-              <Figure className="list-image text-center w-100">
-                <LazyLoadImage src={img.src} alt={img.alt} />
-              </Figure>
-              <p className="imgList-title">{title}</p>
-              <p className="text-justify">{p}</p>
+        <Row className="p-0">
+          {block.card.map(({ img, title, p }, j) => (
+            <Col xl={3} lg={4} md={6} key={j}>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={img.src}
+                  className="icon"
+                />
+                <Card.Body>
+                  <Card.Title>{title}</Card.Title>
+                  <Card.Text>
+                    {p}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
             </Col>
           ))}
         </Row>
@@ -302,10 +354,10 @@ export default function Section(block) {
   return (
     <>
       <a className="anchor" id={block.slug}></a>
-
+      {renderSectionTitle()}
       <section className={block.slug}>
         <Container>
-          <Row>
+          <Row className={block.row}>
             {renderOneColumn()}
             {renderTwoColumn()}
           </Row>

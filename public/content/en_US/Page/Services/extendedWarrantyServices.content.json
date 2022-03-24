@@ -39,12 +39,48 @@
                 }
             ],
             "cta": {
-                "ctaLabel": "What Choose Us?",
-                "href": "#common-protection-plan-pain-points"
+                "ctaLabel": "Why Choose Us?",
+                "href": "#why-choose-us"
+            }
+        },
+        "whyChooseUs": {
+            "slug": "why-choose-us",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Why Choose Us?",
+            "text": [
+                {
+                    "p": "Most extended warranties or service contracts don’t protect you in all situations or repairs. For example, some covers only apply to specific parts of the item being protected while some won’t apply if you do not follow the correct procedures for maintenance."
+                },
+                {
+                    "p": "We offer the fastest, easiest, and most automated claims system in the industry. No long-term commitments – all plans are month-to-month, pay as you go. We offer multiple, pocket-friendly plans to suit every budget. No extra costs or hidden fees in all our plans.  It is quick and easy to cancel your protection plan"
+                },
+                {
+                    "p": "We have protection plans for literally everything, so you never have to worry about dealing with multiple companies and paying multiple bills. Our contracts are well-defined with no ambiguous or misleading language. Our reps are available 24/7 to listen and help with any issues you may be experiencing"
+                },
+                {
+                    "p": "Our cover applies to the entire item being covered and not in parts. Therefore, you can rest easy. We also do not have any conditions for how to maintain your products."
+                }
+            ],
+            "img": {
+                "src": "/images/business/call-center-600x450.jpg",
+                "alt": "Woman at Call Center"
             }
         },
         "commonProtectionPlanPainPoints": {
-            "slug": "common-protection-plan-pain-points",
+            "slug": "common-protection-plan-pain-points section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -65,10 +101,14 @@
                 {
                     "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/laptop/woman-stressed-laptop-600x450.jpg",
+                "alt": "Stressed"
+            }
         },
         "painPoints": {
-            "slug": "pain-points",
+            "slug": "pain-points section-end",
             "column": [
                 {
                     "offset": "0",
@@ -76,7 +116,7 @@
                     "order": "0"
                 }
             ],
-            "imgListBlock": [
+            "card": [
                 {
                     "img": {
                         "src": "/images/icons/money-bag-250x250.png",
@@ -143,21 +183,17 @@
                 }
             ]
         },
-        "whyChooseUs": {
-            "slug": "why-choose-us",
+        "degreeOfCover": {
+            "slug": "degree-of-cover section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
+                    "span": "12",
                     "order": "0"
                 }
             ],
-            "title": "Why Choose Us?",
+            "title": "We Solve All Your Issues",
             "list": [
                 {
                     "li": "24/7, hassle-free customer service"
@@ -182,77 +218,9 @@
                 }
             ]
         },
-        "degreeOfCover": {
-            "slug": "degree-of-cover",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
-            "title": "The Degree of Cover",
-            "text": [
-                {
-                    "p": "Most extended warranties or service contracts don’t protect you in all situations or repairs. For example, some covers only apply to specific parts of the item being protected while some won’t apply if you do not follow the correct procedures for maintenance."
-                },
-                {
-                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
-                }
-            ]
-        },
-        "howWeSolveTheseIssues": {
-            "slug": "how-we-solve-these-issues",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                }
-            ],
-            "title": "How We Solve All These Issues For You",
-            "list": [
-                {
-                    "li": "We offer the fastest, easiest, and most automated claims system in the industry"
-                },
-                {
-                    "li": "No long-term commitments – all plans are month-to-month, pay as you go"
-                },
-                {
-                    "li": "We offer multiple, pocket-friendly plans to suit every budget"
-                },
-                {
-                    "li": "No extra costs or hidden fees in all our plans"
-                },
-                {
-                    "li": "It is quick and easy to cancel your protection plan"
-                },
-                {
-                    "li": "We have protection plans for literally everything, so you never have to worry about dealing with multiple companies and paying multiple bills"
-                },
-                {
-                    "li": "Our contracts are well-defined with no ambiguous or misleading language"
-                },
-                {
-                    "li": "Our reps are available 24/7 to listen and help with any issues you may be experiencing"
-                },
-                {
-                    "li": "Our cover applies to the entire item being covered and not in parts. Therefore, you can rest easy. We also do not have any conditions for how to maintain your products"
-                }
-            ]
-        },
         "howItWorks": {
-            "slug": "how-it-works",
+            "slug": "how-it-works section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -296,10 +264,15 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/laptop/woman-on-laptop-on-floor-600x600.jpg",
+                "alt": "Stressed"
+            }
         },
         "homeWarrantyPlan": {
-            "slug": "home-warranty-plan",
+            "slug": "home-warranty-plan section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -312,7 +285,8 @@
                     "order": "0"
                 }
             ],
-            "title": "Home Warranty Plan",
+            "sectionTitle": "Home Warranty Plan",
+            "title": "What to Expect:",
             "list": [
                 {
                     "li": "Coverage for 17 household appliances regardless of age"
@@ -406,23 +380,28 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/kitchen/oven-and-microwave-600x900.jpg",
+                "alt": "Stressed"
+            }
         },
         "electronics": {
-            "slug": "electronics",
+            "slug": "electronics section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
-            "title": "Electronics",
+            "sectionTitle": "Electronics",
             "subtitleList": [
                 {
                     "title": "What to Expect:",
@@ -473,10 +452,15 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/cell-phone/cell-phone-600x600.jpg",
+                "alt": "Stressed"
+            }
         },
         "electronicsCoverage": {
             "slug": "electronicsCoverage",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -580,7 +564,29 @@
                             "li": "Speaker malfunction"
                         }
                     ]
+                }
+            ],
+            "img": {
+                "src": "/images/laptop/laptop-tv-living-room-600x900.jpg",
+                "alt": "Laptop & Living Room"
+            }
+        },
+        "electronicsContinued": {
+            "slug": "electronic-continued section-end",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
                 },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "subtitleList": [
                 {
                     "title": "Tablets",
                     "list": [
@@ -671,10 +677,15 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/laptop/laptop-and-phone-600x900.jpg",
+                "alt": "Stressed"
+            }
         },
         "autoWarranty": {
-            "slug": "auto-warranty",
+            "slug": "auto-warranty section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -687,15 +698,10 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Auto Warranty Plan",
-            "text": [
-                {
-                    "p": "Protection plans for every make, model and budget"
-                }
-            ],
+            "sectionTitle": "Auto Warranty Plan",
             "subtitleList": [
                 {
-                    "title": "What you will get",
+                    "title": "What You Will Get:",
                     "list": [
                         {
                             "li": "24/7 roadside assistance"
@@ -710,6 +716,26 @@
                             "li": "If your car breaks down anywhere, we will send you a rideshare to get you to your destination safely and on time as we fix your car."
                         }
                     ]
+                }
+            ],
+            "img": {
+                "src": "/images/car/car-5-600x450.jpg",
+                "alt": "Rideshare"
+            }
+        },
+        "autoWarrantyContinued": {
+            "slug": "auto-warranty-continued",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
                 }
             ],
             "subtitleText": [
@@ -769,10 +795,15 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/car/car-600x900.jpg",
+                "alt": "Car Interior"
+            }
         },
         "autoWarrantyPlanFeatures": {
-            "slug": "auto-warranty-plan-features",
+            "slug": "auto-warranty-plan-features section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -812,19 +843,19 @@
                     ]
                 }
             ],
-            "disclaimer": "*The claim waiting period is only 30 days and 1,000 miles!"
+            "disclaimer": "*The claim waiting period is only 30 days and 1,000 miles!",
+            "img": {
+                "src": "/images/car/car-repair-600x600.jpg",
+                "alt": "Car Repairs"
+            }
         },
         "pricingPlans": {
-            "slug": "pricing-plans",
+            "slug": "pricing-plans bg-blue section-start",
+            "row": "text-center",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
+                    "span": "12",
                     "order": "0"
                 }
             ],

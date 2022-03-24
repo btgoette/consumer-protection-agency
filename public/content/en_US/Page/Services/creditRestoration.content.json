@@ -46,7 +46,8 @@
             }
         },
         "whatIsACreditScore": {
-            "slug": "what-is-a-credit-score",
+            "slug": "what-is-a-credit-score section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -69,21 +70,22 @@
                 }
             ],
             "img": {
-                "src": "/images/page/services/credit-restoration/fico-score-factors.png",
-                "alt": "How Credit Score is Calculated" 
+                "src": "/images/credit-score/fico-score-factors.png",
+                "alt": "How Credit Score is Calculated"
             }
         },
         "howCanYourCreditScoreAffectYou": {
-            "slug": "how-can-your-credit-score-affect-you",
+            "slug": "how-can-your-credit-score-affect-you section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
-                    "span": "5",
+                    "span": "6",
                     "order": "0"
                 },
                 {
                     "offset": "0",
-                    "span": "7",
+                    "span": "6",
                     "order": "1"
                 }
             ],
@@ -100,72 +102,97 @@
                 }
             ],
             "img": {
-                "src": "/images/page/services/credit-restoration/credit-score-range.png",
-                "alt": "Credit Score Range & Factors"                
+                "src": "/images/car/new-car-600x600.jpg",
+                "alt": "New Car"
             }
         },
         "benefitsForTheConsumer": {
-            "slug": "benefits-for-the-consumer",
+            "slug": "benefits-for-the-consumer section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "title": "How Will Our Services Benefit You?",
-                    "list": [
-                        {
-                            "li": "Continuous Credit Education"
-                        },
-                        {
-                            "li": "Protection from deceptive practice"
-                        },
-                        {
-                            "li": "Credit report monitoring"
-                        },
-                        {
-                            "li": "ID theft protection"
-                        },
-                        {
-                            "li": "Credit score increase"
-                        },
-                        {
-                            "li": "Credit audit report"
-                        }
-                    ]
+                    "order": "1"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "title": "The Benefits of Having Good Credit",
-                    "list": [
-                        {
-                            "li": "Get Better Rates on Car Insurance"
-                        },
-                        {
-                            "li": "Save on Other Types of Insurance"
-                        },
-                        {
-                            "li": "Quality for Lower Credit Card Interest"
-                        },
-                        {
-                            "li": "Get Approved for Higher Credit Limits"
-                        },
-                        {
-                            "li": "Have More Housing Options"
-                        },
-                        {
-                            "li": "Get Utility Services More Easily"
-                        },
-                        {
-                            "li": "Get a Cell Phone Without Prepaying or Making a Security Deposit"
-                        },
-                        {
-                            "li": "Look Better to Potential Employers"
-                        }
-                    ]
+                    "order": "0"
                 }
-            ]
+            ],
+            "title": "How Will Our Services Benefit You?",
+            "list": [
+                {
+                    "li": "Continuous Credit Education"
+                },
+                {
+                    "li": "Protection from deceptive practice"
+                },
+                {
+                    "li": "Credit report monitoring"
+                },
+                {
+                    "li": "ID theft protection"
+                },
+                {
+                    "li": "Credit score increase"
+                },
+                {
+                    "li": "Credit audit report"
+                }
+            ],
+            "img": {
+                "src": "/images/credit-score/credit-score-range.png",
+                "alt": "Credit Score Range & Factors"
+            }
+        },
+        "benefitsOfHavingGoodCredit": {
+            "slug": "benefits-of-having-good-credit section-end",
+            "row": "align-items-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "The Benefits of Having Good Credit",
+            "list": [
+                {
+                    "li": "Get Better Rates on Car Insurance"
+                },
+                {
+                    "li": "Save on Other Types of Insurance"
+                },
+                {
+                    "li": "Quality for Lower Credit Card Interest"
+                },
+                {
+                    "li": "Get Approved for Higher Credit Limits"
+                },
+                {
+                    "li": "Have More Housing Options"
+                },
+                {
+                    "li": "Get Utility Services More Easily"
+                },
+                {
+                    "li": "Get a Cell Phone Without Prepaying or Making a Security Deposit"
+                },
+                {
+                    "li": "Look Better to Potential Employers"
+                }
+            ],
+            "img": {
+                "src": "/images/car/handed-keys-600x450.jpg",
+                "alt": "Handed Keys"
+            }
         },
         "video": {
             "slug": "video-home video",

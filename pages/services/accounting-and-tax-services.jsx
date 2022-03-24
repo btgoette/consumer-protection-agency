@@ -16,6 +16,10 @@ export default function AccountingAndTaxServices() {
 
         <Section {...page.block.scalingYourBusiness} />
 
+        <Section {...page.block.taxation} />
+
+        <Section {...page.block.accessToFunding} />
+
         <Section {...page.block.video} />
       </div>
     </>
