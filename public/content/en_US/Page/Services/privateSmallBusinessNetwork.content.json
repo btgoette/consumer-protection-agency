@@ -44,7 +44,8 @@
             }
         },
         "consumerVendorAccounts": {
-            "slug": "consumer-vendor-accounts",
+            "slug": "consumer-vendor-accounts section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -67,12 +68,13 @@
                 }
             ],
             "img": {
-                "src": "/images/page/services/private-small-business-network/business-contract.jpg",
+                "src": "/images/business/business-agreement-600x450.jpg",
                 "alt": "Business Contract"
             }
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
@@ -108,10 +110,14 @@
                 {
                     "p": "Get assistance from our state-of-the-art mobile to stay updated on the go!"
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/business/contract-600x600.jpg",
+                "alt": "Business Contract"
+            }
         },
         "benefitsForTheSmallBusiness": {
-            "slug": "benefits-for-the-small-business",
+            "slug": "benefits-for-the-small-business section-end",
             "column": [
                 {
                     "offset": "0",
@@ -144,7 +150,11 @@
                 {
                     "p": "Being a part of the network will generate brand exposure to consumers and other businesses in the network that have complimentary business services and/or products, resulting in better financial outcomes for members."
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/business/secretary-600x600.jpg",
+                "alt": "Business Contract"
+            }
         },
         "video": {
             "slug": "video-home video",

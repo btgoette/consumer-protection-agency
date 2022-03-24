@@ -31,10 +31,19 @@ body {
 }
 
 .bg-red {
-    background-color: $red;
+    background-color: $dark-red;
+    background-size: $background-cover;
+    background-position-x: $background-x;
+    background-position-y: $background-y;
+    background-blend-mode: $hero-blend;
+    // background-image: url("/images/backgrounds/logo-background.png");
     color: $white;
     a {
         color: $white;
+    }
+
+    h2 {
+        color: $blue;
     }
 }
 

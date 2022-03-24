@@ -22,6 +22,8 @@ export default function CreditRestoration() {
         <Section {...page.block.howCanYourCreditScoreAffectYou} />
 
         <Section {...page.block.benefitsForTheConsumer} />
+
+        <Section {...page.block.benefitsOfHavingGoodCredit} />
         
         <Section {...page.block.video} />
         

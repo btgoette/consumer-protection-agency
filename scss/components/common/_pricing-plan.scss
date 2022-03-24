@@ -1,0 +1,48 @@
+.pricing-plans {
+    padding: 4rem 0;
+    text-align: center;
+    text-transform: uppercase;
+
+    .row {
+        div:first-of-type {
+            border-bottom: 2px solid $white;
+            width: 70%;
+            margin: 0 auto 3rem;
+        }
+        .col-lg-4 {
+            margin-bottom: 2rem;
+        }
+    }
+
+    p {
+        font-size: 1.25rem;
+
+        &.divider {
+            width: 70%;
+            border-top: 2px solid $white;
+        }
+        &.text-small {
+            font-size: $font-size-small;
+        }
+    }
+
+    h3 {
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+
+    @media only screen and (min-width: $large) {
+        padding: 8rem 0;
+
+        .row {
+            div:first-of-type {
+                width: 90%;
+            }
+            div:not(:last-of-type) {
+                &.col-lg-4 {
+                    border-right: 2px solid $white;
+                }
+            }
+        }
+    }
+}

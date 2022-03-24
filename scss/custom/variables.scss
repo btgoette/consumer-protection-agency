@@ -1,13 +1,14 @@
 // colors
 $black: #121212;
-$blue: #1b1c4e;
+$blue: #181f53;
 $dark-blue: #282838;
 $dark-gray: #404142;
 $dark-red: #8f0f1f;
 $gray: #828386;
 $light-blue: #2b2d80;
 $light-gray: #ebebef;
-$red: #d40b18;
+$red: #ba2519;
+$transparent-black: #121212a2;
 $white: #fff;
 
 // backgrounds
@@ -133,12 +134,14 @@ $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;
 $hero-padding-mobile: 4rem 0 10rem;
 $image-padding: 2rem;
-$intro-padding-mobile: 3rem 1rem 2rem;
+$intro-padding-mobile: 2rem 1rem 1rem;
 $intro-padding: 6rem 0;
 $list-padding: 0 0 1rem;
 $nav-padding: 0.5rem;
-$section-padding-mobile: 2rem 0;
-$section-padding: 4rem 0;
+$newsletter-padding-mobile: 3rem 0 0;
+$newsletter-padding: 4rem 0;
+$section-padding-mobile: 2rem;
+$section-padding: 4rem;
 
 // sizes
 $container-width: 1460px;
