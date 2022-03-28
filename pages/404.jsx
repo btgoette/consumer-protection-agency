@@ -9,7 +9,7 @@ export default function Error404() {
       <Head {...page} />
       <section className="error">
         <h1>Page Not Found</h1>
-        <h2>
+        <h2 className="text-center">
           <Link href="/">Back to Home</Link>
         </h2>
       </section>

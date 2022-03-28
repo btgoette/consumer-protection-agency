@@ -1,5 +1,5 @@
 {
-    "title": "Credit Restoration",
+    "title": "Credit Restoration | Consumer Protection Agency",
     "description": "",
     "slug": "credit-restoration",
     "href": "https://consumerprotection.agency/credit-restoration",
@@ -46,8 +46,8 @@
             }
         },
         "whatIsACreditScore": {
-            "slug": "what-is-a-credit-score section-start",
-            "row": "align-items-center",
+            "slug": "what-is-a-credit-score",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -75,8 +75,8 @@
             }
         },
         "howCanYourCreditScoreAffectYou": {
-            "slug": "how-can-your-credit-score-affect-you section-end",
-            "row": "align-items-center",
+            "slug": "how-can-your-credit-score-affect-you",
+            "row": "align-items-center section-end",
             "column": [
                 {
                     "offset": "0",
@@ -107,8 +107,8 @@
             }
         },
         "benefitsForTheConsumer": {
-            "slug": "benefits-for-the-consumer section-start",
-            "row": "align-items-center",
+            "slug": "benefits-for-the-consumer",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -148,8 +148,8 @@
             }
         },
         "benefitsOfHavingGoodCredit": {
-            "slug": "benefits-of-having-good-credit section-end",
-            "row": "align-items-center",
+            "slug": "benefits-of-having-good-credit",
+            "row": "align-items-center section-end",
             "column": [
                 {
                     "offset": "0",

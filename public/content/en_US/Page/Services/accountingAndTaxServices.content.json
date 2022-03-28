@@ -1,5 +1,5 @@
 {
-    "title": "Accounting & Tax Services",
+    "title": "Accounting & Tax Services | Consumer Protection Agency",
     "description": "",
     "slug": "accounting-and-tax-services",
     "href": "https://consumerprotection.agency/accounting-and-tax-services",
@@ -48,8 +48,8 @@
             }
         },
         "scalingYourBusiness": {
-            "slug": "scaling-your-business section-start",
-            "row": "align-items-center",
+            "slug": "scaling-your-business",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -75,7 +75,7 @@
         },
         "taxation": {
             "slug": "taxation",
-            "row": "align-items-center",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -100,8 +100,8 @@
             }
         },
         "accessToFunding": {
-            "slug": "access-to-funding section-end",
-            "row": "align-items-center",
+            "slug": "access-to-funding",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",

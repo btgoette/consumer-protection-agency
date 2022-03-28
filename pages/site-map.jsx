@@ -1,11 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
-
 import Head from "components/common/Head";
 import Section from "components/common/Section";
 
-import page from "public/content/en_US/Page/thankYou.content";
+import page from "public/content/en_US/Page/siteMap.content";
 
-export default function ThankYou() {
+export default function SiteMap() {
   return (
     <div className={page.slug}>
       <Head {...page} />

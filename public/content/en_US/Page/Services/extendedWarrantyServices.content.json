@@ -1,5 +1,5 @@
 {
-    "title": "Extended Warranty Services",
+    "title": "Extended Warranty Services | Consumer Protection Agency",
     "description": "",
     "slug": "extended-warranty-services",
     "href": "https://consumerprotection.agency/extended-warranty-services",
@@ -45,7 +45,7 @@
         },
         "whyChooseUs": {
             "slug": "why-choose-us",
-            "row": "align-items-center",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -78,9 +78,40 @@
                 "alt": "Woman at Call Center"
             }
         },
+        "warrantyNav":{
+            "slug": "warranty-nav",
+            "row": "align-items-center text-center",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "sectionTitle": "Warranty Plans",
+            "nav": [
+                {
+                    "href": "#home-warranty-plan",
+                    "title": "Home"
+                },
+                {
+                    "href": "#electronics-warranty-plan",
+                    "title": "Electronics"
+                },
+                {
+                    "href": "#auto-warranty-plan",
+                    "title": "Auto"
+                },
+                {
+                    "href": "#pricing-plans",
+                    "title": "Pricing Plans"
+                }
+                
+            ]
+        },
         "commonProtectionPlanPainPoints": {
-            "slug": "common-protection-plan-pain-points section-start",
-            "row": "align-items-center",
+            "slug": "common-protection-plan-pain-points",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -108,7 +139,8 @@
             }
         },
         "painPoints": {
-            "slug": "pain-points section-end",
+            "slug": "pain-points",
+            "row": "section-end",
             "column": [
                 {
                     "offset": "0",
@@ -184,8 +216,8 @@
             ]
         },
         "degreeOfCover": {
-            "slug": "degree-of-cover section-start",
-            "row": "align-items-center",
+            "slug": "degree-of-cover",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -219,8 +251,8 @@
             ]
         },
         "howItWorks": {
-            "slug": "how-it-works section-end",
-            "row": "align-items-center",
+            "slug": "how-it-works",
+            "row": "align-items-center section-end",
             "column": [
                 {
                     "offset": "0",
@@ -271,8 +303,8 @@
             }
         },
         "homeWarrantyPlan": {
-            "slug": "home-warranty-plan section-start section-end",
-            "row": "align-items-center",
+            "slug": "home-warranty-plan",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -387,8 +419,8 @@
             }
         },
         "electronics": {
-            "slug": "electronics section-start",
-            "row": "align-items-center",
+            "slug": "electronics-warranty-plan",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -572,8 +604,8 @@
             }
         },
         "electronicsContinued": {
-            "slug": "electronic-continued section-end",
-            "row": "align-items-center",
+            "slug": "electronic-continued",
+            "row": "align-items-center section-end",
             "column": [
                 {
                     "offset": "0",
@@ -684,8 +716,8 @@
             }
         },
         "autoWarranty": {
-            "slug": "auto-warranty section-start",
-            "row": "align-items-center",
+            "slug": "auto-warranty-plan",
+            "row": "align-items-center section-start",
             "column": [
                 {
                     "offset": "0",
@@ -802,8 +834,8 @@
             }
         },
         "autoWarrantyPlanFeatures": {
-            "slug": "auto-warranty-plan-features section-end",
-            "row": "align-items-center",
+            "slug": "auto-warranty-plan-features",
+            "row": "align-items-center section-end",
             "column": [
                 {
                     "offset": "0",
@@ -850,8 +882,8 @@
             }
         },
         "pricingPlans": {
-            "slug": "pricing-plans bg-blue section-start",
-            "row": "text-center",
+            "slug": "pricing-plans",
+            "row": "text-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -859,7 +891,8 @@
                     "order": "0"
                 }
             ],
-            "title": "Pricing Plans"
+            "sectionTitle": "Pricing Plans",
+            "pricingPlan": "true"
         },
         "video": {
             "slug": "video-home video",

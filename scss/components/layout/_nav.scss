@@ -2,8 +2,13 @@
 @import "offcanvas.scss";
 
 .nav {
-    border-bottom: $navbar-bottom-border;
-
+    .nav-link{
+        color: $white;
+        padding: .5rem;
+        &:hover {
+            opacity: .8;
+        }
+    }
     .top-bar {
         padding: 0.5rem 1rem;
         background-color: $nav-topbar-background-color;
@@ -26,6 +31,7 @@
         width: 100%;
         padding: $nav-padding;
         background: $nav-background-color !important;
+        border-bottom: $navbar-bottom-border;
 
         .nav-grid {
             display: grid;
@@ -58,6 +64,7 @@
 
                     &:hover {
                         color: $nav-font-hover-color;
+                        opacity: 1;
                         text-decoration: underline;
                     }
                 }

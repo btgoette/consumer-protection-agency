@@ -17,7 +17,10 @@ module.exports = {
       "/thank-you": { page: "/thank-you" },
       "/": { page: "/" },
       "/404": { page: "/404" },
-      "/403": { page: "/403" }
+      "/403": { page: "/403" },
+      "/privacy-policy": { page: "/privacy-policy" },
+      "/roadmap": { page: "/roadmap" },
+      "/site-map": { page: "/site-map" }
     };
   },
 

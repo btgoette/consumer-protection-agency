@@ -1,11 +1,11 @@
 {
-    "title": "Testimonials | Consumer Protection Agency",
-    "description": "",
-    "slug": "testimonials",
-    "href": "https://consumerprotection.agency/testimonials",
+    "title": "Privacy Policy | Consumer Protection Agency",
+    "description": "Privacy Policy for Consumer Protection Agency.",
+    "slug": "privacy-policy",
+    "href": "https://consumerprotection.agency/privacy-policy",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Testimonials",
+    "navigationLabel": "Privacy Policy",
     "block": {
         "hero": {
             "slug": "page-title",
@@ -16,7 +16,7 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Testimonials"
+            "pageTitle": "Privacy Policy"
         }
     }
 }

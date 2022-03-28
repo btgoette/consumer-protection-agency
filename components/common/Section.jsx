@@ -1,4 +1,12 @@
-import { Container, Row, Col, Figure, Button, Card } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Figure,
+  Button,
+  Card,
+  Nav,
+} from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Player, BigPlayButton } from "video-react";
 import "node_modules/video-react/dist/video-react.css";
@@ -22,6 +30,7 @@ export default function Section(block) {
               order: block.column[0].order,
             }}
           >
+            {renderPageTitle()}
             {renderTitle()}
             {renderImage()}
             {renderText()}
@@ -31,8 +40,10 @@ export default function Section(block) {
             {renderImgList()}
             {renderCard()}
             {renderCTA()}
+            {renderPricingPlan()}
             {renderDisclaimer()}
             {renderVideo()}
+            {renderIframe()}
           </Col>
         </>
       );
@@ -83,6 +94,19 @@ export default function Section(block) {
     }
   };
 
+  let hasPageTitle;
+  if (block.pageTitle !== undefined) {
+    hasPageTitle = true;
+  } else {
+    hasPageTitle = false;
+  }
+
+  const renderPageTitle = () => {
+    if (hasPageTitle) {
+      return <h1 className="text-center">{block.pageTitle}</h1>;
+    }
+  };
+
   let hasSectionTitle;
   if (block.sectionTitle !== undefined) {
     hasSectionTitle = true;
@@ -97,6 +121,7 @@ export default function Section(block) {
           <Row className="section-title-row">
             <Col>
               <h2>{block.sectionTitle}</h2>
+              {renderNav()}
             </Col>
           </Row>
         </Container>
@@ -268,16 +293,10 @@ export default function Section(block) {
           {block.card.map(({ img, title, p }, j) => (
             <Col xl={3} lg={4} md={6} key={j}>
               <Card>
-                <Card.Img
-                  variant="top"
-                  src={img.src}
-                  className="icon"
-                />
+                <Card.Img variant="top" src={img.src} className="icon" />
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
-                  <Card.Text>
-                    {p}
-                  </Card.Text>
+                  <Card.Text>{p}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -334,6 +353,75 @@ export default function Section(block) {
     }
   };
 
+  let hasNav;
+  if (block.nav !== undefined) {
+    hasNav = true;
+  } else {
+    hasNav = false;
+  }
+
+  const renderNav = () => {
+    if (hasNav) {
+      return (
+        <Nav className="justify-content-center">
+          {block.nav.map(({ href, title }, i) => (
+            <Nav.Item key={i}>
+              <Nav.Link href={href}>{title}</Nav.Link>
+            </Nav.Item>
+          ))}
+        </Nav>
+      );
+    }
+  };
+
+  let hasPricingPlan;
+  if (block.pricingPlan !== undefined) {
+    hasPricingPlan = true;
+  } else {
+    hasPricingPlan = false;
+  }
+
+  const renderPricingPlan = () => {
+    if (hasPricingPlan) {
+      return (
+        <Row>
+          <Col lg={4}>
+            <h3>Pick 1</h3>
+            <p>
+              Auto: $49.99
+              <br />
+              Electronics: $29.99
+              <br />
+              Home: $59.99
+            </p>
+          </Col>
+          <Col lg={4}>
+            <h3>Pick 2</h3>
+            <p>
+              Home & Electronics: $89.98
+              <br />
+              Auto & Electronics: $79.98
+              <br />
+              Home & Auto: $109.98
+            </p>
+          </Col>
+          <Col lg={4}>
+            <h3>Pick 3</h3>
+            <p>
+              Home + Electronics + Auto: $129.99
+              <br />
+              ($9.98 Savings)
+            </p>
+            <p className="divider"></p>
+            <p className="text-small">
+              refer 5 pick 3 customers and your pick 3 is free!
+            </p>
+          </Col>
+        </Row>
+      );
+    }
+  };
+
   let hasVideo;
   if (block.poster !== undefined) {
     hasVideo = true;
@@ -350,6 +438,22 @@ export default function Section(block) {
       );
     }
   };
+
+  let hasIframe;
+  if (block.iframe !== undefined) {
+    hasIframe = true;
+  } else {
+    hasIframe = false;
+  }
+
+  const renderIframe = () => {
+    if (hasIframe) {
+      return (
+        <iframe src={block.iframe.url} title={block.iframe.title}></iframe>
+      );
+    }
+  };
+
 
   return (
     <>

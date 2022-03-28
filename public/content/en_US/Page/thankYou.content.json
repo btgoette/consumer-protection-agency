@@ -1,5 +1,5 @@
 {
-    "title": "Thank You",
+    "title": "Thank You | Consumer Protection Agency",
     "description": "Your form submission has been successful.",
     "slug": "thank-you",
     "href": "https://consumerprotection.agency/thank-you",
@@ -9,6 +9,7 @@
     "block": {
         "hero": {
             "slug": "thank-you",
+            "row": "section-start section-end",
             "column": [
                 {
                     "offset": "4",
@@ -16,7 +17,7 @@
                     "order": "0"
                 }
             ],
-            "title": "Thank you for your form submission.",
+            "pageTitle": "Thank you for your form submission.",
             "cta": {
                 "ctaLabel": "Back to Home",
                 "href": "/"

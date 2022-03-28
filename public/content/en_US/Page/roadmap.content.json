@@ -1,11 +1,11 @@
 {
-    "title": "Blog | Consumer Protection Agency",
-    "description": "",
-    "slug": "blog",
-    "href": "https://consumerprotection.agency/blog",
+    "title": "Roadmap | Consumer Protection Agency",
+    "description": "RoadMap for Consumer Protection Agency.",
+    "slug": "Roadmap",
+    "href": "https://consumerprotection.agency/roadmap",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Blog",
+    "navigationLabel": "Roadmap",
     "block": {
         "hero": {
             "slug": "page-title",
@@ -16,10 +16,11 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Blog"
+            "pageTitle": "Roadmap"
         },
-        "video": {
-            "slug": "video-home",
+        "roadmap": {
+            "slug": "road-map",
+            "row": "section-start iframe",
             "column": [
                 {
                     "offset": "0",
@@ -27,9 +28,10 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Agency Marketing Video",
-            "poster": "/video/cpa-video-poster.webp",
-            "src": "/video/cpa-video.mp4"
+            "iframe": {
+                "url": "",
+                "title": "Consumer Protection Agency Roadmap"
+            }
         }
     }
 }
