@@ -1,9 +1,22 @@
 {
-    "title": "Contact Us",
+    "title": "Contact Us | Consumer Protection Agency",
     "description": "",
     "slug": "contact",
     "href": "https://consumerprotection.agency/contact",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Contact"
+    "navigationLabel": "Contact",
+    "block": {
+        "hero": {
+            "slug": "page-title",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "pageTitle": "Contact Us"
+        }
+    }
 }

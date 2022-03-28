@@ -1,11 +1,11 @@
 {
-    "title": "Testimonials | Consumer Protection Agency",
-    "description": "",
-    "slug": "testimonials",
-    "href": "https://consumerprotection.agency/testimonials",
+    "title": "Site Map | Consumer Protection Agency",
+    "description": "Site Map for Consumer Proection Agency.",
+    "slug": "site-map",
+    "href": "https://consumerprotection.agency/site-map",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Testimonials",
+    "navigationLabel": "Site Map",
     "block": {
         "hero": {
             "slug": "page-title",
@@ -16,7 +16,7 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Testimonials"
+            "pageTitle": "Site Map"
         }
     }
 }

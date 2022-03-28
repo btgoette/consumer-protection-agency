@@ -6,7 +6,7 @@ export default function ContactForm() {
   return (
     <section>
       <Container>
-        <Row className="block">
+        <Row className="block section-end">
           <Col md={{ offset: 3, span: 6, order: 0 }}>
             <h2 className="text-center">Contact Form</h2>
             <p className="text-center">

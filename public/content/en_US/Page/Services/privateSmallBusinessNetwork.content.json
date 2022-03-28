@@ -1,5 +1,5 @@
 {
-    "title": "Private Small Business Network",
+    "title": "Private Small Business Network | Consumer Protection Agency",
     "description": "",
     "slug": "private-small-business-network",
     "href": "https://consumerprotection.agency/private-small-business-network",
@@ -44,8 +44,8 @@
             }
         },
         "consumerVendorAccounts": {
-            "slug": "consumer-vendor-accounts section-start",
-            "row": "align-items-center",
+            "slug": "consumer-vendor-accounts",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -74,7 +74,7 @@
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",
@@ -117,7 +117,8 @@
             }
         },
         "benefitsForTheSmallBusiness": {
-            "slug": "benefits-for-the-small-business section-end",
+            "slug": "benefits-for-the-small-business",
+            "row": "align-items-center section-start section-end",
             "column": [
                 {
                     "offset": "0",

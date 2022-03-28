@@ -10,7 +10,8 @@ body {
     }
 }
 
-.bg-blue {
+.bg-blue,
+.pricing-plans {
     background-color: $blue;
     color: $white;
     a {
