@@ -17,12 +17,8 @@ body {
     a {
         color: $white;
     }
-}
 
-.bg-blue {
-    background-color: $blue;
-    color: $white;
-    a {
+    h2, h3{
         color: $white;
     }
 }
@@ -32,7 +28,7 @@ body {
 }
 
 .bg-red {
-    background-color: $dark-red;
+    background-color: $red;
     background-size: $background-cover;
     background-position-x: $background-x;
     background-position-y: $background-y;
@@ -136,10 +132,160 @@ body {
         background-position: $background-center;
     }
 }
+
 .intro {
     background-color: $intro-background-color;
     background-image: url("/images/intro/usa-flag-2.webp");
     background-size: $background-cover;
     background-blend-mode: $intro-blend;
     color: $intro-font-color;
+
+    h2 {
+        color: $white;
+    }
+}
+
+@media only screen and (min-width: $large) {
+    .bg-business-agreement {
+        background-image: url("/images/business/business-agreement-600x600.jpg");
+        background-size: $background-cover;
+        background-position-x: right;
+        background-position-y: center;
+    }
+
+    .bg-business-contract {
+        background-image: url("/images/business/contract-600x600.jpg");
+        background-size: $background-cover;
+        background-position-x: right;
+        background-position-y: center;
+    }
+
+    .bg-business-secretary {
+        background-image: url("/images/business/secretary-600x600.jpg");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-business-scaling {
+        background-image: url("/images/team/team-meeting-600x450.jpg");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-business-income-tax {
+        background-image: url("/images/tax/income-tax-2-600x600.jpg");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-business-contract-signing {
+        background-image: url("/images/business/contract-signing-600x450.jpg");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-credit-score {
+        background-image: url("/images/credit-score/fico-score-factors.png");
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+
+    .bg-credit-car {
+        background-image: url("/images/car/new-car-600x600.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-credit-score-range {
+        background-color: $white;
+        background-image: url("/images/credit-score/credit-score-range.png");
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+
+    .bg-credit-keys {
+        background-image: url("/images/car/handed-keys-600x450.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-business-call-center {
+        background-image: url("/images/business/call-center-600x600.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-warranty-stressed {
+        background-image: url("/images/laptop/woman-stressed-laptop-600x450.jpg");
+        background-size: cover;
+        background-position-x: right;
+        background-position-y: 80%
+    }
+
+    .bg-warranty-woman-laptop {
+        background-image: url("/images/laptop/woman-on-laptop-on-floor-600x450.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center
+    }
+
+    .bg-warranty-oven {
+        background-image: url("/images/kitchen/oven-and-microwave-600x900.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center
+    }
+
+    .bg-warranty-cell-phone {
+        background-image: url("/images/cell-phone/cell-phone-600x600.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center
+    }
+
+    .bg-warranty-laptop {
+        background-image: url("/images/laptop/laptop-tv-living-room-600x900.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center
+    }
+
+    .bg-warranty-laptop-phone {
+        background-image: url("/images/laptop/laptop-and-phone-600x900.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center
+    }
+
+    .bg-warranty-car {
+        background-image: url("/images/car/car-5-600x450.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 60%;
+    }
+
+    .bg-warranty-car-2 {
+        background-image: url("/images/car/car-600x900.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 60%;
+    }
+
+    .bg-warranty-car-repair {
+        background-image: url("/images/car/car-repair-600x600.jpg");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 60%;
+    }
 }

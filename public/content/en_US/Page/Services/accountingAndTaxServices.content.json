@@ -49,12 +49,13 @@
         },
         "scalingYourBusiness": {
             "slug": "scaling-your-business",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-business-scaling"
                 },
                 {
                     "offset": "0",
@@ -75,12 +76,13 @@
         },
         "taxation": {
             "slug": "taxation",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center bg-blue",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "0",
+                    "background": "bg-business-income-tax"
                 },
                 {
                     "offset": "0",
@@ -101,12 +103,13 @@
         },
         "accessToFunding": {
             "slug": "access-to-funding",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-business-contract-signing"
                 },
                 {
                     "offset": "0",

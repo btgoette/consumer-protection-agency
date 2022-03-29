@@ -12,21 +12,16 @@ body {
 }
 
 .row {
-    padding: 1rem;
+    padding: 0 0;
     align-items: top;
 }
 
-.block {
-    padding: $block-padding;
+.row > * {
+    padding: 0 0;
 }
 
-section {
-    .section-start {
-        padding-top: $section-padding-mobile !important;
-    }
-    .section-end {
-        padding-bottom: $section-padding-mobile !important;
-    }
+.block {
+    padding: $block-padding-mobile;
 }
 
 .anchor {
@@ -52,19 +47,17 @@ section {
     }
 }
 
-@media only screen and (min-width: $medium) {
-    section {
-        .section-start {
-            padding-top: $section-padding !important;
-        }
+.hidden {
+    opacity: 0;
+}
 
-        .section-end {
-            padding-bottom: $section-padding !important;
-        }
-    }
-
+@media only screen and (min-width: $small) {
     .anchor {
         top: -95px;
+    }
+
+    .block {
+        padding: $block-padding-medium;
     }
 
     .section-title {
@@ -79,6 +72,14 @@ section {
     @media only screen and (min-width: $large) {
         .anchor {
             top: -106px;
+        }
+
+        .block {
+            padding: $block-padding;
+        }
+        
+        .hidden {
+            min-height: 450px;
         }
 
         .section-title {

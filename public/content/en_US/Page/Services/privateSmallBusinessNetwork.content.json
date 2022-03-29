@@ -45,12 +45,13 @@
         },
         "consumerVendorAccounts": {
             "slug": "consumer-vendor-accounts",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-business-agreement"
                 },
                 {
                     "offset": "0",
@@ -74,12 +75,13 @@
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "0",
+                    "background": "bg-business-contract"
                 },
                 {
                     "offset": "0",
@@ -112,18 +114,19 @@
                 }
             ],
             "img": {
-                "src": "/images/business/contract-600x600.jpg",
+                "src": "/images/business/contract-600x450.jpg",
                 "alt": "Business Contract"
             }
         },
         "benefitsForTheSmallBusiness": {
             "slug": "benefits-for-the-small-business",
-            "row": "align-items-center section-start section-end",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-business-secretary"
                 },
                 {
                     "offset": "0",
@@ -153,7 +156,7 @@
                 }
             ],
             "img": {
-                "src": "/images/business/secretary-600x600.jpg",
+                "src": "/images/business/secretary-600x450.jpg",
                 "alt": "Business Contract"
             }
         },

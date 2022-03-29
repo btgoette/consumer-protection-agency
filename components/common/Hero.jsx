@@ -47,21 +47,19 @@ export default function Hero(hero) {
   return (
     <>
       <section className={hero.slug + " hero"}>
-        <Container>
-          <Row className="block">
-            <Col
-              md={{
-                offset: hero.column[0].offset,
-                span: hero.column[0].span,
-                order: hero.column[0].order,
-              }}
-            >
-              {renderTitle()}
-              {renderSubtitle()}
-              {renderCTA()}
-            </Col>
-          </Row>
-        </Container>
+        <Row className="block">
+          <Col
+            md={{
+              offset: hero.column[0].offset,
+              span: hero.column[0].span,
+              order: hero.column[0].order,
+            }}
+          >
+            {renderTitle()}
+            {renderSubtitle()}
+            {renderCTA()}
+          </Col>
+        </Row>
       </section>
     </>
   );
