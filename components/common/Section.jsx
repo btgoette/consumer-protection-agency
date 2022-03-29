@@ -24,7 +24,8 @@ export default function Section(block) {
       return (
         <>
           <Col
-            xl={{
+            className="block"
+            lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
               order: block.column[0].order,
@@ -62,17 +63,32 @@ export default function Section(block) {
       return (
         <>
           <Col
-            md={{
+            className={block.column[0].background}
+            lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
               order: block.column[0].order,
             }}
           >
-            {renderImage()}
-            {renderFirstColumn()}
+            <div className="d-block d-lg-none">
+              {renderImage()}
+            </div>
+            <div className="d-none d-lg-block block hidden">
+              {renderTitle()}
+              {renderText()}
+              {renderList()}
+              {renderSubtitleList()}
+              {renderSubtitleText()}
+              {renderImgList()}
+              {renderCard()}
+              {renderCTA()}
+              {renderDisclaimer()}
+              {renderVideo()}
+            </div>
           </Col>
           <Col
-            md={{
+            className="block"
+            lg={{
               offset: block.column[1].offset,
               span: block.column[1].span,
               order: block.column[1].order,
@@ -291,7 +307,7 @@ export default function Section(block) {
       return (
         <Row className="p-0">
           {block.card.map(({ img, title, p }, j) => (
-            <Col xl={3} lg={4} md={6} key={j}>
+            <Col xl={3} lg={4} sm={6} key={j}>
               <Card>
                 <Card.Img variant="top" src={img.src} className="icon" />
                 <Card.Body>
@@ -454,18 +470,15 @@ export default function Section(block) {
     }
   };
 
-
   return (
     <>
       <a className="anchor" id={block.slug}></a>
       {renderSectionTitle()}
       <section className={block.slug}>
-        <Container>
-          <Row className={block.row}>
-            {renderOneColumn()}
-            {renderTwoColumn()}
-          </Row>
-        </Container>
+        <Row className={block.row}>
+          {renderOneColumn()}
+          {renderTwoColumn()}
+        </Row>
       </section>
     </>
   );

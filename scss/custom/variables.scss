@@ -1,6 +1,6 @@
 // colors
 $black: #121212;
-$blue: #181f53;
+$blue: #161d4a;
 $dark-blue: #282838;
 $dark-gray: #404142;
 $dark-red: #8f0f1f;
@@ -65,7 +65,7 @@ $button-secondary-background-color: $gray;
 $button-secondary-background-hover-color: $dark-gray;
 
 // fonts
-$body-font-color: $black;
+$body-font-color: $gray;
 $body-font-family: 'Poppins';
 $body-font-family-bold: 'Poppins Bold';
 $body-font-family-bold-italic: 'Poppins Bold Italic';
@@ -77,6 +77,7 @@ $body-font-weight: 400;
 
 $font-size-small: .9rem;
 
+$header-font-color: $blue;
 $header-font-family: 'Inter';
 $header-font-weight: 400;
 $header-line-height: 1;
@@ -128,7 +129,9 @@ $offcanvas-font-color: $blue;
 $offcanvas-header-font-color: $white;
 
 // padding and margins
-$block-padding: 2rem;
+$block-padding-mobile: 4rem 2rem;
+$block-padding-medium: 4rem;
+$block-padding: 6rem 8rem;
 $footer-padding: 4rem 1rem;
 $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;

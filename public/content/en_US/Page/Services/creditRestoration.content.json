@@ -47,12 +47,13 @@
         },
         "whatIsACreditScore": {
             "slug": "what-is-a-credit-score",
-            "row": "align-items-center section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-credit-score"
                 },
                 {
                     "offset": "0",
@@ -76,12 +77,13 @@
         },
         "howCanYourCreditScoreAffectYou": {
             "slug": "how-can-your-credit-score-affect-you",
-            "row": "align-items-center section-end",
+            "row": "align-items-center bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "0",
+                    "background": "bg-credit-car"
                 },
                 {
                     "offset": "0",
@@ -108,12 +110,13 @@
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center section-start",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "1",
+                    "background": "bg-credit-score-range"
                 },
                 {
                     "offset": "0",
@@ -149,12 +152,13 @@
         },
         "benefitsOfHavingGoodCredit": {
             "slug": "benefits-of-having-good-credit",
-            "row": "align-items-center section-end",
+            "row": "align-items-center bg-blue",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "0",
+                    "background": "bg-credit-keys"
                 },
                 {
                     "offset": "0",

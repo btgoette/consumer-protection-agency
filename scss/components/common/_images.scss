@@ -3,17 +3,23 @@
 }
 
 figure {
-    padding: $image-padding;
+    margin: 0 0;
     img {
         width: 100%;
-        max-width: $image-width;
-        max-height: $image-height;
     }
 
     &.list-image {
         padding: 0 1rem;
         img {
             width: 100px;
+        }
+    }
+}
+
+@media only screen and (min-width: $x-large) {
+    figure {
+        .section-image {
+            opacity: 0;
         }
     }
 }
