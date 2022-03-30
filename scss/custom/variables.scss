@@ -37,7 +37,7 @@ $navbar-toggler-background-color: transparent;
 $newsletter-background-color: $white;
 $offcanvas-background-color: $white;
 $offcanvas-header-background-color: $blue;
-$video-background-color: $dark-gray;
+$video-background-color: $black;
 
 // borders
 $border-rounded-input: 20px;
@@ -78,7 +78,8 @@ $body-font-weight: 400;
 $font-size-small: .9rem;
 
 $header-font-color: $blue;
-$header-font-family: 'Inter';
+$header-font-family: 'Zen';
+$header-text-transform: normal;
 $header-font-weight: 400;
 $header-line-height: 1;
 
@@ -88,7 +89,12 @@ $h1-font-weight: 900;
 
 $h2-font-size: 2.2rem;
 $h2-font-size-mobile: 1.75rem;
+$h2-font-color: $blue;
 $h2-margin-bottom: 1.75rem;
+
+
+$h3-font-family: "Inter Light";
+$h3-font-color: $red;
 
 $intro-font-color: $white;
 
@@ -131,7 +137,7 @@ $offcanvas-header-font-color: $white;
 // padding and margins
 $block-padding-mobile: 4rem 2rem;
 $block-padding-medium: 4rem;
-$block-padding: 6rem 8rem;
+$block-padding: 6rem 4rem;
 $footer-padding: 4rem 1rem;
 $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;
@@ -141,8 +147,8 @@ $intro-padding-mobile: 2rem 1rem 1rem;
 $intro-padding: 6rem 0;
 $list-padding: 0 0 1rem;
 $nav-padding: 0.5rem;
-$newsletter-padding-mobile: 3rem 0 0;
-$newsletter-padding: 4rem 0;
+$newsletter-padding-mobile: 4rem 0 0;
+$newsletter-padding: 6rem 0;
 $section-padding-mobile: 2rem;
 $section-padding: 4rem;
 

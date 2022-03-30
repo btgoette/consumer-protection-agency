@@ -69,7 +69,7 @@
                 }
             ],
             "img": {
-                "src": "/images/business/business-agreement-600x450.jpg",
+                "src": "/images/services/business-agreement.jpg",
                 "alt": "Business Contract"
             }
         },
@@ -81,7 +81,7 @@
                     "offset": "0",
                     "span": "6",
                     "order": "0",
-                    "background": "bg-business-contract"
+                    "background": "bg-contract"
                 },
                 {
                     "offset": "0",
@@ -114,7 +114,7 @@
                 }
             ],
             "img": {
-                "src": "/images/business/contract-600x450.jpg",
+                "src": "/images/services/contract.jpg",
                 "alt": "Business Contract"
             }
         },
@@ -126,7 +126,7 @@
                     "offset": "0",
                     "span": "6",
                     "order": "1",
-                    "background": "bg-business-secretary"
+                    "background": "bg-secretary"
                 },
                 {
                     "offset": "0",
@@ -156,7 +156,7 @@
                 }
             ],
             "img": {
-                "src": "/images/business/secretary-600x450.jpg",
+                "src": "/images/services/secretary.jpg",
                 "alt": "Business Contract"
             }
         },

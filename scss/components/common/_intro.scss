@@ -4,12 +4,10 @@
     background-size: $background-cover;
     background-blend-mode: $intro-blend;
     color: $intro-font-color;
-    padding: $intro-padding-mobile;
-
-    h2{
+    h2 {
         text-align: center;
     }
-    
+
     .btn {
         background-color: $button-secondary-background-color;
 
@@ -19,7 +17,7 @@
         }
     }
 
-    @media only screen and (min-width: $medium) {
-        padding: $intro-padding;
+    .row {
+        margin: 0 0 !important;
     }
 }
