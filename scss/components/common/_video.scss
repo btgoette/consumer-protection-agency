@@ -2,9 +2,14 @@
   background-color: $video-background-color;
   border-top: $video-border;
   padding: 0 0;
+
+  .container {
+    padding: 0 0 !important;
+  }
   
   .row { 
     margin: 0 0 !important;
+    padding: 0 0 !important;
   }
   
   .row > *{

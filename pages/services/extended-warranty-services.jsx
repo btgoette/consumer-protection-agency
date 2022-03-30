@@ -13,7 +13,7 @@ export default function ExtendedWarrantyServices() {
       <Section {...page.block.intro} />
       <Section {...page.block.whyChooseUs} />
       <Section {...page.block.commonProtectionPlanPainPoints} />
-      <Section {...page.block.painPoints} />
+      {/* <Section {...page.block.painPoints} /> */}
       <Section {...page.block.howItWorks} />
       <Section {...page.block.homeWarrantyPlan} />
       <Section {...page.block.electronics} />
