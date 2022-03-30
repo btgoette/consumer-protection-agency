@@ -24,6 +24,12 @@ body {
     padding: $block-padding-mobile;
 }
 
+.pricing-plans {
+    .block {
+        padding: 0 0;
+    }
+}
+
 .anchor {
     display: block;
     position: relative;
@@ -85,6 +91,12 @@ body {
         .section-title {
             h2 {
                 font-size: 2.5rem;
+            }
+        }
+
+        .section {
+            .row {
+                margin:  4rem 0;
             }
         }
     }

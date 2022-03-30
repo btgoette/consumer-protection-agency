@@ -2,9 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Newsletter(newsletter) {
   return (
-    <section className="newsletter section">
+    <section className="newsletter">
       <Container>
-        <Row className="block align-items-center">
+        <Row className="align-items-center">
           <Col xl={4}>
             <h2 className="mb-0 text-xl-start">Join our mailing list</h2>
             <p className="text-center text-xl-start mb-xl-0">

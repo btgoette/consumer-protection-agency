@@ -420,29 +420,25 @@
                 }
             ],
             "sectionTitle": "Electronics",
-            "subtitleList": [
+            "title": "What to Expect:",
+            "list": [
                 {
-                    "title": "What to Expect:",
-                    "list": [
-                        {
-                            "li": "Cover an unlimited number of electronics"
-                        },
-                        {
-                            "li": "Enjoy low-per claim deductibles of $$"
-                        },
-                        {
-                            "li": "Pay-as-you-go protection plan with no long-term contract"
-                        },
-                        {
-                            "li": "Unlimited claims and hassle free service"
-                        },
-                        {
-                            "li": "Local repairs so you don’t have to worry about wasting time shipping your electronics out"
-                        },
-                        {
-                            "li": "Plans are easily transferable to new items"
-                        }
-                    ]
+                    "li": "Cover an unlimited number of electronics"
+                },
+                {
+                    "li": "Enjoy low-per claim deductibles of $$"
+                },
+                {
+                    "li": "Pay-as-you-go protection plan with no long-term contract"
+                },
+                {
+                    "li": "Unlimited claims and hassle free service"
+                },
+                {
+                    "li": "Local repairs so you don’t have to worry about wasting time shipping your electronics out"
+                },
+                {
+                    "li": "Plans are easily transferable to new items"
                 }
             ],
             "subtitleText": [
@@ -720,23 +716,19 @@
                 }
             ],
             "sectionTitle": "Auto Warranty Plan",
-            "subtitleList": [
+            "title": "What You Will Get:",
+            "list": [
                 {
-                    "title": "What You Will Get:",
-                    "list": [
-                        {
-                            "li": "24/7 roadside assistance"
-                        },
-                        {
-                            "li": "We have unmatched response time and transparency in the industry."
-                        },
-                        {
-                            "li": "The journey never stops with Rideshare support"
-                        },
-                        {
-                            "li": "If your car breaks down anywhere, we will send you a rideshare to get you to your destination safely and on time as we fix your car."
-                        }
-                    ]
+                    "li": "24/7 roadside assistance"
+                },
+                {
+                    "li": "We have unmatched response time and transparency in the industry."
+                },
+                {
+                    "li": "The journey never stops with Rideshare support"
+                },
+                {
+                    "li": "If your car breaks down anywhere, we will send you a rideshare to get you to your destination safely and on time as we fix your car."
                 }
             ],
             "img": {
@@ -874,7 +866,8 @@
         },
         "pricingPlans": {
             "slug": "pricing-plans",
-            "row": "text-center",
+            "background": "bg-blue",
+            "row": "text-center my-0",
             "column": [
                 {
                     "offset": "0",

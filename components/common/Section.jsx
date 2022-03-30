@@ -85,7 +85,7 @@ export default function Section(block) {
             </div>
           </Col>
           <Col
-            className="block"
+            className={block.column[1].background + " block"}
             lg={{
               offset: block.column[1].offset,
               span: block.column[1].span,
@@ -472,7 +472,7 @@ export default function Section(block) {
     <>
       <a className="anchor" id={block.slug}></a>
       {renderSectionTitle()}
-      <section className={block.slug + " " + block.background}>
+      <section className={block.slug + " " + block.background + " section"}>
         <Container>
           <Row className={block.row}>
             {renderOneColumn()}

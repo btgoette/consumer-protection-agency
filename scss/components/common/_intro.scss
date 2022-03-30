@@ -4,11 +4,10 @@
     background-size: $background-cover;
     background-blend-mode: $intro-blend;
     color: $intro-font-color;
-
     h2 {
         text-align: center;
     }
-    
+
     .btn {
         background-color: $button-secondary-background-color;
 
@@ -16,5 +15,9 @@
             background-color: $button-secondary-background-hover-color;
             transition: 0.3s;
         }
+    }
+
+    .row {
+        margin: 0 0 !important;
     }
 }

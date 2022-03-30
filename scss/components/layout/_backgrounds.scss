@@ -10,17 +10,18 @@ body {
     }
 }
 
-.bg-blue,
-.pricing-plans {
+.bg-blue {
     background-color: $blue;
+
     color: $white;
     a {
         color: $white;
     }
-
-    h2,
+    h2 {
+        color: $white !important;
+    }
     h3 {
-        color: $white;
+        color: $red;
     }
 }
 
@@ -41,6 +42,9 @@ body {
     }
 
     h2 {
+        color: $white;
+    }
+    h3 {
         color: $blue;
     }
 }
@@ -147,9 +151,8 @@ body {
 }
 
 @media only screen and (min-width: $large) {
-
     // 640x960
-    
+
     .bg-car {
         background-image: url("/images/backgrounds/car.jpg");
         background-size: cover;
@@ -186,7 +189,7 @@ body {
         background-position-x: right;
         background-position-y: center;
     }
-    
+
     .bg-call-center {
         background-image: url("/images/backgrounds/call-center.jpg");
         background-size: cover;
@@ -207,7 +210,7 @@ body {
         background-position-x: center;
         background-position-y: 60%;
     }
-   
+
     .bg-cell-phone {
         background-image: url("/images/backgrounds/cell-phone.jpg");
         background-size: cover;
@@ -236,8 +239,8 @@ body {
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
-    } 
-    
+    }
+
     .bg-fico-score-factors {
         background-image: url("/images/backgrounds/fico-score-factors.png");
         background-size: 100%;
@@ -245,14 +248,14 @@ body {
         background-position-y: center;
         background-repeat: no-repeat;
     }
-    
+
     .bg-handed-keys {
         background-image: url("/images/backgrounds/handed-keys.jpg");
         background-size: cover;
         background-position-x: center;
         background-position-y: center;
     }
-    
+
     .bg-income-tax {
         background-image: url("/images/backgrounds/income-tax.jpg");
         background-size: $background-cover;
@@ -273,7 +276,7 @@ body {
         background-position-x: 80%;
         background-position-y: center;
     }
-    
+
     .bg-stressed-woman-on-laptop {
         background-image: url("/images/backgrounds/stressed-woman-on-laptop.jpg");
         background-size: cover;
@@ -294,5 +297,4 @@ body {
         background-position-x: center;
         background-position-y: center;
     }
-
 }

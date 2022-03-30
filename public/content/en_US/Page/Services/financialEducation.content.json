@@ -45,7 +45,7 @@
             }
         },
         "video": {
-            "slug": "video-home",            
+            "slug": "video-home video",            
             "column": [
                 {
                     "offset": "0",
