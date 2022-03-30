@@ -70,9 +70,7 @@ export default function Section(block) {
               order: block.column[0].order,
             }}
           >
-            <div className="d-block d-lg-none">
-              {renderImage()}
-            </div>
+            <div className="d-block d-lg-none">{renderImage()}</div>
             <div className="d-none d-lg-block block hidden">
               {renderTitle()}
               {renderText()}
@@ -474,11 +472,13 @@ export default function Section(block) {
     <>
       <a className="anchor" id={block.slug}></a>
       {renderSectionTitle()}
-      <section className={block.slug}>
-        <Row className={block.row}>
-          {renderOneColumn()}
-          {renderTwoColumn()}
-        </Row>
+      <section className={block.slug + " " + block.background}>
+        <Container>
+          <Row className={block.row}>
+            {renderOneColumn()}
+            {renderTwoColumn()}
+          </Row>
+        </Container>
       </section>
     </>
   );

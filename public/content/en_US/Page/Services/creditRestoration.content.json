@@ -53,7 +53,7 @@
                     "offset": "0",
                     "span": "6",
                     "order": "1",
-                    "background": "bg-credit-score"
+                    "background": "bg-fico-score-factors"
                 },
                 {
                     "offset": "0",
@@ -71,19 +71,19 @@
                 }
             ],
             "img": {
-                "src": "/images/credit-score/fico-score-factors.png",
+                "src": "/images/services/fico-score-factors.png",
                 "alt": "How Credit Score is Calculated"
             }
         },
         "howCanYourCreditScoreAffectYou": {
             "slug": "how-can-your-credit-score-affect-you",
-            "row": "align-items-center bg-red",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
                     "order": "0",
-                    "background": "bg-credit-car"
+                    "background": "bg-new-car"
                 },
                 {
                     "offset": "0",
@@ -104,7 +104,7 @@
                 }
             ],
             "img": {
-                "src": "/images/car/new-car-600x600.jpg",
+                "src": "/images/services/new-car.jpg",
                 "alt": "New Car"
             }
         },
@@ -146,19 +146,19 @@
                 }
             ],
             "img": {
-                "src": "/images/credit-score/credit-score-range.png",
+                "src": "/images/services/credit-score-range.png",
                 "alt": "Credit Score Range & Factors"
             }
         },
         "benefitsOfHavingGoodCredit": {
             "slug": "benefits-of-having-good-credit",
-            "row": "align-items-center bg-blue",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
                     "order": "0",
-                    "background": "bg-credit-keys"
+                    "background": "bg-handed-keys"
                 },
                 {
                     "offset": "0",
@@ -194,7 +194,7 @@
                 }
             ],
             "img": {
-                "src": "/images/car/handed-keys-600x450.jpg",
+                "src": "/images/services/handed-keys.jpg",
                 "alt": "Handed Keys"
             }
         },

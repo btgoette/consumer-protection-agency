@@ -47,6 +47,7 @@ export default function Hero(hero) {
   return (
     <>
       <section className={hero.slug + " hero"}>
+        <Container>
         <Row className="block">
           <Col
             md={{
@@ -60,6 +61,7 @@ export default function Hero(hero) {
             {renderCTA()}
           </Col>
         </Row>
+        </Container>
       </section>
     </>
   );

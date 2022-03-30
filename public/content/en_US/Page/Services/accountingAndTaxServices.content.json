@@ -55,7 +55,7 @@
                     "offset": "0",
                     "span": "6",
                     "order": "1",
-                    "background": "bg-business-scaling"
+                    "background": "bg-team-meeting"
                 },
                 {
                     "offset": "0",
@@ -70,19 +70,19 @@
                 }
             ],
             "img": {
-                "src": "/images/team/team-meeting-600x450.jpg",
+                "src": "/images/services/team-meeting.jpg",
                 "alt": "Scaling your business"
             }
         },
         "taxation": {
             "slug": "taxation",
-            "row": "align-items-center bg-blue",
+            "row": "align-items-center",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
                     "order": "0",
-                    "background": "bg-business-income-tax"
+                    "background": "bg-income-tax"
                 },
                 {
                     "offset": "0",
@@ -97,7 +97,7 @@
                 }
             ],
             "img": {
-                "src": "/images/tax/income-tax-2-600x450.jpg",
+                "src": "/images/services/income-tax.jpg",
                 "alt": "Income Tax"
             }
         },
@@ -109,7 +109,7 @@
                     "offset": "0",
                     "span": "6",
                     "order": "1",
-                    "background": "bg-business-contract-signing"
+                    "background": "bg-contract-signing"
                 },
                 {
                     "offset": "0",
@@ -119,7 +119,7 @@
             ],
             "title": "Access to Funding",
             "img": {
-                "src": "/images/business/contract-signing-600x450.jpg",
+                "src": "/images/services/contract-signing.jpg",
                 "alt": "Contract Signing"
             },
             "text": [
