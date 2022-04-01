@@ -69,7 +69,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/business-agreement.jpg",
+                "src": "/images/services/business-agreement.webp",
                 "alt": "Business Contract"
             }
         },
@@ -114,7 +114,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/contract.jpg",
+                "src": "/images/services/contract.webp",
                 "alt": "Business Contract"
             }
         },
@@ -156,7 +156,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/secretary.jpg",
+                "src": "/images/services/secretary.webp",
                 "alt": "Business Contract"
             }
         },
