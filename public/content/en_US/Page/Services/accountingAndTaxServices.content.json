@@ -70,7 +70,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/team-meeting.jpg",
+                "src": "/images/services/team-meeting.webp",
                 "alt": "Scaling your business"
             }
         },
@@ -97,7 +97,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/income-tax.jpg",
+                "src": "/images/services/income-tax.webp",
                 "alt": "Income Tax"
             }
         },
@@ -119,7 +119,7 @@
             ],
             "title": "Access to Funding",
             "img": {
-                "src": "/images/services/contract-signing.jpg",
+                "src": "/images/services/contract-signing.webp",
                 "alt": "Contract Signing"
             },
             "text": [

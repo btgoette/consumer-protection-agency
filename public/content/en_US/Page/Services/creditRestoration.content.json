@@ -71,7 +71,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/fico-score-factors.png",
+                "src": "/images/services/fico-score-factors.webp",
                 "alt": "How Credit Score is Calculated"
             }
         },
@@ -104,7 +104,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/new-car.jpg",
+                "src": "/images/services/new-car.webp",
                 "alt": "New Car"
             }
         },
@@ -146,7 +146,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/credit-score-range.png",
+                "src": "/images/services/credit-score-range.webp",
                 "alt": "Credit Score Range & Factors"
             }
         },
@@ -194,7 +194,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/handed-keys.jpg",
+                "src": "/images/services/handed-keys.webp",
                 "alt": "Handed Keys"
             }
         },

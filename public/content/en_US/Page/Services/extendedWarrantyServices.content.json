@@ -75,7 +75,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/call-center.jpg",
+                "src": "/images/services/call-center.webp",
                 "alt": "Woman at Call Center"
             }
         },
@@ -152,7 +152,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/stressed-woman-on-laptop.jpg",
+                "src": "/images/services/stressed-woman-on-laptop.webp",
                 "alt": "Stressed"
             }
         },
@@ -169,7 +169,7 @@
             "card": [
                 {
                     "img": {
-                        "src": "/images/icons/money-bag-250x250.png",
+                        "src": "/images/icons/money-bag-250x250.webp",
                         "alt": "Money Bag"
                     },
                     "title": "Extra costs and hidden fees",
@@ -177,7 +177,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/car-250x250.png",
+                        "src": "/images/icons/car-250x250.webp",
                         "alt": "Car"
                     },
                     "title": "Difficulty in cancelling contract or preventing auto renewal",
@@ -185,7 +185,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/hand-gears-250x250.png",
+                        "src": "/images/icons/hand-gears-250x250.webp",
                         "alt": "Credit Score Range & Factors"
                     },
                     "title": "Multiple service plans for various items",
@@ -193,7 +193,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/signature-250x250.png",
+                        "src": "/images/icons/signature-250x250.webp",
                         "alt": "Signature"
                     },
                     "title": "Deceptive language in the contract",
@@ -201,7 +201,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/time-signature-250x250.png",
+                        "src": "/images/icons/time-signature-250x250.webp",
                         "alt": "Timed Signature"
                     },
                     "title": "Stuck in long-term contracts",
@@ -209,7 +209,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/sad-gift-250x250.png",
+                        "src": "/images/icons/sad-gift-250x250.webp",
                         "alt": "Rude Surprises"
                     },
                     "title": "Rude Surprises",
@@ -217,7 +217,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/breaking-bank-250x250.png",
+                        "src": "/images/icons/breaking-bank-250x250.webp",
                         "alt": "Breaking Bank"
                     },
                     "title": "Bank-breaking costs",
@@ -225,7 +225,7 @@
                 },
                 {
                     "img": {
-                        "src": "/images/icons/poor-score-250x250.png",
+                        "src": "/images/icons/poor-score-250x250.webp",
                         "alt": "Credit Score Range & Factors"
                     },
                     "title": "Poor customer support",
@@ -282,7 +282,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/woman-on-laptop-on-floor.jpg",
+                "src": "/images/services/woman-on-laptop-on-floor.webp",
                 "alt": "Woman on floor with laptop"
             }
         },
@@ -399,7 +399,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/oven-and-microwave.jpg",
+                "src": "/images/services/oven-and-microwave.webp",
                 "alt": "Stressed"
             }
         },
@@ -468,7 +468,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/cell-phone.jpg",
+                "src": "/images/services/cell-phone.webp",
                 "alt": "Stressed"
             }
         },
@@ -582,7 +582,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/laptop-tv-living-room.jpg",
+                "src": "/images/services/laptop-tv-living-room.webp",
                 "alt": "Laptop & Living Room"
             }
         },
@@ -695,7 +695,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/laptop-and-phone.jpg",
+                "src": "/images/services/laptop-and-phone.webp",
                 "alt": "Stressed"
             }
         },
@@ -732,7 +732,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/car-5.jpg",
+                "src": "/images/services/car-5.webp",
                 "alt": "Rideshare"
             }
         },
@@ -811,7 +811,7 @@
                 }
             ],
             "img": {
-                "src": "/images/services/car.jpg",
+                "src": "/images/services/car.webp",
                 "alt": "Car Interior"
             }
         },
@@ -860,7 +860,7 @@
             ],
             "disclaimer": "*The claim waiting period is only 30 days and 1,000 miles!",
             "img": {
-                "src": "/images/services/car-repair.jpg",
+                "src": "/images/services/car-repair.webp",
                 "alt": "Car Repairs"
             }
         },

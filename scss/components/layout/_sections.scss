@@ -28,13 +28,24 @@ body {
     .block {
         padding: 2rem 0 1rem;
     }
-}
+} 
 
 .anchor {
     display: block;
     position: relative;
     top: -85px;
     visibility: hidden;
+}
+
+.page-title {
+    &.section {
+        .row {
+            margin: 0 0 !important;
+        .block {
+            padding: 0 0;
+        }
+        }
+    }
 }
 
 .section-title {
@@ -46,6 +57,7 @@ body {
         background-color: $blue;
         padding: 2rem 0 1.75rem;
     }
+
     h2 {
         color: $white;
         font-size: 1.75rem;
@@ -74,30 +86,30 @@ body {
             font-size: 2rem;
         }
     }
+}
 
-    @media only screen and (min-width: $large) {
-        .anchor {
-            top: -106px;
-        }
+@media only screen and (min-width: $large) {
+    .anchor {
+        top: -106px;
+    }
 
-        .block {
-            padding: $block-padding;
-        }
-        
-        .hidden {
-            min-height: 450px;
-        }
+    .block {
+        padding: $block-padding;
+    }
 
-        .section-title {
-            h2 {
-                font-size: 2.5rem;
-            }
-        }
+    .hidden {
+        min-height: 450px;
+    }
 
-        .section {
-            .row {
-                margin:  4rem 0;
-            }
+    .section-title {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .section {
+        .row {
+            margin: 4rem 0;
         }
     }
 }
