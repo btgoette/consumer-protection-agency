@@ -23,7 +23,7 @@ export default function Footer() {
               <Link href="/" passHref>
                 <LazyLoadImage
                   className="logo"
-                  src="/images/logos/cpa-logo-text-on-the-side-white.png"
+                  src="/images/logos/cpa-logo-text-on-the-side-white.webp"
                   alt="Consumer Protection Agency"
                 />
               </Link>
