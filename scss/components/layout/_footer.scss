@@ -1,14 +1,9 @@
 footer {
     .footer {
-        background-color: $footer-background-color;
+        padding: $footer-padding;
         color: $footer-font-color;
         font-size: $footer-font-size;
-        padding: $footer-padding;
         letter-spacing: 1px;
-        background-image: url(/images/backgrounds/usa-flag-1.webp);
-        background-blend-mode: $background-multiply;
-        background-size: cover;
-
         a {
             color: $white;
             &:hover {
@@ -23,7 +18,7 @@ footer {
 
         h2 {
             font-size: $footer-header-font-size;
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
             text-align: left;
             color: $white;
         }

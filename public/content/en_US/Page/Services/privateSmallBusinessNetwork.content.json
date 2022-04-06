@@ -46,6 +46,7 @@
         "consumerVendorAccounts": {
             "slug": "consumer-vendor-accounts",
             "row": "align-items-center",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
@@ -76,6 +77,7 @@
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
             "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
@@ -161,7 +163,8 @@
             }
         },
         "video": {
-            "slug": "video-home video",
+            "slug": "video-home video",            
+            "background": "bg-cpa-red",
             "column": [
                 {
                     "offset": "0",

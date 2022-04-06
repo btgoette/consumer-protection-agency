@@ -1,7 +1,9 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
+
+import Intro from "components/common/Intro";
 import PricingPlans from "components/common/PricingPlans";
-import Section from "components/common/Section";
+import Block from "components/common/Block";
 
 import page from "public/content/en_US/Page/Services/extendedWarrantyServices.content";
 
@@ -10,20 +12,24 @@ export default function ExtendedWarrantyServices() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Section {...page.block.intro} />
-      <Section {...page.block.whyChooseUs} />
-      <Section {...page.block.commonProtectionPlanPainPoints} />
-      {/* <Section {...page.block.painPoints} /> */}
-      <Section {...page.block.howItWorks} />
-      <Section {...page.block.homeWarrantyPlan} />
-      <Section {...page.block.electronics} />
-      <Section {...page.block.electronicsCoverage} />
-      <Section {...page.block.electronicsContinued} />
-      <Section {...page.block.autoWarranty} />
-      <Section {...page.block.autoWarrantyContinued} />
-      <Section {...page.block.autoWarrantyPlanFeatures} />
-      <Section {...page.block.pricingPlans} />
-      <Section {...page.block.video} />
+      <Intro {...page.block.intro} />
+      <Block {...page.block.whyChooseUs} />
+      <Block {...page.block.commonProtectionPlanPainPoints} />
+      {/* <Block {...page.block.painPoints} /> */}
+      <Block {...page.block.howItWorks} />
+      <Block {...page.block.homeWarrantyPlan} />
+      <Block {...page.block.homeWarrantyContinued} />
+      <Block {...page.block.homeWarrantyFAQ} />
+      <Block {...page.block.electronicsWarrantyPlan} />
+      <Block {...page.block.electronics} />
+      <Block {...page.block.electronicsCoverage} />
+      <Block {...page.block.electronicsContinued} />
+      <Block {...page.block.electronicsFAQ} />
+      <Block {...page.block.autoWarranty} />
+      <Block {...page.block.autoWarrantyContinued} />
+      <Block {...page.block.autoWarrantyPlanFeatures} />
+      <Block {...page.block.pricingPlans} />
+      <Block {...page.block.video} />
     </div>
   );
 }

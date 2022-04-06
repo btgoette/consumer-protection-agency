@@ -6,6 +6,7 @@
         .col-lg-4 {
             margin-bottom: 2rem;
             h3 {
+                font-weight: 600;
                 margin-bottom: 0;
             }
         }
@@ -17,6 +18,7 @@
         &.divider {
             width: 70%;
             border-top: 2px solid $white;
+            margin: 0 auto 1rem;
         }
         &.text-small {
             font-size: $font-size-small;

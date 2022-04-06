@@ -17,7 +17,7 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Thank you for your form submission.",
+            "title": "Thank you for your form submission.",
             "cta": {
                 "ctaLabel": "Back to Home",
                 "href": "/"

@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function MultiColumn(block) {
   return (
-    <section className={block.slug}>
+    <div className={block.slug}>
       <Container>
         <Row>
           {block.column.map(
@@ -24,6 +24,6 @@ export default function MultiColumn(block) {
           )}
         </Row>
       </Container>
-    </section>
+    </div>
   );
 }
