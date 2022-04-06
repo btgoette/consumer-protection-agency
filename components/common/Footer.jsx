@@ -96,7 +96,7 @@ export default function Footer() {
               </Row>
             </Col>
 
-            <Col  md={{ span: 10, offset: 1}} lg={{ span: 6, order: 1, offset: 0 }}>
+            <Col md={{ span: 10, offset: 1}} lg={{ span: 6, order: 1, offset: 0 }}>
               <h2 className="mt-4 mt-lg-5 text-center text-sm-start">Consumer Protection Agency</h2>
               <p className="text-justify">
                 We are an organization focused on protecting consumers from all

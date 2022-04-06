@@ -44,7 +44,8 @@
             }
         },
         "video": {
-            "slug": "video",            
+            "slug": "video", 
+            "background": "bg-cpa-red",           
             "column": [
                 {
                     "offset": "0",
@@ -52,8 +53,8 @@
                     "order": "0"
                 }
             ],
-            "poster": "/video/cpa-video-poster.webp",
-            "src": "/video/cpa-video.mp4"
+            "poster": "/video/cpa-main-cover.webp",
+            "src": "/video/cpa-main-video.mp4"
         }
     }
 }

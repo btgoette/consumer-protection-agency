@@ -2,6 +2,12 @@
     background-color: $newsletter-background-color;
     padding: $newsletter-padding-mobile;
 
+    .container {
+        max-width: $container-small-width;
+        padding: 0 4rem;
+        margin: 0 auto;
+    }
+
     h2{
         text-align: center;
     }

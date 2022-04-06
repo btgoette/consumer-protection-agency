@@ -1,5 +1,6 @@
 import Head from "components/common/Head";
-import Section from "components/common/Section";
+import PageTitle from "components/common/PageTitle";
+import Block from "components/common/Block";
 
 import page from "public/content/en_US/Page/roadmap.content";
 
@@ -7,8 +8,8 @@ export default function RoadMap() {
   return (
     <div className={page.slug}>
       <Head {...page} />
-      <Section {...page.block.hero} />
-      <Section {...page.block.roadmap} />
+      <PageTitle {...page.block.hero} />
+      <Block {...page.block.roadmap} />
     </div>
   );
 }

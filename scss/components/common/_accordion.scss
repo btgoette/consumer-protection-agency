@@ -1,0 +1,30 @@
+.accordion {
+    background-color: transparent;
+    .accordion-item {
+        background-color: transparent;
+        border: 0;
+        .accordion-header {
+            background-color: transparent;
+            .accordion-button {
+                background-color: transparent;
+                font-size: 1.25rem;
+                padding: 1rem 0;
+                &:not(.collapsed) {
+                    color: $blue;
+                    background-color: transparent;
+                    box-shadow: none;
+                }
+                &:focus {
+                    border-color: $white;
+                    outline: 0;
+                    box-shadow: none;
+                }
+            }
+        }
+        .accordion-collapse {
+            .accordion-body {
+                padding: 0 1rem 0 0;
+            }
+        }
+    }
+}

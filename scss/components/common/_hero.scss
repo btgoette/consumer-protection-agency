@@ -11,6 +11,11 @@
         color: $black;
     }
 
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (min-width: $medium) {

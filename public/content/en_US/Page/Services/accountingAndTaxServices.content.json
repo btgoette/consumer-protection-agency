@@ -50,6 +50,7 @@
         "scalingYourBusiness": {
             "slug": "scaling-your-business",
             "row": "align-items-center",
+            "backgrond": "bg-white",
             "column": [
                 {
                     "offset": "0",
@@ -77,6 +78,7 @@
         "taxation": {
             "slug": "taxation",
             "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
@@ -104,6 +106,7 @@
         "accessToFunding": {
             "slug": "access-to-funding",
             "row": "align-items-center",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
@@ -131,6 +134,7 @@
         "video": {
             "slug": "video-home video",
             "container": "container",
+            "background": "bg-cpa-red",
             "column": [
                 {
                     "offset": "0",

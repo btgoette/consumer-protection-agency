@@ -1,6 +1,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
-import Section from "components/common/Section";
+import Intro from "components/common/Intro";
+import Block from "components/common/Block";
 
 import page from "public/content/en_US/Page/Services/accountingAndTaxServices.content";
 
@@ -9,11 +10,11 @@ export default function AccountingAndTaxServices() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Section {...page.block.intro} />
-      <Section {...page.block.scalingYourBusiness} />
-      <Section {...page.block.taxation} />
-      <Section {...page.block.accessToFunding} />
-      <Section {...page.block.video} />
+      <Intro {...page.block.intro} />
+      <Block {...page.block.scalingYourBusiness} />
+      <Block {...page.block.taxation} />
+      <Block {...page.block.accessToFunding} />
+      <Block {...page.block.video} />
     </div>
   );
 }

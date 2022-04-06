@@ -46,7 +46,7 @@ export default function Hero(hero) {
 
   return (
     <>
-      <section className={hero.slug + " hero"}>
+      <div className={hero.slug + " hero"}>
         <Container>
         <Row className="block">
           <Col
@@ -62,7 +62,7 @@ export default function Hero(hero) {
           </Col>
         </Row>
         </Container>
-      </section>
+      </div>
     </>
   );
 }
