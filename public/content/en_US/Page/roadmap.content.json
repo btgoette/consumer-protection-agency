@@ -16,7 +16,7 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Roadmap"
+            "title": "Roadmap"
         },
         "roadmap": {
             "slug": "road-map",

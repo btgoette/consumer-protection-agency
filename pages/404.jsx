@@ -7,12 +7,12 @@ export default function Error404() {
   return (
     <>
       <Head {...page} />
-      <section className="error">
+      <div className="error">
         <h1>Page Not Found</h1>
         <h2 className="text-center">
           <Link href="/">Back to Home</Link>
         </h2>
-      </section>
+      </div>
     </>
   );
 }

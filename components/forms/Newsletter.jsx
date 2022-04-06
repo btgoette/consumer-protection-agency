@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Newsletter(newsletter) {
   return (
-    <section className="newsletter">
+    <div className="newsletter">
       <Container>
         <Row className="align-items-center">
           <Col xl={4}>
@@ -79,6 +79,6 @@ export default function Newsletter(newsletter) {
           </Col>
         </Row>
       </Container>
-    </section>
+    </div>
   )
 }

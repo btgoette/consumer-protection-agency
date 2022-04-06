@@ -1,45 +1,96 @@
-import Link from 'next/link'
-import { Container, Row, Col } from 'react-bootstrap';
-
+import Link from "next/link";
+import Image from "next/image";
+import { Container } from "react-bootstrap";
 
 export default function CPAServicesMenu() {
+  return (
+    <>
+      <Container fluid className="menu">
+        <Link href="/services/private-small-business-network">
+          <a>
+            <div className="cpa-services-menu">
+              <div className="cpa-services-menu-block">
+                <Image
+                  src="/images/backgrounds/small-business.webp"
+                  alt="Small Business"
+                  width="480"
+                  height="275"
+                  layout="responsive"
+                />
+              </div>
+              <div className="overlay-block">
+                <a>
+                  Private Small
+                  <br /> Business Network
+                </a>
+              </div>
+              <div className="cover"></div>
+            </div>
+          </a>
+        </Link>
 
-    return (
-        <>
+        <Link href="/services/accounting-and-tax-services">
+          <a>
+            <div className="cpa-services-menu">
+              <div className="cpa-services-menu-block">
+                <Image
+                  src="/images/backgrounds/accounting-and-taxes.webp"
+                  alt="Accounting & Taxes"
+                  width="480"
+                  height="275"
+                  layout="responsive"
+                />
+              </div>
+              <div className="overlay-block">
+                <a>Accounting & Tax Services</a>
+              </div>
+              <div className="cover"></div>
+            </div>
+          </a>
+        </Link>
 
-            <Container fluid className="menu">
-                <div className="cpa-services-menu-block psbn">
-                    <Link href="/services/private-small-business-network">
-                        <a>
-                            <p>Private Small Business Network</p>
-                        </a>
-                    </Link>
-                </div>
-                <div className="cpa-services-menu-block ats">
-                    <Link href="/services/accounting-and-tax-services">
-                        <a>
-                            <p>Accounting &amp; Tax Services </p>
+        <Link href="/services/financial-education">
+          <a>
+            <div className="cpa-services-menu">
+              <div className="cpa-services-menu-block">
+                <Image
+                  src="/images/backgrounds/financial-education.webp"
+                  alt="Financial Education"
+                  width="480"
+                  height="275"
+                  layout="responsive"
+                />
+              </div>
+              <div className="overlay-block">
+                <Link href="/services/financial-education">
+                  <a>Financial Education</a>
+                </Link>
+              </div>
+              <div className="cover"></div>
+            </div>
+          </a>
+        </Link>
 
-                        </a>
-                    </Link>
-                </div>
-                <div className="cpa-services-menu-block fe">
-                    <Link href="/services/financial-education">
-                        <a>
-                            <p>Financial Education</p>
-                        </a>
-                    </Link>
-                </div>
-                <div className="cpa-services-menu-block cr">
-                    <Link href="/services/credit-restoration">
-                        <a>
-                            <p>Credit Restoration</p>
-                        </a>
-                    </Link>
-                </div>
-            </Container>
-
-        </>
-
-    )
-} 
+        <Link href="/services/credit-restoration">
+          <a>
+            <div className="cpa-services-menu">
+              <div className="cpa-services-menu-block">
+                <Image
+                  src="/images/backgrounds/credit-restoration.webp"
+                  alt="Credit Restoration"
+                  width="480"
+                  height="275"
+                  layout="responsive"
+                />
+              </div>
+              <div className="overlay-block">
+                <a>Credit Restoration</a>
+              </div>
+              <div className="cover"></div>
+            </div>
+          </a>
+        </Link>
+      </Container>
+    </>
+  );
+}

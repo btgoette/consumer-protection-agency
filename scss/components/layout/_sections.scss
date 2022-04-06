@@ -28,7 +28,7 @@ body {
     .block {
         padding: 2rem 0 1rem;
     }
-} 
+}
 
 .anchor {
     display: block;
@@ -41,9 +41,9 @@ body {
     &.section {
         .row {
             margin: 0 0 !important;
-        .block {
-            padding: 0 0;
-        }
+            .block {
+                padding: 0 0;
+            }
         }
     }
 }
@@ -95,11 +95,11 @@ body {
 
     .block {
         padding: $block-padding;
+        min-height: 450px;
+        display: grid;
+        align-items:center;
     }
 
-    .hidden {
-        min-height: 450px;
-    }
 
     .section-title {
         h2 {
@@ -111,5 +111,15 @@ body {
         .row {
             margin: 4rem 0;
         }
+    }
+}
+
+@media only screen and (min-width: $xx-large) {
+    .order-lg-0 {
+        padding-left: 6rem;
+    }
+
+    .order-lg-1 {
+        padding-right: 6rem;
     }
 }

@@ -16,7 +16,7 @@
                     "order": "0"
                 }
             ],
-            "pageTitle": "Blog"
+            "title": "Blog"
         },
         "video": {
             "slug": "video-home",

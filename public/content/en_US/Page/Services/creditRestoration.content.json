@@ -47,7 +47,8 @@
         },
         "whatIsACreditScore": {
             "slug": "what-is-a-credit-score",
-            "row": "align-items-center",
+            "row": "align-items-center",            
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
@@ -78,6 +79,7 @@
         "howCanYourCreditScoreAffectYou": {
             "slug": "how-can-your-credit-score-affect-you",
             "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
@@ -110,7 +112,8 @@
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center",
+            "row": "align-items-center",            
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
@@ -153,6 +156,7 @@
         "benefitsOfHavingGoodCredit": {
             "slug": "benefits-of-having-good-credit",
             "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
@@ -200,6 +204,7 @@
         },
         "video": {
             "slug": "video-home video",
+            "background": "bg-cpa-red",
             "column": [
                 {
                     "offset": "0",
@@ -208,7 +213,7 @@
                 }
             ],
             "poster": "/video/cpa-video-poster.webp",
-            "src": "/video/cpa-video.mp4"
+            "src": "/video/cpa-credit-restoration.mp4"
         }
     }
 }

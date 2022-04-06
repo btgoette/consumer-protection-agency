@@ -2,11 +2,12 @@
 $black: #121212;
 $blue: #161d4a;
 $dark-blue: #282838;
-$dark-gray: #404142;
-$dark-red: #8f0f1f;
+$dark-gray: #393939;
+$dark-red: #a42628;
 $gray: #828386;
 $light-blue: #2b2d80;
 $light-gray: #ebebef;
+$light-red: #eb0000;
 $red: #ba2519;
 $transparent-black: #121212a2;
 $white: #fff;
@@ -118,6 +119,8 @@ $link-font-weight: 500;
 
 $list-font-size: 1.25rem;
 
+$menu-font-color: $light-red;
+
 $nav-dropdown-font-size: $font-size-small;
 $nav-font-color: $black;
 $nav-font-hover-color: $dark-blue;
@@ -137,7 +140,7 @@ $offcanvas-header-font-color: $white;
 // padding and margins
 $block-padding-mobile: 4rem 2rem;
 $block-padding-medium: 4rem;
-$block-padding: 6rem 4rem;
+$block-padding: 4rem;
 $footer-padding: 4rem 1rem;
 $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;
@@ -153,6 +156,7 @@ $section-padding-mobile: 2rem;
 $section-padding: 4rem;
 
 // sizes
-$container-width: 1460px;
+$container-small-width: 1400px;
+$container-width: 1905px;
 $image-width: 600px;
 $image-height: 800px;

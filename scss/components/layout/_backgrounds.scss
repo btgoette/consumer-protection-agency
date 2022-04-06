@@ -2,6 +2,68 @@ body {
     background-color: $background-color;
 }
 
+.menu {
+    padding: 0 0;
+    margin: 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .cpa-services-menu {
+        position: relative;
+        display: grid;
+        align-items: center;
+
+        .cpa-services-menu-block {
+            z-index: 1;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .overlay-block {
+            position: absolute;
+            margin: 0 auto;
+            a {
+                font-size: 1.25rem;
+                // font-weight: 800;
+                color: $white;
+                text-shadow: 1px 1px 1px $black;
+            }
+            left: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 5;
+        }
+
+        .cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            z-index: 2;
+            background: radial-gradient(circle, rgba(0,0,0,0.70) 0%, rgba(0,0,0,.75) 100%);
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.35;
+            }
+        }
+    }
+    @media only screen and (min-width: $small) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (min-width: $xx-large) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 .bg-black {
     background-color: $black;
     color: $white;
@@ -25,33 +87,52 @@ body {
     }
 }
 
+.bg-cpa-red {
+    background-image: url(/images/backgrounds/cpa-red.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .bg-gray {
     background-color: $gray;
 }
 
 .bg-red {
-    background-color: $red;
-    background-size: $background-cover;
-    background-position-x: $background-x;
-    background-position-y: $background-y;
-    background-blend-mode: $hero-blend;
-    // background-image: url("/images/backgrounds/logo-background.webp");
-    color: $white;
+    background-color: $dark-red;
+    color: $white!important;
     a {
-        color: $white;
+        color: $white!important;
     }
 
     h2 {
-        color: $white;
+        color: $blue!important;
     }
     h3 {
         color: $blue;
     }
+    .accordion .accordion-item .accordion-header .accordion-button {
+        background-color: transparent;
+        color: $white;
+        font-size: 1.25rem;
+        padding: 1rem 0;
+      }
+    .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+        color: $white;
+        background-color: transparent;
+        box-shadow: none;
+      }
 }
 
 .bg-white {
     background-color: $white;
     color: $black;
+}
+
+.footer {
+    background-color: $footer-background-color;
+    background-image: url(/images/backgrounds/usa-flag-1.webp);
+    background-blend-mode: $background-multiply;
+    background-size: cover;
 }
 
 .hero-accounting-and-tax-services {
@@ -60,10 +141,10 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-accounting-and-tax-services-500x700.webp");
+    background-image: url("/images/backgrounds/hero-accounting-and-tax-services-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-accounting-and-tax-services-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-accounting-and-tax-services-1600x500.webp");
         background-position: $background-center;
     }
 }
@@ -74,10 +155,10 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-credit-restoration-500x700.webp");
+    background-image: url("/images/backgrounds/hero-credit-restoration-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-credit-restoration-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-credit-restoration-1600x500.webp");
         background-position: $background-center;
     }
 }
@@ -88,10 +169,10 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-extended-warranty-services-500x700.webp");
+    background-image: url("/images/backgrounds/hero-extended-warranty-services-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-extended-warranty-services-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-extended-warranty-services-1600x500.webp");
         background-position: $background-center;
     }
 }
@@ -102,10 +183,10 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-financial-education-500x700.webp");
+    background-image: url("/images/backgrounds/hero-financial-education-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-financial-education-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-financial-education-1600x500.webp");
         background-position: $background-center;
     }
 }
@@ -116,10 +197,10 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-home-500x700.webp");
+    background-image: url("/images/backgrounds/hero-home-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-home-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-home-1600x500.webp");
         background-position: $background-center;
     }
 }
@@ -130,17 +211,17 @@ body {
     background-position-x: $background-x;
     background-position-y: $background-y;
     background-blend-mode: $hero-blend;
-    background-image: url("/images/hero/hero-private-small-business-network-500x700.webp");
+    background-image: url("/images/backgrounds/hero-private-small-business-network-500x700.webp");
 
     @media only screen and (min-width: $medium) {
-        background-image: url("/images/hero/hero-private-small-business-network-1600x500.webp");
+        background-image: url("/images/backgrounds/hero-private-small-business-network-1600x500.webp");
         background-position: $background-center;
     }
 }
 
 .intro {
     background-color: $intro-background-color;
-    background-image: url("/images/intro/usa-flag-2.webp");
+    background-image: url("/images/backgrounds/usa-flag-2.webp");
     background-size: $background-cover;
     background-blend-mode: $intro-blend;
     color: $intro-font-color;
@@ -181,7 +262,21 @@ body {
         background-position-y: center;
     }
 
+    .bg-video-game {
+        background-image: url("/images/backgrounds/video-game.webp");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
     // 960x640
+
+    .bg-air-conditioners {
+        background-image: url("/images/backgrounds/air-conditioners.webp");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
 
     .bg-business-agreement {
         background-image: url("/images/backgrounds/business-agreement.webp");
@@ -235,7 +330,7 @@ body {
     .bg-credit-score-range {
         background-color: $white;
         background-image: url("/images/backgrounds/credit-score-range.webp");
-        background-size: 100%;
+        background-size: 70%;
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
@@ -243,7 +338,7 @@ body {
 
     .bg-fico-score-factors {
         background-image: url("/images/backgrounds/fico-score-factors.webp");
-        background-size: 100%;
+        background-size: 70%;
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
@@ -258,6 +353,13 @@ body {
 
     .bg-income-tax {
         background-image: url("/images/backgrounds/income-tax.webp");
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-laptop-and-tablet {
+        background-image: url("/images/backgrounds/laptop-and-tablet.webp");
         background-size: $background-cover;
         background-position-x: center;
         background-position-y: center;
@@ -287,6 +389,13 @@ body {
     .bg-team-meeting {
         background-image: url("/images/backgrounds/team-meeting.webp");
         background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-washing-machine {
+        background-image: url("/images/backgrounds/washing-machine.webp");
+        background-size: cover;
         background-position-x: center;
         background-position-y: center;
     }
