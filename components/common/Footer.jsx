@@ -16,8 +16,8 @@ export default function Footer() {
 
       <Newsletter />
 
-      <Container fluid className="footer text-center text-sm-start">
-        <Container>
+      <section className="footer text-center text-sm-start">
+        <Container className="block">
           <Row className="align-items-center">
             <Col md={{ span: 10, offset: 1}} lg={{ span: 6, order: 0, offset: 0}}>
               <Link href="/" passHref>
@@ -114,7 +114,7 @@ export default function Footer() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
     </footer>
   );
 }

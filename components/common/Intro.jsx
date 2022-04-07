@@ -53,10 +53,10 @@ export default function Intro(block) {
   return (
     <>
       <a className="anchor" id="intro"></a>
-      <Container fluid className="intro">
-        <Container className="py-5">
+      <section className="intro">
+        <Container>
           <Row>
-            <Col className="block" lg={{ offset: 3, span: 6 }}>
+            <Col className="block" md={{ offset: 1, span: 10 }} lg={{ offset: 2, span: 8 }}>
               <div>
                 {renderTitle()}
                 {renderText()}
@@ -65,7 +65,7 @@ export default function Intro(block) {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
     </>
   );
 }

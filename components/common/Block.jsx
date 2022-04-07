@@ -99,7 +99,7 @@ export default function Section(block) {
           >
             <div className="aos-init aos-animate" 
             data-aos="fade-in"
-            data-aos-delay="100">
+            data-aos-delay="50">
               {renderTitle()}
               {renderText()}
               {renderAccordion()}

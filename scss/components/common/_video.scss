@@ -1,11 +1,7 @@
 .video {
   background-color: $video-background-color;
+  border-top: $video-border;
   padding: 0 0;
-
-  video,
-  .video-react-poster {
-    border-top: $video-border;
-  }
 
   .container {
     padding: 0 0 !important;

@@ -697,7 +697,7 @@
                             "li": "Monitors"
                         },
                         {
-                            "li": "e Readers"
+                            "li": "e-Readers"
                         },
                         {
                             "li": "Printers"
@@ -853,42 +853,62 @@
                             "li": "RAM failure"
                         }
                     ]
-                },
-                {
-                    "title": "Features",
-                    "list": [
-                        {
-                            "li": "Cover a combination of any three devices of your choice – smartphones, tablets or laptops."
-                        },
-                        {
-                            "li": "Enjoy low per claim deductibles"
-                        },
-                        {
-                            "li": "No long-term contracts – just a simple monthly protection plan"
-                        },
-                        {
-                            "li": "Any working device is eligible for protection regardless of brand or age"
-                        },
-                        {
-                            "li": "Unlimited claims and 24/7, hassle-free services"
-                        },
-                        {
-                            "li": "Local, same-day repairs so you do not have to stay long without your devices"
-                        },
-                        {
-                            "li": "Covers accidental damage and damage caused by liquids"
-                        },
-                        {
-                            "li": "Cancel your plan anytime without any penalties or hidden fees."
-                        },
-                        {
-                            "li": "Plans are readily transferable to new or upgraded gadgets"
-                        }
-                    ]
                 }
             ],
             "img": {
                 "src": "/images/services/laptop-and-phone.webp",
+                "alt": "Stressed"
+            }
+        },
+        "electronicsFeatures": {
+            "slug": "electronics-features",
+            "row": "align-items-center",
+            "background": "bg-red",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0",
+                    "background": "bg-tablet"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Features",
+            "list": [
+                {
+                    "li": "Cover a combination of any three devices of your choice – smartphones, tablets or laptops."
+                },
+                {
+                    "li": "Enjoy low per claim deductibles"
+                },
+                {
+                    "li": "No long-term contracts – just a simple monthly protection plan"
+                },
+                {
+                    "li": "Any working device is eligible for protection regardless of brand or age"
+                },
+                {
+                    "li": "Unlimited claims and 24/7, hassle-free services"
+                },
+                {
+                    "li": "Local, same-day repairs so you do not have to stay long without your devices"
+                },
+                {
+                    "li": "Covers accidental damage and damage caused by liquids"
+                },
+                {
+                    "li": "Cancel your plan anytime without any penalties or hidden fees."
+                },
+                {
+                    "li": "Plans are readily transferable to new or upgraded gadgets"
+                }
+            ],
+            "img": {
+                "src": "/images/services/tablet.webp",
                 "alt": "Stressed"
             }
         },
@@ -899,7 +919,13 @@
             "column": [
                 {
                     "offset": "0",
-                    "span": "12",
+                    "span": "6",
+                    "order": "1",
+                    "background": "bg-video-game-soccer"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
                     "order": "0"
                 }
             ],
@@ -1017,23 +1043,27 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/services/video-game-soccer.webp",
+                "alt": "Stressed"
+            }
         },
         "autoWarranty": {
             "slug": "auto-warranty-plan",
             "row": "align-items-center",
-            "background": "bg-white",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-car-5"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "sectionTitle": "Auto Warranty Plan",
@@ -1060,18 +1090,18 @@
         "autoWarrantyContinued": {
             "slug": "auto-warranty-continued",
             "row": "align-items-center",
-            "background": "bg-red",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
+                    "order": "1",
                     "background": "bg-car"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 }
             ],
             "subtitleText": [
@@ -1140,17 +1170,18 @@
         "autoWarrantyPlanFeatures": {
             "slug": "auto-warranty-plan-features",
             "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-car-repair"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "Auto Warranty Plan Features",
@@ -1202,8 +1233,8 @@
             "pricingPlan": "true"
         },
         "video": {
-            "slug": "video-home video",            
-            "background": "bg-cpa-red",
+            "slug": "video-home video",
+            "background": "bg-black",
             "column": [
                 {
                     "offset": "0",

@@ -11,10 +11,16 @@ export default function PrivateSmallBusinessNetwork() {
       <Head {...page} />
       <Hero {...page.hero} />
       <Intro {...page.block.intro} />
+      <section>
       <Block {...page.block.consumerVendorAccounts} />
+      </section>
+      <section>
       <Block {...page.block.benefitsForTheConsumer} />
+      </section>
+      <section>
       <Block {...page.block.benefitsForTheSmallBusiness} />
-      <Block {...page.block.video} />
+      </section>
+      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }
