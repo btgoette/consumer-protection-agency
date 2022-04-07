@@ -10,11 +10,19 @@ export default function AccountingAndTaxServices() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Intro {...page.block.intro} />
-      <Block {...page.block.scalingYourBusiness} />
-      <Block {...page.block.taxation} />
-      <Block {...page.block.accessToFunding} />
-      <Block {...page.block.video} />
+      <section>
+        <Intro {...page.block.intro} />
+      </section>
+      <section>
+        <Block {...page.block.scalingYourBusiness} />
+      </section>
+      <section>
+        <Block {...page.block.taxation} />
+      </section>
+      <section>
+        <Block {...page.block.accessToFunding} />
+      </section>
+      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }

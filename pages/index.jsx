@@ -11,7 +11,9 @@ export default function Home() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Intro {...page.block.intro} />
+      <section>
+        <Intro {...page.block.intro} />
+      </section>
       <Block {...page.block.video} />
     </div>
   );

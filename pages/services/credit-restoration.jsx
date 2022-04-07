@@ -11,12 +11,22 @@ export default function CreditRestoration() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
+      <section>
       <Intro {...page.block.intro} />
-      <Block {...page.block.whatIsACreditScore} />
-      <Block {...page.block.howCanYourCreditScoreAffectYou} />
-      <Block {...page.block.benefitsForTheConsumer} />
-      <Block {...page.block.benefitsOfHavingGoodCredit} />
-      <Block {...page.block.video} />
+      </section>
+      <section>
+        <Block {...page.block.whatIsACreditScore} />
+      </section>
+      <section>
+        <Block {...page.block.howCanYourCreditScoreAffectYou} />
+      </section>
+      <section>
+        <Block {...page.block.benefitsForTheConsumer} />
+      </section>
+      <section>
+        <Block {...page.block.benefitsOfHavingGoodCredit} />
+      </section>
+      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }

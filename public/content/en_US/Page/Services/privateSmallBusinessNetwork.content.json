@@ -46,18 +46,18 @@
         "consumerVendorAccounts": {
             "slug": "consumer-vendor-accounts",
             "row": "align-items-center",
-            "background": "bg-white",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-business-agreement"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "Consumer Vendor Accounts",
@@ -77,18 +77,18 @@
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
             "row": "align-items-center",
-            "background": "bg-red",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
+                    "order": "1",
                     "background": "bg-contract"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 }
             ],
             "title": "Benefits for the Consumer",
@@ -123,17 +123,18 @@
         "benefitsForTheSmallBusiness": {
             "slug": "benefits-for-the-small-business",
             "row": "align-items-center",
+            "background":"bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-secretary"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "Benefits for the Small Business",
@@ -163,8 +164,8 @@
             }
         },
         "video": {
-            "slug": "video-home video",            
-            "background": "bg-cpa-red",
+            "slug": "video-home video",
+            "background": "bg-black",
             "column": [
                 {
                     "offset": "0",

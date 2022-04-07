@@ -1,10 +1,9 @@
 .hero {
     display: grid;
     align-items:center;
-    min-height:600px;
     text-align: center;
     .block {
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
     h1 {
         text-align: center;
@@ -16,9 +15,17 @@
         margin: 0 auto;
     }
 
+    @media only screen and (min-width: $small) {
+
+        .block {
+            margin-bottom: 8rem;
+        }
+    }
+
 }
 
-@media only screen and (min-width: $medium) {
+
+@media only screen and (min-width: $large) {
    .hero {
        text-align: left;
        .block {

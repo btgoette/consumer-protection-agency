@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 export default function CPAServicesMenu() {
   return (
     <>
-      <Container fluid className="menu">
+      <div className="menu">
         <Link href="/services/private-small-business-network">
           <a>
             <div className="cpa-services-menu">
@@ -90,7 +90,7 @@ export default function CPAServicesMenu() {
             </div>
           </a>
         </Link>
-      </Container>
+      </div>
     </>
   );
 }

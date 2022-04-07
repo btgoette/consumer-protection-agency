@@ -11,8 +11,8 @@ export default function FinancialEducation() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Intro {...page.block.intro} />
-      <Block {...page.block.video} />
+      {/* <Intro {...page.block.intro} /> */}
+      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }

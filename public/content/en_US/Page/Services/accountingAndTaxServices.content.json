@@ -50,18 +50,18 @@
         "scalingYourBusiness": {
             "slug": "scaling-your-business",
             "row": "align-items-center",
-            "backgrond": "bg-white",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-team-meeting"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "Scaling Your Business",
@@ -78,18 +78,18 @@
         "taxation": {
             "slug": "taxation",
             "row": "align-items-center",
-            "background": "bg-red",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
+                    "order": "1",
                     "background": "bg-income-tax"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 }
             ],
             "title": "Taxation",
@@ -106,18 +106,18 @@
         "accessToFunding": {
             "slug": "access-to-funding",
             "row": "align-items-center",
-            "background": "bg-white",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-contract-signing"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "Access to Funding",
@@ -134,7 +134,7 @@
         "video": {
             "slug": "video-home video",
             "container": "container",
-            "background": "bg-cpa-red",
+            "background": "bg-black",
             "column": [
                 {
                     "offset": "0",

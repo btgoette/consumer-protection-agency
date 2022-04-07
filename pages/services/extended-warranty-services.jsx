@@ -13,23 +13,54 @@ export default function ExtendedWarrantyServices() {
       <Head {...page} />
       <Hero {...page.hero} />
       <Intro {...page.block.intro} />
-      <Block {...page.block.whyChooseUs} />
-      <Block {...page.block.commonProtectionPlanPainPoints} />
-      {/* <Block {...page.block.painPoints} /> */}
-      <Block {...page.block.howItWorks} />
-      <Block {...page.block.homeWarrantyPlan} />
-      <Block {...page.block.homeWarrantyContinued} />
-      <Block {...page.block.homeWarrantyFAQ} />
-      <Block {...page.block.electronicsWarrantyPlan} />
-      <Block {...page.block.electronics} />
-      <Block {...page.block.electronicsCoverage} />
-      <Block {...page.block.electronicsContinued} />
-      <Block {...page.block.electronicsFAQ} />
-      <Block {...page.block.autoWarranty} />
-      <Block {...page.block.autoWarrantyContinued} />
-      <Block {...page.block.autoWarrantyPlanFeatures} />
-      <Block {...page.block.pricingPlans} />
-      <Block {...page.block.video} />
+      <section>
+        <Block {...page.block.whyChooseUs} />
+        <Block {...page.block.commonProtectionPlanPainPoints} />
+      </section>
+      <section>
+        {/* <Block {...page.block.painPoints} /> */}
+        <Block {...page.block.howItWorks} />
+      </section>
+      <section>
+        <Block {...page.block.homeWarrantyPlan} />
+      </section>
+      <section>
+        <Block {...page.block.homeWarrantyContinued} />
+      </section>
+      <section>
+        <Block {...page.block.homeWarrantyFAQ} />
+      </section>
+      <section>
+        <Block {...page.block.electronicsWarrantyPlan} />
+      </section>
+      <section>
+        <Block {...page.block.electronics} />
+      </section>
+      <section>
+        <Block {...page.block.electronicsCoverage} />
+      </section>
+      <section>
+        <Block {...page.block.electronicsContinued} />
+      </section>
+      <section>
+        <Block {...page.block.electronicsFeatures} />
+      </section>
+      <section>
+        <Block {...page.block.electronicsFAQ} />
+      </section>
+      <section>
+        <Block {...page.block.autoWarranty} />
+      </section>
+      <section>
+        <Block {...page.block.autoWarrantyContinued} />
+      </section>
+      <section>
+        <Block {...page.block.autoWarrantyPlanFeatures} />
+      </section>
+      <section>
+        <Block {...page.block.pricingPlans} />
+      </section>
+      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }

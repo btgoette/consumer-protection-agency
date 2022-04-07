@@ -3,7 +3,7 @@ $black: #121212;
 $blue: #161d4a;
 $dark-blue: #282838;
 $dark-gray: #393939;
-$dark-red: #a42628;
+$dark-red: #8f2527;
 $gray: #828386;
 $light-blue: #2b2d80;
 $light-gray: #ebebef;
@@ -45,7 +45,7 @@ $border-rounded-input: 20px;
 $border-input-color: $light-gray;
 $navbar-toggler-border-color: transparent;
 $navbar-bottom-border: 1px solid $light-gray;
-$video-border: 1px solid $dark-gray;
+$video-border: 1px solid $black;
 
 // breakpoints
 $x-small: 0px;
@@ -138,9 +138,10 @@ $offcanvas-font-color: $blue;
 $offcanvas-header-font-color: $white;
 
 // padding and margins
-$block-padding-mobile: 4rem 2rem;
+$block-padding: 1rem 2rem;
+$block-padding-small: 3rem 2rem;
 $block-padding-medium: 4rem;
-$block-padding: 4rem;
+$block-padding-large: 6rem 8rem;
 $footer-padding: 4rem 1rem;
 $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;

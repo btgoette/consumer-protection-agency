@@ -21,7 +21,16 @@ body {
 }
 
 .block {
-    padding: $block-padding-mobile;
+    padding: $block-padding;
+}
+
+section {
+    .block {
+        padding: $block-padding-small;
+        min-height: 450px;
+        display: grid;
+        align-items: center;
+    }
 }
 
 .pricing-plans {
@@ -46,6 +55,10 @@ body {
             }
         }
     }
+}
+
+.section-end {
+    border-bottom: 1px solid $light-gray;
 }
 
 .section-title {
@@ -74,8 +87,11 @@ body {
         top: -95px;
     }
 
-    .block {
-        padding: $block-padding-medium;
+    section {
+        .block {
+            min-height: 600px;
+            padding: $block-padding-medium;
+        }
     }
 
     .section-title {
@@ -93,13 +109,11 @@ body {
         top: -106px;
     }
 
-    .block {
-        padding: $block-padding;
-        min-height: 450px;
-        display: grid;
-        align-items:center;
+    section {
+        .block {
+            padding: $block-padding-large;
+        }
     }
-
 
     .section-title {
         h2 {
@@ -111,15 +125,5 @@ body {
         .row {
             margin: 4rem 0;
         }
-    }
-}
-
-@media only screen and (min-width: $xx-large) {
-    .order-lg-0 {
-        padding-left: 6rem;
-    }
-
-    .order-lg-1 {
-        padding-right: 6rem;
     }
 }

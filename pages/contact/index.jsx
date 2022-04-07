@@ -7,7 +7,7 @@ import page from "public/content/en_US/Page/Contact/contact.content";
 
 export default function Contact() {
   return (
-    <div className={page.slug}>
+    <div className={page.slug + " mb-5"}>
       <Head {...page} />
       <PageTitle {...page.block.hero} />
       <ContactForm />

@@ -45,7 +45,7 @@
         },
         "video": {
             "slug": "video", 
-            "background": "bg-cpa-red",           
+            "background": "bg-black",           
             "column": [
                 {
                     "offset": "0",

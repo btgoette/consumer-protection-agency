@@ -47,19 +47,19 @@
         },
         "whatIsACreditScore": {
             "slug": "what-is-a-credit-score",
-            "row": "align-items-center",            
-            "background": "bg-white",
+            "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-fico-score-factors"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "What is a FICO/Credit Score?",
@@ -79,18 +79,18 @@
         "howCanYourCreditScoreAffectYou": {
             "slug": "how-can-your-credit-score-affect-you",
             "row": "align-items-center",
-            "background": "bg-red",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
+                    "order": "1",
                     "background": "bg-new-car"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 }
             ],
             "title": "How Can Your Credit Score Affect You?",
@@ -112,19 +112,19 @@
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center",            
-            "background": "bg-white",
+            "row": "align-items-center",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
+                    "order": "0",
                     "background": "bg-credit-score-range"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "How Will Our Services Benefit You?",
@@ -156,18 +156,18 @@
         "benefitsOfHavingGoodCredit": {
             "slug": "benefits-of-having-good-credit",
             "row": "align-items-center",
-            "background": "bg-red",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
+                    "order": "1",
                     "background": "bg-handed-keys"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 }
             ],
             "title": "The Benefits of Having Good Credit",
@@ -204,7 +204,7 @@
         },
         "video": {
             "slug": "video-home video",
-            "background": "bg-cpa-red",
+            "background": "bg-black",
             "column": [
                 {
                     "offset": "0",
