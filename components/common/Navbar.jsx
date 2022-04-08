@@ -44,7 +44,7 @@ export default function CustomNav() {
                 &nbsp; 888-318-2344
               </a>
               <span>&nbsp;|&nbsp;</span>
-              <a href="https://54.219.27.199:7003" className="nav-contact-link">
+              <a href="https://backoffice.consumerprotection.agency/" className="nav-contact-link">
                 &nbsp;
                 <FontAwesomeIcon icon={["fas", "user"]} />
                 &nbsp; Client Login
@@ -116,7 +116,7 @@ export default function CustomNav() {
                       </a>
                     </Nav.Item>
                     <Nav.Item>
-                      <a href="https://54.219.27.199:7003" passHref>
+                      <a href="https://backoffice.consumerprotection.agency/" passHref>
                         <Nav.Link className="d-flex align-items-center">
                           <FontAwesomeIcon icon={["fas", "user"]} />
                           &nbsp;&nbsp;Client Login
