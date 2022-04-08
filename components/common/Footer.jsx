@@ -68,7 +68,7 @@ export default function Footer() {
                 <Col sm={6}>
                   <ul>
                     <li>
-                      <a href="https://54.219.27.199:7003/">Client Login</a>
+                      <a href="https://backoffice.consumerprotection.agency/">Client Login</a>
                     </li>
                     <li>
                       <Link href="/in-the-news">In The News</Link>
