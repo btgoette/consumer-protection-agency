@@ -1,10 +1,9 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
-
 import Intro from "components/common/Intro";
 import Block from "components/common/Block";
 
-import page from "public/content/en_US/Page/Services/homeWarrantyPlan.content";
+import page from "public/content/en_US/Page/Services/extendedWarrantyServices.content";
 
 export default function ExtendedWarrantyServices() {
   return (
