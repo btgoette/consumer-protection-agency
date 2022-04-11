@@ -187,8 +187,8 @@ export default function Section(block) {
             <Accordion.Item eventKey={i} key={i}>
               <Accordion.Header>{title}</Accordion.Header>
               <Accordion.Body>
-                {text.map(({ p }) => (
-                  <>{p}</>
+                {text.map(({ p }, j) => (
+                  <p key={j}>{p}</p>
                 ))}
               </Accordion.Body>
             </Accordion.Item>
