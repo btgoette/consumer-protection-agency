@@ -1,0 +1,393 @@
+{
+    "title": "Auto Warranty Plan | Consumer Protection Agency",
+    "description": "",
+    "slug": "auto-warranty-plan",
+    "href": "https://consumerprotection.agency/auto-warranty-plan",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "Auto Warranty Plan",
+    "hero": {
+        "slug": "hero-extended-warranty-services",
+        "column": [
+            {
+                "offset": "0",
+                "span": "5",
+                "order": "0"
+            }
+        ],
+        "title": "Auto Warranty Plan",
+        "text": "Get the best in warranty protection with our Consumer Protection warranty plan.",
+        "cta": {
+            "ctaLabel": "Learn More",
+            "href": "#intro"
+        }
+    },
+    "block": {
+        "intro": {
+            "slug": "intro",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Auto Warranty Plan",
+            "text": [
+                {
+                    "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Why Choose Us?",
+                "href": "#why-choose-us"
+            }
+        },
+        "autoWarrantyPlan": {
+            "slug": "auto-warranty-plan",
+            "row": "align-items-center",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1",
+                    "background": "bg-jeep"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "sectionTitle": "Auto Warranty Plan",
+            "title": "Overview:",
+            "text": [
+                {
+                    "p": "Repairing your vehicle can prove to be quite the costly surprise! With our auto warranty plan, long gone are the days of steep maintenance costs. Your protection with our plan is paid on a monthly basis, unlike standard extended car service contracts, so you won’t have to pay a large free upfront to cater for years of coverage. In our protection plan, as long as you make your monthly payments, your coverage will not end. It is literally a pay as you go service."
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Enjoy Industry-Leading Services",
+                    "text": [
+                        {
+                            "p": "Our auto warranty plan can safeguard your vehicle of up to 20 years old and is less than 200,000 in mileage. When a vehicle repair is required, we let you  select your preferred service provider. Simply take your vehicle to any licensed repair center in your region. You can decide to take the vehicle to a new car dealer, your preferred mechanic’s service center, or any chain store that does vehicle repairs, as long as the center is A.S.E Certified. Your claim will be paid quickly and efficiently over the phone by our auto warranty plan. Simply show the service center your warranty plan contract. They’ll get in touch with our claims  department, you’ll only need to pay your deductible."
+                        },
+                        {
+                            "p": "Parts, labor, and even sales tax, if applicable, are all covered by our auto warranty plan. There is no paperwork or documentation to fill out, no need to set money aside, and you have unlimited number claims you can submit. It’s as simple as that!"
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/jeep.webp",
+                "alt": "Rideshare"
+            }
+        },
+        "autoWarranty": {
+            "slug": "auto-warranty-plan",
+            "row": "align-items-center",
+            "background": "bg-red",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0",
+                    "background": "bg-car-5"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "What You Will Get:",
+            "subtitleText": [
+                {
+                    "title": "24/7 roadside assistance",
+                    "text": [
+                        {
+                            "p": "We have unmatched response time and transparency in the industry."
+                        }
+                    ]
+                },
+                {
+                    "title": "The journey never stops with Rideshare support",
+                    "text": [
+                        {
+                            "p": "If your car breaks down anywhere, we will send you a rideshare to get you to your destination safely and on time as we fix your car."
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/car-5.webp",
+                "alt": "Rideshare"
+            }
+        },
+        "autoWarrantyContinued": {
+            "slug": "auto-warranty-continued",
+            "row": "align-items-center",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1",
+                    "background": "bg-car"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "subtitleText": [
+                {
+                    "title": "Rental car benefits",
+                    "text": [
+                        {
+                            "p": "As your car is being worked on, you will be offered rental car reimbursement benefits to allow you to carry on with your business"
+                        }
+                    ]
+                },
+                {
+                    "title": "Flexible payment terms",
+                    "text": [
+                        {
+                            "p": "We have various Protection Plans suited for different budgets. We will find the perfect match for you."
+                        }
+                    ]
+                },
+                {
+                    "title": "Industry-leading coverage",
+                    "text": [
+                        {
+                            "p": "Our plans are the most comprehensive in the industry and are friendly to your pocket"
+                        }
+                    ]
+                },
+                {
+                    "title": "Money-back guarantee",
+                    "text": [
+                        {
+                            "p": "All our plans come with a 30-day money back guarantee."
+                        }
+                    ]
+                },
+                {
+                    "title": "Choose your own mechanic",
+                    "text": [
+                        {
+                            "p": "You have the freedom to choose any ASE certified dealer/mechanic and we will pay them directly."
+                        }
+                    ]
+                },
+                {
+                    "title": "Fast and easy claims",
+                    "text": [
+                        {
+                            "p": "We honor claims quickly and without any hassle. Our representatives will be in constant contact to give you updates on the status of your claims."
+                        }
+                    ]
+                },
+                {
+                    "title": "Loyalty benefits",
+                    "text": [
+                        {
+                            "p": "When you put your trust in us, we have no choice but to give you a token of appreciation. Enjoy more benefits the longer you stay with us!"
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/car.webp",
+                "alt": "Car Interior"
+            }
+        },
+        "autoWarrantyPlanFeatures": {
+            "slug": "auto-warranty-plan-features",
+            "row": "align-items-center",
+            "background": "bg-red",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0",
+                    "background": "bg-car-repair"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Auto Warranty Plan Features",
+            "subtitleText": [
+                {
+                    "title": "Unlimited number of claims",
+                    "text": [
+                        {
+                            "p": "With every one of our warranty plans you choose, you will get an unlimited number of claims."
+                        }
+                    ]
+                },
+                {
+                    "title": "Transferable/Cancelable plans",
+                    "text": [
+                        {
+                            "p": "Coverage may be canceled at any time during the term of the Contract. Coverage may also be transferred to the new owner of the vehicle in case you decide to sell, thereby increasing the value of the car and making it more enticing for the buyer."
+                        }
+                    ]
+                },
+                {
+                    "title": "Countrywide coverage",
+                    "text": [
+                        {
+                            "p": "We boast of over 10,000 service centers across the United States. Therefore, you can rest assured that help will be available whenever and wherever you need it.*"
+                        }
+                    ]
+                }
+            ],
+            "disclaimer": "*The claim waiting period is only 30 days and 1,000 miles!",
+            "img": {
+                "src": "/images/services/car-repair.webp",
+                "alt": "Car Repairs"
+            }
+        },
+        "autoFAQ": {
+            "slug": "auto-faq",
+            "row": "align-items-center",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1",
+                    "background": "bg-car-4"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "FAQs",
+            "accordion": [
+                {
+                    "title": "Is a vehicle inspection required?",
+                    "text": [
+                        {
+                            "p": "No, you do not need a vehicle inspection. However, it is important to note that vehicle service contracts do not cover any pre-existing condition, regardless of the firm you obtain a protection plan from."
+                        }
+                    ]
+                },
+                {
+                    "title": "Can I still buy a Consumer Protection Auto Warranty Plan after the manufacturer's warranty has expired?",
+                    "text": [
+                        {
+                            "p": "Yes, our auto warranty plan can safeguard your vehicle of up to 20 years old and is less than 200,000 in mileage even after your manufacturer’s warranty has expired."
+                        }
+                    ]
+                },
+                {
+                    "title": "Is Consumer Protection Auto Warranty Plan insured?",
+                    "text": [
+                        {
+                            "p": "Yes, our auto warranty Plan is insured by A.M. Best A- rated insurance company."
+                        }
+                    ]
+                },
+                {
+                    "title": "How is the monthly fee paid?",
+                    "text": [
+                        {
+                            "p": "Our auto warranty plan is automatic, renewed every month using the credit or debit card information you provided us when you signed up."
+                        }
+                    ]
+                },
+                {
+                    "title": "What information is needed to purchase the Consumer Protection Auto Warranty Plan?",
+                    "text": [
+                        {
+                            "p": "The information needed include the make, model, year and mileage. Additionally, we will require your Vehicle Identification Number (VIN) and the state you live in."
+                        }
+                    ]
+                },
+                {
+                    "title": "When does my auto warranty plan become effective?",
+                    "text": [
+                        {
+                            "p": "Your auto warranty plan Vehicle Protection plan only require either 30-day waiting period or 1000 mile waiting period before your vehicle repair coverage starts."
+                        }
+                    ]
+                },
+                {
+                    "title": "When will my auto warranty plan expire?",
+                    "text": [
+                        {
+                            "p": "As long as the monthly payments are made, your subscription will not expire."
+                        }
+                    ]
+                },
+                {
+                    "title": "Is wear and tear coverage included in the Auto Warranty Plan?",
+                    "text": [
+                        {
+                            "p": "Yes, wear and tear coverage is included. Auto warranty plan will never expire."
+                        }
+                    ]
+                },
+                {
+                    "title": "What is wear and tear coverage and what does it cover?",
+                    "text": [
+                        {
+                            "p": "Wear and tear coverages mean that a part does not  have to break for you to be covered. Should a part or component wear out prematurely, it is covered. Wear and Tear coverage is defined as the part that can no longer perform the function it was designed for solely because of its condition."
+                        }
+                    ]
+                },
+                {
+                    "title": "How do I know if my vehicle qualifies?",
+                    "text": [
+                        {
+                            "p": "Your vehicle needs to be no more than 20 years old and with less then 200,000 miles, with the exceptions of a few excluded vehicles."
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/car-4.webp",
+                "alt": "White Jeep"
+            }
+        },
+        "pricingPlans": {
+            "slug": "pricing-plans",
+            "background": "bg-blue",
+            "row": "text-center my-0",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0",
+                    "background": "bg-blue"
+                }
+            ],
+            "sectionTitle": "Warranty Pricing Plans",
+            "pricingPlan": "true"
+        },
+        "video": {
+            "slug": "video-home video",
+            "background": "bg-black",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "poster": "/video/cpa-video-poster.webp",
+            "src": "/video/cpa-video.mp4"
+        }
+    }
+}

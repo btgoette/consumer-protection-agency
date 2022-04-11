@@ -1,11 +1,11 @@
 {
-    "title": "Extended Warranty Services | Consumer Protection Agency",
+    "title": "Home Warranty Plan | Consumer Protection Agency",
     "description": "",
-    "slug": "extended-warranty-services",
-    "href": "https://consumerprotection.agency/extended-warranty-services",
+    "slug": "home-warranty-plan",
+    "href": "https://consumerprotection.agency/home-warranty-plan",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "Extended Warranty Services",
+    "navigationLabel": "Home Warranty Plan",
     "hero": {
         "slug": "hero-extended-warranty-services",
         "column": [
@@ -15,7 +15,7 @@
                 "order": "0"
             }
         ],
-        "title": "Extended Warranty Services",
+        "title": "Home Warranty Plan",
         "text": "Get the best in warranty protection with our Consumer Protection warranty plan.",
         "cta": {
             "ctaLabel": "Learn More",
@@ -32,7 +32,7 @@
                     "order": "0"
                 }
             ],
-            "title": "Consumer Protection Warranty Plans",
+            "title": "Home Warranty Plan",
             "text": [
                 {
                     "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
@@ -41,252 +41,6 @@
             "cta": {
                 "ctaLabel": "Why Choose Us?",
                 "href": "#why-choose-us"
-            }
-        },
-        "whyChooseUs": {
-            "slug": "why-choose-us",
-            "row": "align-items-center",
-            "background": "bg-red",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-call-center"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
-            "title": "Why Choose Us?",
-            "text": [
-                {
-                    "p": "Most extended warranties or service contracts don’t protect you in all situations or repairs. For example, some covers only apply to specific parts of the item being protected while some won’t apply if you do not follow the correct procedures for maintenance."
-                },
-                {
-                    "p": "We offer the fastest, easiest, and most automated claims system in the industry. No long-term commitments – all plans are month-to-month, pay as you go. We offer multiple, pocket-friendly plans to suit every budget. No extra costs or hidden fees in all our plans.  It is quick and easy to cancel your protection plan"
-                },
-                {
-                    "p": "We have protection plans for literally everything, so you never have to worry about dealing with multiple companies and paying multiple bills. Our contracts are well-defined with no ambiguous or misleading language. Our reps are available 24/7 to listen and help with any issues you may be experiencing"
-                },
-                {
-                    "p": "Our cover applies to the entire item being covered and not in parts. Therefore, you can rest easy. We also do not have any conditions for how to maintain your products."
-                }
-            ],
-            "img": {
-                "src": "/images/services/call-center.webp",
-                "alt": "Woman at Call Center"
-            }
-        },
-        "commonProtectionPlanPainPoints": {
-            "slug": "common-protection-plan-pain-points",
-            "row": "align-items-center",
-            "background": "bg-white",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1",
-                    "background": "bg-stressed-woman-on-laptop"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                }
-            ],
-            "sectionTitle": "Warranty Plans",
-            "nav": [
-                {
-                    "href": "#home-warranty-plan",
-                    "title": "Home"
-                },
-                {
-                    "href": "#electronics-warranty-plan",
-                    "title": "Electronics"
-                },
-                {
-                    "href": "#auto-warranty-plan",
-                    "title": "Auto"
-                },
-                {
-                    "href": "#pricing-plans",
-                    "title": "Pricing Plans"
-                }
-            ],
-            "title": "Common Protection Plan Pain Points",
-            "text": [
-                {
-                    "p": "We have done our homework and we understand your pain points. As a result, we are always on a path of discovering, addressing and preventing these pain points for our customers in the easiest way possible. Some of these include: Poor response times for repairs or reimbursements"
-                },
-                {
-                    "p": "If you have filed claims before, you know just how long that may take – long enough to test your patience. But you need your phone fixed before work on Monday. Is there a faster way to file your claim?"
-                }
-            ],
-            "subtitleList": [
-                {
-                    "title": "We Solve All Your Issues",
-                    "list": [
-                        {
-                            "li": "24/7, hassle-free customer service"
-                        },
-                        {
-                            "li": "24-hour customer support"
-                        },
-                        {
-                            "li": "Breakdowns are inevitable – we have serviced hundreds of thousands of items and handled over a million service requests"
-                        },
-                        {
-                            "li": "We do not require inspection or maintenance records in order to provide coverage"
-                        },
-                        {
-                            "li": "Over 10,000 service centers nationwide means we will get the right person to fix your issue"
-                        },
-                        {
-                            "li": "If repair is impossible for the covered item, then we will replace it or offer an alternative"
-                        },
-                        {
-                            "li": "Accessible online chat and claims features"
-                        }
-                    ]
-                }
-            ],
-            "img": {
-                "src": "/images/services/stressed-woman-on-laptop.webp",
-                "alt": "Stressed woman on laptop"
-            }
-        },
-        "painPoints": {
-            "slug": "pain-points",
-            "background": "bg-blue",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
-                }
-            ],
-            "card": [
-                {
-                    "img": {
-                        "src": "/images/icons/money-bag-250x250.webp",
-                        "alt": "Money Bag"
-                    },
-                    "title": "Extra costs and hidden fees",
-                    "p": "You have successfully filed a claim and now you are being slapped with a hefty bill for shipping the product back for repairs yet no one mentioned this cost before. These extra costs can quickly get out of hand. What do you do?"
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/car-250x250.webp",
-                        "alt": "Car"
-                    },
-                    "title": "Difficulty in cancelling contract or preventing auto renewal",
-                    "p": "Some extended warranty programs make it extremely difficult to cancel a contract or at least prevent the auto renewal feature from charging the monthly bills."
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/hand-gears-250x250.webp",
-                        "alt": "Credit Score Range & Factors"
-                    },
-                    "title": "Multiple service plans for various items",
-                    "p": "Having to keep up with separate service plans for your car, home, phone, tablet, TV and appliances is overwhelming, and there is no doubt that these costs can stack up when it comes to settling your monthly bills."
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/signature-250x250.webp",
-                        "alt": "Signature"
-                    },
-                    "title": "Deceptive language in the contract",
-                    "p": "Some extended warranty contracts use deceptive language intentionally in order to woo clients into agreements that are unfair. This could end up with the clients paying through the nose in terms of deductibles when the covered item malfunctions."
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/time-signature-250x250.webp",
-                        "alt": "Timed Signature"
-                    },
-                    "title": "Stuck in long-term contracts",
-                    "p": "You have considered taking a protection plan for your clothes washer and dryer, but you are still unsure of committing yourself to a multi-year agreement. Is there a way to access a plan without the long-term commitment?"
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/sad-gift-250x250.webp",
-                        "alt": "Rude Surprises"
-                    },
-                    "title": "Rude Surprises",
-                    "p": "You purchase a used car with over 100,000 miles on the odometer. While it ooks like it is in mint condition, you cannot help wondering what you would do if something catastrophic such as an engine knock were to happen."
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/breaking-bank-250x250.webp",
-                        "alt": "Breaking Bank"
-                    },
-                    "title": "Bank-breaking costs",
-                    "p": "We would all love to keep the monthly bills as small as possible, but getting warranties for every appliance and device in your home would be quite expensive. Is there a way you can bundle everything together and just pay one, low monthly fees?"
-                },
-                {
-                    "img": {
-                        "src": "/images/icons/poor-score-250x250.webp",
-                        "alt": "Credit Score Range & Factors"
-                    },
-                    "title": "Poor customer support",
-                    "p": "When customers need help with problems or questions, they want a quick and definitive response. Unfortunately, many extended warranty brands fail at this and leave a lot to be desired."
-                }
-            ]
-        },
-        "howItWorks": {
-            "slug": "how-it-works",
-            "row": "align-items-center",
-            "background": "bg-red",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-woman-on-laptop-on-floor"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
-            "title": "How It Works",
-            "text": [
-                {
-                    "p": "It is really as quick and easy as it seems! Give us a call, use our mobile app or visit our website to choose a service plan, file for a claim within minutes and get your same-day repair schedule (or get your refund processed) promptly."
-                }
-            ],
-            "subtitleText": [
-                {
-                    "title": "Easy Checkout",
-                    "text": [
-                        {
-                            "p": "Give us a call at customer service OR use the Quick and simple one-step checkout on our website to choose the most suitable service plan. Keep all your plans in one basket for convenience and to save on costs"
-                        }
-                    ]
-                },
-                {
-                    "title": "File Claim",
-                    "text": [
-                        {
-                            "p": "File a claim in a matter of minutes! Our claims system is the fastest, easiest and most automated in the industry."
-                        }
-                    ]
-                },
-                {
-                    "title": "Repair/Refund",
-                    "text": [
-                        {
-                            "p": "We schedule repairs on the same day and refunds are processed without any delays. Our repair or replace service is flexible and fast, with customer satisfaction always at the very top of our priorities."
-                        }
-                    ]
-                }
-            ],
-            "img": {
-                "src": "/images/services/woman-on-laptop-on-floor.webp",
-                "alt": "Woman on floor with laptop"
             }
         },
         "homeWarrantyPlan": {

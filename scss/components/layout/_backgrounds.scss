@@ -73,7 +73,13 @@ body {
 }
 
 .bg-blue {
-    background-color: $blue;
+    background-color: $dark-blue;
+    background-image: url(/images/backgrounds/cpa-blue.png);
+    background-repeat: no-repeat;
+    background-size: $background-cover;
+    background-position: bottom right;    
+    background-blend-mode: $background-overlay;
+    background-size: $background-cover;
 
     color: $white;
     a {
@@ -88,7 +94,7 @@ body {
 }
 
 .bg-cpa-red {
-    background-image: url(/images/backgrounds/cpa-red.png);
+    background-image: url(/images/backgrounds/cpa-red.webp);
     background-size: $background-cover;
     background-attachment: fixed;
 }
@@ -308,6 +314,14 @@ body {
         background-position-y: center;
     }
 
+    .bg-car-4 {
+        background-image: url("/images/backgrounds/car-4.webp");
+        background-repeat: no-repeat;
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
     .bg-car-5 {
         background-image: url("/images/backgrounds/car-5.webp");
         background-repeat: no-repeat;
@@ -379,6 +393,14 @@ body {
 
     .bg-income-tax {
         background-image: url("/images/backgrounds/income-tax.webp");
+        background-repeat: no-repeat;
+        background-size: $background-cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .bg-jeep {
+        background-image: url("/images/backgrounds/jeep.webp");
         background-repeat: no-repeat;
         background-size: $background-cover;
         background-position-x: center;

@@ -2,10 +2,9 @@ import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 
 import Intro from "components/common/Intro";
-import PricingPlans from "components/common/PricingPlans";
 import Block from "components/common/Block";
 
-import page from "public/content/en_US/Page/Services/extendedWarrantyServices.content";
+import page from "public/content/en_US/Page/Services/homeWarrantyPlan.content";
 
 export default function ExtendedWarrantyServices() {
   return (
@@ -15,6 +14,8 @@ export default function ExtendedWarrantyServices() {
       <Intro {...page.block.intro} />
       <section>
         <Block {...page.block.whyChooseUs} />
+      </section>
+      <section>
         <Block {...page.block.commonProtectionPlanPainPoints} />
       </section>
       <section>
@@ -49,6 +50,9 @@ export default function ExtendedWarrantyServices() {
         <Block {...page.block.electronicsFAQ} />
       </section>
       <section>
+        <Block {...page.block.autoWarrantyPlan} />
+      </section>
+      <section>
         <Block {...page.block.autoWarranty} />
       </section>
       <section>
@@ -56,6 +60,9 @@ export default function ExtendedWarrantyServices() {
       </section>
       <section>
         <Block {...page.block.autoWarrantyPlanFeatures} />
+      </section>
+      <section>
+        <Block {...page.block.autoFAQ} />
       </section>
       <section>
         <Block {...page.block.pricingPlans} />
