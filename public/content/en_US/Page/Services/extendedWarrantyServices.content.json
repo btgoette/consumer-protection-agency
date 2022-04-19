@@ -6,58 +6,39 @@
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Extended Warranty Services",
-    "hero": {
-        "slug": "hero-extended-warranty-services",
-        "column": [
-            {
-                "offset": "0",
-                "span": "5",
-                "order": "0"
-            }
-        ],
-        "title": "Extended Warranty Services",
-        "text": "Get the best in warranty protection with our Consumer Protection warranty plan.",
-        "cta": {
-            "ctaLabel": "Learn More",
-            "href": "#intro"
-        }
-    },
     "block": {
-        "intro": {
-            "slug": "intro",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
-            "title": "Consumer Protection Warranty Plans",
+        "hero": {
+            "slug": "extended-warranty-services-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            "title": "Extended Warranty Services",
             "text": [
                 {
                     "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
                 }
             ],
             "cta": {
-                "ctaLabel": "Why Choose Us?",
-                "href": "#why-choose-us"
+                "ctaLabel": "Learn More",
+                "href": "#intro"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-extended-warranty-services-960x960.jpg",
+                "alt": "Hero Extended Warranty Services"
             }
         },
         "whyChooseUs": {
             "slug": "why-choose-us",
-            "row": "align-items-center",
-            "background": "bg-red",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-blue",
             "column": [
                 {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-call-center"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
                 }
             ],
             "title": "Why Choose Us?",
@@ -74,22 +55,17 @@
                 {
                     "p": "Our cover applies to the entire item being covered and not in parts. Therefore, you can rest easy. We also do not have any conditions for how to maintain your products."
                 }
-            ],
-            "img": {
-                "src": "/images/services/call-center.webp",
-                "alt": "Woman at Call Center"
-            }
+            ]
         },
         "commonProtectionPlanPainPoints": {
             "slug": "common-protection-plan-pain-points",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-stressed-woman-on-laptop"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -237,14 +213,13 @@
         },
         "howItWorks": {
             "slug": "how-it-works",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-woman-on-laptop-on-floor"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -291,14 +266,13 @@
         },
         "homeWarrantyPlan": {
             "slug": "home-warranty-plan",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-air-conditioners"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -333,14 +307,13 @@
         },
         "homeWarrantyContinued": {
             "slug": "home-warranty-plan-continued",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-oven-and-microwave"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -450,14 +423,13 @@
         },
         "homeWarrantyFAQ": {
             "slug": "home-warranty-faq",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-washing-machine"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -547,18 +519,21 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/services/washing-machine.webp",
+                "alt": "Washing Machine"
+            }
         },
         "electronicsWarrantyPlan": {
             "slug": "electronics-warranty-plan",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-video-game"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -596,14 +571,13 @@
         },
         "electronics": {
             "slug": "electronics",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-cell-phone"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -665,7 +639,7 @@
         },
         "electronicsCoverage": {
             "slug": "electronicsCoverage",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
@@ -780,14 +754,13 @@
         },
         "electronicsContinued": {
             "slug": "electronic-continued",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-laptop-and-phone"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -862,14 +835,13 @@
         },
         "electronicsFeatures": {
             "slug": "electronics-features",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-tablet"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -914,14 +886,13 @@
         },
         "electronicsFAQ": {
             "slug": "electronics-faq",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-video-game-soccer"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -1051,14 +1022,13 @@
         },
         "autoWarrantyPlan": {
             "slug": "auto-warranty-plan",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-jeep"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -1093,14 +1063,13 @@
         },
         "autoWarranty": {
             "slug": "auto-warranty-plan",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-car-5"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -1134,14 +1103,13 @@
         },
         "autoWarrantyContinued": {
             "slug": "auto-warranty-continued",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-car"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -1214,14 +1182,13 @@
         },
         "autoWarrantyPlanFeatures": {
             "slug": "auto-warranty-plan-features",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0",
-                    "background": "bg-car-repair"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
@@ -1264,14 +1231,13 @@
         },
         "autoFAQ": {
             "slug": "auto-faq",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1",
-                    "background": "bg-car-4"
+                    "order": "1"
                 },
                 {
                     "offset": "0",
@@ -1370,13 +1336,12 @@
         "pricingPlans": {
             "slug": "pricing-plans",
             "background": "bg-blue",
-            "row": "text-center my-0",
+            "row": "align-items-center text-center py-lg-5",
             "column": [
                 {
                     "offset": "0",
                     "span": "12",
-                    "order": "0",
-                    "background": "bg-blue"
+                    "order": "0"
                 }
             ],
             "sectionTitle": "Warranty Pricing Plans",

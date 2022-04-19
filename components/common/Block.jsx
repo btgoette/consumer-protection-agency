@@ -71,35 +71,27 @@ export default function Section(block) {
               order: block.column[0].order,
             }}
           >
-            <div className="d-block d-lg-none">{renderImage()}</div>
-            <div className="d-none d-lg-block block hidden">
-              {renderTitle()}
-              {renderText()}
-              {renderAccordion()}
-              {renderList()}
-              {renderSubtitleList()}
-              {renderSubtitleText()}
-              {renderImgList()}
-              {renderCard()}
-              {renderCTA()}
-              {renderDisclaimer()}
-              {renderVideo()}
+            <div
+              className="aos-init aos-animate"
+              data-aos="fade-in"
+              data-aos-delay="20"
+            >
+              {renderImage()}
             </div>
           </Col>
           <Col
-            className={
-              block.column[1].background +
-              " block"
-            }
+            className={block.column[1].background + " block"}
             lg={{
               offset: block.column[1].offset,
               span: block.column[1].span,
               order: block.column[1].order,
             }}
           >
-            <div className="aos-init aos-animate" 
-            data-aos="fade-in"
-            data-aos-delay="50">
+            <div
+              className="aos-init aos-animate"
+              data-aos="fade-in"
+              data-aos-delay="10"
+            >
               {renderTitle()}
               {renderText()}
               {renderAccordion()}
@@ -331,8 +323,10 @@ export default function Section(block) {
   const renderImage = () => {
     if (hasImage) {
       return (
-        <Figure className="w-100 text-center">
-          <LazyLoadImage src={block.img.src} alt={block.img.alt} />
+        <Figure>
+          <span>
+            <LazyLoadImage src={block.img.src} alt={block.img.alt} />
+          </span>
         </Figure>
       );
     }

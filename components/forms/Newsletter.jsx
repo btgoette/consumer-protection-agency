@@ -4,7 +4,7 @@ export default function Newsletter(newsletter) {
   return (
     <div className="newsletter">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center py-lg-5">
           <Col xl={4}>
             <h2 className="mb-0 text-xl-start">Join our mailing list</h2>
             <p className="text-center text-xl-start mb-xl-0">

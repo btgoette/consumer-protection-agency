@@ -10,10 +10,7 @@ export default function CreditRestoration() {
   return (
     <div className={page.slug}>
       <Head {...page} />
-      <Hero {...page.hero} />
-      <section>
-      <Intro {...page.block.intro} />
-      </section>
+      <Hero {...page.block.hero} />
       <section>
         <Block {...page.block.whatIsACreditScore} />
       </section>

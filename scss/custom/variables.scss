@@ -57,9 +57,10 @@ $xx-large: 1400px;
 
 //buttons
 $button-border: none;
-$button-border-radius: 1.5rem;
+$button-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$button-border-radius: .375rem;
 $button-font-size: 1rem;
-$button-padding: 0.8rem 1.8rem;
+$button-padding: 1rem 1.8rem;
 $button-primary-background-color: $blue;
 $button-primary-background-hover-color: $dark-blue;
 $button-secondary-background-color: $gray;
@@ -138,10 +139,13 @@ $offcanvas-font-color: $blue;
 $offcanvas-header-font-color: $white;
 
 // padding and margins
-$block-padding: 1rem 2rem;
+$block-padding: 3rem 1.5rem;
 $block-padding-small: 3rem 2rem;
-$block-padding-medium: 4rem;
-$block-padding-large: 6rem 8rem;
+$block-padding-medium: 4rem 2rem;
+$block-padding-large: 4rem;
+$hero-padding-small: 3rem 1rem;
+$hero-padding-medium: 4rem 2rem;
+$hero-padding-large: 12rem 4rem;
 $footer-padding: 4rem 1rem;
 $footer-list-padding: 0.5rem 0;
 $hero-padding: 7rem 0;
@@ -158,6 +162,6 @@ $section-padding: 4rem;
 
 // sizes
 $container-small-width: 1400px;
-$container-width: 1920px;
+$container-width: 100rem;
 $image-width: 600px;
 $image-height: 800px;

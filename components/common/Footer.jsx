@@ -18,7 +18,7 @@ export default function Footer() {
 
       <section className="footer text-center text-sm-start">
         <Container className="block">
-          <Row className="align-items-center">
+          <Row className="align-items-center py-lg-5">
             <Col md={{ span: 10, offset: 1}} lg={{ span: 6, order: 0, offset: 0}}>
               <Link href="/" passHref>
                 <LazyLoadImage

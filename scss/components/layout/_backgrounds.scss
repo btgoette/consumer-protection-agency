@@ -73,12 +73,13 @@ body {
 }
 
 .bg-blue {
-    background-color: $dark-blue;
+    // background-color: $dark-blue;
     background-image: url(/images/backgrounds/cpa-blue.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: $background-cover;
     background-position: bottom right;    
-    background-blend-mode: $background-overlay;
+    // background-blend-mode: $background-overlay;
     background-size: $background-cover;
 
     color: $white;
@@ -233,16 +234,11 @@ body {
     }
 }
 
-.intro {
+.bg-video {
     background-color: $intro-background-color;
     background-image: url("/images/backgrounds/usa-flag-2.webp");
     background-size: $background-cover;
     background-blend-mode: $intro-blend;
-    color: $intro-font-color;
-
-    h2 {
-        color: $white;
-    }
 }
 
 @media only screen and (min-width: $large) {

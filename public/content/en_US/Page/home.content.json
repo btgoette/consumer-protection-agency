@@ -6,46 +6,33 @@
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Home",
-    "hero": {
-        "slug": "hero-home",
-        "column": [
-            {
-                "offset": "0",
-                "span": "5",
-                "order": "0"
-            }
-        ],
-        "title": "Consumer Protection Agency",
-        "text": "Helping people and businesses improve their financial health.",
-        "cta": {
-            "ctaLabel": "Learn More",
-            "href": "#intro"
-        }
-    },
     "block": {
-        "intro": {
-            "slug": "intro",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
-            "title": "What is Consumer Protection Agency?",
+        "hero": {
+            "slug": "home-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            "title": "Consumer Protection Agency",
             "text": [
                 {
                     "p": "We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law."
                 }
             ],
             "cta": {
-                "ctaLabel": "Watch Our Video",
-                "href": "#video"
+                "ctaLabel": "Learn More",
+                "href": "#intro"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-home-960x960.jpg",
+                "alt": "Hero Home"
             }
         },
         "video": {
-            "slug": "video", 
-            "background": "bg-black",           
+            "slug": "video",
+            "background": "bg-video",
             "column": [
                 {
                     "offset": "0",

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import Image from "next/image";
 
 export default function Hero(hero) {
   let hasTitle;
@@ -14,16 +15,22 @@ export default function Hero(hero) {
     }
   };
 
-  let hasSubtitle;
-  if (hero.subtitle !== undefined) {
-    hasSubtitle = true;
+  let hasText;
+  if (hero.text !== undefined) {
+    hasText = true;
   } else {
-    hasSubtitle = false;
+    hasText = false;
   }
 
-  const renderSubtitle = () => {
-    if (hasSubtitle) {
-      return <p className="text-center text-md-start">{hero.subtitle}</p>;
+  const renderText = () => {
+    if (hasText) {
+      return (
+        <>
+          {hero.text.map(({ p }, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </>
+      );
     }
   };
 
@@ -51,20 +58,31 @@ export default function Hero(hero) {
           <Row>
             <Col
               className="block"
-              lg={{
-                offset: hero.column[0].offset,
-                span: hero.column[0].span,
-                order: hero.column[0].order,
+              md={{
+                offset: hero.column.offset,
+                span: hero.column.span,
+                order: hero.column.order,
               }}
             >
               <div>
                 {renderTitle()}
-                {renderSubtitle()}
+                {renderText()}
                 {renderCTA()}
               </div>
             </Col>
           </Row>
         </Container>
+        <div className={"image-block " + hero.img.order}>
+          <span>
+          <img
+            className="image"
+            src={hero.img.src}
+            alt={hero.img.alt}
+            height="960"
+            width="960"
+          />
+          </span>
+        </div>
       </section>
     </>
   );

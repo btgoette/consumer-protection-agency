@@ -4,6 +4,7 @@ input[type="submit"]  {
     border-radius: $button-border-radius;
     font-size: $button-font-size;
     padding: $button-padding;
+    box-shadow: $button-box-shadow;
 }
 
 .btn-primary,
@@ -11,9 +12,13 @@ input[type="submit"] {
     background-color: $button-primary-background-color;
     color: $white;
 
-    &:hover {
+    &:hover,
+    &:active,
+    &:focus {
         background-color: $button-primary-background-hover-color;
         transition: 0.3s;
+        box-shadow: none;
+        border: none;
     }
 }
 

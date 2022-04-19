@@ -1,50 +1,29 @@
 .hero {
     display: grid;
     align-items:center;
-    text-align: center;
-    .block {
-        margin-bottom: 4rem;
-    }
+    text-align: left;
     h1 {
-        text-align: center;
+        text-align: left;
         color: $black;
     }
-
-    .container {
-        max-width: 1600px;
-        margin: 0 auto;
-    }
-
-    @media only screen and (min-width: $small) {
-
-        .block {
-            margin-bottom: 8rem;
-        }
-    }
-
+    border-bottom: 1px solid $dark-blue;
 }
 
+@media only screen and (min-width: $small) {
+
+    .hero {
+
+        .block {
+            padding: $hero-padding-medium;
+        }
+    }
+}
 
 @media only screen and (min-width: $large) {
-   .hero {
-       text-align: left;
-       .block {
-           margin-bottom: 0;
-       }
-       h1 {
-           text-align: left;
-       }
-   }
 
-   .hero-generic {
-       .block {
-           padding: 2rem 0 0;
-       }
-       .hero{
-           h1 {
-               text-align: center;
-               margin-bottom: 0;
-           }
-       }
-   }
+    .hero {
+        .block {
+            padding: $hero-padding-large;
+        }
+    }
 }
