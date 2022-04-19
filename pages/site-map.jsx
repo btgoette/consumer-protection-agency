@@ -8,7 +8,8 @@ export default function SiteMap() {
   return (
     <div className={page.slug}>
       <Head {...page} />
-      <PageTitle {...page.block.hero} />
+      <PageTitle {...page.block.hero} />      
+      <Block {...page.block.comingSoon}/>
     </div>
   );
 }

@@ -18,29 +18,19 @@
             ],
             "title": "In The News"
         },
-        "intro": {
-            "slug": "intro-in-the-news intro",
-            "container": "container-fluid",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
-            "title": "In The News",
+        "comingSoon": {
+            "slug": "coming-soon",
+            "row": "text-center",
+            "column": [{
+                "offset": "3",
+                "span": "6",
+                "order": "0"
+            }],
             "text": [
                 {
-                    "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
-                },
-                {
-                    "p": "Like many people, you may be asking, how do I keep more of what I earn? A good accounting system will allow you to effortlessly answer this question."
+                    "p": "Coming Soon..."
                 }
-            ],
-            "cta": {
-                "ctaLabel": "Why is this Important?",
-                "href": "#why-is-this-important"
-            }
+            ]
         },
         "video": {
             "slug": "video-home",
