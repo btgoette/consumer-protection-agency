@@ -23,30 +23,32 @@
         }
     },
     "block": {
-        "intro": {
-            "slug": "intro",
-            "container": "container-fluid",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
+        "hero": {
+            "slug": "financial-education-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
             "title": "Financial Education",
             "text": [
                 {
-                    "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
+                    "p": "Something Important about this page"
                 }
             ],
             "cta": {
-                "ctaLabel": "Call to Action",
-                "href": "/"
+                "ctaLabel": "Learn More",
+                "href": "#intro"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-financial-education-960x960.jpg",
+                "alt": "Hero Financial Education"
             }
         },
         "video": {
-            "slug": "video-home video",    
-            "background": "bg-black",  
+            "slug": "video-home video",
+            "background": "bg-black",
             "column": [
                 {
                     "offset": "0",

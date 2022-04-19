@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Container } from "react-bootstrap";
 
 export default function CPAServicesMenu() {
   return (
@@ -10,7 +8,7 @@ export default function CPAServicesMenu() {
           <a>
             <div className="cpa-services-menu">
               <div className="cpa-services-menu-block">
-                <LazyLoadImage
+                <img
                   src="/images/backgrounds/small-business.webp"
                   alt="Small Business"
                   width="480"
@@ -33,7 +31,7 @@ export default function CPAServicesMenu() {
           <a>
             <div className="cpa-services-menu">
               <div className="cpa-services-menu-block">
-                <LazyLoadImage
+                <img
                   src="/images/backgrounds/accounting-and-taxes.webp"
                   alt="Accounting & Taxes"
                   width="480"
@@ -53,7 +51,7 @@ export default function CPAServicesMenu() {
           <a>
             <div className="cpa-services-menu">
               <div className="cpa-services-menu-block">
-                <LazyLoadImage
+                <img
                   src="/images/backgrounds/financial-education.webp"
                   alt="Financial Education"
                   width="480"
@@ -75,7 +73,7 @@ export default function CPAServicesMenu() {
           <a>
             <div className="cpa-services-menu">
               <div className="cpa-services-menu-block">
-                <LazyLoadImage
+                <img
                   src="/images/backgrounds/credit-restoration.webp"
                   alt="Credit Restoration"
                   width="480"

@@ -6,60 +6,39 @@
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Private Small Business Network",
-    "hero": {
-        "slug": "hero-private-small-business-network",
-        "column": [
-            {
-                "offset": "0",
-                "span": "5",
-                "order": "0"
-            }
-        ],
-        "title": "Private Small Business Network",
-        "text": "Something Important about this page",
-        "cta": {
-            "ctaLabel": "Learn More",
-            "href": "#intro"
-        }
-    },
     "block": {
-        "intro": {
-            "slug": "intro",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
-            "title": "The B2C Partners Network",
+        "hero": {
+            "slug": "private-small-business-network-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            "title": "Private Small Business Network",
             "text": [
                 {
                     "p": "The B2C Partners Network is a marketplace consisting of a network of small, medium, and large size businesses that offers its members an opportunity to gain credit worthiness. The objective of the marketplace is to offer consumers the ability to connect with vendors and build a financial relationship to establish a positive payment history while offering vendors new opportunities for growth, customer acquisition and passive income. The benefits to both small businesses and consumers in the marketplace are explained in later parts of this page."
                 }
             ],
             "cta": {
-                "ctaLabel": "Consumer Vendor Accounts",
+                "ctaLabel": "Learn More",
                 "href": "#consumer-vendor-accounts"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-private-small-business-network-960x960.jpg",
+                "alt": "Hero Private Small Business Network"
             }
         },
         "consumerVendorAccounts": {
             "slug": "consumer-vendor-accounts",
-            "row": "align-items-center",
-            "background": "bg-red",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-business-agreement"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
+            "row": "align-items-center py-lg-5",
+            "background": "bg-blue",
+            "column": [{
+                "offset": "2",
+                "span": "8",
+                "order": "0"
+            }],
             "title": "Consumer Vendor Accounts",
             "text": [
                 {
@@ -68,29 +47,22 @@
                 {
                     "p": "Typically, credit repair companies will remove inaccurate or incomplete information from a consumer credit report, resulting in a skeletal credit profile. A skeletal credit profile is when you have a high credit score but no depth to show maturity. This results in denied credit applications. The B2C Partners network on the other hand, takes a different approach by rehabilitating a consumers credit profile with depth and a good credit mix. To highlight this distinction, the B2C partners network explains the benefits below:"
                 }
-            ],
-            "img": {
-                "src": "/images/services/business-agreement.webp",
-                "alt": "Business Contract"
-            }
+            ]
         },
         "benefitsForTheConsumer": {
             "slug": "benefits-for-the-consumer",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1",
-                    "background": "bg-contract"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                }
-            ],
+            "column": [{
+                "offset": "0",
+                "span": "4",
+                "order": "0"
+            },
+            {
+                "offset": "0",
+                "span": "8",
+                "order": "1"
+            }],
             "title": "Benefits for the Consumer",
             "text": [
                 {
@@ -122,21 +94,18 @@
         },
         "benefitsForTheSmallBusiness": {
             "slug": "benefits-for-the-small-business",
-            "row": "align-items-center",
-            "background":"bg-red",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-secretary"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
+            "column": [{
+                "offset": "0",
+                "span": "4",
+                "order": "1"
+            },
+            {
+                "offset": "0",
+                "span": "8",
+                "order": "0"
+            }],
             "title": "Benefits for the Small Business",
             "text": [
                 {
@@ -166,13 +135,11 @@
         "video": {
             "slug": "video-home video",
             "background": "bg-black",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
-                }
-            ],
+            "column": [{
+                "offset": "0",
+                "span": "12",
+                "order": "0"
+            }],
             "poster": "/video/cpa-video-poster.webp",
             "src": "/video/cpa-video.mp4"
         }

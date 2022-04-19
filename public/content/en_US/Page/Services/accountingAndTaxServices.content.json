@@ -6,34 +6,15 @@
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "Accounting & Tax Services",
-    "hero": {
-        "slug": "hero-accounting-and-tax-services",
-        "column": [
-            {
-                "offset": "0",
-                "span": "5",
-                "order": "0"
-            }
-        ],
-        "title": "Accounting & Tax Services",
-        "text": "Something Important About This Page",
-        "cta": {
-            "ctaLabel": "Learn More",
-            "href": "#intro"
-        }
-    },
     "block": {
-        "intro": {
-            "slug": "intro",
-            "container": "container-fluid",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
-                }
-            ],
-            "title": "Executive Accounting & Tax",
+        "hero": {
+            "slug": "accoungint-and-tax-services-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            "title": "Executive Accounting & Tax Services",
             "text": [
                 {
                     "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
@@ -43,25 +24,24 @@
                 }
             ],
             "cta": {
-                "ctaLabel": "Why is this Important?",
+                "ctaLabel": "Learn More",
                 "href": "#scaling-your-business"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-accounting-and-tax-services-960x960.jpg",
+                "alt": "Hero Accounting & Tax Services"
             }
         },
         "scalingYourBusiness": {
             "slug": "scaling-your-business",
-            "row": "align-items-center",
-            "background": "bg-red",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-blue",
             "column": [
                 {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-team-meeting"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
                 }
             ],
             "title": "Scaling Your Business",
@@ -69,27 +49,22 @@
                 {
                     "p": "Your ability to grow and scale your business is limited by how much you know and understand the numbers. Keeping accurate records will help you answer questions like How much of a cash reserve do we really need? What should our profit margin be and how do we get there? Do we have too much staff or not enough? Which customers or product lines are generating the most profit?"
                 }
-            ],
-            "img": {
-                "src": "/images/services/team-meeting.webp",
-                "alt": "Scaling your business"
-            }
+            ]
         },
         "taxation": {
             "slug": "taxation",
-            "row": "align-items-center",
+            "row": "align-items-center py-lg-5",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "1",
-                    "background": "bg-income-tax"
+                    "span": "5",
+                    "order": "0"
                 },
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "0"
+                    "span": "7",
+                    "order": "1"
                 }
             ],
             "title": "Taxation",
@@ -105,36 +80,35 @@
         },
         "accessToFunding": {
             "slug": "access-to-funding",
-            "row": "align-items-center",
-            "background": "bg-red",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "0",
-                    "background": "bg-contract-signing"
+                    "span": "5",
+                    "order": "1"
                 },
                 {
                     "offset": "0",
-                    "span": "6",
-                    "order": "1"
+                    "span": "7",
+                    "order": "0"
                 }
             ],
             "title": "Access to Funding",
-            "img": {
-                "src": "/images/services/contract-signing.webp",
-                "alt": "Contract Signing"
-            },
             "text": [
                 {
                     "p": "Whether you need a loan to help grow your business or fund a personal project. One of the first items the lender will request is your financial data. Having a compliant tax history and accurate accounting system will make this part of the lending process a breeze."
                 }
-            ]
+            ],
+            "img": {
+                "src": "/images/services/contract-signing.webp",
+                "alt": "Contract Signing"
+            }
         },
         "video": {
             "slug": "video-home video",
             "container": "container",
-            "background": "bg-black",
+            "background": "bg-video",
             "column": [
                 {
                     "offset": "0",

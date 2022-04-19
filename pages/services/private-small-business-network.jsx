@@ -9,8 +9,7 @@ export default function PrivateSmallBusinessNetwork() {
   return (
     <div className={page.slug}>
       <Head {...page} />
-      <Hero {...page.hero} />
-      <Intro {...page.block.intro} />
+      <Hero {...page.block.hero} />
       <section>
       <Block {...page.block.consumerVendorAccounts} />
       </section>

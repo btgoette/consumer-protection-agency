@@ -20,22 +20,21 @@ body {
     padding: 0 0;
 }
 
+.col-* {
+    position: relative;
+    overflow: hidden;
+}
+
 .block {
     padding: $block-padding;
 }
 
 section {
+    position: relative;
     .block {
         padding: $block-padding-small;
-        min-height: 450px;
         display: grid;
         align-items: center;
-    }
-}
-
-.pricing-plans {
-    .block {
-        padding: 2rem 0 1rem;
     }
 }
 
@@ -88,9 +87,11 @@ section {
     }
 
     section {
+        position: relative;
         .block {
-            min-height: 600px;
-            padding: $block-padding-medium;
+            padding: $block-padding-small;
+            display: grid;
+            align-items: center;
         }
     }
 
