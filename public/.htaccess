@@ -1,0 +1,56 @@
+# Set the Time Zone of your Server
+SetEnv TZ America/Chicago
+
+# ServerAdmin:  This address appears on some server-generated pages, such as error documents.
+SetEnv SERVER_ADMIN bryan@dkiholdings.com
+
+# Commonly used filename extensions to character sets.
+AddDefaultCharset UTF-8
+
+# Default Language
+DefaultLanguage en-US
+
+## REWRITE DEFAULTS
+RewriteEngine On
+RewriteBase /
+DirectorySlash Off
+
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
+
+# Enforce https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove www
+RewriteCond %{HTTP_HOST} ^www.consumerprotection.agency [NC]
+RewriteRule ^(.*)$ https://consumerprotection.agency/$1 [L,R=301,NC]
+
+# Remove .html at end of url
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# Alias directories
+RewriteRule ^/?about/(\w+)/?$  /about/$1 [END]
+RewriteRule ^/?services/(\w+)/?$  /services/$1 [END]
+
+# Disable Directory Browsing
+Options All -Indexes
+
+# 301 Redirects
+@REM Redirect 301 /the-j-and-j-team about/the-j-and-j-team
+
+# ERRORDOCUMENTS
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+
+# Don't allow anyone to see my .htaccess file
+<Files .htaccess>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
