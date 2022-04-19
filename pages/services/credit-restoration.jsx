@@ -18,10 +18,11 @@ export default function CreditRestoration() {
         <Block {...page.block.howCanYourCreditScoreAffectYou} />
       </section>
       <section>
-        <Block {...page.block.benefitsForTheConsumer} />
-      </section>
-      <section>
         <Block {...page.block.benefitsOfHavingGoodCredit} />
+      </section>
+      
+      <section>
+        <Block {...page.block.benefitsForTheConsumer} />
       </section>
       {/* <Block {...page.block.video} /> */}
     </div>
