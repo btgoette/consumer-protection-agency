@@ -95,7 +95,7 @@
         "benefitsForTheSmallBusiness": {
             "slug": "benefits-for-the-small-business",
             "row": "align-items-center py-lg-5",
-            "background": "bg-white",
+            "background": "bg-gray",
             "column": [{
                 "offset": "0",
                 "span": "4",

@@ -81,7 +81,7 @@
         "accessToFunding": {
             "slug": "access-to-funding",
             "row": "align-items-center py-lg-5",
-            "background": "bg-white",
+            "background": "bg-gray",
             "column": [
                 {
                     "offset": "0",

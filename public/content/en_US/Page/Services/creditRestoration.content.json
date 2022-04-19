@@ -84,63 +84,20 @@
                 "src": "/images/services/fico-score-factors.webp",
                 "alt": "How Credit Score is Calculated"
             }
-        },
-        "benefitsForTheConsumer": {
-            "slug": "benefits-for-the-consumer",
-            "row": "align-items-center py-lg-5",
-            "background": "bg-white",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
-            "title": "How Will Our Services Benefit You?",
-            "list": [
-                {
-                    "li": "Continuous Credit Education"
-                },
-                {
-                    "li": "Protection from deceptive practice"
-                },
-                {
-                    "li": "Credit report monitoring"
-                },
-                {
-                    "li": "ID theft protection"
-                },
-                {
-                    "li": "Credit score increase"
-                },
-                {
-                    "li": "Credit audit report"
-                }
-            ],
-            "img": {
-                "src": "/images/services/credit-score-range.webp",
-                "alt": "Credit Score Range & Factors"
-            }
-        },
-        "benefitsOfHavingGoodCredit": {
+        },"benefitsOfHavingGoodCredit": {
             "slug": "benefits-of-having-good-credit",
             "row": "align-items-center py-lg-5",
-            "background": "bg-white",
+            "background": "bg-red",
             "column": [
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "1"
+                    "order": "0"
                 },
                 {
                     "offset": "0",
                     "span": "6",
-                    "order": "0"
+                    "order": "1"
                 }
             ],
             "title": "The Benefits of Having Good Credit",
@@ -175,6 +132,49 @@
                 "alt": "New Car"
             }
         },
+        "benefitsForTheConsumer": {
+            "slug": "benefits-for-the-consumer",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "How Will Our Services Benefit You?",
+            "list": [
+                {
+                    "li": "Continuous Credit Education"
+                },
+                {
+                    "li": "Protection from deceptive practice"
+                },
+                {
+                    "li": "Credit report monitoring"
+                },
+                {
+                    "li": "ID theft protection"
+                },
+                {
+                    "li": "Credit score increase"
+                },
+                {
+                    "li": "Credit audit report"
+                }
+            ],
+            "img": {
+                "src": "/images/services/credit-score-range.webp",
+                "alt": "Credit Score Range & Factors"
+            }
+        },
+        
         "video": {
             "slug": "video-home video",
             "background": "bg-black",
