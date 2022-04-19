@@ -32,7 +32,7 @@ body {
 section {
     position: relative;
     .block {
-        padding: $block-padding;
+        padding: $block-padding-small;
         display: grid;
         align-items: center;
     }

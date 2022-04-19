@@ -1,5 +1,4 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Image from "next/image";
 
 export default function Hero(hero) {
   let hasTitle;
