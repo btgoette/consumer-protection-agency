@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins Medium";
+    src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins Bold";
+    src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins Bold Italic";
+    src: url("/fonts/Poppins/Poppins-Bold-Italic.ttf");
+  }
+  @font-face {
+    font-family: "Inter Light";
+    src: url("/fonts/Inter/Inter-Light.ttf");
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter/Inter-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Inter Bold";
+    src: url("/fonts/Inter/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Zen";
+    src: url("/fonts/Zen/ZenOldMincho-Regular.ttf");
+  }
+  
+  .text-small {
+    font-size: $font-size-small;
+  }
+  
+  body {
+    color: $body-font-color;
+    font-family: $body-font-family;
+  }
+  
+  a {
+    color: $link-font-color;
+    font-weight: $link-font-weight;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: $link-font-hover-color;
+  }
+  
+  h1,
+  h2 {
+    color: $header-font-color;
+    font-family: $header-font-family;
+    font-weight: $header-font-weight;
+    line-height: $header-line-height;
+    text-transform: $header-text-transform;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2,
+  h3 {
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-family: $h3-font-family;
+    color: $h3-font-color;
+  }
+  
+  .page-title {
+    padding-top: 2rem;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
