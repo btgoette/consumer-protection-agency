@@ -1,26 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+// Utils
+@import "utilities/all";
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+// Vendor
+@import "vendors/all";
 
-* {
-  box-sizing: border-box;
-}
+// Base
+@import "base/all";
 
-@import 'custom/variables.scss'; 
+// Blocks
+@import "blocks/all";
 
-@import 'components/common/common.scss';
+// Components
+@import "components/all";
 
-@import 'components/forms/forms.scss';
+// Layout
+@import "layout/all";
 
-@import 'components/layout/layout.scss';
+// Pages
+@import "pages/all";
 
-@import 'page/pages.scss'
+// Theme
+@import "themes/all";
