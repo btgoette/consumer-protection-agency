@@ -4,8 +4,6 @@ import App from 'next/app'
 import { SSRProvider } from '@react-aria/ssr'
 import AOS from 'aos'
 import { addBackToTop } from 'vanilla-back-to-top'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'aos/dist/aos.css'
 import 'scss/styles.scss'
 
 // Custom Components 
