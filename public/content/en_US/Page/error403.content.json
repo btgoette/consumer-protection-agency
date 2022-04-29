@@ -1,9 +1,32 @@
 {
-    "title": "Page Forbidden",
+    "title": "Page Is Forbidden",
     "description": "This page is forbidden. Check URL and try again",
-    "slug": "404",
+    "slug": "403",
     "url": "https://consumerprotection.agency/403",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
-    "navigationLabel": "403"
+    "navigationLabel": "403",
+    "block": {
+        "hero": {
+            "slug": "page-forbidden",
+            "row": "text-center m-5",
+            "column": [
+                {
+                    "offset": "4",
+                    "span": "4",
+                    "order": "0"
+                }
+            ],
+            "title": "403 | Page is Forbidden.",
+            "cta": {
+                "ctaLabel": "Back to Home",
+                "href": "/"
+            },
+            "img": {
+                "class": "fixed-image my-5",
+                "src": "/images/logos/cpa-logo.webp",
+                "alt": "Back to Home"
+            }
+        }
+    }
 }

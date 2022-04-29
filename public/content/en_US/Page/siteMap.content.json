@@ -8,15 +8,30 @@
     "navigationLabel": "Site Map",
     "block": {
         "hero": {
-            "slug": "page-title",
+            "slug": "site-map coming-soon",
+            "row": "text-center m-5",
             "column": [
                 {
-                    "offset": "0",
-                    "span": "12",
+                    "offset": "4",
+                    "span": "4",
                     "order": "0"
                 }
             ],
-            "title": "Site Map"
+            "title": "Site Map",
+            "text": [
+                {
+                    "p": "Coming Soon..."
+                }
+            ],
+            "cta": {
+                "ctaLabel": "Back to Home",
+                "href": "/"
+            },
+            "img": {
+                "class": "fixed-image my-5",
+                "src": "/images/logos/cpa-logo.webp",
+                "alt": "Back to Home"
+            }
         },
         "comingSoon": {
             "slug": "coming-soon",

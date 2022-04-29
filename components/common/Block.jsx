@@ -39,8 +39,6 @@ export default function Section(block) {
             {renderList()}
             {renderSubtitleList()}
             {renderSubtitleText()}
-            {renderImgList()}
-            {renderCard()}
             {renderCTA()}
             {renderPricingPlan()}
             {renderDisclaimer()}
@@ -98,8 +96,6 @@ export default function Section(block) {
               {renderList()}
               {renderSubtitleList()}
               {renderSubtitleText()}
-              {renderImgList()}
-              {renderCard()}
               {renderCTA()}
               {renderDisclaimer()}
               {renderVideo()}
@@ -259,60 +255,6 @@ export default function Section(block) {
     }
   };
 
-  let hasImgList;
-  if (block.imgList !== undefined) {
-    hasImgList = true;
-  } else {
-    hasImgList = false;
-  }
-
-  const renderImgList = () => {
-    if (hasImgList) {
-      return (
-        <>
-          {block.imgList.map(({ img, title, p }, j) => (
-            <div key={j} className="d-block d-lg-flex align-items-center">
-              <Figure className="list-image text-center">
-                <LazyLoadImage src={img.src} alt={img.alt} />
-              </Figure>
-              <div>
-                <p className="imgList-title">{title}</p>
-                <p className="text-justify">{p}</p>
-              </div>
-            </div>
-          ))}
-        </>
-      );
-    }
-  };
-
-  let hasCard;
-  if (block.card !== undefined) {
-    hasCard = true;
-  } else {
-    hasCard = false;
-  }
-
-  const renderCard = () => {
-    if (hasCard) {
-      return (
-        <Row className="p-0">
-          {block.card.map(({ img, title, p }, j) => (
-            <Col xl={3} lg={4} sm={6} key={j}>
-              <Card>
-                <Card.Img variant="top" src={img.src} className="icon" />
-                <Card.Body>
-                  <Card.Title>{title}</Card.Title>
-                  <Card.Text>{p}</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      );
-    }
-  };
-
   let hasImage;
   if (block.img !== undefined) {
     hasImage = true;
@@ -323,7 +265,7 @@ export default function Section(block) {
   const renderImage = () => {
     if (hasImage) {
       return (
-        <Figure>
+        <Figure className={block.img.class}>
           <span>
             <LazyLoadImage src={block.img.src} alt={block.img.alt} />
           </span>

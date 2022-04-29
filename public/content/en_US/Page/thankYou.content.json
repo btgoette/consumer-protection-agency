@@ -9,7 +9,7 @@
     "block": {
         "hero": {
             "slug": "thank-you",
-            "row": "section-start section-end",
+            "row": "text-center m-5",
             "column": [
                 {
                     "offset": "4",
@@ -23,6 +23,7 @@
                 "href": "/"
             },
             "img": {
+                "class": "fixed-image my-5",
                 "src": "/images/logos/cpa-logo.webp",
                 "alt": "Back to Home"
             }

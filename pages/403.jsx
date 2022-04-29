@@ -1,18 +1,12 @@
-import Link from "next/link";
 import Head from "components/common/Head";
-
+import Block from "components/common/Block";
 import page from "public/content/en_US/Page/error403.content";
 
 export default function Error403() {
   return (
-    <>
+    <div className={page.slug}>
       <Head {...page} />
-      <div className="error">
-        <h1>Page is Forbidden</h1>
-        <h2 className="text-center">
-          <Link href="/">Back to Home</Link>
-        </h2>
-      </div>
-    </>
+      <Block {...page.block.hero} />
+    </div>
   );
 }

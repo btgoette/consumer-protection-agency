@@ -8,8 +8,8 @@
     "navigationLabel": "404",
     "block": {
         "hero": {
-            "slug": "thank-you",
-            "row": "section-start section-end",
+            "slug": "page-not-found",
+            "row": "text-center m-5",
             "column": [
                 {
                     "offset": "4",
@@ -17,12 +17,13 @@
                     "order": "0"
                 }
             ],
-            "title": "Thank you for your form submission.",
+            "title": "404 | Page Not Found.",
             "cta": {
                 "ctaLabel": "Back to Home",
                 "href": "/"
             },
             "img": {
+                "class": "fixed-image my-5",
                 "src": "/images/logos/cpa-logo.webp",
                 "alt": "Back to Home"
             }
