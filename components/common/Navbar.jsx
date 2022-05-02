@@ -98,7 +98,7 @@ export default function CustomNav() {
                       </Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Link href="/testimonials/" passHref>
+                      <Link href="/testimonials" passHref>
                         <Nav.Link>Testimonials</Nav.Link>
                       </Link>
                     </Nav.Item>
@@ -164,7 +164,7 @@ export default function CustomNav() {
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link href="/testimonials/" passHref>
+                    <Link href="/testimonials" passHref>
                       <Nav.Link>Testimonials</Nav.Link>
                     </Link>
                   </Nav.Item>
