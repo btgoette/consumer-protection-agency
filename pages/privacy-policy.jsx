@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
   return (
     <div className={page.slug + " mb-5"}>
     <Head {...page}/>
-    <PageTitle {...page.block.hero}/>
+    <Block {...page.block.hero}/>
     <Block {...page.block.privacyPolicy}/>
     <Block {...page.block.informationCollected}/>
     <Block {...page.block.logData}/>
