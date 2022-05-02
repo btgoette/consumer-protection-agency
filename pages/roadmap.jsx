@@ -8,7 +8,7 @@ export default function RoadMap() {
     <div className={page.slug}>
       <Head {...page} />
       <Block {...page.block.hero} />
-      <Block {...page.block.roadmap} />
+      {/* <Block {...page.block.roadmap} /> */}
     </div>
   );
 }

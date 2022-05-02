@@ -1,6 +1,6 @@
 {
     "title": "Contact Us | Consumer Protection Agency",
-    "description": "",
+    "description": "Contact Consumer Protection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
     "slug": "contact",
     "href": "https://consumerprotection.agency/contact",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -16,7 +16,7 @@
                     "order": "0"
                 }
             ],
-            "title": "Contact Us"
+            "pageTitle": "Contact Us"
         }
     }
 }

@@ -8,6 +8,7 @@ import {
   Card,
   Nav,
 } from "react-bootstrap";
+import Link from "next/link";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Player, BigPlayButton } from "video-react";
 import "node_modules/video-react/dist/video-react.css";
@@ -32,10 +33,12 @@ export default function Section(block) {
               order: block.column[0].order,
             }}
           >
+            {renderPageTitle()}
             {renderTitle()}
             {renderAccordion()}
             {renderImage()}
             {renderText()}
+            {renderLinkList()}
             {renderList()}
             {renderSubtitleList()}
             {renderSubtitleText()}
@@ -90,9 +93,11 @@ export default function Section(block) {
               data-aos="fade-in"
               data-aos-delay="10"
             >
+              {renderPageTitle()}
               {renderTitle()}
               {renderText()}
               {renderAccordion()}
+              {renderLinkList()}
               {renderList()}
               {renderSubtitleList()}
               {renderSubtitleText()}
@@ -125,6 +130,19 @@ export default function Section(block) {
           </Row>
         </Container>
       );
+    }
+  };
+
+  let hasPageTitle;
+  if (block.pageTitle !== undefined) {
+    hasPageTitle = true;
+  } else {
+    hasPageTitle = false;
+  }
+
+  const renderPageTitle = () => {
+    if (hasPageTitle) {
+      return <h1>{block.pageTitle}</h1>;
     }
   };
 
@@ -249,6 +267,27 @@ export default function Section(block) {
         <ul>
           {block.list.map(({ li }, j) => (
             <li key={j}>{li}</li>
+          ))}
+        </ul>
+      );
+    }
+  };
+
+  let hasLinkList;
+  if (block.linkList !== undefined) {
+    hasLinkList = true;
+  } else {
+    hasLinkList = false;
+  }
+
+  const renderLinkList = () => {
+    if (hasLinkList) {
+      return (
+        <ul>
+          {block.linkList.map(({href, li }, j) => (
+            <li key={j}>
+                <Link href={href}>{li}</Link>
+            </li>
           ))}
         </ul>
       );
