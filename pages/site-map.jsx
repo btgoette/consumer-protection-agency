@@ -7,7 +7,10 @@ export default function SiteMap() {
   return (
     <div className={page.slug}>
       <Head {...page} />
-      <Block {...page.block.hero} />      
+      <Block {...page.block.hero} />     
+      <Block {...page.block.servicesSiteMapList} />
+      <Block {...page.block.customerServiceSiteMapList} />
+      <Block {...page.block.companyInfoSiteMapList} />
     </div>
   );
 }

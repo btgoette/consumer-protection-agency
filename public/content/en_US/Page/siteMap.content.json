@@ -1,6 +1,6 @@
 {
     "title": "Site Map | Consumer Protection Agency",
-    "description": "Site Map for Consumer Proection Agency.",
+    "description": "Site Map for Consumer Proection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
     "slug": "site-map",
     "href": "https://consumerprotection.agency/site-map",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -9,7 +9,7 @@
     "block": {
         "hero": {
             "slug": "site-map coming-soon",
-            "row": "text-center m-5",
+            "row": "text-center mt-5",
             "column": [
                 {
                     "offset": "4",
@@ -17,33 +17,93 @@
                     "order": "0"
                 }
             ],
-            "title": "Site Map",
-            "text": [
+            "pageTitle": "Site Map"
+        },
+        "servicesSiteMapList": {
+            "slug": "services-site-map-list",
+            "column": [
                 {
-                    "p": "Coming Soon..."
+                    "offset": "3",
+                    "span": "6",
+                    "order": "0"
                 }
             ],
-            "cta": {
-                "ctaLabel": "Back to Home",
-                "href": "/"
-            },
-            "img": {
-                "class": "fixed-image my-5",
-                "src": "/images/logos/cpa-logo.webp",
-                "alt": "Back to Home"
-            }
-        },
-        "comingSoon": {
-            "slug": "coming-soon",
-            "row": "text-center",
-            "column": [{
-                "offset": "3",
-                "span": "6",
-                "order": "0"
-            }],
-            "text": [
+            "title": "Services",
+            "linkList": [
                 {
-                    "p": "Coming Soon..."
+                    "href": "https://consumerprotection.agency/services/private-small-business-network",
+                    "li": "Private Small Business Network"
+                },
+                {
+                    "href": "https://consumerprotection.agency/services/accounting-and-tax-services",
+                    "li": "Accounting & Tax Services"
+                },
+                {
+                    "href": "https://consumerprotection.agency/services/financial-education",
+                    "li": "Financial Education"
+                },
+                {
+                    "href": "https://consumerprotection.agency/services/credit-restoration",
+                    "li": "Credit Restoration"
+                },
+                {
+                    "href": "https://consumerprotection.agency/services/extended-warranty-services",
+                    "li": "Extended Warranty Services"
+                }
+            ]
+        },
+        "customerServiceSiteMapList": {
+            "slug": "customer-service-site-map-list",
+            "column": [
+                {
+                    "offset": "3",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Customer Service",
+            "linkList": [
+                {
+                    "href": "https://consumerprotection.agency/contact",
+                    "li": "Contact"
+                },
+                {
+                    "href": "https://consumerprotection.agency/privacy-policy",
+                    "li": "Privacy Policy"
+                },
+                {
+                    "href": "https://consumerprotection.agency/roadmap",
+                    "li": "Road Map"
+                }
+            ]
+        },
+        "companyInfoSiteMapList": {
+            "slug": "company-info-site-map-list",
+            "row": "mb-4",
+            "column": [
+                {
+                    "offset": "3",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Company Info",
+            "linkList": [
+                {
+                    "href": "https://consumerprotection.agency/about",
+                    "li": "About Us"
+                },
+                {
+                    "href": "https://consumerprotection.agency/in-the-news",
+                    "li": "In The News"
+                },
+                {
+                    "href": "https://consumerprotection.agency/blog",
+                    "li": "Blog"
+                },
+                {
+                    "href": "https://consumerprotection.agency/testimonials",
+                    "li": "Testimonials"
                 }
             ]
         }

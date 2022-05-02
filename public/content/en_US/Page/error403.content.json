@@ -1,6 +1,6 @@
 {
     "title": "Page Is Forbidden",
-    "description": "This page is forbidden. Check URL and try again",
+    "description": "This page is forbidden. Check URL and try again. We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
     "slug": "403",
     "url": "https://consumerprotection.agency/403",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -17,7 +17,7 @@
                     "order": "0"
                 }
             ],
-            "title": "403 | Page is Forbidden.",
+            "pageTitle": "403 | Page is Forbidden.",
             "cta": {
                 "ctaLabel": "Back to Home",
                 "href": "/"
