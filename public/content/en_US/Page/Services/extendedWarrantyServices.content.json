@@ -1,6 +1,6 @@
 {
     "title": "Extended Warranty Services | Consumer Protection Agency",
-    "description": "",
+    "description": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time.",
     "slug": "extended-warranty-services",
     "href": "https://consumerprotection.agency/extended-warranty-services",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -14,7 +14,7 @@
                 "span": "6",
                 "order": "0"
             },
-            "title": "Extended Warranty Services",
+            "pageTitle": "Extended Warranty Services",
             "text": [
                 {
                     "p": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time. Join thousands of our happy customers to enjoy the best services in the industry and save thousands on repair and replacement bills."
@@ -1062,7 +1062,7 @@
             }
         },
         "autoWarranty": {
-            "slug": "auto-warranty-plan",
+            "slug": "auto-warranty",
             "row": "align-items-center py-lg-5",
             "background": "bg-red",
             "column": [

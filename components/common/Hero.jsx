@@ -1,16 +1,16 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Hero(hero) {
-  let hasTitle;
-  if (hero.title !== undefined) {
-    hasTitle = true;
+  let hasPageTitle;
+  if (hero.pageTitle !== undefined) {
+    hasPageTitle = true;
   } else {
-    hasTitle = false;
+    hasPageTitle = false;
   }
 
-  const renderTitle = () => {
-    if (hasTitle) {
-      return <h1>{hero.title}</h1>;
+  const renderPageTitle = () => {
+    if (hasPageTitle) {
+      return <h1>{hero.pageTitle}</h1>;
     }
   };
 
@@ -64,7 +64,7 @@ export default function Hero(hero) {
               }}
             >
               <div>
-                {renderTitle()}
+                {renderPageTitle()}
                 {renderText()}
                 {renderCTA()}
               </div>

@@ -1,6 +1,6 @@
 {
     "title": "Accounting & Tax Services | Consumer Protection Agency",
-    "description": "",
+    "description": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system.",
     "slug": "accounting-and-tax-services",
     "href": "https://consumerprotection.agency/accounting-and-tax-services",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -14,7 +14,7 @@
                 "span": "6",
                 "order": "0"
             },
-            "title": "Executive Accounting & Tax Services",
+            "pageTitle": "Executive Accounting & Tax Services",
             "text": [
                 {
                     "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
