@@ -66,7 +66,7 @@ export default function CustomNav() {
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-3">
                     <Nav.Item>
-                      <Link href="/about" passHref>
+                      <Link href="/about/" passHref>
                         <Nav.Link>About</Nav.Link>
                       </Link>
                     </Nav.Item>
@@ -88,22 +88,22 @@ export default function CustomNav() {
                       </NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item>
-                      <Link href="/in-the-news" passHref>
+                      <Link href="/in-the-news/" passHref>
                         <Nav.Link>In The News</Nav.Link>
                       </Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Link href="/blog" passHref>
+                      <Link href="/blog/" passHref>
                         <Nav.Link>Blog</Nav.Link>
                       </Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Link href="/testimonials" passHref>
+                      <Link href="/testimonials/" passHref>
                         <Nav.Link>Testimonials</Nav.Link>
                       </Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Link href="/contact" passHref>
+                      <Link href="/contact/" passHref>
                         <Nav.Link>Contact</Nav.Link>
                       </Link>
                     </Nav.Item>
@@ -132,7 +132,7 @@ export default function CustomNav() {
               >
                 <Nav className="ms-auto">
                   <Nav.Item>
-                    <Link href="/about" passHref>
+                    <Link href="/about/" passHref>
                       <Nav.Link>About</Nav.Link>
                     </Link>
                   </Nav.Item>
@@ -154,22 +154,22 @@ export default function CustomNav() {
                       </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Item>
-                    <Link href="/in-the-news" passHref>
+                    <Link href="/in-the-news/" passHref>
                       <Nav.Link>In The News</Nav.Link>
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link href="/blog" passHref>
+                    <Link href="/blog/" passHref>
                       <Nav.Link>Blog</Nav.Link>
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link href="/testimonials" passHref>
+                    <Link href="/testimonials/" passHref>
                       <Nav.Link>Testimonials</Nav.Link>
                     </Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Link href="/contact" passHref>
+                    <Link href="/contact/" passHref>
                       <Nav.Link>Contact</Nav.Link>
                     </Link>
                   </Nav.Item>

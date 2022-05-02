@@ -71,16 +71,16 @@ export default function Footer() {
                       <a href="https://backoffice.consumerprotection.agency/">Client Login</a>
                     </li>
                     <li>
-                      <Link href="/in-the-news">In The News</Link>
+                      <Link href="/in-the-news/">In The News</Link>
                     </li>
                     <li>
-                      <Link href="/blog">Blog</Link>
+                      <Link href="/blog/">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/testimonials">Testimonials</Link>
+                      <Link href="/testimonials/">Testimonials</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Contact</Link>
+                      <Link href="/contact/">Contact</Link>
                     </li>
                     <li>
                       <Link href="/roadmap">Roadmap</Link>

@@ -1,6 +1,6 @@
 {
     "title": "Site Map | Consumer Protection Agency",
-    "description": "Site Map for Consumer Proection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
+    "description": "Site Map for Consumer Proection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls.",
     "slug": "site-map",
     "href": "https://consumerprotection.agency/site-map",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
@@ -64,7 +64,7 @@
             "title": "Customer Service",
             "linkList": [
                 {
-                    "href": "https://consumerprotection.agency/contact",
+                    "href": "https://consumerprotection.agency/contact/",
                     "li": "Contact"
                 },
                 {
@@ -90,19 +90,19 @@
             "title": "Company Info",
             "linkList": [
                 {
-                    "href": "https://consumerprotection.agency/about",
+                    "href": "https://consumerprotection.agency/about/",
                     "li": "About Us"
                 },
                 {
-                    "href": "https://consumerprotection.agency/in-the-news",
+                    "href": "https://consumerprotection.agency/in-the-news/",
                     "li": "In The News"
                 },
                 {
-                    "href": "https://consumerprotection.agency/blog",
+                    "href": "https://consumerprotection.agency/blog/",
                     "li": "Blog"
                 },
                 {
-                    "href": "https://consumerprotection.agency/testimonials",
+                    "href": "https://consumerprotection.agency/testimonials/",
                     "li": "Testimonials"
                 }
             ]
