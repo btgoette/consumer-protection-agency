@@ -1,8 +1,8 @@
 {
     "title": "In The News | Consumer Protection Agency",
-    "description": "In the news from Consumer Protection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law.",
+    "description": "In the news from Consumer Protection Agency. We are an organization focused on protecting consumers from all aspects of financial pitfalls.",
     "slug": "in-the-news",
-    "href": "https://consumerprotection.agency/in-the-news",
+    "href": "https://consumerprotection.agency/in-the-news/",
     "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
     "imageType": "webp",
     "navigationLabel": "In The News",
@@ -17,7 +17,7 @@
                     "order": "0"
                 }
             ],
-            "paegTitle": "In The News",
+            "pageTitle": "In The News",
             "text": [
                 {
                     "p": "Coming Soon..."
