@@ -26,7 +26,7 @@ export default function CustomNav() {
           {/* Logo */}
           <Link href="/" passHref>
             <Navbar.Brand>
-              <LazyLoadImage
+              <img
                 className="logo"
                 src="/images/logos/cpa-logo-text-on-the-side.webp"
                 alt="Consumer Protection Agency"
