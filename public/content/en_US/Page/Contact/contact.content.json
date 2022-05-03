@@ -8,7 +8,8 @@
     "navigationLabel": "Contact",
     "block": {
         "hero": {
-            "slug": "page-title",
+            "slug": "contact-hero",
+            "row": "text-center m-5",
             "column": [
                 {
                     "offset": "0",

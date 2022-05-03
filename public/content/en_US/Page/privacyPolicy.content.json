@@ -8,8 +8,8 @@
     "navigationLabel": "Privacy Policy",
     "block": {
         "hero": {
-            "slug": "page-title",
-            "background": "bg-white",
+            "slug": "privacy-policy-hero",
+            "row": "text-center m-5",
             "column": [
                 {
                     "offset": "0",
