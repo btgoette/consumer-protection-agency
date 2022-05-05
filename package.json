@@ -28,7 +28,7 @@
     "jquery": "^3.6.0",
     "jquery-backstretch": "^2.1.18",
     "jquery-migrate": "^3.3.2",
-    "next": "12.0.7",
+    "next": "^12.1.6",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.4",
     "react-dom": "^17.0.2",

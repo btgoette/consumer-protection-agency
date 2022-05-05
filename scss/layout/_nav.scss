@@ -1,12 +1,30 @@
 @import "navbar-toggle.scss";
 @import "offcanvas.scss";
 
-.nav {
-    .nav-link{
+.nav-item {
+    .nav-link {
         color: $white;
-        padding: .5rem;
+        font-size: $nav-font-size;
+        font-style: $nav-font-style;
+        font-weight: $nav-font-weight;
+        text-transform: $nav-text-transform;
+
         &:hover {
-            opacity: .8;
+            opacity: 0.7;
+        }
+    }
+}
+
+.cpa-nav {
+    svg {
+        color: $blue !important;
+    }
+
+    .nav-link {
+        color: $white;
+        padding: 0.5rem;
+        &:hover {
+            opacity: 0.8;
         }
     }
     .top-bar {
@@ -27,7 +45,7 @@
         }
     }
 
-    .navbar {
+    &.navbar {
         width: 100%;
         padding: $nav-padding;
         background: $nav-background-color !important;
@@ -52,37 +70,10 @@
             width: 100%;
             max-width: 250px;
         }
-
-        .navbar-nav {
-            .nav-item {
-                .nav-link {
-                    color: $nav-font-color;
-                    font-size: $nav-font-size;
-                    font-style: $nav-font-style;
-                    font-weight: $nav-font-weight;
-                    text-transform: $nav-text-transform;
-
-                    &:hover {
-                        color: $nav-font-hover-color;
-                        opacity: 1;
-                        text-decoration: underline;
-                    }
-                }
-
-                .dropdown-menu {
-                    .dropdown-item {
-                        &:hover {
-                            background-color: $nav-dropdown-item-background-hover-color;
-                            color: $nav-dropdown-item-hover-color;
-                        }
-                    }
-                }
-            }
-        }
     }
 
     @media only screen and (min-width: $small) {
-        .navbar {
+        &.navbar {
             .logo {
                 max-width: 325px;
             }
@@ -97,7 +88,7 @@
             }
         }
 
-        .navbar {
+        &.navbar {
             .logo {
                 max-width: 400px;
             }
@@ -106,7 +97,20 @@
                 .nav-desktop-contact {
                     justify-self: end;
                     display: flex;
-                    padding-right: 0.5rem;
+                    .nav-item {
+                        .nav-link {
+                            color: $nav-font-color;
+                            font-size: $nav-font-size;
+                            font-style: $nav-font-style;
+                            font-weight: $nav-font-weight;
+                            text-transform: $nav-text-transform;
+
+                            &:hover {
+                                color: $nav-font-hover-color;
+                                opacity: 1;
+                            }
+                        }
+                    }
 
                     .nav-contact-link {
                         display: flex;
