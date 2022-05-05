@@ -13,21 +13,53 @@
 
     .offcanvas-body {
         .nav-item {
-            .dropdown-item {
-                white-space: normal;
-                font-size: $nav-dropdown-font-size;
-            }
-
             .nav-link {
                 color: $nav-font-color;
                 font-size: $nav-font-size;
                 font-style: $nav-font-style;
                 font-weight: $nav-font-weight;
                 text-transform: $nav-text-transform;
+
+                &:hover {
+                    color: $nav-font-hover-color;
+                    opacity: 1;
+                }
             }
 
             .dropdown-menu {
-                border: none;
+                border: none;                
+                .dropdown-item {
+                    
+                white-space: normal;
+                font-size: $nav-dropdown-font-size;
+                    &:hover {
+                        background-color: $nav-dropdown-item-background-hover-color;
+                        color: $nav-dropdown-item-hover-color;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        width: 100%;
+        max-width: unset;
+        &.offcanvas-end {
+            width: unset;
+        }
+
+        .offcanvas-body {
+            .nav-item {
+                .nav-link {
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                .dropdown-menu {
+                    min-width: 20rem;
+                    border: 1px solid rgba(0, 0, 0, 0.15);
+                }
             }
         }
     }
