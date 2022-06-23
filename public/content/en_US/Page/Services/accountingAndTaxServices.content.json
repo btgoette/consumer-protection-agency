@@ -18,9 +18,6 @@
             "text": [
                 {
                     "p": "Executive Accounting & Tax was founded with the goal of helping small businesses and individuals make proactive tax and business decisions. To make these decisions, one must have good information. This starts with a reliable accounting system. Accounting tells us how your business records, organizes, and understands its financial information. A good accounting system will tell you whether you’re making a profit or generating a loss, how much cash you have on hand, the value of your assets and liabilities, and how much income you will be taxed on."
-                },
-                {
-                    "p": "Like many people, you may be asking, how do I keep more of what I earn? A good accounting system will allow you to effortlessly answer this question."
                 }
             ],
             "cta": {
@@ -32,14 +29,38 @@
                 "src": "/images/backgrounds/hero-accounting-and-tax-services-960x960.jpg",
                 "alt": "Hero Accounting & Tax Services"
             }
-        },
-        "scalingYourBusiness": {
-            "slug": "scaling-your-business",
-            "row": "align-items-center py-lg-5",
+        }, 
+        "howDoIKeepWhatIEarn": {
+            "slug": "keep-what-you-earn",
+            "row": "align-items-center py-2 py-lg-5",
             "background": "bg-blue",
             "column": [
                 {
                     "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Why Choose Us?",
+            "text": [
+                
+                {
+                    "p": "Like many people, you may be asking yourself, \"How do I keep more of what I earn?\" A good accounting system will allow you to effortlessly answer this question. With our guidance we can help you with the following:"
+                }
+            ]
+        },
+        "scalingYourBusiness": {
+            "slug": "scaling-your-business",
+            "row": "align-items-center",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
                     "span": "8",
                     "order": "0"
                 }
@@ -49,21 +70,26 @@
                 {
                     "p": "Your ability to grow and scale your business is limited by how much you know and understand the numbers. Keeping accurate records will help you answer questions like How much of a cash reserve do we really need? What should our profit margin be and how do we get there? Do we have too much staff or not enough? Which customers or product lines are generating the most profit?"
                 }
-            ]
+            ],
+            "img": {
+                "class": "small",
+                "src": "/images/services/team-meeting.webp",
+                "alt": "Scaling Your Business"
+            }
         },
         "taxation": {
             "slug": "taxation",
-            "row": "align-items-center py-lg-5",
+            "row": "align-items-center",
             "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
-                    "span": "5",
+                    "span": "4",
                     "order": "0"
                 },
                 {
                     "offset": "0",
-                    "span": "7",
+                    "span": "8",
                     "order": "1"
                 }
             ],
@@ -74,23 +100,24 @@
                 }
             ],
             "img": {
+                "class": "small",
                 "src": "/images/services/income-tax.webp",
                 "alt": "Income Tax"
             }
         },
         "accessToFunding": {
             "slug": "access-to-funding",
-            "row": "align-items-center py-lg-5",
-            "background": "bg-gray",
+            "row": "align-items-center",
+            "background": "bg-white",
             "column": [
                 {
                     "offset": "0",
-                    "span": "5",
+                    "span": "4",
                     "order": "1"
                 },
                 {
                     "offset": "0",
-                    "span": "7",
+                    "span": "8",
                     "order": "0"
                 }
             ],
@@ -101,23 +128,10 @@
                 }
             ],
             "img": {
+                "class": "small",
                 "src": "/images/services/contract-signing.webp",
-                "alt": "Contract Signing"
+                "alt": "Access to Funding"
             }
-        },
-        "video": {
-            "slug": "video-home video",
-            "container": "container",
-            "background": "bg-video",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
-                }
-            ],
-            "poster": "/video/cpa-video-poster.webp",
-            "src": "/video/cpa-video.mp4"
         }
     }
 }

@@ -20,28 +20,20 @@
                     "p": "We are an organization focused on protecting consumers from all aspects of financial pitfalls. We provide ongoing financial education and a path through our financial literacy program ranging from teens to adults. We work with and for consumers protecting their rights by applying the law."
                 }
             ],
-            "cta": {
-                "ctaLabel": "Learn More",
+            "videoCta": {
+                "ctaLabel": "Watch Video",
                 "href": "#video"
+            },
+            "video": {
+                "slug": "video",
+                "poster": "/images/posters/home-poster.webp",
+                "src": "/videos/cpa-video.mp4"
             },
             "img": {
                 "order": "right",
                 "src": "/images/backgrounds/hero-home-960x960.jpg",
                 "alt": "Hero Home"
             }
-        },
-        "video": {
-            "slug": "video",
-            "background": "bg-video",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
-                }
-            ],
-            "poster": "/video/cpa-main-cover.webp",
-            "src": "/video/cpa-main-video.mp4"
         }
     }
 }

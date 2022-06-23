@@ -11,7 +11,8 @@ module.exports = {
       "/services/accounting-and-tax-services": { page: "/services/accounting-and-tax-services" },      
       "/services/financial-education": { page: "/services/financial-education" },
       "/services/credit-restoration": { page: "/services/credit-restoration" },
-      "/services/extended-warranty-services": { page: "/services/extended-warranty-services" },
+      "/extended-warranty-services/index": { page: "/extended-warranty-services" },
+      "/natural-disaster-coverage/index": { page: "/natural-disaster-coverage" },
       "/testimonials/index": { page: "/testimonials" },
       "/thank-you": { page: "/thank-you" },
       "/": { page: "/" },
@@ -51,8 +52,13 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/services",
-        destination: "/services/private-small-business-network",
+        source: "/services/natural-disaster-coverage",
+        destination: "/natural-disaster-coverage",
+        permanent: true,
+      },
+      {
+        source: "/services/extended-warranty-services",
+        destination: "/extended-warranty-services",
         permanent: true,
       }
     ];

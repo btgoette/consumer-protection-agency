@@ -10,15 +10,13 @@ export default function AccountingAndTaxServices() {
       <Head {...page} />
       <Hero {...page.block.hero} />
       <section>
+        <Block {...page.block.howDoIKeepWhatIEarn} />
+      </section>
+      <section className="py-lg-5">
         <Block {...page.block.scalingYourBusiness} />
-      </section>
-      <section>
         <Block {...page.block.taxation} />
-      </section>
-      <section>
         <Block {...page.block.accessToFunding} />
       </section>
-      {/* <Block {...page.block.video} /> */}
     </div>
   );
 }
