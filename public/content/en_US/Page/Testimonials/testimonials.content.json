@@ -32,20 +32,6 @@
                 "src": "/images/logos/cpa-logo.webp",
                 "alt": "Back to Home"
             }
-        },
-        "comingSoon": {
-            "slug": "coming-soon",
-            "row": "text-center",
-            "column": [{
-                "offset": "3",
-                "span": "6",
-                "order": "0"
-            }],
-            "text": [
-                {
-                    "p": "Coming Soon..."
-                }
-            ]
         }
     }
 }

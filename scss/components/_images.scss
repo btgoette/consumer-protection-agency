@@ -6,6 +6,13 @@ figure {
     position: relative;
     width: 100%;
     min-height: 18rem;
+    
+    &.small {
+        min-height: 18rem;
+    }
+    &.tall {
+        min-height: 30rem;
+    }
 
     span {
         box-sizing: border-box;
@@ -73,7 +80,7 @@ figure {
             display: block;
             height: unset;
             width: 100%;
-            min-width: unset;
+            min-width: 80%;
             max-width: 350px;
         }
     }
@@ -126,20 +133,65 @@ figure {
 @media only screen and (min-width: $small) {
     figure {
         min-height: 24rem;
+
+        &.small {
+            min-height: 24rem;
+        }
+        &.tall {
+            min-height: 40rem;
+        }
     }
 
     .image-block {
         position: relative;
         width: 100%;
-        height: 24rem;
+        height: 40rem;
     }
 }
 
-@media only screen and (min-width: $medium) {
+@media only screen and (min-width: $large) {
     figure {
         min-height: 36rem;
         margin-bottom: 0;
+        &.tall {
+            min-height: 60rem;
+        }
+
+        &.fixed-image {
+            position: relative;
+            width: 100%;
+            min-height: unset;
+    
+            span {
+                box-sizing: border-box;
+                display: block;
+                overflow: unset;
+                width: 100%;
+                height: unset;
+                background: none;
+                opacity: 1;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                position: relative;
+            }
+    
+            img {
+                position: relative;
+                box-sizing: border-box;
+                padding: 0;
+                border: none;
+                margin: auto;
+                display: block;
+                height: unset;
+                width: 100%;
+                min-width: unset;
+                max-width: 500px;
+            }
+        }
     }
+
+    
 
     .image-block {
         &.left {

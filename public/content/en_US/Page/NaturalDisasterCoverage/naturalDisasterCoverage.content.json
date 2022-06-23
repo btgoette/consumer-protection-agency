@@ -1,0 +1,522 @@
+{
+    "title": "Natural Disaster Coverage | Consumer Protection Agency",
+    "description": "We offer a wide range of plans to protect almost anything you own. Our plans have flexible and transparent contracts with no long-term commitment or hidden fees. Our claims process is easy, just give us a call and we will get back to you in no time.",
+    "slug": "natural-disaster-coverage",
+    "href": "https://consumerprotection.agency/services/natural-disaster-coverage",
+    "image": "https://consumerprotection.agency/images/logos/cpa-logo.webp",
+    "imageType": "webp",
+    "navigationLabel": "Natural Disaster Coverage",
+    "block": {
+        "hero": {
+            "slug": "natural-disaster-coverage-hero",
+            "column": {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            "pageTitle": "Natural Disaster Coverage",
+            "text": [
+                {
+                    "p": "Our Natural Disaster Coverage Plan protects you financially against covered damages to your home and personal belongings. Our team of professionals have helped repair over 28,000 homes and over 50,000 vehicles with 15 years in hail dent repair and 75 combined years worth of experience in rooding. We have technicians with over 32 certifications. All of our contractors are licensed and insured."
+                }
+            ],
+            "videoCta": {
+                "ctaLabel": "Watch Video",
+                "href": "#video"
+            },
+            "video": {
+                "slug": "video",
+                "poster": "/images/posters/natural-disaster-coverage-poster.webp",
+                "src": "/videos/natural-disaster-coverage.mp4"
+            },
+            "img": {
+                "order": "right",
+                "src": "/images/backgrounds/hero-natural-disaster-coverage-960x960.jpg",
+                "alt": "Hero Natural Disaster Coverage"
+            }
+        },
+        "whyChooseUs": {
+            "slug": "why-choose-us",
+            "row": "align-items-center py-2 py-lg-5",
+            "background": "bg-blue py-lg-5",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Why Choose Us?",
+            "text": [
+                {
+                    "p": "Most natural distaster insurance coverages don’t protect you in all situations or repairs. We offer the fastest, easiest, and most automated claims system in the industry. No long-term commitments – all plans are month-to-month, pay as you go. We offer multiple, pocket-friendly plans to suit every budget. No extra costs or hidden fees in all our plans. It is quick and easy to cancel your protection plan"
+                },
+                {
+                    "p": "Our contracts are well-defined with no ambiguous or misleading language. Our reps are available 24/7 to listen and help with any issues you may be experiencing"
+                }
+            ]
+        },
+        "naturalDisastersNav": {
+            "slug": "home-and-property-process",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "5",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "1"
+                }
+            ],
+            "sectionTitle": "Natural Disaster Coverage Plans",
+            "nav": [
+                {
+                    "href": "#home-and-property-process",
+                    "title": "Home & Property"
+                },
+                {
+                    "href": "#vehicle-process",
+                    "title": "Vehicle"
+                },
+                {
+                    "href": "#pricing-plans",
+                    "title": "Pricing Plans"
+                }
+            ],
+            "title": "Our Home and Property Process",
+            "subtitleText": [
+                {
+                    "title": "Free Evaluation",
+                    "text": [
+                        {
+                            "p": "Request a free house damage inspection evaluation with and our experts we’ll begin assessing the damages to your home."
+                        }
+                    ]
+                },
+                {
+                    "title": "Filing Claim",
+                    "text": [
+                        {
+                            "p": "Our team of experts offer assistance with filing your insurance claim, they know the entire process and make sure there is no insurance rate increase."
+                        }
+                    ]
+                },
+                {
+                    "title": "Identify Damage",
+                    "text": [
+                        {
+                            "p": "Our team begins assessing the damages, locate, mark and take pictures to document all damages to your home  and property, to complete the estimate."
+                        }
+                    ]
+                },
+                {
+                    "title": "Start The Claim Settlement Process",
+                    "text": [
+                        {
+                            "p": "Once the observation is complete, a final estimate is prepared with all repair costs and damages done to our home and property to be submitted to your insurance company."
+                        }
+                    ]
+                },
+                {
+                    "title": "Repair Process Begins",
+                    "text": [
+                        {
+                            "p": "Once approved, our team of certified contractors begin the repair process on your home and property."
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/roof-damage-1.webp",
+                "alt": "Roof Damage"
+            }
+        },
+        "causeOfDamages": {
+            "slug": "cause-of-damages",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-red",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Cause of Damages",
+            "list": [
+                {
+                    "li": "Fire or lightning"
+                },
+                {
+                    "li": "Hurricanes"
+                },
+                {
+                    "li": "Windstorm or hail"
+                },
+                {
+                    "li": "Explosion"
+                },
+                {
+                    "li": "Riot or civil commotion"
+                },
+                {
+                    "li": "Damage caused by aircraft"
+                },
+                {
+                    "li": "Damage caused by vehicles"
+                },
+                {
+                    "li": "Smoke"
+                },
+                {
+                    "li": "Vandalism or malicious mischief"
+                },
+                {
+                    "li": "Theft"
+                },
+                {
+                    "li": "Volcanic eruption"
+                },
+                {
+                    "li": "Falling object"
+                },
+                {
+                    "li": "Weight of ice, snow or sleet"
+                },
+                {
+                    "li": "Accidental discharge or overflow of water or steam from within a plumbing, heating, air conditioning, or automatice fire-protective sprinkler system, or from a household appliance."
+                },
+                {
+                    "li": "Sudden and accidental tearing apart, cracking, burning, bulging of a steam or hot water heating system, an air conditioning or automatic fire-protective system."
+                },
+                {
+                    "li": "Freezing of a plumbing, heating, air conditioning or automatic fire protective sprinkler system, or of a household appliance."
+                },
+                {
+                    "li": "Sudden and accidental damage from artificially generated electrical current (does not include loss to a tube, transistor or similar electronic component"
+                },
+                {
+                    "li": "All perils except flood, earthquake, war, nuclear accident, landslide, mudslide, sinkhole and others specified in your policy. Check your policy for a complete list of perils excluded."
+                }
+            ],
+            "img": {
+                "src": "/images/services/wildfire.webp",
+                "alt": "Roof Damage"
+            }
+        },
+        "disastersThatAreNotCovered": {
+            "slug": "disasters-that-are-not-covered",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-gray",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "1"
+                }
+            ],
+            "title": "Disasters That Are Not Covered",
+            "subtitleText": [
+                {
+                    "title": "Floods",
+                    "text": [
+                        {
+                            "p": "Flood damage is excluded under standard homeowners and renters insurance policies. Separate flood insurance coverage, however, is available for both homeowners and renters as a separate policy both from the National Flood Insurance Program (NFIP) and from a few private insurers. Learn more about flood insurance—whether you need it, how to get it, and more."
+                        }
+                    ]
+                },
+                {
+                    "title": "Earthquakes",
+                    "text": [
+                        {
+                            "p": "Earthquake coverage is available from most insurance companies as a separate policy or an  endorsement to your homeowners or renters policy. Learn more about earthquake insurance."
+                        }
+                    ]
+                },
+                {
+                    "title": "Maintenance Damage",
+                    "text": [
+                        {
+                            "p": "It is your responsibility to maintain your home and take reasonable precautions to protect your home from damage. Your insurance policy will not cover damage due to lack of maintenance, mold or infestation from termites or other pests."
+                        }
+                    ]
+                },
+                {
+                    "title": "Sewer Backup",
+                    "text": [
+                        {
+                            "p": "Sewer backups are not covered under a typical homeowners insurance policy, nor are they covered by flood insurance. This type of coverage must be purchased either as a separate product or as an endorsement to a homeowners policy, usually at a nominal cost. Learn more about sewers and sewer backup insurance."
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/flood.webp",
+                "alt": "Floods"
+            }
+        },
+        "vehicleProcess": {
+            "slug": "vehicle-process",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "sectionTitle": "Vehicle Coverage Plan",
+            "title": "Our Vehicle Process",
+            "subtitleText": [
+                {
+                    "title": "Free Evaluation",
+                    "text": [
+                        {
+                            "p": "Request a free house damage inspection evaluation with and our experts we’ll begin assessing your vehicle. Free ride share service is available if needed."
+                        }
+                    ]
+                },
+                {
+                    "title": "Filing Claim",
+                    "text": [
+                        {
+                            "p": "Our team of experts offer assistance with filing your insurance claim, they know the entire process and make sure there is no insurance rate increase."
+                        }
+                    ]
+                },
+                {
+                    "title": "Identify Damage",
+                    "text": [
+                        {
+                            "p": "Our team cleans your vehicle to begin assessing the damages, locate and mark all dents needed for removal so our team can complete the estimate."
+                        }
+                    ]
+                },
+                {
+                    "title": "Send Off Your Estimate",
+                    "text": [
+                        {
+                            "p": "Once the observation is complete, a final estimate is prepared with all repair costs and damages done to your vehicle to be submitted to your insurance company."
+                        }
+                    ]
+                },
+                {
+                    "title": "Repair Process Begins",
+                    "text": [
+                        {
+                            "p": "Once approved, our team of techs begins the repair process on your vehicle by using our paint & dent removal tools and proven methods."
+                        }
+                    ]
+                },
+                {
+                    "title": "Complimentary Vehicle Detail",
+                    "text": [
+                        {
+                            "p": "After repairs are done, we take your vehicle to a 5 star car wash for complementary professional detailed cleaning."
+                        }
+                    ]
+                }
+            ],
+            "img": {
+                "src": "/images/services/car-storm-damage.webp",
+                "alt": "Car Storm Damage"
+            }
+        },
+        "autoVehicleCoverage": {
+            "slug": "auto-vehicle-coverage",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-red",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "5",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "1"
+                }
+            ],
+            "title": "Auto Vehicle Damage Coverage",
+            "list": [
+                {
+                    "li": "Hood"
+                },
+                {
+                    "li": "Windshield"
+                },
+                {
+                    "li": "Headlight"
+                },
+                {
+                    "li": "Tail Light"
+                },
+                {
+                    "li": "Roof"
+                },
+                {
+                    "li": "Sun Roof"
+                },
+                {
+                    "li": "Fenders"
+                },
+                {
+                    "li": "Doors"
+                },
+                {
+                    "li": "Trunk"
+                },
+                {
+                    "li": "Grill"
+                },
+                {
+                    "li": "Reflectors"
+                },
+                {
+                    "li": "Antenna"
+                },
+                {
+                    "li": "Paint"
+                },
+                {
+                    "li": "Windows"
+                },
+                {
+                    "li": "Interior"
+                },
+                {
+                    "li": "Mirrors"
+                },
+                {
+                    "li": "All Glass"
+                },
+                {
+                    "li": "Wipers"
+                },
+                {
+                    "li": "Emblems"
+                },
+                {
+                    "li": "Decal"
+                },
+                {
+                    "li": "Molding"
+                }
+            ],
+            "img": {
+                "src": "/images/services/car-hail-damage-2.webp",
+                "alt": "Car Hail Damage"
+            }
+        },
+        "vehicleCoverageBenefits": {
+            "slug": "vehicle-coverage-benefits",
+            "row": "align-items-center py-lg-5",
+            "background": "bg-white",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "5",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "0"
+                }
+            ],
+            "title": "Benefits",
+            "list": [
+                {
+                    "li": "Claim specialist team (CAT) with 61+ years of experience"
+                },
+                {
+                    "li": "Front door service"
+                },
+                {
+                    "li": "Valet or ride share service (if needed)"
+                },
+                {
+                    "li": "No deductible"
+                },
+                {
+                    "li": "No insurance premium increase"
+                },
+                {
+                    "li": "No out of pocket expense!"
+                },
+                {
+                    "li": "Free car rental (reimbursement)"
+                },
+                {
+                    "li": "1-5 day turnaround"
+                },
+                {
+                    "li": "Keep your original vehicle finish and warranty"
+                },
+                {
+                    "li": "No grinding, sanding, or filling of panels"
+                },
+                {
+                    "li": "Significantly less expensive repair method"
+                },
+                {
+                    "li": "Will not depreciate the value of your vehicle"
+                },
+                {
+                    "li": "Does not get reported to Carfax"
+                },
+                {
+                    "li": "Complimentary vehicle detail"
+                },
+                {
+                    "li": "Beyond the call of duty"
+                },
+                {
+                    "li": "Lifetime warranty"
+                },
+                {
+                    "li": "5 for free program"
+                }
+            ],
+            "img": {
+                "src": "/images/services/car-hail-damage-3.webp",
+                "alt": "Car Hail Damage"
+            }
+        },
+        "pricingPlans": {
+            "slug": "pricing-plans",
+            "background": "bg-blue",
+            "row": "align-items-center text-center py-lg-5",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "sectionTitle": "Natural Disaster Coverage Pricing Plans",
+            "coveragePricingPlan": "true"
+        }
+    }
+}

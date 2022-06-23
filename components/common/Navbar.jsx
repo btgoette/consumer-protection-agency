@@ -15,8 +15,8 @@ import {
 export default function CustomNav() {
   return (
     <>
-      {["lg"].map((expand) => (
-        <Navbar key={expand} bg="dark" expand={expand} className="cpa-nav">
+      {["xl"].map((expand) => (
+        <Navbar key={expand} bg="dark" expand={expand} className="cpa-nav sticky-top">
           <Container fluid>
             {/* Logo */}
             <Link href="/" passHref>
@@ -65,8 +65,14 @@ export default function CustomNav() {
                 <Offcanvas.Body>
                   <Nav className="justify-content-end pe-3">
                     <Nav.Item>
-                      <Nav.Link href="/about/">About</Nav.Link>
+                      <Nav.Link href="/natural-disaster-coverage">Natural Disaster Coverage</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link href="/extended-warranty-services">Extended Warranty Plans</Nav.Link>
+                    </Nav.Item>
+                    {/* <Nav.Item>
+                      <Nav.Link href="/about/">About</Nav.Link>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <NavDropdown title="Services" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/services/private-small-business-network">
@@ -80,9 +86,6 @@ export default function CustomNav() {
                         </NavDropdown.Item>
                         <NavDropdown.Item href="/services/credit-restoration">
                           Credit Restoration
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="/services/extended-warranty-services">
-                          Extended Warranty Services
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Nav.Item>

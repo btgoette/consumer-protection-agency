@@ -1,0 +1,26 @@
+.modal {
+    &.modal-video {
+
+        &.fade {
+            transition: opacity 0.25s linear;
+        }
+        .modal-fullscreen {
+            display: grid;
+            align-items: center;
+            width: 100%;
+            .modal-content {
+                width: 100%;
+                max-width: 1400px;
+                margin: auto auto;
+                height: unset;
+
+                .modal-header {
+                    background-color: $blue;
+                }
+                .modal-body {
+                    padding: 0 0;
+                }
+            }
+        }
+    }
+}

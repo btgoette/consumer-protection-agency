@@ -39,7 +39,6 @@ RewriteRule ^/?services/(\w+)/?$  /services/$1 [END]
 Options All -Indexes
 
 # 301 Redirects
-@REM Redirect 301 /the-j-and-j-team about/the-j-and-j-team
 
 # ERRORDOCUMENTS
 ErrorDocument 404 /404.html

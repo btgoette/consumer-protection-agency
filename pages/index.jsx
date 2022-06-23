@@ -9,7 +9,6 @@ export default function Home() {
     <div className={page.slug}>
       <Head {...page} />
       <Hero {...page.block.hero} />
-      <Block {...page.block.video} />
     </div>
   );
 }
