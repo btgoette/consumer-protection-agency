@@ -8,6 +8,7 @@
         font-style: $nav-font-style;
         font-weight: $nav-font-weight;
         text-transform: $nav-text-transform;
+        padding: 0.5rem;
 
         &:hover {
             opacity: 0.7;
@@ -80,7 +81,7 @@
         }
     }
 
-    @media only screen and (min-width: $large) {
+    @media only screen and (min-width: $x-large) {
         .top-bar {
             .login {
                 margin-right: 0;

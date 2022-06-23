@@ -11,9 +11,6 @@ export default function CPAServicesMenu() {
                 <img
                   src="/images/backgrounds/small-business.webp"
                   alt="Small Business"
-                  width="480"
-                  height="275"
-                  layout="responsive"
                 />
               </div>
               <div className="overlay-block">
@@ -34,9 +31,6 @@ export default function CPAServicesMenu() {
                 <img
                   src="/images/backgrounds/accounting-and-taxes.webp"
                   alt="Accounting & Taxes"
-                  width="480"
-                  height="275"
-                  layout="responsive"
                 />
               </div>
               <div className="overlay-block">
@@ -54,9 +48,6 @@ export default function CPAServicesMenu() {
                 <img
                   src="/images/backgrounds/financial-education.webp"
                   alt="Financial Education"
-                  width="480"
-                  height="275"
-                  layout="responsive"
                 />
               </div>
               <div className="overlay-block">
@@ -76,9 +67,6 @@ export default function CPAServicesMenu() {
                 <img
                   src="/images/backgrounds/credit-restoration.webp"
                   alt="Credit Restoration"
-                  width="480"
-                  height="275"
-                  layout="responsive"
                 />
               </div>
               <div className="overlay-block">

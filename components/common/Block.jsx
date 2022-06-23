@@ -1,4 +1,5 @@
 import {
+  Modal,
   Accordion,
   Container,
   Row,
@@ -8,12 +9,20 @@ import {
   Card,
   Nav,
 } from "react-bootstrap";
+import { useState } from "react";
 import Link from "next/link";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Player, BigPlayButton } from "video-react";
 import "node_modules/video-react/dist/video-react.css";
 
 export default function Section(block) {
+  const [fullscreen, setFullscreen] = useState(true);
+  const [show, setShow] = useState(false);
+  function handleShow() {
+    setShow(true);
+  }
+
+
   let oneColumn;
   if (block.column.length === 1) {
     oneColumn = true;
@@ -43,9 +52,11 @@ export default function Section(block) {
             {renderSubtitleList()}
             {renderSubtitleText()}
             {renderCTA()}
-            {renderPricingPlan()}
-            {renderDisclaimer()}
+            {renderVideoCTA()}
             {renderVideo()}
+            {renderPricingPlan()}
+            {renderCoveragePricingPlan()}
+            {renderDisclaimer()}
             {renderIframe()}
           </Col>
         </>
@@ -72,13 +83,7 @@ export default function Section(block) {
               order: block.column[0].order,
             }}
           >
-            <div
-              className="aos-init aos-animate"
-              data-aos="fade-in"
-              data-aos-delay="20"
-            >
               {renderImage()}
-            </div>
           </Col>
           <Col
             className={block.column[1].background + " block"}
@@ -88,11 +93,7 @@ export default function Section(block) {
               order: block.column[1].order,
             }}
           >
-            <div
-              className="aos-init aos-animate"
-              data-aos="fade-in"
-              data-aos-delay="10"
-            >
+            <div>
               {renderPageTitle()}
               {renderTitle()}
               {renderText()}
@@ -102,8 +103,9 @@ export default function Section(block) {
               {renderSubtitleList()}
               {renderSubtitleText()}
               {renderCTA()}
-              {renderDisclaimer()}
+              {renderVideoCTA()}
               {renderVideo()}
+              {renderDisclaimer()}
             </div>
           </Col>
         </>
@@ -284,9 +286,9 @@ export default function Section(block) {
     if (hasLinkList) {
       return (
         <ul>
-          {block.linkList.map(({href, li }, j) => (
+          {block.linkList.map(({ href, li }, j) => (
             <li key={j}>
-                <Link href={href}>{li}</Link>
+              <Link href={href}>{li}</Link>
             </li>
           ))}
         </ul>
@@ -412,8 +414,59 @@ export default function Section(block) {
     }
   };
 
+  let hasCoveragePricingPlan;
+  if (block.coveragePricingPlan !== undefined) {
+    hasCoveragePricingPlan = true;
+  } else {
+    hasCoveragePricingPlan = false;
+  }
+
+  const renderCoveragePricingPlan = () => {
+    if (hasCoveragePricingPlan) {
+      return (
+        <Row>
+          <Col lg={6}>
+            <h3>Single Plan</h3>
+            <p>
+              Vehicle 1: $9.99
+              <br />
+              Vehicle 3: $24.99
+              <br />
+              Home & Property Only: $29.99
+            </p>
+          </Col>
+          <Col lg={6}>
+            <h3>Bundle</h3>
+            <p>
+              Vehicle, Home & Property: $39.99
+            </p>
+          </Col>
+        </Row>
+      );
+    }
+  };
+
+  let hasVideoCTA;
+  if (block.videoCta !== undefined) {
+    hasVideoCTA = true;
+  } else {
+    hasVideoCTA = false;
+  }
+
+  const renderVideoCTA = () => {
+    if (hasVideoCTA) {
+      return (
+        <p>
+          <Button onClick={() => handleShow()}>
+            {block.videoCta.ctaLabel}
+          </Button>
+        </p>
+      );
+    }
+  };
+
   let hasVideo;
-  if (block.poster !== undefined) {
+  if (block.video !== undefined) {
     hasVideo = true;
   } else {
     hasVideo = false;
@@ -422,9 +475,25 @@ export default function Section(block) {
   const renderVideo = () => {
     if (hasVideo) {
       return (
-        <Player playsInline poster={block.poster} src={block.src}>
-          <BigPlayButton position="center" />
-        </Player>
+        <>
+          <Modal
+            className="modal-video"
+            show={show}
+            fullscreen={fullscreen}
+            onHide={() => setShow(false)}
+          >
+            <Modal.Header closeButton closeVariant="white"></Modal.Header>
+            <Modal.Body className="video">
+              <Player
+                playsInline
+                poster={block.video.poster}
+                src={block.video.src}
+              >
+                <BigPlayButton position="center" />
+              </Player>
+            </Modal.Body>
+          </Modal>
+        </>
       );
     }
   };
