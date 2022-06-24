@@ -1,7 +1,7 @@
 {
   "name": "consumer-protection-agency",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
@@ -29,6 +29,7 @@
     "jquery-backstretch": "^2.1.18",
     "jquery-migrate": "^3.3.2",
     "next": "^12.1.6",
+    "nextjs-google-analytics": "^1.2.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.4",
     "react-dom": "^17.0.2",
