@@ -15,6 +15,10 @@ RewriteEngine On
 RewriteBase /
 DirectorySlash Off
 
+Header always set X-Frame-Options "SAMEORIGIN"
+Header set X-Frame-Options "DENY"
+
+
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^([^.]+)$ $1.html [L]
 
@@ -39,6 +43,12 @@ RewriteRule ^/?services/(\w+)/?$  /services/$1 [END]
 Options All -Indexes
 
 # 301 Redirects
+Redirect 301 /services/extended-warranty-services extended-warranty-services/
+Redirect 301 /services/natural-disaster-coverage natural-disaster-coverage/
+Redirect 301 /private-small-business-network services/private-small-business-network
+Redirect 301 /accounting-and-tax-services services/accounting-and-tax-services
+Redirect 301 /financial-education services/financial-education
+Redirect 301 /credit-restoration services/credit-restoration
 
 # ERRORDOCUMENTS
 ErrorDocument 404 /404.html
